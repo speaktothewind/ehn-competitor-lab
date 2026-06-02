@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EHN — Competitor Outlier Lab</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0A0C;--surface:#141417;--surface-2:#1B1B20;--surface-3:#202026;--border:#26262C;--border-soft:#1E1E23;--text:#F2F2F4;--text-2:#9A9AA2;--text-3:#67676E;--pink:#FF3D77;--pink-soft:#FF6B9D;--orange:#FF8A3D;--orange-soft:#FFA866;--yellow:#FFC23D;--grey:#6A6A72;--grad:linear-gradient(90deg,#FF3D77,#FF8A3D);--font:'Satoshi',system-ui,sans-serif;--r:14px;--pill:999px;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased;letter-spacing:-.01em}
+a{color:inherit;text-decoration:none}.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+::-webkit-scrollbar{height:8px;width:8px}::-webkit-scrollbar-thumb{background:var(--border);border-radius:99px}
+header{padding:30px 0 22px}.headrow{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3)}
+h1{font-size:38px;font-weight:900;line-height:1.05;margin-top:10px;letter-spacing:-.03em}
+.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--text-2);font-size:14px;margin-top:10px;max-width:640px}
+.meta{text-align:right;font-size:12.5px;color:var(--text-3);line-height:1.7;white-space:nowrap}.meta .d{color:var(--text);font-weight:500}
+.section-label{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--text-3);margin:6px 0 12px}
+.creators{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;margin-bottom:26px}
+.creator{flex:0 0 auto;display:flex;align-items:center;gap:11px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:12px 16px;min-width:230px}
+.av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:15px;color:#fff;flex:0 0 auto}
+.creator .h{font-weight:700;font-size:13.5px;display:flex;align-items:center;gap:5px}.creator .s{font-size:11.5px;color:var(--text-3);margin-top:2px}.chk{font-size:11px}.chk.ig{color:var(--pink-soft)}.chk.fb{color:#6CA8FF}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:30px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px}
+.tile .l{font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-3);font-weight:700}
+.tile .n{font-size:30px;font-weight:900;line-height:1.1;margin-top:8px;letter-spacing:-.02em}.tile .x{font-size:11.5px;color:var(--text-3);margin-top:3px}.tile.hot .n{color:var(--orange)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.bar h2{font-size:21px;font-weight:900}.bar h2 span{color:var(--text-3);font-weight:500;font-size:14px;margin-left:8px}
+.seg{display:flex;background:var(--surface);border:1px solid var(--border);border-radius:var(--pill);padding:3px}
+.seg button{font-family:var(--font);font-size:12.5px;font-weight:600;border:none;background:none;color:var(--text-2);padding:6px 16px;border-radius:var(--pill);cursor:pointer}.seg button.on{background:var(--text);color:#0A0A0C}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.tierchip{display:inline-flex;align-items:center;gap:7px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);border-radius:var(--pill);padding:7px 14px;font-size:12.5px;font-weight:600;cursor:pointer}
+.tierchip .dot{width:7px;height:7px;border-radius:50%}.tierchip.on{color:var(--text);border-color:var(--text-3)}
+.dot.breakout{background:var(--pink)}.dot.replicable{background:var(--orange)}.dot.working{background:var(--yellow)}.dot.normal{background:var(--grey)}.dot.all{background:var(--text-2)}
+.spacer{flex:1}select,input[type=search]{font-family:var(--font);font-size:12.5px;border:1px solid var(--border);border-radius:var(--pill);padding:8px 14px;background:var(--surface);color:var(--text);font-weight:500}input[type=search]{min-width:200px}
+.reset{font-size:12.5px;color:var(--text-3);cursor:pointer;padding:8px 6px}.reset:hover{color:var(--text)}
+.opill{display:inline-block;font-weight:700;font-size:12px;border-radius:var(--pill);padding:4px 10px;min-width:54px;text-align:center}
+.opill.breakout{background:rgba(255,61,119,.16);color:var(--pink-soft);border:1px solid rgba(255,61,119,.32)}
+.opill.replicable{background:rgba(255,138,61,.15);color:var(--orange-soft);border:1px solid rgba(255,138,61,.3)}
+.opill.working{background:rgba(255,194,61,.13);color:var(--yellow);border:1px solid rgba(255,194,61,.26)}
+.opill.normal{background:rgba(255,255,255,.05);color:var(--text-2);border:1px solid var(--border)}
+.tablewrap{border:1px solid var(--border);border-radius:var(--r);overflow:hidden;background:var(--surface);margin-bottom:60px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+thead th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--text-3);font-weight:700;padding:14px 16px;border-bottom:1px solid var(--border);background:var(--surface-2);white-space:nowrap}
+thead th.r,tbody td.r{text-align:right}
+th.sortable{cursor:pointer;user-select:none}th.sortable:hover{color:var(--text-2)}
+tbody tr{border-bottom:1px solid var(--border-soft);cursor:pointer}tbody tr:last-child{border-bottom:none}tbody tr:hover{background:var(--surface-2)}
+tbody td{padding:13px 16px;vertical-align:middle}.acct{font-weight:700;white-space:nowrap}
+.hook{color:var(--text);max-width:420px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ptag{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:6px;background:var(--surface-3);color:var(--text-2)}.ptag.ig{color:#FF6B9D}.ptag.fb{color:#6CA8FF}
+.num{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}.muted{color:var(--text-3)}.posted{color:var(--text-2);white-space:nowrap}
+.empty{text-align:center;color:var(--text-3);padding:50px;font-size:14px}
+footer{border-top:1px solid var(--border);padding:20px 0 50px;font-size:12px;color:var(--text-3);line-height:1.8}footer b{color:var(--text-2)}
+@media(max-width:860px){.tiles{grid-template-columns:repeat(2,1fr)}h1{font-size:30px}.meta{text-align:left}.hide-sm{display:none}}
+.you{font-size:9px;font-weight:800;letter-spacing:.08em;background:var(--orange);color:#0A0A0C;padding:2px 6px;border-radius:5px;vertical-align:middle;margin-left:6px}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script></head><body>
+<header><div class="wrap"><div class="headrow">
+<div><div class="eyebrow">Elemental Health · Competitor Intel</div>
+<h1>What's <span class="grad">working</span> in your niche right now.</h1>
+<div class="sub">Live data — last 30 days across functional medicine, gut, mood, fatigue &amp; methylation. Outlier score = each post's engagement &divide; that account's own median.</div></div>
+<div class="meta"><div class="d" id="dateLine">Live data</div><div id="countLine">—</div><div>Refreshes weekly</div></div>
+</div></div></header>
+<div class="wrap">
+<div class="section-label">Creators tracked</div><div class="creators" id="creators"></div>
+<div class="tiles" id="tiles"></div>
+<div class="bar"><h2>Posts <span id="postCount">0 of 0</span></h2>
+<div class="seg" id="viewSeg"><button data-view="table" class="on">Table</button><button data-view="cards">Cards</button></div></div>
+<div class="filters">
+<span class="tierchip on" data-tier="all"><span class="dot all"></span>All</span>
+<span class="tierchip" data-tier="breakout"><span class="dot breakout"></span>Breakout</span>
+<span class="tierchip" data-tier="replicable"><span class="dot replicable"></span>Replicable</span>
+<span class="tierchip" data-tier="working"><span class="dot working"></span>Working</span>
+<span class="tierchip" data-tier="normal"><span class="dot normal"></span>Normal</span>
+<div class="spacer"></div>
+<select id="platSel"><option value="all">All platforms</option><option value="instagram">Instagram</option><option value="facebook">Facebook</option></select>
+<select id="regionSel"><option value="all">All regions</option><option value="us">US / Intl</option><option value="au">Australia</option></select>
+<input type="search" id="search" placeholder="Search hooks, captions, accounts...">
+<span class="reset" id="reset">Reset</span></div>
+<div id="view"></div></div>
+<footer><div class="wrap"><b>Outlier score</b> = a post's engagement &divide; that account's median, so a small account beating its own norm shows up next to the giants. Tiers: <b>Breakout</b> &ge;4x &middot; <b>Replicable</b> &ge;2x &middot; <b>Working</b> &ge;1.3x &middot; <b>Normal</b> below. The <b>Replicable</b> band is the sweet spot to model in your own content.</div></footer>
+<script>
+const DATA_RAW = [];
+const CSV_URLS=["https://docs.google.com/spreadsheets/d/e/2PACX-1vSrxfB_2zHHAthnBrGiyTvHp0Rg-zQ3lYCZZ02lO4cNtuDyk32B54IWCpUrNkMpRyJfA7ehXz8hpeG2/pub?output=csv","https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLbTQLJGNH9YAe2Cc3YAf_rfi0vylFGb7a00RwQVdimRO9J0vC7G3YvEoSRv_b-RDww_uk-Hvwudh/pub?output=csv"];
+const SELF=["elemental_health_nutrition","elementalhealthandnutrition"];
+const AUSET=["functionalmedicineau","stevenjudgenaturopath","theshiftclinic","melbournefxmed","mthfrsupportglobal","drdenisefurness","advancedfunctionalmedicine","katherinemaslennaturopath"];
+let DATA=[], state={view:"table",tier:"all",plat:"all",region:"all",sortKey:"score",sortDir:"desc",q:""};
+const AVCOL=["#FF3D77","#FF8A3D","#FFC23D","#6CA8FF","#B57BFF","#3DD9A0","#FF6B9D"];
+function num(n){n=+n||0;return n>=1000000?(n/1000000).toFixed(1)+"M":n>=1000?(n/1000).toFixed(1)+"k":""+Math.round(n);}
+function eng(r){return (+r.likes||0)+(+r.comments||0)+(+r.shares||0);}
+function median(a){if(!a.length)return 0;const s=a.slice().sort((x,y)=>x-y);return s.length%2?s[(s.length-1)/2]:(s[s.length/2-1]+s[s.length/2])/2;}
+function tierOf(s){return s>=4?"breakout":s>=2?"replicable":s>=1.3?"working":"normal";}
+function thHTML(){const C=[['score','Outlier',''],['account','Creator',''],['caption','Hook / caption','nosort'],['platform','Platform','hide-sm'],['views','Views','r hide-sm'],['likes','Likes','r'],['comments','Comments','r hide-sm'],['eng','Eng','r'],['timestamp','Posted','r hide-sm']];return C.map(c=>{const k=c[0],lab=c[1],cls=c[2],sortable=k!=='caption',active=state.sortKey===k,ar=active?(state.sortDir==='desc'?' ▾':' ▴'):'';return '<th class="'+cls+(sortable?' sortable':'')+'"'+(sortable?' data-sortkey="'+k+'"':'')+'>'+lab+ar+'</th>';}).join('');}
+function compute(rows){const by={};rows.forEach(r=>{(by[r.account]=by[r.account]||[]).push(eng(r));});const md={};for(const a in by)md[a]=median(by[a])||1;rows.forEach(r=>{r._eng=eng(r);r._score=r._eng/(md[r.account]||1);r._tier=tierOf(r._score);r._er=null;});return rows;}
+function accounts(){const m={};DATA.forEach(r=>{const a=m[r.account]=m[r.account]||{account:r.account,engs:[],n:0,plats:new Set()};a.engs.push(r._eng);a.n++;a.plats.add(r.platform);});return Object.values(m).sort((x,y)=>median(y.engs)-median(x.engs));}
+function buildCreators(){const A=accounts();document.getElementById('creators').innerHTML=A.map((a,i)=>{const p=[...a.plats].map(x=>x==='instagram'?'<span class="chk ig">IG</span>':'<span class="chk fb">FB</span>').join(' ');return '<div class="creator"><div class="av" style="background:'+AVCOL[i%AVCOL.length]+'">'+(a.account[0]||'?').toUpperCase()+'</div><div><div class="h">@'+a.account+(SELF.includes(a.account.toLowerCase())?' <span class="you">YOU</span>':'')+' '+p+'</div><div class="s">median '+num(median(a.engs))+' eng &middot; '+a.n+' posts</div></div></div>';}).join('');}
+function filtered(){let r=DATA.slice();if(state.tier!=='all')r=r.filter(x=>x._tier===state.tier);if(state.plat!=='all')r=r.filter(x=>x.platform===state.plat);if(state.region!=='all')r=r.filter(x=>x.region===state.region);if(state.q){const q=state.q.toLowerCase();r=r.filter(x=>(x.account||'').toLowerCase().includes(q)||(x.caption||'').toLowerCase().includes(q));}const k=state.sortKey,dir=state.sortDir==='asc'?1:-1;const gv=(r)=>k==='score'?r._score:k==='eng'?r._eng:k==='account'?r.account:k==='platform'?r.platform:k==='timestamp'?(r.timestamp||''):(+r[k]||0);r.sort((a,b)=>{const av=gv(a),bv=gv(b);let c=(typeof av==='string')?av.localeCompare(bv):av-bv;c*=dir;if(c===0)c=b._score-a._score;return c;});return r;}
+function render(){
+const all=DATA,outl=all.filter(r=>r._score>=2).length,top=all.reduce((m,r)=>r._score>(m._score||0)?r:m,{}),tot=all.reduce((s,r)=>s+r._eng,0);
+document.getElementById('tiles').innerHTML=
+'<div class="tile"><div class="l">Accounts</div><div class="n">'+new Set(all.map(r=>r.account)).size+'</div><div class="x">tracked</div></div>'+
+'<div class="tile"><div class="l">Median eng</div><div class="n">'+num(median(all.map(r=>r._eng)))+'</div><div class="x">across all tracked</div></div>'+
+'<div class="tile hot"><div class="l">Top post</div><div class="n">'+(top._score||0).toFixed(1)+'x</div><div class="x">'+(top._tier||'-')+' &middot; '+num(top._eng||0)+' eng</div></div>'+
+'<div class="tile"><div class="l">Total eng &middot; 30d</div><div class="n">'+num(tot)+'</div><div class="x">likes + comments + shares</div></div>'+
+'<div class="tile hot"><div class="l">Outliers (&ge;2x)</div><div class="n">'+outl+'</div><div class="x">'+(all.length?Math.round(outl/all.length*100):0)+'% of feed</div></div>';
+document.getElementById('countLine').textContent=new Set(all.map(r=>r.account)).size+' accounts &middot; '+all.length+' posts tracked';
+const rows=filtered();document.getElementById('postCount').textContent=rows.length+' of '+all.length;
+const v=document.getElementById('view');
+if(!rows.length){v.innerHTML='<div class="empty">No posts match these filters.</div>';return;}
+if(state.view==='table'){
+v.innerHTML='<div class="tablewrap"><table><thead><tr>'+thHTML()+'</tr></thead><tbody>'+
+rows.map(r=>{const p=r.platform;return '<tr onclick="window.open(\''+r.url+'\',\'_blank\')"><td><span class="opill '+r._tier+'">'+r._score.toFixed(1)+'x</span></td><td class="acct">@'+r.account+(r._self?' <span class="you">YOU</span>':'')+'</td><td class="hook">'+(r.caption||'').replace(/</g,'&lt;')+'</td><td class="hide-sm"><span class="ptag '+(p==='instagram'?'ig':'fb')+'">'+p+'</span></td><td class="r num '+(r.views?'':'muted')+'">'+(r.views?num(r.views):'-')+'</td><td class="r num">'+num(r.likes)+'</td><td class="r num hide-sm">'+num(r.comments)+'</td><td class="r num">'+num(r._eng)+'</td><td class="r posted hide-sm">'+(r.timestamp||'')+'</td></tr>';}).join('')+'</tbody></table></div>';
+}else{
+v.innerHTML='<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:60px">'+rows.map(r=>{const p=r.platform;return '<div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid '+(r._tier==='breakout'?'var(--pink)':r._tier==='replicable'?'var(--orange)':'var(--border)')+';border-radius:var(--r);padding:16px 18px"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="opill '+r._tier+'">'+r._score.toFixed(1)+'x</span><span class="acct">@'+r.account+(r._self?' <span class="you">YOU</span>':'')+'</span><span class="ptag '+(p==='instagram'?'ig':'fb')+'">'+p+'</span><span class="muted" style="font-size:12px">'+(r.region||'').toUpperCase()+' &middot; '+(r.timestamp||'')+'</span></div><div style="color:var(--text-2);font-size:13.5px;margin:10px 0 12px">'+(r.caption||'').replace(/</g,'&lt;')+'</div><div style="display:flex;gap:20px;flex-wrap:wrap;border-top:1px solid var(--border-soft);padding-top:11px;font-size:12px"><span><b style="font-size:16px">'+num(r.likes)+'</b> likes</span><span><b style="font-size:16px">'+num(r.comments)+'</b> comments</span>'+(r.shares?'<span><b style="font-size:16px">'+num(r.shares)+'</b> shares</span>':'')+(r.views?'<span><b style="font-size:16px">'+num(r.views)+'</b> views</span>':'')+'<a href="'+r.url+'" target="_blank" style="margin-left:auto;color:var(--orange-soft);font-weight:700">View &rarr;</a></div></div>';}).join('')+'</div>';
+}}
+document.getElementById('viewSeg').addEventListener('click',e=>{if(!e.target.dataset.view)return;state.view=e.target.dataset.view;[...e.currentTarget.children].forEach(b=>b.classList.toggle('on',b===e.target));render();});
+document.getElementById('view').addEventListener('click',e=>{const th=e.target.closest('th[data-sortkey]');if(!th)return;const k=th.dataset.sortkey;if(state.sortKey===k){state.sortDir=state.sortDir==='desc'?'asc':'desc';}else{state.sortKey=k;state.sortDir=(k==='account'||k==='platform'||k==='timestamp')?'asc':'desc';}render();});
+document.querySelector('.filters').addEventListener('click',e=>{const c=e.target.closest('.tierchip');if(!c)return;state.tier=c.dataset.tier;document.querySelectorAll('.tierchip').forEach(x=>x.classList.toggle('on',x===c));render();});
+document.getElementById('platSel').addEventListener('change',e=>{state.plat=e.target.value;render();});
+document.getElementById('regionSel').addEventListener('change',e=>{state.region=e.target.value;render();});
+document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
+document.getElementById('reset').addEventListener('click',()=>{state={view:state.view,tier:"all",plat:"all",region:"all",sortKey:"score",sortDir:"desc",q:""};document.getElementById('platSel').value='all';document.getElementById('regionSel').value='all';document.getElementById('search').value='';document.querySelectorAll('.tierchip').forEach(x=>x.classList.toggle('on',x.dataset.tier==='all'));render();});
+function normalize(rows){rows.forEach(r=>{r.account=(r.account||'').trim();const a=r.account.toLowerCase();r._self=SELF.includes(a);r.region=(r._self||AUSET.includes(a))?'au':'us';});return rows.filter(r=>r.account&&r.account!=='nan');}
+function go(rows){DATA=compute(normalize(rows));buildCreators();render();}
+function mapIG(r){return{platform:'instagram',account:r.ownerUsername||'',caption:(r.caption||'').slice(0,200),url:r.url||'',type:r.type||'',timestamp:(r.timestamp||'').slice(0,10),likes:+r.likesCount||0,comments:+r.commentsCount||0,shares:0,views:+r.videoViewCount||0};}
+function mapFB(r){return{platform:'facebook',account:r.pageName||'',caption:(r.text||'').slice(0,200),url:r.url||'',type:(String(r.isVideo).toLowerCase()==='true'?'video':'post'),timestamp:(r.timestamp||'').slice(0,10),likes:+r.likes||0,comments:+r.comments||0,shares:+r.shares||0,views:+r.viewsCount||0};}
+function fetchCSV(url){return new Promise((res,rej)=>{Papa.parse(url,{download:true,header:true,skipEmptyLines:true,complete:r=>res(r.data),error:rej});});}
+function mapRow(r){if('ownerUsername' in r)return mapIG(r);if('pageName' in r)return mapFB(r);return null;}
+async function loadLive(){try{const out=[];for(const u of CSV_URLS){if(!u)continue;const rows=await fetchCSV(u);rows.forEach(r=>{const m=mapRow(r);if(m)out.push(m);});}if(out.length){go(out);document.getElementById('dateLine').textContent='Live · '+new Date().toISOString().slice(0,10);return;}go(DATA_RAW);}catch(e){console.error('Live fetch failed',e);go(DATA_RAW);document.getElementById('dateLine').textContent='Snapshot (live fetch unavailable)';}}
+if(CSV_URLS.some(u=>u)){loadLive();}else{go(DATA_RAW);}
+</script></body></html>
