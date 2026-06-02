@@ -105,21 +105,56 @@ Not on Facebook (run on Instagram only): **Casey Means** (no significant FB page
 
 ## Part 2 — Discovery (find anyone bigger we missed)
 
-**Step 1** — `apify/instagram-hashtag-scraper`
+**Step 1** — `apify/instagram-hashtag-scraper`. **Run AU-specific tags as their own dedicated discovery run** — generic tags (#functionalmedicine, #guthealth) are US-dominated and bury the Australian accounts.
 ```json
 {
-  "hashtags": ["functionalmedicine","guthealth","SIBO","MTHFR","methylation",
-               "chronicfatigue","leakygut","naturopath","naturopathaustralia",
-               "clinicalnaturopath","holisticnutrition"],
+  "hashtags": ["naturopathaustralia","australiannaturopath","clinicalnaturopath",
+               "naturopathmelbourne","naturopathsydney","naturopathbrisbane",
+               "naturopathperth","naturopathadelaide",
+               "functionalmedicineaustralia","integrativemedicineaustralia",
+               "guthealthaustralia","hormonenaturopath","fertilitynaturopath",
+               "thyroidhealthaustralia","australiannutritionist"],
   "resultsType": "posts",
   "resultsLimit": 200
 }
 ```
+(Keep the original generic-tag run too if you want US discovery — just don't mix them in one run, or the 200-post cap gets eaten by US volume.)
+
 **Step 2** — dedupe the `ownerUsername` values, feed them into `apify/instagram-profile-scraper` for `followersCount`, `biography`, `externalUrl`.
 
-**Step 3** — keep accounts whose bio/link signals Australia (`.com.au`, or Sydney/Melbourne/Brisbane/Perth/Adelaide), sort by `followersCount`, drop anything under ~16k (your size). Sanity-check engagement, not just followers.
+**Step 3** — keep accounts whose bio/link signals Australia (`.com.au`, or Sydney/Melbourne/Brisbane/Perth/Adelaide), sort by `followersCount`. For **benchmarks** use a *range*, not just a floor: same-size AU clinics (~5–25k, realistic comparison) AND bigger AU names (100k+, format ideas). Sanity-check engagement, not just followers.
 
 > Facebook hashtag discovery is unreliable — run discovery on Instagram, then open each surfaced account's Facebook page by hand. Run discovery monthly or on demand, not weekly.
+
+---
+
+## Expanding Australian coverage (researched candidates — Jun 2026)
+
+Discovery alone misses the obvious big names, so hand-seed these into the IG `directUrls` (and find their FB pages by hand). **Follower counts are from public listings and may be stale — the profile scraper confirms exact size on first run.** Grouped by how to use them, because account *type* matters for a credible clinic:
+
+**A. Credible clinician / practitioner models — best to emulate (closest to EHN):**
+| Handle | ~Size | Focus |
+|---|---|---|
+| `natkringoudis` | ~104k | Women's hormones, fertility, perimenopause (Melbourne) |
+| `natalie.k.douglas` | mid | Thyroid + gut + hormones naturopath ("Hormone Health Naturopath") |
+| `thelucyroseclinic` *(confirm handle)* | large | Integrative thyroid + hormone clinic, advanced testing |
+| `drandrea` | mid | Women's hormones / natural fertility ("The Period Whisperer") |
+| `fertility.nutritionist` | ~23k | Fertility / preconception nutrition (Emily Davidson) |
+
+**B. Gut / mainstream-credible (great format study; diaspora but AU-trained):**
+| Handle | ~Size | Focus |
+|---|---|---|
+| `theguthealthdoctor` | ~598k | Gut health (Dr Megan Rossi, RD — Australian, London-based) |
+
+**C. Mega-reach — FORMAT/HOOK STUDY ONLY, do NOT emulate the claims:**
+| Handle | ~Size | Why caution |
+|---|---|---|
+| `realbarbaraoneill` | ~3M | Australian naturopath, but **deregistered in NSW** for unsafe health claims. Study her hooks/reach mechanics; never model the content or claims — wrong fit for an evidence-based clinic. |
+| `jshealth` | ~765k | Jessica Sepel — supplement brand + general healthy-eating, not root-cause FM. Useful for polished format/branding cues only. |
+
+**Already tracked (AU):** `functionalmedicineau` (advancedfunctionalmedicine), `stevenjudgenaturopath`, `theshiftclinic`, `melbournefxmed`, `mthfrsupportglobal`, `drdenisefurness`.
+
+**Local Adelaide — verify on first run:** AF Health / Alex Fisher (award-winning evidence-based Adelaide naturopath clinic) — IG handle unconfirmed (`alexrfisher` is a *different* person/fitness account). Worth tracking as a same-market, same-city competitor once the handle is confirmed.
 
 ---
 
