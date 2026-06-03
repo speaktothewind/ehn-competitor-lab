@@ -1,0 +1,186 @@
+{
+  "week": "2026-06-03",
+  "generated_at": "2026-06-03T13:50:38.316Z",
+  "dry_run": false,
+  "note": "One creative reused across Instagram, Facebook & Google Business Profile. 7 posts, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice.",
+  "variety": {
+    "formats": [
+      "carousel",
+      "reel/video",
+      "image",
+      "text-only"
+    ],
+    "hooks": [
+      "announcement",
+      "question-bait",
+      "personal-story",
+      "myth-bust",
+      "contrarian"
+    ],
+    "topics": [
+      "thyroid",
+      "toxins/mould/microplastics",
+      "other",
+      "movement/walking",
+      "hormones/perimenopause",
+      "fasting/nutrition",
+      "mental-health"
+    ]
+  },
+  "posts": [
+    {
+      "slot": 1,
+      "modelled_on": {
+        "account": "thelucyroseclinic",
+        "score": 14,
+        "platform": "instagram",
+        "region": "au",
+        "url": "https://www.instagram.com/p/DYvfS3KFmnl/"
+      },
+      "format": "carousel",
+      "hook": "announcement",
+      "topic": "thyroid",
+      "register": "validation",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Solid purple gradient background (approx #6B5B95) with a centered bright cyan/blue butterfly illustration at top, bold white sans-serif text in two sizes below: large heading \"World Thyroid Day\" (approx 60pt), followed by supportive secondary text \"You are not alone in this.\" (approx 32pt), small forward-arrow icon in bottom-right corner.",
+      "image_url": "https://scontent-lga3-1.cdninstagram.com/v/t51.82787-15/707632572_18547194082069845_6016181612038345388_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE8xmfkrBBVpZX_J9UvmVzPtakRHphaMnW4Lf6laRYxwHIvhC-LLWS-Ak4muuTQ77U&_nc_ohc=rG6gEULdVGgQ7kNvwGqaXNs&_nc_gid=TDGmYnP6oy_sHDutUPJnyg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-hihSCKq8F-XzCKXAxPd_K25WR5DrN34J2m02SxB9U3g&oe=6A25AF27&_nc_sid=10d13b",
+      "angle": "Thyroid awareness and normalising functional medicine support for undiagnosed thyroid dysfunction in Australia",
+      "on_image": "Slide 1: World Thyroid Day | You are not alone in this. | Slide 2: 1 in 10 Australians live with a thyroid disorder. Many go undiagnosed. | Slide 3: Fatigue, weight changes, mood shifts—these aren't character flaws. They're signs your body needs support. | Slide 4: At Elemental, we dig deeper: comprehensive thyroid testing, root-cause investigation, and a plan that's actually yours. | Slide 5: You deserve to feel like yourself again.",
+      "caption": "Today is World Thyroid Day 🦋 and it feels important to say: you are not alone in this.\n\nOver 1 in 10 Australians live with a thyroid condition. Yet many—especially women—are told their symptoms are \"just stress\" or \"normal\". They're not.\n\nFatigue, weight changes, brain fog, mood shifts: these aren't character flaws. They're signals that your thyroid (and the systems around it) need proper investigation.\n\nAt Elemental, we don't settle for a single TSH test. We look at the fuller picture—antibodies, free hormones, nutrient status, gut health—because thyroid function doesn't exist in isolation.\n\nIf you've felt dismissed by standard care, or you know something's off but tests keep coming back \"normal\", that's exactly the conversation we're here to have.\n\nYou deserve clarity. You deserve support.\n\nIf this resonates, let's chat. #ThyroidHealth #FunctionalMedicine #WomensMensHealth #AdelajdeNaturopath #RootCauseMedicine",
+      "gmb_caption": "Today is World Thyroid Day. If you've been struggling with fatigue, weight changes, or brain fog and feel like you've been dismissed by standard care, you're not alone—and we're here to help. At Elemental Health & Nutrition, we investigate the fuller thyroid picture so you can feel like yourself again. Book an appointment with us today."
+    },
+    {
+      "slot": 2,
+      "modelled_on": {
+        "account": "askdrvincent",
+        "score": 11.37,
+        "platform": "instagram",
+        "region": "au",
+        "url": "https://www.instagram.com/p/DVj8Avvk5wz/"
+      },
+      "format": "reel/video",
+      "hook": "question-bait",
+      "topic": "toxins/mould/microplastics",
+      "register": "curiosity",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Man in casual wear holding a burgundy/red product box (Vincent Aussie Anti Oxidants) against a bright outdoor backdrop of palm trees and modern architecture. Large white bold text overlay at top reads \"WHO IS VINCENT?\" with a QR code visible on the product box. Sunny, high-contrast daylight scene with clear blue sky. The product box is the hero element centered in frame.",
+      "image_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/642539340_1953643488611039_1224020303703154862_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gEoQjADMXA_Vdb65f58XafZftq3ddvvEj3OXwh3kKxq-zrXpwqyasrv72eXt-4iqRk&_nc_ohc=n9V74nky2fwQ7kNvwE4am0a&_nc_gid=SJAQrzpGcrAwaIsmcCG96w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-6tIUbn76d8vp1xdi79X-z5bpQBtIj2aSQ4WWg16tGmw&oe=6A25BCE2&_nc_sid=10d13b",
+      "angle": "Why gut permeability matters when you're exposed to everyday toxins—and what we can actually do about it",
+      "on_image": "Slide 1: Hook frame — \"IS YOUR GUT BARRIER LEAKY?\" in large white bold text over bright outdoor Adelaide scene (modern buildings, palm trees, sunny blue sky) with clinician in casual wear holding a water jug or wellness symbol (not a product). High-contrast daylight. | Slide 2: Simple explanation of how mould, microplastics, and processed foods compromise the gut lining. | Slide 3: Three actionable steps: reduce inflammatory foods, support barrier function with whole foods, manage stress. | Slide 4: CTA: \"Book a consultation to understand YOUR toxin load.\"",
+      "caption": "Ever wonder why some people react to environmental toxins while others seem unaffected? It often comes down to gut barrier integrity.\n\nWhen we're exposed to mould spores, microplastics, or a diet high in ultra-processed foods, the lining of our gut can become compromised—what we call \"intestinal permeability.\" Once that happens, partially digested particles can slip through, triggering inflammation and a cascade of unwanted symptoms.\n\nThe good news? Your gut barrier has remarkable capacity to heal. It starts with reducing the inflammatory load (processed foods, excess sugar), supporting the gut lining with nutrient-dense wholefoods, and managing stress—which genuinely affects your intestinal wall.\n\nWe assess this properly at EHN, not just guess. If you've felt off for a while or suspect your environment is catching up with you, it's worth a conversation.\n\nReady to understand what's really going on?\n\n#GutHealth #FunctionalMedicine #MicrobiomeWellness #AdelaideClinic #WellnessOver40",
+      "gmb_caption": "Your gut barrier is your first line of defence against toxins—mould, microplastics, and processed foods all put it under strain. At Elemental Health & Nutrition, we assess intestinal permeability and design a real plan to restore it. Book an appointment today to find out if leaky gut is behind your symptoms."
+    },
+    {
+      "slot": 3,
+      "modelled_on": {
+        "account": "anthia.koullouros.naturopath",
+        "score": 4.57,
+        "platform": "instagram",
+        "region": "au",
+        "url": "https://www.instagram.com/p/DYIjU0dkj1s/"
+      },
+      "format": "image",
+      "hook": "personal-story",
+      "topic": "other",
+      "register": "hope",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Clean, minimalist text-card design on white background with dark gray/black serif font. Two distinct text blocks separated by white space: opening hook-text (~50 words, light weight) followed by a longer educational passage (~130 words, underlined key phrases like \"Mother's Day\" and \"Julia Ward Howe\"). Medium-weight serif typography throughout, all-caps emphasis on key historical figures. No imagery, faces, or visual elements—pure typography hierarchy using underlines and font weight variation.",
+      "image_url": "https://scontent-phl2-1.cdninstagram.com/v/t51.82787-15/685801395_18589308952047312_1558765219309103686_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-phl2-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gEr7IDqBeqJ__5UK8xGAk9z15LbGqVH2F7KmSG4_fv2cKg0D1EhOTJ3AFo7i1Y7ZDmZ1l6OIonpmIBxW0Pv3e1Z&_nc_ohc=67HyGjTaT-YQ7kNvwFzCEs2&_nc_gid=2reJcVnNXCWMnxs8i4x2MA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9SbrybxRTkUgGoqyTP1iitdCpYMP2C4xsA-8jWtAPA8g&oe=6A2599EE&_nc_sid=10d13b",
+      "angle": "Honouring the role of maternal stress and recovery in family wellbeing—a functional medicine perspective",
+      "on_image": "Slide 1: A quiet moment for recovery. When mothers rest, families heal. | Slide 2: In functional medicine, we know that maternal stress affects everyone in the household—from cortisol patterns that ripple through family systems, to the depletion of essential nutrients that support resilience. The science is clear: women who prioritise their own nervous-system recovery model self-care for their children. MATERNAL BURNOUT isn't a personal failing—it's a metabolic state. And it's reversible. When we address the underlying drivers (sleep debt, nutrient status, chronic stress markers), mothers report not just feeling better, but parenting more effectively. This Mother's Day season, we're reminded: caring for your own baseline isn't selfish. It's the most loving thing you can do for those who depend on you.",
+      "caption": "To all the mothers holding everything together—your wellbeing matters, not as an afterthought, but as the foundation. In our clinic, we see it every week: when a mum's stress response calms, her whole family settles with her. That's not metaphor—it's neurobiology. If you've been running on empty, there's another way. Let's explore what's driving your fatigue and build a path back to sustainable energy. You deserve that. Drop us a line if you'd like to chat about what recovery could look like for you. #MaternalWellbeing #FunctionalMedicine #MothersDay #NervousSystemHealth #AdelaideClinic",
+      "gmb_caption": "Maternal burnout is real—and functional medicine can help. If you're a mother running on empty, we'd love to help you find your way back to sustainable energy. Book an appointment with our Adelaide clinic today to explore what's really driving your fatigue."
+    },
+    {
+      "slot": 4,
+      "modelled_on": {
+        "account": "sarahdilorenzoclinicalnutritionist",
+        "score": 4.41,
+        "platform": "facebook",
+        "region": "au",
+        "url": "https://www.facebook.com/sarahdilorenzoclinicalnutritionist/posts/pfbid0srETHZpuEcZYTCDQu46pQvschUNp6wiwsoG3bUCfVsnstNjrJ1F32PE251KHfVRXl"
+      },
+      "format": "text-only",
+      "hook": "personal-story",
+      "topic": "movement/walking",
+      "register": "hope",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Text-only post on Facebook with personal narrative framing. Caption opens with enthusiastic emoji-punctuated storytelling about wearing activewear to a community event, weaving in product endorsements (activewear brand, protein powder, smoothie bar). Warm, conversational tone with casual language (\"sooooo comfortable\"), emojis (heart, colour variants), and hashtags. No image available; relies entirely on relatable lifestyle narrative and social proof through brand mentions and event participation to drive engagement.",
+      "image_url": null,
+      "angle": "Walking as a foundational functional-medicine practice — how community movement shifts wellbeing from the inside out.",
+      "on_image": "Slide 1: I wore my oldest sneakers to our Burnside Park walk last week — and it reminded me why I still believe in putting one foot in front of the other. | Slide 2: One of my patients, Sarah, said something that stuck: \"I came for the digestion, I stayed for the calm.\" She wasn't talking about supplements. She was talking about three mornings a week, outside, moving gently with others. | Slide 3: That's functional medicine, really. Not what you take — it's what you *do*, and who you do it with. The nervous system notices. Your gut notices. Your sleep notices.",
+      "caption": "I wore my oldest sneakers to our Burnside Park walk last week — and it reminded me why I still believe in putting one foot in front of the other. 🤍\n\nOne of my patients, Sarah, said something that stuck: \"I came for the digestion, I stayed for the calm.\" She wasn't talking about supplements. She was talking about three mornings a week, outside, moving gently with others.\n\nThat's functional medicine, really. Not what you take — it's what you *do*, and who you do it with. The nervous system notices. Your gut notices. Your sleep notices.\n\nIf you've been meaning to move but haven't found your why yet, maybe it's worth a conversation. We can help you find what clicks.\n\n#functionalmedicine #slowmovement #gutbrain #wellnessadult #clinicianvoice #adelaidewellness",
+      "gmb_caption": "Walking isn't just exercise — it's one of the most underrated tools in functional medicine. Gentle, consistent movement settles your nervous system and improves digestion, sleep, and mood. Join us or bring your own community. Ready to explore what movement could do for your health? Book an appointment with our team."
+    },
+    {
+      "slot": 5,
+      "modelled_on": {
+        "account": "stevenjudgenaturopath",
+        "score": 10.78,
+        "platform": "instagram",
+        "region": "au",
+        "url": "https://www.instagram.com/p/DQ6KCY7j0vl/"
+      },
+      "format": "carousel",
+      "hook": "myth-bust",
+      "topic": "hormones/perimenopause",
+      "register": "validation",
+      "has_face": false,
+      "is_text_card": false,
+      "visual_recipe": "Light beige background with centered black and grey text at top (~32 words, medium weight). Below: scientific line graph illustration showing two overlaid curves (teal/cyan solid line for progesterone, red dotted line for estradiol) across life stages (childhood, teens, reproductive years, perimenopause, menopause). Green box highlights the perimenopause phase. Graph includes axis labels and legend. Image credit text at bottom in grey. Clean, medical/clinical aesthetic with educational tone.",
+      "image_url": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/577203309_1473899714449392_8563266096023589401_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gEaMbNnuEK_1XdTlQoqPMyOjc0LR6Ek5FjONFb63DE7a_e_Izany6SpCDrSWDoYrHQ&_nc_ohc=90mohDx21X0Q7kNvwGDqG0v&_nc_gid=GlDe7JUyUEoj1a50edAFiQ&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af9deqetXeyWNwlL0H6cKcAbgV3LslksJ4i3wEgyavpeRw&oe=6A2588FE&_nc_sid=10d13b",
+      "angle": "Perimenopause progesterone decline: why inflammation, anxiety and histamine sensitivity spike first",
+      "on_image": "Slide 1: Most women think oestrogen is the main hormone that drops at perimenopause. But here's what actually happens first: progesterone crashes — often before oestrogen shifts much at all. | Slide 2: [Chart: Light beige background. Centered black/grey text at top: \"Progesterone declines FIRST in perimenopause—often years before oestrogen changes significantly. This explains why so many symptoms appear earlier than expected.\" Scientific line graph showing two overlaid curves across life stages (childhood, teens, reproductive years, perimenopause, menopause). Teal/cyan solid line = progesterone, red dotted line = oestradiol. Green box highlights perimenopause phase. Axis labels and legend included. Medical aesthetic.] | Slide 3: Why this matters: Progesterone is your body's natural anti-inflammatory, anxiety-reducer and histamine-regulator. When it drops first, many women experience: • Sudden inflammation & joint aches • Anxiety & mood shifts • Histamine intolerance (headaches, flushing, bloating) …before they even realise perimenopause has begun. | Slide 4: The fix isn't to panic—it's to understand what's driving your symptoms. Once we know progesterone is the culprit, we can address root causes: stress resilience, nutrient repletion, circadian rhythm support, and gentle movement. It's functional medicine, not guess work.",
+      "caption": "Here's the perimenopause plot twist nobody warns you about: progesterone doesn't just decline—it often crashes *first*, sometimes years before oestrogen shifts noticeably. \n\nThis matters because progesterone is your anti-inflammatory hero, your anxiety-buffer, and your natural histamine regulator all rolled into one. When it drops, inflammation creeps up, anxiety sparks, and suddenly you're reacting to foods you've always tolerated fine.\n\nMany women blame oestrogen or assume they're \"going mad\"—but the timeline doesn't fit. They're experiencing progesterone withdrawal, and that's completely physiological and addressable.\n\nIf you're in your 40s and experiencing unexpected inflammation, mood shifts or histamine sensitivity, perimenopause might already be quietly happening. Understanding *which* hormone is shifting (and when) changes everything about how we support you.\n\nCurious about where you're at? Let's map your hormonal timeline together.\n\n#Perimenopause #WomensHealth #HormoneHealth #FunctionalMedicine #Inflammation",
+      "gmb_caption": "Did you know progesterone often crashes *years* before oestrogen shifts at perimenopause? That's why inflammation, anxiety and food sensitivities can spike earlier than expected. Understanding your hormonal timeline is the first step to feeling better. Book an appointment with our clinicians to map where you're at and create a real plan."
+    },
+    {
+      "slot": 6,
+      "modelled_on": {
+        "account": "askdrvincent",
+        "score": 9.63,
+        "platform": "instagram",
+        "region": "au",
+        "url": "https://www.instagram.com/p/DU_3Pizk0cf/"
+      },
+      "format": "reel/video",
+      "hook": "contrarian",
+      "topic": "fasting/nutrition",
+      "register": "curiosity",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Close-up cinematic photo of a hand holding a glossy red apple against a blurred dark/warm background with shallow depth of field. White bold sans-serif text (approx 12-14pt, medium-heavy weight) overlaid in two lines across the center of the frame with black outline for contrast. The composition emphasizes the apple as focal point while the human face/hand grounds the narrative emotionally.",
+      "image_url": "https://instagram.fric1-1.fna.fbcdn.net/v/t51.82787-15/639676151_18323282872247863_6018545704466110815_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fric1-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGiC2u_zZA0CfBwc02Bl3LrKXbIFrACOCd1R1MgLWRVtAuDwSnY_DUn62mlizEkiqs&_nc_ohc=rkhrfjEwbG0Q7kNvwFrI5Mr&_nc_gid=mzw-v7cNLVxSMs3WZo4WTg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_AR0eIhm9MNw9BXqsP69oBkLps5CsrMpTT8taMoGrBTg&oe=6A25AFC2&_nc_sid=10d13b",
+      "angle": "Why most people are eating the wrong thing at the wrong time — and what functional medicine says about it",
+      "on_image": "You think it's just breakfast.\n\nYour grandmother skipped it when she was stressed.\nYour doctor never asked when you eat it.\nYour body's cortisol rhythm depends entirely on it.\n\nAnd most people still grab cereal on autopilot.",
+      "caption": "You think it's just breakfast.\n\nYour grandmother understood something modern nutrition forgot: when you eat matters as much as what you eat.\n\nIn functional medicine, we look at circadian rhythms, cortisol patterns, and metabolic timing—not just calories. Your body's hormones follow a 24-hour cycle. Breaking that cycle (or respecting it) changes everything from energy to digestion to how you feel at 3pm.\n\nThe question isn't \"should you fast?\" It's \"what does *your* body need *right now*?\"\n\nIf you're curious about how your eating patterns might be working against you, let's chat. We can map your rhythm.\n\n#FunctionalMedicine #CircadianHealth #NutritionTiming #AdelaideWellness #EatWithPurpose",
+      "gmb_caption": "Timing your meals matters as much as choosing them—that's what functional medicine teaches us. Most people eat on autopilot, but your body's cortisol and circadian rhythm have a say. If you'd like to understand how *your* eating patterns affect your energy and health, book an appointment with us today."
+    },
+    {
+      "slot": 7,
+      "modelled_on": {
+        "account": "drmarkhyman",
+        "score": 64.99,
+        "platform": "facebook",
+        "region": "us",
+        "url": "https://www.facebook.com/drmarkhyman/posts/pfbid02J39Qo39m4s4Doc7Fbnuy5MmTWaQQi9n42kpXcePHtjNorkTCc2oP6Ad1BzZ3kHuTl"
+      },
+      "format": "image",
+      "hook": "myth-bust",
+      "topic": "mental-health",
+      "register": "validation",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Clean, minimal layout with a circular headshot photo (tan/beige toned) of a professional man on the left side, name and verified handle in sans-serif font above. Bold, large sans-serif body copy (black on white background) occupying the right 70% of the frame, listing 5 pithy statements in parallel structure (laughter, crying, hugging, singing, dancing + their health benefits), followed by a standalone concluding statement in slightly larger type. No overlays or embellishments; typography-driven design relying on contrast and negative space.\"",
+      "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/705246663_18588593869033109_7526775106915921752_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GHt6EEnsBsEQ7kNvwF-ougT&_nc_oc=Adoy5ldFIzqDlPUwJLgBudWwpJK2McojcgnuLiau2mHnK8WU3NvHydwJCeVFJY7Y2wM&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=3LN7Dv5v6s7_alcxQHKFOQ&_nc_ss=72289&oh=00_Af_EIpFAcM52RzPZgf71yipN7yYHtsINmnHX5J0487D4jQ&oe=6A25B207",
+      "angle": "Stress dysregulation is reversible through nervous-system reset practices—backed by functional medicine",
+      "on_image": "Slide 1: [Professional photo of clinician on left, tan/beige background] | Slide 2: MYTH: Stress is just in your head.\n\nTRUTH: Chronic stress rewires your nervous system.\n\nBut here's what matters:\n\nSlow breathing → lowers cortisol\nConsistent sleep → resets HPA axis\nMovement → releases trapped tension\nConnection → activates parasympathetic tone\nNourishment → rebuilds stress resilience\n\nYour biology responds. Your system can recover.\n\n---\n\n[Large closing statement]\nStress management isn't luxury—it's medicine.",
+      "caption": "Stress dysregulation is reversible. 🧬\n\nWe often hear \"just relax\" or \"it's all in your head\"—but functional medicine shows us something different. Your nervous system has genuine physiology. Chronic stress activates your fight-flight response, elevates cortisol, and can dysregulate your HPA axis over time.\n\nHere's the good news: that wiring can shift.\n\nSlow breathing, consistent sleep, moving your body, genuine connection, and nourishing food aren't wellness tips—they're the toolkit your nervous system uses to reset. We see it in practice every day.\n\nIf you're running on empty or cycling through stress, it's worth understanding what's actually happening in your body—and what works to turn it around.\n\nLet's talk about where you're at. 🤍\n\n#NervousSystemHealth #FunctionalMedicine #StressResilience #MentalWellness #AdelaideClinician",
+      "gmb_caption": "Stress dysregulation is real—and reversible. Your nervous system isn't broken; it's just dysregulated. At Elemental, we use functional medicine to identify what's driving your stress response and help your body reset. Ready to understand what's actually happening? Book an appointment with our clinicians today."
+    }
+  ]
+}

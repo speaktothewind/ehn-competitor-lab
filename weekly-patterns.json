@@ -1,6 +1,6 @@
 {
   "week": "2026-06-03",
-  "generated_at": "2026-06-03T13:35:32.734Z",
+  "generated_at": "2026-06-03T13:50:26.385Z",
   "dry_run": false,
   "counts": {
     "posts_scored": 1635,
@@ -30,7 +30,7 @@
     },
     "topic": {
       "value": "other",
-      "count": 8
+      "count": 7
     },
     "register": {
       "value": "hope",
@@ -40,7 +40,7 @@
       "value": "carousel",
       "count": 13
     },
-    "faceless_share": 0.35
+    "faceless_share": 0.38
   },
   "trending_au": {
     "n": 18,
@@ -50,7 +50,7 @@
     },
     "topic": {
       "value": "other",
-      "count": 7
+      "count": 6
     },
     "register": {
       "value": "hope",
@@ -65,15 +65,15 @@
   "format_school_signal": {
     "n": 8,
     "hook": {
-      "value": "personal-story",
-      "count": 3
+      "value": "myth-bust",
+      "count": 2
     },
     "topic": {
       "value": "other",
-      "count": 6
+      "count": 4
     },
     "register": {
-      "value": "validation",
+      "value": "curiosity",
       "count": 2
     },
     "format": {
@@ -101,9 +101,9 @@
       "register": "authority",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post with no visual media. Structured as a limited-time offer announcement: opening hook (\"5 combos. $990. Going live now.\"), value proposition stacked with specific test names and measurable outcomes (biological age, organ-system ages, 105 biomarkers), scarcity mechanism (5 spots available), savings callout ($780 discount, $1,770 vs $990), and direct CTA link. Likely rendered as plain text in feed with strong hierarchy: opening hook in caps/bold, body copy in standard weight, price/savings emphasized. No colours, faces, or overlays—pure text-based urgency and authority play.",
+      "visual_recipe": "Text-only post with no image available. Structured announcement format: headline offer (\"5 combos. $990\") followed by service breakdown, value proposition ($1,770 standalone value, $780 savings), scarcity trigger (limited 5 spots), and CTA link. High-authority tonality using technical biomarker language and specific metrics (11 organ-system ages, 105 biomarkers). Dense copy block optimized for high-intent audience familiar with functional medicine testing.",
       "dominant_colors": null,
-      "text_word_count_est": 95,
+      "text_word_count_est": 85,
       "image_classified": false,
       "exemplar": "5 combos. $990. Going live now.\n\nTruAge Complete + TruHealth panel + 1-hour review consult. The deepest read on healthspan I can offer — biological age, pace of ageing, 11 organ-system ages, and the 1",
       "url": "https://www.facebook.com/elementalhealthandnutrition/posts/pfbid0Bwdi8DyTNErVYamCEKYXANWYS6dAKLWZXmJtRdWYx59LsckDcSdHBEo3BSNa7a3Pl",
@@ -128,9 +128,9 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Dark, moody overhead shot of mold/fungal growth on concrete or dark surface with lush green leaves/vines overhead framing the top. White serif body text overlaid (~95 words) in medium weight, positioned center-to-upper frame. Shadowy, high-contrast aesthetic creates visual tension. Multiple text blocks separated by line breaks for scrolling rhythm. The dark tones and organic decay imagery paired with the bright foliage create an unsettling contrast that reinforces the \"hidden threat\" narrative of the caption.\"",
+      "visual_recipe": "Dark, moody nature photo (dense foliage, shadowy water/stone) with white/cream serif text overlaid in medium-to-large font weight. Opening rhetorical questions at top (\"Is it mold? Is it EMFs?\"), followed by body copy addressing clinical observations and symptom lists. The dark, ominous aesthetic amplifies the threat narrative; minimal branding, maximum urgency through contrast and stark naturalism.",
       "dominant_colors": [
-        "green",
+        "dark green",
         "black",
         "grey"
       ],
@@ -159,9 +159,9 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post on solid background (likely white or neutral). Opening hook uses contrast and authority credibility (40-year vet, 9 books, contrarian positioning). Body consists of 4 myth-bust bullet points in descending order, each with em-dash structure. Heavy use of specificity (numbers: 3 in 4, 17 to 10, 6 months, annual) and shocking claims (euthanasia solution, neurotoxins, marketing fraud). Medium-weight sans-serif font, likely 16-18px base with emphasis on bullet headers. Closes with high-intent call-to-action and podcast link. No faces, no images—pure text authority play leveraging emotional urgency around pet health crisis.",
+      "visual_recipe": "Text-only Facebook post with no image. Caption-driven format (~234 words) structured as a hook (alarming statistic: 3 in 4 dogs get cancer by age 10), authority credential drop (Dr. Judy Morgan: 40 years, 9 books, called \"voodoo\"), then four numbered myth-busts in bullet format (rendered kibble/euthanasia drugs, spaying at 6 months, neurotoxin flea/tick meds, vaccine marketing). Opens with contrarian premise (\"Your vet probably isn't telling you\"), closes with podcast CTA. High white space + left-aligned text, likely sans-serif, dark text on white background. Designed to trigger shares and link clicks via outrage and credential authority.",
       "dominant_colors": null,
-      "text_word_count_est": 250,
+      "text_word_count_est": 234,
       "image_classified": false,
       "exemplar": "Your vet probably isn't telling you this...\n\n3 in 4 dogs who reach age 10 get a cancer diagnosis. The average golden retriever lifespan has dropped from 17 years to 10. Something is very wrong.\n\nDr. J",
       "url": "https://www.facebook.com/doctorwillcole/posts/pfbid02JJ7Dg3Bz6XQqRxHL1aocfjYqcETBvYd91kdnVpw4a1ryk5kEEfSne2sfMupiWRqnl",
@@ -186,9 +186,9 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only Facebook post with no image. Single long-form caption using hierarchical structure: attention-grabbing opening hook (\"Your vet probably isn't telling you this...\"), followed by alarming statistics, credibility anchor (expert credentials), then 4 bulleted myth-busts with contrarian claims separated by bullet points. Copy-heavy (~230 words), designed for organic scroll-stop via stat-drop and escalating reveal pattern. No visual elements—relies entirely on emotional tension and narrative momentum.",
+      "visual_recipe": "Text-only Facebook post with no image available. Opens with contrarian hook (\"Your vet probably isn't telling you this...\"), uses alarming statistics (3 in 4 dogs, lifespan drop) to establish urgency, then authority-building (Dr. Judy Morgan 40 years, 9 books). Structure uses 4 bolded bullet points with specific claims about kibble, spaying/neutering, flea/tick medications, and vaccines. Closes with CTA to podcast episode. High word count (~229 words rendered), predominantly dark text on light background, designed to trigger fear/urgency and contrarian curiosity without visual elements.",
       "dominant_colors": null,
-      "text_word_count_est": 229,
+      "text_word_count_est": null,
       "image_classified": false,
       "exemplar": "Your vet probably isn't telling you this...\n\n3 in 4 dogs who reach age 10 get a cancer diagnosis. The average golden retriever lifespan has dropped from 17 years to 10. Something is very wrong.\n\nDr. J",
       "url": "https://www.facebook.com/doctorwillcole/posts/pfbid0Evd341qN4ne67d655VUNTaAh83gdxMZ7aMaiA9yEuK1RP7HtXFNxZkvPpTangTEZl",
@@ -208,12 +208,12 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "contrarian",
       "topic": "toxins/mould/microplastics",
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head video thumbnail with bearded male expert looking directly at camera with surprised/concerned expression. Background split between colorful candy/food imagery (top left), bright red cherries (top right), and dark navy/black lower third. Bold yellow sans-serif text overlay at bottom reads \"THE FDA JUST BANDED RED NO.3 IN FOOD ...\" with red banner header above reading \"HEALTH\". Total on-image text ~18 words in 2 text elements (header + main caption).",
+      "visual_recipe": "A talking-head video still of a bearded man in dark clothing with a concerned/engaged expression, set against a composite background featuring vibrant red foods (raspberries, red dye-coloured donuts, cherries) on the left, and a blue/teal accent panel. A red banner header reading 'HEALTH' sits at the top. Bold white text overlay in all-caps ('THE FDA JUST BANDED RED NO.3 IN FOOD ...') appears centred on the lower half with a yellow/gold text colour for maximum contrast. The framing is tightly cropped on the face to maximize emotional impact and engagement.\"",
       "dominant_colors": [
         "red",
         "white",
@@ -239,18 +239,18 @@
       "format": "image",
       "is_format_school": false,
       "is_you": false,
-      "hook": "stat-drop",
+      "hook": "myth-bust",
       "topic": "mental-health",
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean, minimal text-overlay post featuring a small circular headshot photo (40px diameter) of the doctor in top-left with name/handle, followed by 5 short listicle-style statements in large black sans-serif font (28-32pt) on white background. Each statement is a bold claim: \"Laughter is anti-inflammatory\" etc. Culminates in larger headline-weight text: \"Joy is a biological necessity.\" Approx 28 words rendered as black text on pure white; headshot is warm beige/tan tone. Zero imagery beyond the single profile photo.\"",
+      "visual_recipe": "Clean, minimal layout with a circular headshot photo (tan/beige toned) of a professional man on the left side, name and verified handle in sans-serif font above. Bold, large sans-serif body copy (black on white background) occupying the right 70% of the frame, listing 5 pithy statements in parallel structure (laughter, crying, hugging, singing, dancing + their health benefits), followed by a standalone concluding statement in slightly larger type. No overlays or embellishments; typography-driven design relying on contrast and negative space.\"",
       "dominant_colors": [
         "white",
-        "beige",
+        "tan",
         "black"
       ],
-      "text_word_count_est": 28,
+      "text_word_count_est": 26,
       "image_classified": true,
       "exemplar": "Play, joy, and love are biological necessities. 🧬\n\nThe emerging science of epigenetics shows that your environment, your emotions, and your relationships can switch genes on and off, regulating every",
       "url": "https://www.facebook.com/drmarkhyman/posts/pfbid02J39Qo39m4s4Doc7Fbnuy5MmTWaQQi9n42kpXcePHtjNorkTCc2oP6Ad1BzZ3kHuTl",
@@ -275,13 +275,13 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up talking-head shot of a bearded male presenter in white shirt against neutral gray background, hand-to-face contemplative pose (chin resting on fingers). Yellow bold sans-serif text overlay in top-left reading \"MONEY FOR COUPLES\" with yellow subtitle text at bottom. Professional, earnest expression with direct eye contact; high contrast lighting emphasizing facial features. Minimalist layout focuses attention on speaker's face as primary element.",
+      "visual_recipe": "Close-up talking head video still of a bearded man in white shirt against neutral grey-purple background, with yellow text overlay in top-left reading \"MONEY FOR COUPLES\" and yellow caption text at bottom reading \"and it's embarrassment\". Man is in thoughtful pose (hand near face). Minimal, direct gaze to camera creates intimacy and trust.",
       "dominant_colors": [
-        "gray",
+        "purple/grey",
         "white",
         "yellow"
       ],
-      "text_word_count_est": 6,
+      "text_word_count_est": 18,
       "image_classified": true,
       "exemplar": "They’ll have $18M… and still feel like it’s not enough.\n\nBecause no one ever taught them how to define their Rich Life or feel comfortable living it.\n\n▶️ Watch the full episode on YouTube. Link in bio",
       "url": "https://www.facebook.com/reel/816951484429161/",
@@ -303,14 +303,14 @@
       "is_you": false,
       "hook": "listicle",
       "topic": "fasting/nutrition",
-      "register": "fear/urgency",
+      "register": "curiosity",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "A talking-head video shot in a clinical setting (appears to be medical office/lab). Male presenter wearing blue medical scrubs and light blue head covering holds a water bottle toward camera. Bold white text overlay reads \"3 unusual signs of dehydration! ⚠️\" positioned at top-left of frame. Clinical ceiling and equipment blurred in background. High-contrast, direct eye contact engagement.\"",
+      "visual_recipe": "A talking-head video of a male healthcare professional (wearing blue scrubs and light blue headwrap) in an office setting, pointing upward at a water bottle. Bold black text overlay with white font reads \"3 unusual signs of dehydration! ⚠️\" positioned at top-left. The credibility cue (medical attire) combined with the visual intrigue (pointing gesture) and numbered listicle hook creates engagement momentum for a carousel or hook for video continuation.",
       "dominant_colors": [
         "white",
         "blue",
-        "skin tone"
+        "beige"
       ],
       "text_word_count_est": 6,
       "image_classified": true,
@@ -337,13 +337,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean white background with circular profile photo (headshot) in top-left corner showing a professional male face. Large bold black sans-serif headline text reading \"I'm a gastroenterologist.\" followed by two key statements in decreasing font weight: \"You've been calling it stress, hormones, or just getting older.\" and \"It's actually inflammation.\" Verified checkmark next to the name establishes credibility/authority. Minimal design with heavy typography and ample whitespace.\"",
+      "visual_recipe": "Circular profile photo (head shot) positioned top-left with verified checkmark and @handle below. Large bold sans-serif headline text in black on white background, 3 short lines stacked: \"I'm a gastroenterologist.\" / \"You've been calling it stress, hormones, or just getting older.\" / \"It's actually inflammation.\" Minimal design, maximum contrast, authority-signaling credentials paired with myth-busting reframe.",
       "dominant_colors": [
         "white",
         "black",
         "blue"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 25,
       "image_classified": true,
       "exemplar": "Comment WORKSHOP below and I’ll send you the link for my FREE Anti-Inflammatory Workshop on May 26.\n\nInflammation is the great impersonator. After 22 years in practice, I’ve stopped being surprised th",
       "url": "https://www.instagram.com/p/DYkjDcfladx/",
@@ -363,18 +363,18 @@
       "format": "reel/video",
       "is_format_school": true,
       "is_you": false,
-      "hook": "question-bait",
+      "hook": "myth-bust",
       "topic": "other",
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up talking-head shot of a man in white shirt with thoughtful/concerned expression, chin-stroking pose. Bold gold/yellow sans-serif text overlay top-left reading \"MONEY FOR COUPLES\" in 2 lines. White text caption at bottom reading \"and it's embarrassment\" with yellow highlight on key word. Soft blurred interior background, cool-toned lighting.",
+      "visual_recipe": "Close-up of a bearded man's contemplative face with hand-to-chin pose, wearing white shirt against neutral grey background. Bold gold text overlay reading \"MONEY FOR COUPLES\" in upper left (heavy font weight, ~18pt relative), with yellow-and-white striped caption text at bottom reading \"and it's embarrassment\". Meme-format video still designed to create emotional recognition.",
       "dominant_colors": [
         "gold",
         "white",
         "purple-grey"
       ],
-      "text_word_count_est": 10,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "They’ll have $18M… and still feel like it’s not enough.\n\nBecause no one ever taught them how to define their Rich Life or feel comfortable living it.\n\n▶️ Watch the full episode on YouTube. Link in bio",
       "url": "https://www.instagram.com/p/DYAM5qfkzdx/",
@@ -399,13 +399,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Candid video frame of a bearded man in a black t-shirt standing in a retail/warehouse setting, hand to mouth in a contemplative/emotional gesture. Soft white fluorescent lighting overhead. White caption text overlay (approx 15 words) at bottom of frame with the hook \"Still can't believe this is happening 🥺\" conveying vulnerable gratitude. Authentic, unpolished moment capturing genuine emotion—no talking head performance, just a natural reaction shot in public space.",
+      "visual_recipe": "A man in a black t-shirt filmed in a busy retail store setting (warehouse-style ceiling with industrial lighting visible), shot from chest up in a vertical phone video format. He's shot mid-action with hand to face in a contemplative/emotional gesture. White subtitle text overlaid on the lower portion reads a contrarian wellness claim about college advisors and medical school myths. The setting is casual, candid, and authentic with retail shelving blurred in the background—creating intimacy despite public location.",
       "dominant_colors": [
         "black",
         "white",
-        "grey"
+        "gray"
       ],
-      "text_word_count_est": 15,
+      "text_word_count_est": 16,
       "image_classified": true,
       "exemplar": "Still can’t believe this is happening 🥺 Grateful for all of you for making this happen. REMEDY now i",
       "url": "https://www.facebook.com/reel/826110566847951/",
@@ -427,14 +427,14 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "mental-health",
-      "register": "faith",
+      "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Portrait-style selfie of a bearded man wearing glasses and a blue-grey t-shirt holding a brindle-and-white bulldog puppy indoors. Bright, neutral overhead pendant light and white curtains in background. Clear, relatable moment capturing human-animal bond; clean, calm aesthetic with soft natural tones (whites, greys, skin tones). No text overlaid on image itself.",
+      "visual_recipe": "Warm, relatable selfie shot indoors with clean, minimal white/cream background (open-plan home setting with pendant light, white curtains, wooden surface). Man in his 40s with beard and glasses, wearing blue-grey t-shirt with visible arm tattoos, holding a muscular grey-and-white bulldog breed puppy at chest height. Natural lighting, conversational framing, dog looking slightly off-camera with alert expression. The human and dog connection is central; intimate domestic setting conveys approachability and lived experience.",
       "dominant_colors": [
-        "#d4ccc1",
         "white",
-        "#708090"
+        "blue",
+        "grey"
       ],
       "text_word_count_est": 0,
       "image_classified": true,
@@ -461,13 +461,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Professional headshot of a smiling man in a dark blue button-up shirt holding a book against his chest, positioned center-frame against a warm beige vertical-striped background. The book (white cover with colorful fruit graphics and bold black/red typography for \"PLANT POWERED PLUS\") is the focal point. Branded logo (lime green \"ghMD\") in top left corner. Warm, neutral colour palette with natural lighting creating an approachable, credible expert positioning.",
+      "visual_recipe": "Smiling man in navy button-up shirt holding a white book cover with large bold typography (\"PLANT POWERED PLUS\" in black with colorful fruit/vegetable illustrations beneath). Vertical wood-grain striped background in warm tan/beige. Book subtitle text at top in orange. Branded logo (lime green) in top left corner. Professional headshot framing, warm professional lighting.",
       "dominant_colors": [
-        "#D4B896",
-        "#1F3A5F",
-        "#C4E559"
+        "#D4A574",
+        "#2C3E50",
+        "#FFFFFF"
       ],
-      "text_word_count_est": 8,
+      "text_word_count_est": 32,
       "image_classified": true,
       "exemplar": "⚡️HUGE NEWS!!!⚡️\n\nFor the past 3 years, I've been GRINDING on a top secret 🤫 project that very few people knew about -- until now.\n\nDrumroll please....🥁🥁\n\nIntroducing my new book:\n\nPLANT POWERED PL",
       "url": "https://www.instagram.com/p/DNS80v8Opor/",
@@ -487,18 +487,18 @@
       "format": "reel/video",
       "is_format_school": true,
       "is_you": false,
-      "hook": "announcement",
+      "hook": "comment-to-DM",
       "topic": "other",
-      "register": "empowerment",
+      "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Two-person split-frame composition: person wearing surgical mask and tan sweater (masked healthcare worker/clinical setting on top half); person in reclined position wearing white patient bib with purple-gloved hands holding medical instruments below. White text overlay box centered at top reads 'How to fight your health insurance - AND WIN!!!' Set in clinical/medical office environment with neutral beige walls. High contrast between clinical blue gloves and muted background.",
+      "visual_recipe": "Split-frame vertical reel layout: top frame shows a masked healthcare provider in tan sweater holding medical tools; bottom frame shows a patient in white bib receiving treatment with gloved hands visible. Bold black sans-serif text overlay in white box reads \"How to fight your health insurance - AND WIN!!!\" positioned center-left, creating a before/after or expert-to-consumer narrative flow.",
       "dominant_colors": [
         "tan",
         "white",
         "blue"
       ],
-      "text_word_count_est": 7,
+      "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "How to fight your insurance company... AND WIN!!! #money #finance #health #insurance #medicalbills",
       "url": "https://www.facebook.com/reel/854601320289836/",
@@ -520,16 +520,16 @@
       "is_you": false,
       "hook": "myth-bust",
       "topic": "other",
-      "register": "anger",
+      "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "A talking-head video frame of a man in a bright teal/turquoise t-shirt mid-gesture at a desk with a microphone, appearing animated and passionate. Background shows blurred urban setting with other people partially visible. Two text overlays: top text in light gray reads the opening statement about healthcare priorities, bottom text in bold white sans-serif reads \"ABSOLUTELY TRUE\". Red accent elements (timer display, background flag) provide contrast. The composition captures candid emotion with medium shot of torso and face expressing conviction.",
+      "visual_recipe": "Talking head video of a man in bright teal scrubs, sitting at a desk with red digital timer visible, mid-speech with animated hand gestures and expressive face. Two other people visible in soft focus background. White impact font text overlay at top (contrarian statement about healthcare priorities) and bottom (reaction text: \"ABSOLUTELY TRUE\"). Gritty, indoor meeting/office setting with neutral background. High contrast between vibrant teal garment and muted gray surroundings. Approx 15 words across top and bottom text layers in bold sans-serif.",
       "dominant_colors": [
         "teal",
-        "gray",
-        "red"
+        "#FF5555",
+        "gray"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 15,
       "image_classified": true,
       "exemplar": "I’m not used to getting this passionate on camera but sometimes it’s warranted 😡 \n\nI’ve seen patients hurt by our shitty healthcare system and instead of addressing these real (and fixable) issues, w",
       "url": "https://www.instagram.com/p/DSkjJwWkTp_/",
@@ -554,9 +554,12 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean white background with profile avatar (small circular headshot) in top left corner, followed by verified account handle and name in black sans-serif. Main headline \"Five things I added to my own routine.\" in bold large black text (approx 32-36pt), followed by secondary text in regular weight black (approx 18-20pt) reading \"Each takes 5 minutes or less. The research says they each reduce inflammation. None of them is a detox.\" Minimal design, maximum whitespace, text-dominant layout optimized for mobile reading—no illustrations, no coloured overlays, no visual noise.",
-      "dominant_colors": null,
-      "text_word_count_est": 45,
+      "visual_recipe": "Clean, minimal carousel-first card with a small circular profile photo (top left) showing a man in professional casual wear, verified checkmark, username, and handle. The main body is white background with large, bold black sans-serif typography organized as a hierarchy: headline \"Five things I added to my own routine.\" followed by a secondary statement \"Each takes 5 minutes or less. The research says they each reduce inflammation. None of them is a detox.\" No additional imagery, overlays, or design elements—pure text-focused layout emphasizing readability and authority through typography weight and scale.",
+      "dominant_colors": [
+        "white",
+        "black"
+      ],
+      "text_word_count_est": 32,
       "image_classified": true,
       "exemplar": "Five things I added to my own routine that the data says reduce inflammation. Each takes five minutes or less. None of them is a detox.\n\nPick the ones that fit your life. You have choices.\n\nFiber → mo",
       "url": "https://www.instagram.com/p/DYAjVW9FVrp/",
@@ -576,18 +579,18 @@
       "format": "reel/video",
       "is_format_school": true,
       "is_you": false,
-      "hook": "comment-to-DM",
-      "topic": "other",
+      "hook": "question-bait",
+      "topic": "movement/walking",
       "register": "curiosity",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up shot of a man's face in a home setting (bright natural light from windows behind). Three bold numbered text overlays in black sans-serif font on white/translucent backgrounds positioned vertically down the left side: \"1. Tongue to roof of mouth\", \"2. Press between eyebrows\", \"3. Hold for 20 secs\". Man demonstrates the action (hand raised to forehead/eyebrow area, eyes slightly closed). Minimal background clutter, focus on facial expression and hand gesture to demonstrate the technique.",
+      "visual_recipe": "Close-up video of a man's face (head/shoulders framing) in natural indoor lighting wearing a light grey/beige t-shirt. Three numbered instruction cards (white text on dark overlay) are overlaid on top: \"1. Tongue to roof of mouth\", \"2. Press between eyebrows\", \"3. Hold for 20 secs\". The person demonstrates the technique by pressing fingers to his forehead between the eyebrows, eyes closed, creating a clear how-to visual narrative.",
       "dominant_colors": [
+        "white",
         "beige",
-        "black",
-        "green"
+        "black"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 24,
       "image_classified": true,
       "exemplar": "If you have a stuffy nose watch this video!",
       "url": "https://www.facebook.com/reel/2078070789411359/",
@@ -607,18 +610,18 @@
       "format": "reel/video",
       "is_format_school": true,
       "is_you": false,
-      "hook": "personal-story",
-      "topic": "other",
+      "hook": "contrarian",
+      "topic": "longevity",
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Aspirational lifestyle photo: woman in luxury interior (crystal chandelier, ornate ceiling, red patterned carpet) taking a mirror selfie in elegant black off-shoulder top, captured mid-gesture with confident expression. White sans-serif text overlay at bottom reads \"The REAL wealth status symbol in 2026\". Warm golden lighting throughout creates premium aesthetic.",
+      "visual_recipe": "A woman in an elegant black off-shoulder outfit taking a mirror selfie in a luxury setting (crystal chandelier, ornate ceiling, red-and-gold patterned carpet visible). A white text overlay at bottom reads \"The REAL wealth status symbol in 2026\" in bold sans-serif. The composition captures opulence and aspiration, with warm ambient lighting from the chandelier. High-contrast, glossy aesthetic typical of lifestyle/aspirational content.",
       "dominant_colors": [
         "gold",
-        "white",
-        "red"
+        "black",
+        "burgundy"
       ],
-      "text_word_count_est": 9,
+      "text_word_count_est": 10,
       "image_classified": true,
       "exemplar": "Why YOU need to take the time to invest in your mind! #money #finance #intelligence #culture #wealth",
       "url": "https://www.facebook.com/reel/1321384990195621/",
@@ -643,13 +646,13 @@
       "register": "authority",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "A pyramid/hierarchy infographic on light blue background with 6 stacked tiers showing antioxidant content by food category. Top tier features a coffee cup illustration with beans, middle tiers display colorful food illustrations (berries, spices, chocolate, wine, nuts, vegetables), each tier labeled with food names and antioxidant counts. Right side includes a green banner explaining \"top to bottom = highest to lowest.\" Bottom credits @drpedre. Clean sans-serif typography in navy and white with colour-coded food illustrations.",
+      "visual_recipe": "Pyramid infographic with 6 tiers showing foods ranked by antioxidant content from top to bottom. Top tier: coffee cup illustration with brown/tan saucer on solid blue background with white bold headline text and green information box. Middle tiers: spices, teas, dark chocolate, berries, nuts/legumes, and vegetables illustrated with hand-drawn icons and product photography. Bottom tier: foundation vegetables in full color. Light blue backgrounds throughout with black text labels. Total ~45 words of on-image text in various font weights.",
       "dominant_colors": [
-        "#5B8FBE",
-        "#7BBD5E",
-        "#FFFFFF"
+        "#5B8DBE",
+        "#6DB84D",
+        "white"
       ],
-      "text_word_count_est": 120,
+      "text_word_count_est": 45,
       "image_classified": true,
       "exemplar": "Most people think antioxidants come from superfoods…\n\nBut the #1 source most people are already consuming daily?\nCoffee.\n\nHigh-quality coffee is loaded with polyphenols that support:\n→ Gut health\n→ Re",
       "url": "https://www.instagram.com/p/DYAUTWmD0UF/",
@@ -674,11 +677,11 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up action shot of two people in jeans and black sneakers on pavement, one person bending down to point at their shoe/tracker. Bold white sans-serif text overlay at bottom reads \"1,000 STEPS\" in large, upper-case font. Realistic outdoor photo with natural daylight, street/concrete background, no studio setup. The text anchors the key stat and draws eye to the gesture of engagement.",
+      "visual_recipe": "Close-up shot of two people's lower bodies (legs in jeans, feet in black sneakers) on outdoor concrete pavement, with a hand reaching down to adjust shoe/ankle. Bold white sans-serif text overlay reading \"1,000 STEPS\" positioned at shoe/ground level. Minimal, clean composition emphasizing the action of walking/movement with a focus on footwear and pavement texture.",
       "dominant_colors": [
         "blue",
-        "grey",
-        "white"
+        "black",
+        "grey"
       ],
       "text_word_count_est": 12,
       "image_classified": true,
@@ -705,13 +708,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Vertical video shot of a woman with dark hair, glasses, and red lipstick holding a cream-coloured book cover toward camera. The book features large green sans-serif typography reading \"CALM YOUR MIND WITH FOOD\" with purple cauliflower illustration below. Background shows white shelving with coordinating book spines in orange and green. Warm, professional lighting with close framing on the book and author's face for authenticity and credibility.",
+      "visual_recipe": "A woman with dark hair and glasses smiling directly at camera, holding up a book cover centered in frame. The book is \"Calm Your Mind with Food\" with large green sans-serif typography on cream background, a purple cauliflower illustration at bottom, and author name (Dr. Uma Naidoo) below. Books stacked on white shelf in soft-focus background above. Warm, approachable, authority-meets-relatable personal endorsement shot.",
       "dominant_colors": [
         "green",
-        "#8B5A8E",
-        "cream"
+        "purple",
+        "cream/off-white"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "Calm Your Mind with Food is NOW ON SALE! Available wherever books are sold. \n\n#calmyourmindwithfood #drumanaidoo #druma #ThisIsYourBrainOnFood #BrainFoodLove #DrUma #NutritionalPsychiatry #happyguthap",
       "url": "https://www.instagram.com/p/C1UPCttu8ev/",
@@ -731,18 +734,18 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "personal-story",
+      "hook": "question-bait",
       "topic": "movement/walking",
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up portrait of a middle-aged man with gray hair smiling warmly while looking downward, shot against a blurred neutral background. Two text overlays in white and teal: \"IT'S FUN TIMES:\" at top in white sans-serif, and \"The secret to getting kids to open up\" in white text on a bold teal/turquoise rounded rectangle banner in the center-lower portion of the frame. Warm, relational tone with soft focus background emphasizing human connection.",
+      "visual_recipe": "Close-up portrait of a smiling middle-aged man with grey hair wearing a dark navy/charcoal shirt, shot against a soft blurred grey-white background. Two semi-transparent teal/turquoise rounded rectangular text overlays are positioned over the lower portion of the image in white sans-serif font: top overlay reads \"IT'S FUN TIMES:\" and bottom overlay reads \"The secret to getting kids to open up\". The layout creates a conversational, relatable tone with the text placed as if it's a caption to his warm, contemplative expression.\"",
       "dominant_colors": [
+        "teal/turquoise",
         "gray",
-        "#20a084",
-        "teal"
+        "white"
       ],
-      "text_word_count_est": 17,
+      "text_word_count_est": 9,
       "image_classified": true,
       "exemplar": "Who do you want to go for a walk with today? Share this with them!\n\nThere are so many benefits from walking that go far beyond the physical. Walking isn't just good for our bodies. It's good for our b",
       "url": "https://www.facebook.com/reel/3866580870312750/",
@@ -767,11 +770,11 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Dark teal/navy background with a professional male subject (center-right, wearing glasses) holding supplement bottles in foreground. Bold white sans-serif headline text at top (\"HOW I REVERSED MY BIOLOGICAL AGE\"), with key metric callout in bright red below (\"FROM 52 TO 42\"). Blurred home office/library setting visible behind subject. High contrast, clinical yet approachable tone—combines credibility (professional appearance, real person) with urgency (bold colour hierarchy).",
+      "visual_recipe": "Portrait of middle-aged man wearing glasses in a home office setting (blurred bookshelves in background). White bold sans-serif headline text \"HOW I REVERSED MY BIOLOGICAL AGE\" at top, with the key stat \"FROM 52 TO 42\" in bright red below it. Man is holding a small bottle or supplement in foreground (orange/tan colored). Dark teal/charcoal background with warm amber accent lighting. High contrast, authoritative tone.",
       "dominant_colors": [
-        "#1a2a35",
         "white",
-        "red"
+        "red",
+        "#1a2f3f"
       ],
       "text_word_count_est": 14,
       "image_classified": true,
@@ -793,18 +796,18 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "personal-story",
+      "hook": "comment-to-DM",
       "topic": "sleep",
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Bathroom setting photographed in near-darkness with a single person in dark clothing standing in a shower doorway. Warm amber/orange candlelight illuminates the lower portion of the frame and creates atmospheric glow. White bold sans-serif text (medium-heavy weight) overlaid center-frame in 4-5 lines, starting with \"You were today years old when you found out...\" Hook text uses relatable personal-story framing. Minimal visual noise: monochromatic tones (grays, blacks) with strategic warm accent lighting creates calm, intimate mood that mirrors the nervous-system-reset message.",
+      "visual_recipe": "Person in dark bathroom shower stall filmed in warm, dim golden/orange candlelight. Text overlay in large white bold sans-serif (all caps) centered on frame reads \"You were today years old when you found out you should be taking dark showers every night. Here's why..\" Person positioned left-center, shot from waist-up, casting warm shadows. Dark tones dominate with striking orange candle glow providing the only warm light source—creates intimate, calming atmosphere that mirrors the nervous-system-reset message.",
       "dominant_colors": [
-        "black",
-        "#D4A574",
-        "#FF8C00"
+        "#2a2a2a",
+        "#ff8c00",
+        "#d4af37"
       ],
-      "text_word_count_est": 25,
+      "text_word_count_est": 28,
       "image_classified": true,
       "exemplar": "Dark showering is one of my favorite simple rituals I recommend to all of our telehealth patients who are struggling with nervous-system overload, poor sleep, or that constant “wired but tired” feelin",
       "url": "https://www.instagram.com/p/DWejXSIgi9p/",
@@ -824,18 +827,18 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "personal-story",
+      "hook": "announcement",
       "topic": "thyroid",
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Solid purple/lavender background (#7B68B8) with a bright cyan butterfly illustration (black outline, medium-thick strokes) centred in upper half. Below: large bold white sans-serif headline \"World Thyroid Day\" (approx 60pt), followed by smaller white text \"You are not alone in this.\" (approx 28pt). Small circular arrow icon in bottom right corner. Minimal, clean layout with ample breathing room.",
+      "visual_recipe": "Solid purple gradient background (approx #6B5B95) with a centered bright cyan/blue butterfly illustration at top, bold white sans-serif text in two sizes below: large heading \"World Thyroid Day\" (approx 60pt), followed by supportive secondary text \"You are not alone in this.\" (approx 32pt), small forward-arrow icon in bottom-right corner.",
       "dominant_colors": [
-        "#7B68B8",
-        "#00D9FF",
+        "#6B5B95",
+        "#00BFFF",
         "white"
       ],
-      "text_word_count_est": 10,
+      "text_word_count_est": 5,
       "image_classified": true,
       "exemplar": "Today is World Thyroid Day 🦋 and more than anything, I want this to be a moment of you are not alone.\n\nOver 200 million people worldwide are living with a thyroid disorder. Half of them don't even kn",
       "url": "https://www.instagram.com/p/DYvfS3KFmnl/",
@@ -855,18 +858,18 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "stat-drop",
+      "hook": "myth-bust",
       "topic": "longevity",
       "register": "hope",
       "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Clean, minimalist social profile card with circular headshot portrait (verified account) positioned left, followed by name and handle in bold sans-serif. White background with black text. Primary stat (\"Two hours in nature can increase your natural killer cell activity by up to 50%\") in large black type (24-28pt). Supporting contrarian statement (\"Not two weeks...\") in bold medium weight. Closing hook italicized in lighter weight. Profile layout mimics Twitter/X format for credibility and familiarity.",
+      "is_text_card": true,
+      "visual_recipe": "Clean white background with circular profile photo of Dr. Josh Axe (light blue shirt) in top left, followed by verified badge and handle. Body text in bold sans-serif (heavy weight, large size) stating the core claim \"Two hours in nature can increase your natural killer cell activity by up to 50%\", then contrarian subtext debunking alternatives (\"Not two weeks on a wellness retreat. Not an expensive supplement protocol\"), ending with italicized call-to-action \"Two hours outside.\" Minimalist, high-contrast typography-driven layout with no additional imagery or decorative elements.",
       "dominant_colors": [
         "white",
         "black",
-        "blue"
+        "light blue"
       ],
-      "text_word_count_est": 65,
+      "text_word_count_est": 45,
       "image_classified": true,
       "exemplar": "Think about what two hours in nature actually does to your biology. Your nervous system shifts out of fight-or-flight. Cortisol drops. Blood pressure comes down. Your immune system wakes up. And your ",
       "url": "https://www.instagram.com/p/DYK7v7tGTvv/",
@@ -891,7 +894,7 @@
       "register": "curiosity",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Dark charcoal/black background with soft out-of-focus overlay. Large white serif typography centered in frame reading \"Something for 5 people\" with a thin bright green horizontal line accent under \"5 people\", followed by \"Tomorrow.\" on separate line below. Small white sans-serif text \"COUNTDOWN STICKER\" at bottom. Minimalist, high-contrast design emphasizing scarcity and urgency through text hierarchy and restraint.",
+      "visual_recipe": "Dark charcoal/black background with soft blurred gradient overlay. Large serif white text (heavy weight, 60-70pt) centered on frame reading \"Something for 5 people\" with a thin bright green horizontal line accent underneath \"5 people\". Smaller white serif text below reads \"Tomorrow.\" Bottom includes small uppercase sans-serif text \"COUNTDOWN STICKER\" (8-10pt). Minimalist, high-contrast text-only composition with strategic colour accent to draw focus.",
       "dominant_colors": [
         "black",
         "white",
@@ -918,17 +921,17 @@
       "is_format_school": false,
       "is_you": false,
       "hook": "question-bait",
-      "topic": "fasting/nutrition",
+      "topic": "toxins/mould/microplastics",
       "register": "curiosity",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Man-on-street style video with talking head holding product packaging in sunny urban setting with palm trees and blue sky. Large white bold text overlay at top reads \"WHO IS VINCENT?\" with thick black outline, positioned above subject's head. Subject wears casual light-blue shirt and credential lanyard, smiling at camera. Product packaging (burgundy/maroon with teal accent) prominently displayed in hands. Real photography with natural daylight and architectural background, no filters. Text-to-image ratio approximately 8% of frame.",
+      "visual_recipe": "Man in casual wear holding a burgundy/red product box (Vincent Aussie Anti Oxidants) against a bright outdoor backdrop of palm trees and modern architecture. Large white bold text overlay at top reads \"WHO IS VINCENT?\" with a QR code visible on the product box. Sunny, high-contrast daylight scene with clear blue sky. The product box is the hero element centered in frame.",
       "dominant_colors": [
         "blue",
-        "teal",
-        "#8B3A3A"
+        "dark red/burgundy",
+        "green"
       ],
-      "text_word_count_est": 3,
+      "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "Wonder from Down Under! Aussie Anti Oxidants",
       "url": "https://www.instagram.com/p/DVj8Avvk5wz/",
@@ -948,18 +951,18 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "stat-drop",
+      "hook": "myth-bust",
       "topic": "hormones/perimenopause",
-      "register": "authority",
+      "register": "validation",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Light beige/grey background with centered heading text (bold, ~28 words describing progesterone drop during perimenopause). Below is a white card containing a dual-line graph: teal/turquoise line (progesterone) and red dotted line (estradiol) across lifecycle stages (childhood, teens, reproductive years, perimenopause, menopause). Progesterone drops sharply in perimenopause zone (marked with green box) while estradiol remains elevated and erratic. Graph credited to Prof Jerilynn Prior. Minimal text overlay on graph itself.",
+      "visual_recipe": "Light beige background with centered black and grey text at top (~32 words, medium weight). Below: scientific line graph illustration showing two overlaid curves (teal/cyan solid line for progesterone, red dotted line for estradiol) across life stages (childhood, teens, reproductive years, perimenopause, menopause). Green box highlights the perimenopause phase. Graph includes axis labels and legend. Image credit text at bottom in grey. Clean, medical/clinical aesthetic with educational tone.",
       "dominant_colors": [
         "#E8E8E8",
-        "#4A9BA8",
-        "#C85A6F"
+        "#4FA3A8",
+        "#C85A6D"
       ],
-      "text_word_count_est": 28,
+      "text_word_count_est": 32,
       "image_classified": true,
       "exemplar": "The first major physiological change that occurs at perimenopause is a rapid decline in progesterone…\n\n…the anti-inflammatory 🔥\n…anti-anxiety 😊\n…histamine-reducing hormone ⏬\n\nIn susceptible women, p",
       "url": "https://www.instagram.com/p/DQ6KCY7j0vl/",
@@ -979,16 +982,16 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "contrarian",
       "topic": "fasting/nutrition",
-      "register": "authority",
+      "register": "curiosity",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Cinematic close-up of a hand holding a single red apple against a blurred dark/warm-toned background with a person's face softly out-of-focus behind. Large bold white sans-serif text (2-3 lines, heavy weight) overlaid in centre-lower third. High contrast, moody lighting with shallow depth-of-field to isolate the apple as focal point. Evokes premium health/wellness aesthetic.",
+      "visual_recipe": "Close-up cinematic photo of a hand holding a glossy red apple against a blurred dark/warm background with shallow depth of field. White bold sans-serif text (approx 12-14pt, medium-heavy weight) overlaid in two lines across the center of the frame with black outline for contrast. The composition emphasizes the apple as focal point while the human face/hand grounds the narrative emotionally.",
       "dominant_colors": [
         "red",
         "black",
-        "brown"
+        "cream"
       ],
       "text_word_count_est": 11,
       "image_classified": true,
@@ -1015,11 +1018,11 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up portrait of a warm, smiling middle-aged woman with long dark brown wavy hair, wearing pearl drop earrings and a dark navy top, shot against a soft neutral beige/cream background. Natural lighting highlights her approachable expression and genuine warmth. No text overlay on image; caption builds authority and relatability through multi-generational health legacy narrative.",
+      "visual_recipe": "Close-up portrait shot of a woman with long dark brown wavy hair, warm peachy-brown skin tone, wearing a dark navy/black top, angled three-quarter view with a gentle, knowing smile. Soft natural or studio lighting with a neutral beige/cream textured background. No text overlay on image. Minimal jewellery (pearl drop earrings visible). Approachable, trustworthy, mature professional aesthetic.",
       "dominant_colors": [
-        "brown",
-        "cream",
-        "navy"
+        "#3d2817",
+        "#f5e6d3",
+        "#1a1a1a"
       ],
       "text_word_count_est": 0,
       "image_classified": true,
@@ -1043,16 +1046,16 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "mental-health",
-      "register": "hope",
+      "register": "faith",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Soft sage-green background with rounded white card container. Profile photo (headshot of man in blue shirt) at top-left with name/handle. Bold sans-serif headline \"MY PHILOSOPHY\" in dark charcoal, followed by two justified body paragraphs in heavy weight charcoal text on white. Minimal design with small arrow at bottom; clean, professional naturopath/wellness aesthetic.",
+      "visual_recipe": "Mint/sage green background with large white rounded-corner card. Small circular profile photo (man in blue shirt) top left. Bold black sans-serif headline \"MY PHILOSOPHY\" (approx 60-70pt). Body text in dark grey/charcoal, left-aligned, bold weight (approx 24-28pt). Three text blocks with decreasing emphasis. Simple black arrow element bottom right. Clean, minimal layout with generous whitespace. No photo background, pure card design.",
       "dominant_colors": [
+        "white",
         "sage green",
-        "#f5f5f5",
-        "charcoal"
+        "#4A90B0"
       ],
-      "text_word_count_est": 110,
+      "text_word_count_est": 92,
       "image_classified": true,
       "exemplar": "After working with thousands of clients over almost a decade in private practise, it's becoming clear to me that the most influential aspect on our health and over-coming illness is our mindset and th",
       "url": "https://www.instagram.com/p/C3hS5TgPIOY/",
@@ -1077,13 +1080,13 @@
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Dark charcoal background with a thin bright green horizontal line at top. Large serif headline in white with one key word (\"fatigue\") in bright green. Below, smaller body text in white explaining the concept. Four bulleted list items with green arrow icons on left. Elemental Health & Nutrition logo with leaf icon at bottom. Clean, high-contrast typography hierarchy with approximately 70 words total rendered on image.",
+      "visual_recipe": "Dark charcoal background with mint-green accent line at top. Large serif headline in white with one key word (\"fatigue\") italicized in green. Sub-headline in lighter gray text explaining the concept. Four bullet points with green arrow icons listing pathophysiological mechanisms. Small branded logo (yellow-green lotus + \"elemental HEALTH & NUTRITION\") at bottom. Approx 80-90 words of rendered text, high contrast white/green on dark background, professional medical tone.",
       "dominant_colors": [
-        "#2d3d47",
-        "#5ec96f",
+        "#2d3e50",
+        "#66bb6a",
         "white"
       ],
-      "text_word_count_est": 72,
+      "text_word_count_est": 85,
       "image_classified": true,
       "exemplar": "Imagine staying awake 3 days straight. Then having to function. That's the baseline for chronic fatigue patients. Sound familiar?\n\n#ChronicFatigue #CFS #FunctionalMedicine",
       "url": "https://www.facebook.com/elementalhealthandnutrition/posts/pfbid02ti99CCUquUWQ6wAJWrRfMfX5ee1pEgHnnG4U9T6BY7TauiqvzKK2ruf9NWUfa3rAl",
@@ -1108,13 +1111,12 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Solid slate-blue background with white serif text centered on frame. Main headline in large, bold serif font (approx 60-70pt equivalent) split across multiple lines with key words italicized (\"Informed\", \"Were You\", \"About Its Intended Duration\", \"the Risks of Staying on It\"). Small category label \"REFLUX MEDICATIONS\" in light sans-serif at top. Footer with handle @STEVENJUDGENATUROAPATH at bottom. Minimal layout, typography-driven, high contrast for legibility.",
+      "visual_recipe": "Solid dusty blue background (#6B8FA3) with white serif and sans-serif typography. Header \"REFLUX MEDICATIONS\" in small caps at top in light weight. Main headline in large, italicized serif font (approx 60-70px) reads the question spanning center-right of frame. Attribution handle \"@STEVENJUDGENATURΟPATH\" in small sans-serif at bottom. Minimal, clean layout with generous white space; no imagery, faces, or overlays.",
       "dominant_colors": [
-        "slate blue",
-        "#7a92a8",
-        "white"
+        "#6B8FA3",
+        "#FFFFFF"
       ],
-      "text_word_count_est": 22,
+      "text_word_count_est": 26,
       "image_classified": true,
       "exemplar": "Still on a PPI? Let’s talk informed consent.\n\nThese reflux meds (like omeprazole) are designed for short-term use - yet many stay on them for years.\n\n📌 Long-term risks include:\nNutrient deficiencies ",
       "url": "https://www.instagram.com/p/DYLmTpSERy2/",
@@ -1139,12 +1141,13 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Clean, minimal text-on-white card with dark grey sans-serif font in medium-to-light weight. Two paragraphs of body text with strategic underlining on key phrases (\"Mother's Day,\" \"Julia Ward Howe,\" \"Mother's Day Proclamation\"). Approximately 165 words rendered on image with generous whitespace and clear visual hierarchy through underlines rather than colour or size variation. No images, faces, or graphics—pure typography focused on historical narrative.",
+      "visual_recipe": "Clean, minimalist text-card design on white background with dark gray/black serif font. Two distinct text blocks separated by white space: opening hook-text (~50 words, light weight) followed by a longer educational passage (~130 words, underlined key phrases like \"Mother's Day\" and \"Julia Ward Howe\"). Medium-weight serif typography throughout, all-caps emphasis on key historical figures. No imagery, faces, or visual elements—pure typography hierarchy using underlines and font weight variation.",
       "dominant_colors": [
         "white",
-        "dark grey"
+        "gray",
+        "black"
       ],
-      "text_word_count_est": 165,
+      "text_word_count_est": 180,
       "image_classified": true,
       "exemplar": "Honouring all maternal loving, kind beings. And to my mum, my aunts and my beloved grandmothers who have long passed, thank you for all the love and care.",
       "url": "https://www.instagram.com/p/DYIjU0dkj1s/",
@@ -1169,13 +1172,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head video shot of a man in a bright red hoodie against a vertically ribbed dark grey/charcoal backdrop. Large white hand-drawn style text overlay (8 words: \"I HELPED MY GRANDMA TO DANCE AGAIN\") centered across the frame with thick black outline. Shelving with wellness products visible in background right. Professional indoor setup with neutral beige ceiling and mood of genuine testimonial.",
+      "visual_recipe": "Talking-head shot of a male healthcare practitioner in a bright red jacket against a neutral beige/grey backdrop with wooden shelving displaying wellness products in the background. Large, bold white text with black outline overlaid center-frame reads \"I HELPED MY GRANDMA TO DANCE AGAIN\". Text is approximately 20-24pt equivalent, high contrast serif/display font. Substack branding and handle in top-left corner. The professional, credible setting combined with the personal narrative text creates an emotional testimony format.",
       "dominant_colors": [
         "red",
-        "#333333",
+        "#3a3a3a",
         "beige"
       ],
-      "text_word_count_est": 8,
+      "text_word_count_est": 7,
       "image_classified": true,
       "exemplar": "My grandma was in pain and now she’s dancing freely and happily! Comment DANCE and I will send you more info 💃\n\n#Askdrvincent #healthierhappier #realpeoplerealresults #activatedphenolics #apples #aps",
       "url": "https://www.instagram.com/p/DMsLX3sJK-i/",
@@ -1195,17 +1198,14 @@
       "format": "text-only",
       "is_format_school": false,
       "is_you": false,
-      "hook": "announcement",
-      "topic": "other",
+      "hook": "personal-story",
+      "topic": "movement/walking",
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only Facebook post with emoji accents (heart emojis in brand colours). No image available. Narrative caption ~80 words announcing an event at Bondi Beach, product endorsements (activewear, protein powder, smoothie brand), and personal lifestyle moment. Warm, relational tone with hashtags (#activewear #love #gifted #protein #clinicalnutritionist). Likely rendered as plain text with minimal formatting on white/default background.",
-      "dominant_colors": [
-        "white",
-        "blue"
-      ],
-      "text_word_count_est": 80,
+      "visual_recipe": "Text-only post on Facebook with personal narrative framing. Caption opens with enthusiastic emoji-punctuated storytelling about wearing activewear to a community event, weaving in product endorsements (activewear brand, protein powder, smoothie bar). Warm, conversational tone with casual language (\"sooooo comfortable\"), emojis (heart, colour variants), and hashtags. No image available; relies entirely on relatable lifestyle narrative and social proof through brand mentions and event participation to drive engagement.",
+      "dominant_colors": null,
+      "text_word_count_est": null,
       "image_classified": false,
       "exemplar": "How gorgeous is this cute outfit from @lornajaneactive 🤍💙🤍💙🤍\n\nI do love all their active wear. I wore this today for my event at Bondi Beach where we did a walk and everyone then got a free smoot",
       "url": "https://www.facebook.com/sarahdilorenzoclinicalnutritionist/posts/pfbid0srETHZpuEcZYTCDQu46pQvschUNp6wiwsoG3bUCfVsnstNjrJ1F32PE251KHfVRXl",
@@ -1225,16 +1225,16 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "announcement",
+      "hook": "personal-story",
       "topic": "movement/walking",
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Professional lifestyle photo of a woman in white zip-up jacket, navy leggings, and white sneakers standing outdoors at a sunny coastal promenade (Bondi Beach). Clear blue sky background with waterfront infrastructure and cityscape. Full-body shot, subject off-center, clean natural lighting, minimal text overlay.",
+      "visual_recipe": "Professional outdoor lifestyle shot featuring a woman in athleisure wear (white blazer, dark navy leggings, white sneakers) shot from full-body angle at an urban beachside promenade with clear blue sky, architectural elements, and water in background. Natural daylight with strong shadows. Clean, aspirational aesthetic with fitness/wellness lifestyle positioning.",
       "dominant_colors": [
         "white",
         "navy",
-        "sky blue"
+        "#87CEEB"
       ],
       "text_word_count_est": 0,
       "image_classified": true,
@@ -1261,13 +1261,13 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Selfie-style photo of a professional woman (dark hair, burgundy lipstick, black pinstripe blazer) looking directly at camera with a warm, authentic expression. Behind her is a wooden podium edge and a large purple presentation screen displaying \"NSW Operations Connect\" in rose gold serif text and \"22nd May 2026\" below. Soft ceiling lighting visible top right. The composition is intimate and relatable despite the professional setting, emphasizing human connection over corporate formality.",
+      "visual_recipe": "Close-up selfie of a professional woman (dark hair, burgundy lip, navy pinstripe blazer) positioned left of frame, looking contemplatively at camera. Right side shows a large purple backdrop screen with cream/gold serif text reading \"NSW Operations Connect\" and \"22nd May 2026\", partially obscured by wooden podium/lectern in foreground. Warm indoor lighting with wooden architectural elements. Conveys expert authority in a speaking/event context.",
       "dominant_colors": [
         "purple",
-        "#8B6F47",
-        "black"
+        "#9370DB",
+        "cream/beige"
       ],
-      "text_word_count_est": 15,
+      "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "Thank you for having me  @mcgrathestateagents \n\nI loved chatting with your team about recalibrating overwhelm holistically.\n\nIf you would like me to speak at your workplace, you can discover more abou",
       "url": "https://www.instagram.com/p/DYoEgB5kltH/",
@@ -1287,14 +1287,14 @@
       "format": "text-only",
       "is_format_school": false,
       "is_you": false,
-      "hook": "announcement",
+      "hook": "personal-story",
       "topic": "other",
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post on Facebook with casual, personal caption. No image available. Simple emoji accent (yellow heart). Light, uplifting tone focused on personal style/wellness vibe rather than health topic. Estimated 20-25 words of caption text rendered on feed.",
+      "visual_recipe": "Text-only post with casual, relatable opening (\"Time for a bob 💛\"). No image available. Approximately 20 words of plain text with emoji accent, likely rendered in standard feed font. Caption uses uplifting, hopeful tone with hashtags emphasizing personal transformation (#newhairdontcare #newhaircut #happy). The yellow heart emoji reinforces warmth and positivity. Personal-story hook centered on self-care moment rather than health content itself.",
       "dominant_colors": null,
-      "text_word_count_est": null,
+      "text_word_count_est": 20,
       "image_classified": false,
       "exemplar": "Time for a bob 💛\n\nCute skirt is an old favourite from @sheikeandco \n\n#bob #newhairdontcare #newhaircut #happy #yellow",
       "url": "https://www.facebook.com/sarahdilorenzoclinicalnutritionist/posts/pfbid0MvEFfCCXiFPdvRi1sHEVQ8sjFCZPoL1voLXnc1jcUUostQrbWjvPwMsnJDdHabVtl",
@@ -1314,18 +1314,18 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "personal-story",
+      "hook": "announcement",
       "topic": "toxins/mould/microplastics",
-      "register": "authority",
+      "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head format: close-up of a woman with short blonde curly hair wearing glasses and a teal/green medical or casual top, shot against a soft-focus blurred background. The frame includes a lime-green horizontal band at the top. Clean, professional medical authority presentation with genuine, approachable expression. No overlaid text on the image itself—caption delivered separately.",
+      "visual_recipe": "Direct-to-camera talking head (woman with short blonde/curly hair, glasses, wearing teal/green scrubs) shot in a home office setting with soft furnishings visible behind. Minimal text overlay at top with introduction copy. Warm, approachable tone with natural lighting. Green horizontal bar/banner at top with text. Intimate, trust-building framing at ~1:1 aspect ratio.",
       "dominant_colors": [
-        "lime-green",
-        "teal",
-        "blonde"
+        "teal/green",
+        "beige/blonde",
+        "soft blue/grey"
       ],
-      "text_word_count_est": 0,
+      "text_word_count_est": 22,
       "image_classified": true,
       "exemplar": "New here? Let me introduce myself! 👩⚕️ I'm Dr. Nicole Bijlsma — helping families create healthier homes, one space at a time. 🏡 #HealthyHome #EMF #Mould",
       "url": "https://www.instagram.com/p/DZEN9jBjeh3/",
@@ -1350,7 +1350,7 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Full-body portrait of a smiling woman in black sleeveless top and bright yellow midi skirt with matching heels, posed confidently against a dark textured background (industrial wall). High-contrast colour pop—vibrant yellow fabric held aloft emphasizes the transformation. Professional studio-style lighting, concrete floor. Radiant, aspirational energy conveying joy and confidence in a personal refresh moment.",
+      "visual_recipe": "High-contrast portrait photo against a dark textured black wall background. Woman in black sleeveless top and bright neon-yellow midi skirt with matching heels, smiling directly at camera with dynamic pose (arm raised, fabric billowing). Minimalist, clean aesthetic with strong colour contrast between black background and vibrant yellow accents. Natural daylight, outdoor urban setting.",
       "dominant_colors": [
         "yellow",
         "black",
@@ -1376,18 +1376,18 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "other",
+      "hook": "announcement",
       "topic": "other",
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Full-body portrait of a woman in professional business casual attire (light blue button-up shirt, neutral beige pencil skirt, white pointed heels) posing with hands on hips against a minimal black industrial background. Clean, polished aesthetic with confident posture and direct gaze. High-quality lifestyle photography with neutral color palette (black, light blue, beige, white) emphasizing authority and put-together elegance.",
+      "visual_recipe": "Professional lifestyle portrait: woman in crisp light-blue short-sleeve button-up shirt paired with neutral beige pencil skirt, posed confidently with hands on hips against a dark charcoal/black industrial backdrop. Clean, minimalist aesthetic with high contrast between subject and background. Well-lit, polished professional attire with attention to accessories (gold jewelry, white heels). Approximately 3-5 words of on-image text (brand mentions).",
       "dominant_colors": [
-        "black",
-        "#ADD8E6",
-        "#D4C5B9"
+        "light blue",
+        "beige",
+        "black"
       ],
-      "text_word_count_est": 6,
+      "text_word_count_est": 5,
       "image_classified": true,
       "exemplar": "Tuesday 🩵\n\nShirt @modemischiefstudios \nskirt @sheikeandco",
       "url": "https://www.instagram.com/p/DYgleIQk8Ra/",
@@ -1412,12 +1412,12 @@
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Solid purple/lavender background (#6B5B95) with large white sans-serif text centred vertically. Four words in bold, heavy weight font (approx 70-80pt): \"Did you hear the news?\" positioned in the middle third of frame. Minimal design, maximum contrast for scrolling stoppability.",
+      "visual_recipe": "Solid medium-purple background (#6B5B95) with large white bold sans-serif text centered on the frame reading \"Did you hear the news?\" in approximately 120pt+ font weight. Minimal layout, pure text-on-colour with ample negative space, designed to stop scroll and create curiosity.",
       "dominant_colors": [
         "#6B5B95",
         "white"
       ],
-      "text_word_count_est": 4,
+      "text_word_count_est": 5,
       "image_classified": true,
       "exemplar": "PCOS has just been renamed. And the reason why tells you everything about how women's health has been misunderstood.⠀\n⠀\nThis week, a landmark study published in The Lancet officially changed the name ",
       "url": "https://www.instagram.com/p/DYWWVNxIGXv/",
@@ -1442,13 +1442,13 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Bright hot pink solid background with centered book cover mockup showing 3D perspective. Book cover features white background with subtitle at top in small dark text (\"A PROGRAM FOR TYPE 2 DIABETES...\"), hero title \"the blood sugar repair plan\" in large mixed typography (pink + navy), author name and credentials below, and food photography (berries, kiwi, nuts) on left spine. White sans-serif announcement text \"COMING 30 JUNE 2026\" centered below the book in medium-weight font.",
+      "visual_recipe": "3D book mockup on vibrant hot pink background, featuring fresh fruit and nuts arranged on the spine side (blueberries, kiwi, almonds, hazelnuts). Book title in large sans-serif with \"blood sugar\" in hot pink, \"repair plan\" in navy. Author name and credentials below. Publication date \"COMING 30 JUNE 2026\" in white sans-serif at bottom. High-contrast, product-focused lifestyle photography aesthetic.",
       "dominant_colors": [
-        "#FF1B6B",
+        "#FF1493",
         "white",
-        "#333333"
+        "#2C3E50"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 25,
       "image_classified": true,
       "exemplar": "Soooooo excited!!!! My book The Blood Sugar Repair Plan is going to be published at the end of this month. 🙌🫶🏽\n\nThis book is for anyone who is Type 2 diabetic, pre-diabetic, insulin resistant or ov",
       "url": "https://www.facebook.com/sarahdilorenzoclinicalnutritionist/posts/pfbid0opXKX6LJMw5zr5xiyKms91UEA5zFXpe5z57k75uc7zscQnuPXXaVcjdyExAaaTJ1l",
@@ -1472,11 +1472,11 @@
       "topic": "fasting/nutrition",
       "register": "authority",
       "has_face": false,
-      "is_text_card": true,
-      "visual_recipe": "Dark slate/textured background with overhead flat-lay of magnesium powder piles and a white capsule/supplement. Bold serif headline in white with key word \"magnesium\" highlighted in italic green. Clean, clinical styling with professional product photography. Branded footer with green leaf logo (Elemental Health & Nutrition). Minimal overlays, high contrast text for readability.",
+      "is_text_card": false,
+      "visual_recipe": "Dark textured slate background with three piles of white/cream powdered magnesium supplements and one white capsule arranged diagonally. Overlaid text in white serif font (large, bold) with green italic accent on the word \"magnesium\" reads \"Wrong magnesium is why it's not working.\" Elemental Health & Nutrition branded footer with leaf logo in bottom right. Professional product photography style suggesting clinical/educational authority.",
       "dominant_colors": [
         "white",
-        "dark grey/black",
+        "dark gray/charcoal",
         "green"
       ],
       "text_word_count_est": 11,
@@ -1504,11 +1504,11 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Moody, minimalist lifestyle image: woman with long dark hair sitting at wooden table with white mug, facing away toward window with bright natural light and plant silhouette. Dark clothing against dim interior. Bold white serif headline overlaid at top with key word \"iron\" in bright green. Branding footer with green leaf logo and \"elemental HEALTH & NUTRITION\" in white on dark grey bar at bottom. Approx 11-12 words on image, high contrast serif typography against dark background, cinematic window-light composition creating introspection and relatability.",
+      "visual_recipe": "Moody, minimalist lifestyle photo: woman from behind, seated at wooden table by bright window with plant silhouette, looking contemplative. Dark/moody tonal treatment. Overlay text in top-left with mixed weights: white serif headline \"The iron story your GP missed\" with the word \"iron\" in lime green. Elemental Health logo (green leaf) with white sans-serif wordmark on dark banner at bottom. Approx 12 words rendered on image in serif/sans-serif mix.",
       "dominant_colors": [
         "black",
         "white",
-        "green"
+        "dark teal/grey"
       ],
       "text_word_count_est": 12,
       "image_classified": true,
