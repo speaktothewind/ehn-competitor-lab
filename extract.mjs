@@ -238,6 +238,63 @@ const modeOf = arr => {
   return e ? { value: e[0], count: e[1] } : null;
 };
 
+// ---- Weekly content plan ---------------------------------------------------
+// Pick N winners that MAXIMISE spread across format + hook + topic, so a week's posts
+// aren't seven of the same thing. Lightly favours higher scores and AU origin.
+function selectVaried(pool, n) {
+  const chosen = [];
+  const seen = { format: {}, hook: {}, topic: {} };
+  const cands = pool.slice();
+  while (chosen.length < n && cands.length) {
+    let best = null, bestVal = -Infinity, bestIdx = -1;
+    cands.forEach((c, i) => {
+      const pen = (seen.format[c.format] || 0) * 3 + (seen.hook[c.hook] || 0) * 2 + (seen.topic[c.topic] || 0) * 2;
+      const au = c.region === 'au' ? 0.5 : 0;
+      const val = -pen + au + Math.min(Math.log10(c.score || 1), 1) * 0.3 - i * 0.001;
+      if (val > bestVal) { bestVal = val; best = c; bestIdx = i; }
+    });
+    chosen.push(best); cands.splice(bestIdx, 1);
+    seen.format[best.format] = (seen.format[best.format] || 0) + 1;
+    seen.hook[best.hook] = (seen.hook[best.hook] || 0) + 1;
+    seen.topic[best.topic] = (seen.topic[best.topic] || 0) + 1;
+  }
+  return chosen;
+}
+
+const DRAFT_TOOL = {
+  name: 'draft_post',
+  description: 'Write an Elemental Health & Nutrition post that reuses the STRUCTURE of a competitor winner, in EHN clinician voice. One creative, reused across Instagram, Facebook and Google Business Profile.',
+  input_schema: {
+    type: 'object',
+    properties: {
+      angle: { type: 'string', description: 'One-line EHN topic angle for this post.' },
+      on_image: { type: 'string', description: 'The exact text that goes ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → the on-screen hook frame + a 2-3 beat script outline.' },
+      caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. End with a soft CTA + 3-5 relevant hashtags.' },
+      gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local Adelaide tone, ends with a clear CTA e.g. "Book an appointment"). No hashtags.' },
+    },
+    required: ['angle', 'on_image', 'caption', 'gmb_caption'],
+  },
+};
+
+async function draftPost(anthropic, w) {
+  const prompt =
+    `You are writing for Elemental Health & Nutrition (EHN), a functional-medicine clinic in Adelaide, Australia. ` +
+    `The goal is to GROW engagement by modelling what already over-performs in the niche — borrow the STRUCTURE of a winner, never its supplement-sales tone.\n\n` +
+    `MODEL THIS WINNER (adapt the pattern, do not copy the content):\n` +
+    `- Format: ${w.format}\n- Hook type: ${w.hook}\n- Topic: ${w.topic}\n- Register: ${w.register}\n` +
+    `- Visual recipe of the winner: ${w.visual_recipe}\n` +
+    `- Winner's caption (reference only): """${(w.exemplar || '').slice(0, 400)}"""\n\n` +
+    `Write an EHN post using the SAME format + hook structure + register, on a topic EHN can credibly own ` +
+    `(${w.topic}, or an adjacent functional-medicine angle). Voice: warm, clinician-credible, plain-English, ` +
+    `Australian spelling, evidence-based — not hypey, not a supplement pitch. Call draft_post.`;
+  const msg = await anthropic.messages.create({
+    model: MODEL, max_tokens: 900,
+    tools: [DRAFT_TOOL], tool_choice: { type: 'tool', name: 'draft_post' },
+    messages: [{ role: 'user', content: prompt }],
+  });
+  return msg.content.find(b => b.type === 'tool_use')?.input;
+}
+
 // ---- Main ------------------------------------------------------------------
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
@@ -283,11 +340,11 @@ async function main() {
   if (dropped > 0) console.log(`(${dropped} lower-scored over-performers not classified this run — see counts.not_classified_by_bucket)`);
 
   // 4. classify
+  const anthropic = DRY ? null : new Anthropic({ apiKey: key });
   let tagged;
   if (DRY) {
     tagged = selected.map(w => ({ ...w, _tags: null }));
   } else {
-    const anthropic = new Anthropic({ apiKey: key });
     const results = await pool(selected, CONCURRENCY, async (w, idx) => {
       try { const t = await classify(anthropic, w); console.log(`  [${idx + 1}/${selected.length}] @${w.account} ${w._score.toFixed(1)}x → ${t.hook}/${t.topic}`); return t; }
       catch (e) { console.warn(`  [${idx + 1}/${selected.length}] @${w.account} classify failed: ${e.message}`); return null; }
@@ -362,6 +419,38 @@ async function main() {
 
   writeFileSync('weekly-patterns.json', JSON.stringify(out, null, 2));
   console.log(`✓ wrote weekly-patterns.json (${winners.length} winners, week ${today}).`);
+
+  // 7. weekly content plan — 7 diversified posts; one creative reused across IG/FB/GMB.
+  let planPool = competitors;                                   // AU+US, high-confidence
+  if (planPool.length < 7) planPool = [...planPool, ...formatSchool];
+  const picks = selectVaried(planPool, 7);
+  const baseSlot = (w, i) => ({
+    slot: i + 1,
+    modelled_on: { account: w.account, score: w.score, platform: w.platform, region: w.region, url: w.url },
+    format: w.format, hook: w.hook, topic: w.topic, register: w.register,
+    has_face: w.has_face, is_text_card: w.is_text_card,
+    visual_recipe: w.visual_recipe, image_url: w.image_url,
+  });
+  let posts;
+  if (DRY) {
+    posts = picks.map((w, i) => ({ ...baseSlot(w, i), angle: null, on_image: null, caption: null, gmb_caption: null }));
+  } else {
+    const drafts = await pool(picks, CONCURRENCY, async (w, idx) => {
+      try { const d = await draftPost(anthropic, w); console.log(`  plan ${idx + 1}/${picks.length} ${w.format}/${w.hook}/${w.topic} ✓`); return d; }
+      catch (e) { console.warn(`  plan ${idx + 1}/${picks.length} draft failed: ${e.message}`); return null; }
+    });
+    posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...(drafts[i] || { angle: null, on_image: null, caption: null, gmb_caption: null }) }));
+  }
+  const plan = {
+    week: today,
+    generated_at: new Date().toISOString(),
+    dry_run: DRY,
+    note: 'One creative reused across Instagram, Facebook & Google Business Profile. 7 posts, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice.',
+    variety: { formats: [...new Set(posts.map(p => p.format))], hooks: [...new Set(posts.map(p => p.hook).filter(Boolean))], topics: [...new Set(posts.map(p => p.topic).filter(Boolean))] },
+    posts,
+  };
+  writeFileSync('weekly-plan.json', JSON.stringify(plan, null, 2));
+  console.log(`✓ wrote weekly-plan.json (${posts.length} posts; formats: ${plan.variety.formats.join(', ')}).`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
