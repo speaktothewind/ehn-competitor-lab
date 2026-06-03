@@ -1,0 +1,14 @@
+{
+  "name": "ehn-competitor-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Weekly headless extractor: scores the same two CSV feeds the dashboard reads, tags each over-performer (hook/topic/register + visual recipe via Claude vision), and writes weekly-patterns.json for the content pipeline.",
+  "scripts": {
+    "extract": "node extract.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "papaparse": "^5.4.1"
+  }
+}

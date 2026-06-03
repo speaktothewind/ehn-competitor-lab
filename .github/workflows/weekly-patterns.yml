@@ -1,0 +1,42 @@
+name: Weekly pattern extract
+
+# Runs the day after the Apify refresh (Apify: weekly, Monday ~7am Adelaide).
+# Tuesday 02:00 UTC ≈ Tuesday lunchtime Adelaide — a full day of buffer so the CDN
+# image URLs in the feed are still fresh enough for the vision step to fetch.
+on:
+  schedule:
+    - cron: '0 2 * * 2'
+  workflow_dispatch: {}   # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Extract weekly patterns
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node extract.mjs
+
+      - name: Commit weekly-patterns.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add weekly-patterns.json
+          if git diff --staged --quiet; then
+            echo "No changes to weekly-patterns.json."
+          else
+            git commit -m "Weekly patterns: $(date -u +%Y-%m-%d)"
+            git push
+          fi
