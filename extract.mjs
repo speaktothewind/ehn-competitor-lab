@@ -292,19 +292,20 @@ const DRAFT_TOOL = {
 async function draftPost(anthropic, w) {
   const prompt =
     `You are writing for Elemental Health & Nutrition (EHN), a functional-medicine clinic in Adelaide, Australia. ` +
-    `The goal is to GROW engagement by modelling what already over-performs in the niche — borrow the STRUCTURE of a winner, never its supplement-sales tone.\n\n` +
-    `MODEL THIS WINNER (adapt the pattern, do not copy the content):\n` +
+    `The goal is to GROW engagement by reverse-engineering what works — borrow the LAYOUT of a winner, render it in EHN's own brand.\n\n` +
+    `MODEL THIS WINNER (take its structure, render in EHN's colour world):\n` +
     `- Format: ${w.format}\n- Hook type: ${w.hook}\n- Topic: ${w.topic}\n- Register: ${w.register}\n` +
-    `- Winner's layout/structure (LAYOUT REFERENCE ONLY — borrow the composition, NOT its colours or fonts): ${w.visual_recipe}\n` +
+    `- Winner's layout/structure (COPY FAITHFULLY — whitespace, text scale, density, hierarchy, composition): ${w.visual_recipe}\n` +
     `- Winner's caption (reference only): """${(w.exemplar || '').slice(0, 400)}"""\n\n` +
     `${EHN_BRAND}\n\n` +
-    `Write an EHN post using the SAME format + hook structure + register, on a topic EHN can credibly own ` +
-    `(${w.topic}, or an adjacent functional-medicine angle). In build_brief, translate the winner's LAYOUT into ` +
-    `EHN's brand above — its palette, Satoshi type and editorial feel — and never reuse the competitor's hex colours ` +
-    `or fonts. Then in design_recipe, give the SAME EHN-branded design as a reusable, topic-agnostic template ` +
-    `(specific words replaced with placeholders) so it can be grafted onto a different topic later. ` +
-    `Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, ` +
-    `not a supplement pitch. Call draft_post.`;
+    `Write an EHN post on ${w.topic} (or an adjacent functional-medicine angle) using the SAME format + hook + register as the winner. ` +
+    `CRITICAL: in build_brief, take the winner's LAYOUT exactly (whitespace ratio, text scale, density, hierarchy, composition) and ` +
+    `render it in a green-anchored complementary palette — never the competitor's colours. Green #39B54A must anchor the design; ` +
+    `secondary colours must harmonize with green, never clash. The palette can flex per post, but everything must feel green-anchored and intentional. ` +
+    `Then in design_recipe, give the SAME design as a reusable, topic-agnostic template (specific words replaced with placeholders) ` +
+    `so the layout + colour scheme can be grafted onto a different topic later.\n\n` +
+    `Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, not a supplement pitch. ` +
+    `Call draft_post.`;
   const msg = await anthropic.messages.create({
     model: MODEL, max_tokens: 900,
     tools: [DRAFT_TOOL], tool_choice: { type: 'tool', name: 'draft_post' },
