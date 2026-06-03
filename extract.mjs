@@ -268,11 +268,12 @@ const DRAFT_TOOL = {
     type: 'object',
     properties: {
       angle: { type: 'string', description: 'One-line EHN topic angle for this post.' },
-      on_image: { type: 'string', description: 'The exact text that goes ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → the on-screen hook frame + a 2-3 beat script outline.' },
+      build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background (colour with hex if relevant), headline placement + weight, any icon/photo/illustration, and overall palette/feel (clean, clinical, warm — EHN brand). Concrete enough to hand straight to a designer.' },
+      on_image: { type: 'string', description: 'The exact words that go ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → on-screen hook frame + a 2-3 beat script outline.' },
       caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. End with a soft CTA + 3-5 relevant hashtags.' },
       gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local Adelaide tone, ends with a clear CTA e.g. "Book an appointment"). No hashtags.' },
     },
-    required: ['angle', 'on_image', 'caption', 'gmb_caption'],
+    required: ['angle', 'build_brief', 'on_image', 'caption', 'gmb_caption'],
   },
 };
 
@@ -423,7 +424,8 @@ async function main() {
   // 7. weekly content plan — 7 diversified posts; one creative reused across IG/FB/GMB.
   let planPool = competitors;                                   // AU+US, high-confidence
   if (planPool.length < 7) planPool = [...planPool, ...formatSchool];
-  const picks = selectVaried(planPool, 7);
+  const PLAN_N = 10;   // generate extra so Rohan can choose his favourites
+  const picks = selectVaried(planPool, PLAN_N);
   const baseSlot = (w, i) => ({
     slot: i + 1,
     modelled_on: { account: w.account, score: w.score, platform: w.platform, region: w.region, url: w.url },
@@ -432,20 +434,21 @@ async function main() {
     visual_recipe: w.visual_recipe, image_url: w.image_url,
   });
   let posts;
+  const NULL_DRAFT = { angle: null, build_brief: null, on_image: null, caption: null, gmb_caption: null };
   if (DRY) {
-    posts = picks.map((w, i) => ({ ...baseSlot(w, i), angle: null, on_image: null, caption: null, gmb_caption: null }));
+    posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...NULL_DRAFT }));
   } else {
     const drafts = await pool(picks, CONCURRENCY, async (w, idx) => {
       try { const d = await draftPost(anthropic, w); console.log(`  plan ${idx + 1}/${picks.length} ${w.format}/${w.hook}/${w.topic} ✓`); return d; }
       catch (e) { console.warn(`  plan ${idx + 1}/${picks.length} draft failed: ${e.message}`); return null; }
     });
-    posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...(drafts[i] || { angle: null, on_image: null, caption: null, gmb_caption: null }) }));
+    posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...(drafts[i] || NULL_DRAFT) }));
   }
   const plan = {
     week: today,
     generated_at: new Date().toISOString(),
     dry_run: DRY,
-    note: 'One creative reused across Instagram, Facebook & Google Business Profile. 7 posts, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice.',
+    note: `One creative reused across Instagram, Facebook & Google Business Profile. ${posts.length} posts to choose from, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice.`,
     variety: { formats: [...new Set(posts.map(p => p.format))], hooks: [...new Set(posts.map(p => p.hook).filter(Boolean))], topics: [...new Set(posts.map(p => p.topic).filter(Boolean))] },
     posts,
   };

@@ -33,20 +33,23 @@ h1{font-size:34px;font-weight:900;line-height:1.05;margin-top:10px;letter-spacin
 .copy{cursor:pointer;color:var(--text-3);font-size:10px;border:1px solid var(--border);border-radius:5px;padding:1px 7px;font-weight:700}.copy:hover{color:var(--text);border-color:var(--text-3)}
 .txt{font-size:13.5px;color:var(--text);white-space:pre-wrap;background:var(--surface-2);border:1px solid var(--border-soft);border-radius:10px;padding:12px 14px}
 .txt.muted{color:var(--text-2)}
-.recipe{font-size:13px;color:var(--text-2);font-style:italic;border-left:2px solid var(--border);padding-left:12px}
+.recipe{font-size:12.5px;color:var(--text-2);font-style:italic;border-left:2px solid var(--border);padding-left:12px;margin-top:8px}
+.ref{margin-top:14px}.ref summary{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-3);cursor:pointer}.ref summary:hover{color:var(--text-2)}
+.howto{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;margin:0 0 22px;font-size:13px;color:var(--text-2);line-height:1.7}.howto b{color:var(--text)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:720px){.two{grid-template-columns:1fr}}
 .empty{text-align:center;color:var(--text-3);padding:60px;font-size:14px}
 footer{border-top:1px solid var(--border);padding:20px 0 50px;font-size:12px;color:var(--text-3);line-height:1.8}
 </style></head><body>
 <header><div class="wrap"><div class="headrow">
 <div><div class="eyebrow">Elemental Health · Weekly Plan</div>
-<h1>This week's <span class="grad">7 posts</span>.</h1>
-<div class="sub">One creative per post, reused across Instagram, Facebook &amp; Google Business Profile. Each is modelled on a niche over-performer and rewritten in EHN's clinician voice — deliberately varied so you can see what works for <em>you</em>.</div>
+<h1>This week's <span class="grad">post plan</span>.</h1>
+<div class="sub">One creative per post, reused across Instagram, Facebook &amp; Google Business Profile. Each is modelled on a niche over-performer and rewritten in EHN's clinician voice — deliberately varied so you can pick the ones you like best and see what works for <em>you</em>.</div>
 <a class="back" href="index.html">← Competitor Outlier Lab</a></div>
 <div class="meta"><div class="d" id="weekLine">—</div><div id="genLine"></div><div>Refreshes weekly</div></div>
 </div></div></header>
 <div class="wrap">
 <div id="notice"></div>
+<div class="howto">Each post has three parts: <b>① How to build it</b> — hand this to Canva (or a VA) to make the graphic. <b>② Words on the graphic</b> — the text that goes on the image/slides. <b>③ Caption</b> — paste into the post. Pick the ones you like, ignore the rest.</div>
 <div class="variety" id="variety"></div>
 <div class="posts" id="posts"><div class="empty">Loading this week's plan…</div></div>
 </div>
@@ -66,10 +69,11 @@ function card(p){
     '<div class="model">modelled on '+(m.url?'<a href="'+m.url+'" target="_blank">@'+esc(m.account)+' '+m.score+'× ↗</a>':'@'+esc(m.account))+' · '+(m.region||'').toUpperCase()+'</div>'+
     '</div><div class="pbody">'+
     (p.angle?'<div class="angle">'+esc(p.angle)+'</div>':'')+
-    (p.visual_recipe?'<div class="block"><div class="lbl">Visual recipe (the winner)</div><div class="recipe">'+esc(p.visual_recipe)+'</div></div>':'')+
-    block('On the graphic / slides',p.on_image)+
-    '<div class="two">'+block('Caption · Instagram + Facebook',p.caption)+block('Google Business Profile (short)',p.gmb_caption)+'</div>'+
+    block('① How to build it (Canva brief)',p.build_brief)+
+    block('② Words on the graphic',p.on_image)+
+    '<div class="two">'+block('③ Caption · Instagram + Facebook',p.caption)+block('③ Google Business Profile (short)',p.gmb_caption)+'</div>'+
     (p.caption?'':'<div class="block"><div class="txt muted">Draft not generated yet — run the workflow with ANTHROPIC_API_KEY set.</div></div>')+
+    (p.visual_recipe?'<details class="ref"><summary>Reference — what the original looked like</summary><div class="recipe">'+esc(p.visual_recipe)+'</div></details>':'')+
     '</div></div>';
 }
 fetch('weekly-plan.json?t='+Date.now()).then(r=>r.json()).then(p=>{
