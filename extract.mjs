@@ -261,6 +261,16 @@ function selectVaried(pool, n) {
   return chosen;
 }
 
+// EHN brand tokens (canonical source: ehn-brand-kit / ehn-html-design). The build_brief must
+// dress the winner's STRUCTURE in THIS palette/type — never echo the competitor's colours/fonts.
+const EHN_BRAND =
+  `EHN BRAND KIT — use THESE, ignore the winner's colours and fonts entirely:\n` +
+  `- Palette: charcoal #2D3436, EHN green #39B54A (accent only — never a full background), cream #FAF8F5, warm cream #F5F0EB, white #FFFFFF.\n` +
+  `- Backgrounds: cream, white or charcoal only. NEVER a green background, never pure black, never the competitor's colour.\n` +
+  `- Type: Satoshi throughout. Headlines bold (700) with ONE meaningful word set in green #39B54A italic; body copy in charcoal.\n` +
+  `- Shape & feel: 16px rounded cards, fully-rounded pills, clean clinical-but-warm, generous negative space.\n` +
+  `- Imagery: editorial, grounded, Australian-natural (sage/cream/charcoal). NO stock-wellness clichés — no smoothie bowls, lab coats, stethoscopes, neon or saturated colour.`;
+
 const DRAFT_TOOL = {
   name: 'draft_post',
   description: 'Write an Elemental Health & Nutrition post that reuses the STRUCTURE of a competitor winner, in EHN clinician voice. One creative, reused across Instagram, Facebook and Google Business Profile.',
@@ -268,7 +278,7 @@ const DRAFT_TOOL = {
     type: 'object',
     properties: {
       angle: { type: 'string', description: 'One-line EHN topic angle for this post.' },
-      build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background (colour with hex if relevant), headline placement + weight, any icon/photo/illustration, and overall palette/feel (clean, clinical, warm — EHN brand). Concrete enough to hand straight to a designer.' },
+      build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Borrow only the winner\'s LAYOUT/STRUCTURE; dress it entirely in EHN\'s brand. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background (must be EHN cream #FAF8F5, white #FFFFFF or charcoal #2D3436 — never green, never the competitor\'s colour), headline placement + weight (Satoshi bold, one meaningful word in green #39B54A italic), green #39B54A as accent only, any icon/photo/illustration in EHN\'s grounded editorial style. NEVER quote the competitor\'s hex colours or fonts. Concrete enough to hand straight to a designer.' },
       on_image: { type: 'string', description: 'The exact words that go ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → on-screen hook frame + a 2-3 beat script outline.' },
       caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. End with a soft CTA + 3-5 relevant hashtags.' },
       gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local Adelaide tone, ends with a clear CTA e.g. "Book an appointment"). No hashtags.' },
@@ -283,11 +293,14 @@ async function draftPost(anthropic, w) {
     `The goal is to GROW engagement by modelling what already over-performs in the niche — borrow the STRUCTURE of a winner, never its supplement-sales tone.\n\n` +
     `MODEL THIS WINNER (adapt the pattern, do not copy the content):\n` +
     `- Format: ${w.format}\n- Hook type: ${w.hook}\n- Topic: ${w.topic}\n- Register: ${w.register}\n` +
-    `- Visual recipe of the winner: ${w.visual_recipe}\n` +
+    `- Winner's layout/structure (LAYOUT REFERENCE ONLY — borrow the composition, NOT its colours or fonts): ${w.visual_recipe}\n` +
     `- Winner's caption (reference only): """${(w.exemplar || '').slice(0, 400)}"""\n\n` +
+    `${EHN_BRAND}\n\n` +
     `Write an EHN post using the SAME format + hook structure + register, on a topic EHN can credibly own ` +
-    `(${w.topic}, or an adjacent functional-medicine angle). Voice: warm, clinician-credible, plain-English, ` +
-    `Australian spelling, evidence-based — not hypey, not a supplement pitch. Call draft_post.`;
+    `(${w.topic}, or an adjacent functional-medicine angle). In build_brief, translate the winner's LAYOUT into ` +
+    `EHN's brand above — its palette, Satoshi type and editorial feel — and never reuse the competitor's hex colours ` +
+    `or fonts. Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, ` +
+    `not a supplement pitch. Call draft_post.`;
   const msg = await anthropic.messages.create({
     model: MODEL, max_tokens: 900,
     tools: [DRAFT_TOOL], tool_choice: { type: 'tool', name: 'draft_post' },
