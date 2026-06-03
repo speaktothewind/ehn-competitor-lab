@@ -73,6 +73,7 @@ footer{border-top:1px solid var(--border);padding:20px 0 50px;font-size:12px;col
 <div class="spacer"></div>
 <select id="platSel"><option value="all">All platforms</option><option value="instagram">Instagram</option><option value="facebook">Facebook</option></select>
 <select id="regionSel"><option value="all">All regions</option><option value="us">US / Intl</option><option value="au">Australia</option></select>
+<div class="seg" id="groupSeg"><button data-group="all" class="on">All</button><button data-group="competitor">Competitors</button><button data-group="format">Format school</button></div>
 <input type="search" id="search" placeholder="Search hooks, captions, accounts...">
 <span class="reset" id="reset">Reset</span></div>
 <div id="view"></div></div>
@@ -82,7 +83,10 @@ const DATA_RAW = [];
 const CSV_URLS=["https://docs.google.com/spreadsheets/d/e/2PACX-1vSrxfB_2zHHAthnBrGiyTvHp0Rg-zQ3lYCZZ02lO4cNtuDyk32B54IWCpUrNkMpRyJfA7ehXz8hpeG2/pub?output=csv","https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLbTQLJGNH9YAe2Cc3YAf_rfi0vylFGb7a00RwQVdimRO9J0vC7G3YvEoSRv_b-RDww_uk-Hvwudh/pub?output=csv"];
 const SELF=["elemental_health_nutrition","elementalhealthandnutrition"];
 const AUSET=["functionalmedicineau","stevenjudgenaturopath","theshiftclinic","melbournefxmed","mthfrsupportglobal","drdenisefurness","advancedfunctionalmedicine","katherinemaslennaturopath"];
-let DATA=[], state={view:"table",tier:"all",plat:"all",region:"all",sortKey:"score",sortDir:"desc",q:""};
+// Out-of-niche "format school" accounts. Tokens match both the IG handle and the FB page name; verified not to collide with any competitor (e.g. "karan" != "Kara Fitzgerald").
+const FORMAT=["karan","dridz","doctormike","idriss","doctorly","muneeb","whitneybowe","richbff","humphrey","ramit","huberman"];
+function isFormat(account){const a=(account||'').toLowerCase().replace(/[^a-z0-9]/g,'');return FORMAT.some(t=>a.includes(t));}
+let DATA=[], state={view:"table",tier:"all",plat:"all",region:"all",group:"all",sortKey:"score",sortDir:"desc",q:""};
 const AVCOL=["#FF3D77","#FF8A3D","#FFC23D","#6CA8FF","#B57BFF","#3DD9A0","#FF6B9D"];
 function num(n){n=+n||0;return n>=1000000?(n/1000000).toFixed(1)+"M":n>=1000?(n/1000).toFixed(1)+"k":""+Math.round(n);}
 function eng(r){return (+r.likes||0)+(+r.comments||0)+(+r.shares||0);}
@@ -92,7 +96,7 @@ function thHTML(){const C=[['score','Outlier',''],['account','Creator',''],['cap
 function compute(rows){const by={};rows.forEach(r=>{(by[r.account]=by[r.account]||[]).push(eng(r));});const md={};for(const a in by)md[a]=median(by[a])||1;rows.forEach(r=>{r._eng=eng(r);r._score=r._eng/(md[r.account]||1);r._tier=tierOf(r._score);r._er=null;});return rows;}
 function accounts(){const m={};DATA.forEach(r=>{const a=m[r.account]=m[r.account]||{account:r.account,engs:[],n:0,plats:new Set()};a.engs.push(r._eng);a.n++;a.plats.add(r.platform);});return Object.values(m).sort((x,y)=>median(y.engs)-median(x.engs));}
 function buildCreators(){const A=accounts();document.getElementById('creators').innerHTML=A.map((a,i)=>{const p=[...a.plats].map(x=>x==='instagram'?'<span class="chk ig">IG</span>':'<span class="chk fb">FB</span>').join(' ');return '<div class="creator"><div class="av" style="background:'+AVCOL[i%AVCOL.length]+'">'+(a.account[0]||'?').toUpperCase()+'</div><div><div class="h">@'+a.account+(SELF.includes(a.account.toLowerCase())?' <span class="you">YOU</span>':'')+' '+p+'</div><div class="s">median '+num(median(a.engs))+' eng &middot; '+a.n+' posts</div></div></div>';}).join('');}
-function filtered(){let r=DATA.slice();if(state.tier!=='all')r=r.filter(x=>x._tier===state.tier);if(state.plat!=='all')r=r.filter(x=>x.platform===state.plat);if(state.region!=='all')r=r.filter(x=>x.region===state.region);if(state.q){const q=state.q.toLowerCase();r=r.filter(x=>(x.account||'').toLowerCase().includes(q)||(x.caption||'').toLowerCase().includes(q));}const k=state.sortKey,dir=state.sortDir==='asc'?1:-1;const gv=(r)=>k==='score'?r._score:k==='eng'?r._eng:k==='account'?r.account:k==='platform'?r.platform:k==='timestamp'?(r.timestamp||''):(+r[k]||0);r.sort((a,b)=>{const av=gv(a),bv=gv(b);let c=(typeof av==='string')?av.localeCompare(bv):av-bv;c*=dir;if(c===0)c=b._score-a._score;return c;});return r;}
+function filtered(){let r=DATA.slice();if(state.tier!=='all')r=r.filter(x=>x._tier===state.tier);if(state.plat!=='all')r=r.filter(x=>x.platform===state.plat);if(state.region!=='all')r=r.filter(x=>x.region===state.region);if(state.group==='competitor')r=r.filter(x=>!x._format);if(state.group==='format')r=r.filter(x=>x._format);if(state.q){const q=state.q.toLowerCase();r=r.filter(x=>(x.account||'').toLowerCase().includes(q)||(x.caption||'').toLowerCase().includes(q));}const k=state.sortKey,dir=state.sortDir==='asc'?1:-1;const gv=(r)=>k==='score'?r._score:k==='eng'?r._eng:k==='account'?r.account:k==='platform'?r.platform:k==='timestamp'?(r.timestamp||''):(+r[k]||0);r.sort((a,b)=>{const av=gv(a),bv=gv(b);let c=(typeof av==='string')?av.localeCompare(bv):av-bv;c*=dir;if(c===0)c=b._score-a._score;return c;});return r;}
 function render(){
 const all=DATA,outl=all.filter(r=>r._score>=2).length,top=all.reduce((m,r)=>r._score>(m._score||0)?r:m,{}),tot=all.reduce((s,r)=>s+r._eng,0);
 document.getElementById('tiles').innerHTML=
@@ -116,9 +120,10 @@ document.getElementById('view').addEventListener('click',e=>{const th=e.target.c
 document.querySelector('.filters').addEventListener('click',e=>{const c=e.target.closest('.tierchip');if(!c)return;state.tier=c.dataset.tier;document.querySelectorAll('.tierchip').forEach(x=>x.classList.toggle('on',x===c));render();});
 document.getElementById('platSel').addEventListener('change',e=>{state.plat=e.target.value;render();});
 document.getElementById('regionSel').addEventListener('change',e=>{state.region=e.target.value;render();});
+document.getElementById('groupSeg').addEventListener('click',e=>{if(!e.target.dataset.group)return;state.group=e.target.dataset.group;[...e.currentTarget.children].forEach(b=>b.classList.toggle('on',b===e.target));render();});
 document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value;render();});
-document.getElementById('reset').addEventListener('click',()=>{state={view:state.view,tier:"all",plat:"all",region:"all",sortKey:"score",sortDir:"desc",q:""};document.getElementById('platSel').value='all';document.getElementById('regionSel').value='all';document.getElementById('search').value='';document.querySelectorAll('.tierchip').forEach(x=>x.classList.toggle('on',x.dataset.tier==='all'));render();});
-function normalize(rows){rows.forEach(r=>{r.account=(r.account||'').trim();const a=r.account.toLowerCase();r._self=SELF.includes(a);r.region=(r._self||AUSET.includes(a))?'au':'us';});return rows.filter(r=>r.account&&r.account!=='nan');}
+document.getElementById('reset').addEventListener('click',()=>{state={view:state.view,tier:"all",plat:"all",region:"all",group:"all",sortKey:"score",sortDir:"desc",q:""};document.getElementById('platSel').value='all';document.getElementById('regionSel').value='all';document.getElementById('search').value='';document.querySelectorAll('.tierchip').forEach(x=>x.classList.toggle('on',x.dataset.tier==='all'));[...document.getElementById('groupSeg').children].forEach(b=>b.classList.toggle('on',b.dataset.group==='all'));render();});
+function normalize(rows){rows.forEach(r=>{r.account=(r.account||'').trim();const a=r.account.toLowerCase();r._self=SELF.includes(a);r._format=isFormat(r.account);r.region=(r._self||AUSET.includes(a))?'au':'us';});return rows.filter(r=>r.account&&r.account!=='nan');}
 function go(rows){DATA=compute(normalize(rows));buildCreators();render();}
 function mapIG(r){return{platform:'instagram',account:r.ownerUsername||'',caption:(r.caption||'').slice(0,200),url:r.url||'',type:r.type||'',timestamp:(r.timestamp||'').slice(0,10),likes:+r.likesCount||0,comments:+r.commentsCount||0,shares:0,views:+r.videoViewCount||0};}
 function mapFB(r){return{platform:'facebook',account:r.pageName||'',caption:(r.text||'').slice(0,200),url:r.url||'',type:(String(r.isVideo).toLowerCase()==='true'?'video':'post'),timestamp:(r.timestamp||'').slice(0,10),likes:+r.likes||0,comments:+r.comments||0,shares:+r.shares||0,views:+r.viewsCount||0};}
