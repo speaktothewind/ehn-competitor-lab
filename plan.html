@@ -70,6 +70,7 @@ function card(p){
     '</div><div class="pbody">'+
     (p.angle?'<div class="angle">'+esc(p.angle)+'</div>':'')+
     block('① How to build it (Canva brief)',p.build_brief)+
+    (p.design_recipe?'<details class="ref"><summary>♻ Reusable design — graft this style onto any topic</summary><div class="block" style="margin-top:8px"><div class="lbl">Design recipe (topic-agnostic)'+copyBtn(p.design_recipe)+'</div><div class="txt muted">'+esc(p.design_recipe)+'</div></div></details>':'')+
     block('② Words on the graphic',p.on_image)+
     '<div class="two">'+block('③ Caption · Instagram + Facebook',p.caption)+block('③ Google Business Profile (short)',p.gmb_caption)+'</div>'+
     (p.caption?'':'<div class="block"><div class="txt muted">Draft not generated yet — run the workflow with ANTHROPIC_API_KEY set.</div></div>')+

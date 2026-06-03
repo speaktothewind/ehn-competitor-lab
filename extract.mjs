@@ -279,11 +279,12 @@ const DRAFT_TOOL = {
     properties: {
       angle: { type: 'string', description: 'One-line EHN topic angle for this post.' },
       build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Borrow only the winner\'s LAYOUT/STRUCTURE; dress it entirely in EHN\'s brand. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background (must be EHN cream #FAF8F5, white #FFFFFF or charcoal #2D3436 — never green, never the competitor\'s colour), headline placement + weight (Satoshi bold, one meaningful word in green #39B54A italic), green #39B54A as accent only, any icon/photo/illustration in EHN\'s grounded editorial style. NEVER quote the competitor\'s hex colours or fonts. Concrete enough to hand straight to a designer.' },
+      design_recipe: { type: 'string', description: 'A REUSABLE, TOPIC-AGNOSTIC version of build_brief — the same EHN-branded visual template with THIS post\'s specific words stripped out, so the design can be grafted onto ANY topic (including one the social pipeline surfaced). Use placeholders like "[headline]", "[stat]", "[supporting line]", "[slide N point]" instead of real copy. Describe only the reusable shell: canvas/format, layout/composition, EHN palette usage (cream/white/charcoal background, green #39B54A accent only), Satoshi headline treatment (one green italic accent word), where text/stat/image/icon sit, and the overall feel. No topic-specific wording at all.' },
       on_image: { type: 'string', description: 'The exact words that go ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → on-screen hook frame + a 2-3 beat script outline.' },
       caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. End with a soft CTA + 3-5 relevant hashtags.' },
       gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local Adelaide tone, ends with a clear CTA e.g. "Book an appointment"). No hashtags.' },
     },
-    required: ['angle', 'build_brief', 'on_image', 'caption', 'gmb_caption'],
+    required: ['angle', 'build_brief', 'design_recipe', 'on_image', 'caption', 'gmb_caption'],
   },
 };
 
@@ -299,7 +300,9 @@ async function draftPost(anthropic, w) {
     `Write an EHN post using the SAME format + hook structure + register, on a topic EHN can credibly own ` +
     `(${w.topic}, or an adjacent functional-medicine angle). In build_brief, translate the winner's LAYOUT into ` +
     `EHN's brand above — its palette, Satoshi type and editorial feel — and never reuse the competitor's hex colours ` +
-    `or fonts. Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, ` +
+    `or fonts. Then in design_recipe, give the SAME EHN-branded design as a reusable, topic-agnostic template ` +
+    `(specific words replaced with placeholders) so it can be grafted onto a different topic later. ` +
+    `Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, ` +
     `not a supplement pitch. Call draft_post.`;
   const msg = await anthropic.messages.create({
     model: MODEL, max_tokens: 900,
@@ -447,7 +450,7 @@ async function main() {
     visual_recipe: w.visual_recipe, image_url: w.image_url,
   });
   let posts;
-  const NULL_DRAFT = { angle: null, build_brief: null, on_image: null, caption: null, gmb_caption: null };
+  const NULL_DRAFT = { angle: null, build_brief: null, design_recipe: null, on_image: null, caption: null, gmb_caption: null };
   if (DRY) {
     posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...NULL_DRAFT }));
   } else {

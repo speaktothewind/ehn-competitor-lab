@@ -57,20 +57,68 @@ runs in the same job right after the refresh. The durable artifact is the recipe
 }
 ```
 
-## Wiring into the Perplexity pipeline
+## Two outputs
 
-Perplexity = **discovery** (what topics are bubbling). This tool = **validation** (what over-performed
-in your niche, and what it looked like). They stack:
+| File | What it is | Who reads it |
+|---|---|---|
+| `weekly-patterns.json` | Every classified winner + `trending` rollups (the raw signal) | the dashboard, analysis, the rollups below |
+| `weekly-plan.json` | 10 ready-to-pick EHN posts, each modelled on a winner and rewritten in EHN voice | `plan.html`, **and the social-media pipeline at run time** |
 
-- **Topic steering** — `trending.topic` / `trending_au.topic` bias topic selection toward proven demand.
-- **Hook + format + visual steering** — for whatever topic you pick, `trending.hook` + `format` +
-  the matching winner's `visual_recipe` tell you *how to package it* (adapted to a clinician voice).
-- **Faceless filter** — filter `winners` to `is_text_card || has_face === false` to mine only the
-  formats you'll actually make (the Steven Judge play). `faceless_share` tells you how much of the
-  winning band is faceless.
+## Wiring into the social-media pipeline
 
-Pull it from the raw GitHub URL once a week:
-`https://raw.githubusercontent.com/speaktothewind/ehn-competitor-lab/main/weekly-patterns.json`
+The Social Media Pipeline (`Content & Marketing/Social Media Pipeline/`) owns design + posting.
+**Perplexity is just its research feed** (what topics are bubbling). This tool is a **second research
+feed beside Perplexity at the topic-selection gate** — it adds *what already over-performed in the
+niche, and what it looked like*. It does **not** replace the pipeline's creative stages.
+
+**Seam:** the pipeline's EHN-social `topic-selection` stage fetches `weekly-plan.json` at run time and
+presents its 10 posts alongside the Perplexity candidates. Each post is offered as **three
+independently-selectable parts**, so Rohan can mix and match:
+
+1. **Topic** — `topic` / `angle` (what the post is about).
+2. **Advised text** — `caption` + `gmb_caption` + `on_image` (the words, in EHN voice).
+3. **Design** — `build_brief` (the topic-specific Canva brief) **and** `design_recipe`
+   (the *same* EHN-branded design as a **reusable, topic-agnostic template** with placeholders).
+
+The detachable `design_recipe` is the key move: Rohan can take a topic the **pipeline** surfaced
+(Perplexity) and graft a **winner's** `design_recipe` onto it — proven visual style, fresh topic.
+So the design recipes across the 10 posts effectively form a weekly **design library**.
+
+Branding is enforced in `draftPost()`: `build_brief` / `design_recipe` translate the winner's
+*layout* into EHN's own palette (cream/white/charcoal bg, green `#39B54A` accent only) and Satoshi
+type — they never echo the competitor's hex colours or fonts.
+
+**Fetch at run time** (both published via GitHub Pages, return 200):
+- `https://speaktothewind.github.io/ehn-competitor-lab/weekly-plan.json` — the 10 pickable posts
+- `https://speaktothewind.github.io/ehn-competitor-lab/weekly-patterns.json` — raw winners + rollups
+
+Still-useful rollups from `weekly-patterns.json` for steering:
+- **Topic steering** — `trending.topic` / `trending_au.topic` bias selection toward proven demand.
+- **Faceless filter** — `is_text_card || has_face === false` mines only the formats EHN will make
+  (the Steven Judge play); `faceless_share` shows how much of the winning band is faceless.
+
+### `weekly-plan.json` shape
+
+```jsonc
+{
+  "week": "2026-06-03", "dry_run": false,
+  "variety": { "formats": [...], "hooks": [...], "topics": [...] },
+  "posts": [
+    {
+      "slot": 1,
+      "modelled_on": { "account": "...", "score": 4.2, "platform": "instagram", "region": "au", "url": "..." },
+      "format": "carousel", "hook": "myth-bust", "topic": "gut/SIBO", "register": "validation",
+      "has_face": false, "is_text_card": true, "visual_recipe": "(the COMPETITOR's look, reference only)",
+      "angle":       "(1) the topic angle",
+      "caption":     "(2) IG/FB caption, EHN voice",
+      "gmb_caption": "(2) Google Business Profile version",
+      "on_image":    "(2) the words on the graphic",
+      "build_brief":   "(3) topic-specific Canva brief, EHN palette",
+      "design_recipe": "(3) reusable, topic-agnostic design — graft onto any topic"
+    }
+  ]
+}
+```
 
 ## Run it
 
