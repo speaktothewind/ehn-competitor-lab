@@ -264,12 +264,13 @@ function selectVaried(pool, n) {
 // EHN brand tokens (canonical source: ehn-brand-kit / ehn-html-design). The build_brief must
 // dress the winner's STRUCTURE in THIS palette/type — never echo the competitor's colours/fonts.
 const EHN_BRAND =
-  `EHN BRAND KIT — use THESE, ignore the winner's colours and fonts entirely:\n` +
-  `- Palette: charcoal #2D3436, EHN green #39B54A (accent only — never a full background), cream #FAF8F5, warm cream #F5F0EB, white #FFFFFF.\n` +
-  `- Backgrounds: cream, white or charcoal only. NEVER a green background, never pure black, never the competitor's colour.\n` +
-  `- Type: Satoshi throughout. Headlines bold (700) with ONE meaningful word set in green #39B54A italic; body copy in charcoal.\n` +
-  `- Shape & feel: 16px rounded cards, fully-rounded pills, clean clinical-but-warm, generous negative space.\n` +
-  `- Imagery: editorial, grounded, Australian-natural (sage/cream/charcoal). NO stock-wellness clichés — no smoothie bowls, lab coats, stethoscopes, neon or saturated colour.`;
+  `EHN BRAND KIT — render the winner's LAYOUT in these principles, never copy the competitor's colours/fonts:\n` +
+  `- Green anchor (REQUIRED): #39B54A must appear prominently as the visual anchor — the post should feel "EHN green".\n` +
+  `- Complementary palette: Choose secondary colours to harmonize with EHN green. Examples that work: sage, teal, soft grey-blue, warm cream, charcoal, muted terracotta, soft neutrals. Examples that CLASH: purple, bright pink, orange, strong red, neon. The palette may flex per post — choose colours that suit the topic/mood while anchored to green.\n` +
+  `- Backgrounds: Cream, white, charcoal, or a muted colour that complements green. NEVER pure black, never the competitor's exact palette, never a full green background.\n` +
+  `- Type: Satoshi throughout (matching the winner's typographic weight/scale). Headlines in bold (700), with ONE meaningful word highlighted in green #39B54A or a complementary accent colour; body copy in charcoal or a neutral that reads clearly.\n` +
+  `- Shape & feel: Match the winner's layout (whitespace, card shape, border radius, density). Keep it clinical-but-warm, editorial, grounded. Australian-natural imagery (sage, cream, charcoal tones), never stock-wellness clichés.\n` +
+  `- Brand floor (non-negotiable): EHN green anchor · logo lockup (small, unobtrusive) · booking/CTA destination · clinical-compliance (no cure claims).`;
 
 const DRAFT_TOOL = {
   name: 'draft_post',
