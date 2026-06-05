@@ -21,6 +21,7 @@
 import Papa from 'papaparse';
 import Anthropic from '@anthropic-ai/sdk';
 import { writeFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 
 // ---- Config (mirrors index.html) -------------------------------------------
 const CSV_URLS = [
@@ -45,6 +46,87 @@ const MAX_PER_ACCOUNT = 3;  // stop one low-median page defining a bucket's patt
 const MIN_MEDIAN = 10;
 const MODEL = 'claude-haiku-4-5';     // vision-capable, cheap; ~cents per weekly run
 const CONCURRENCY = 5;
+
+// ---- Pipeline alignment (LOCKED 2026-06-04) --------------------------------
+// "Lab feeds, pipeline owns." This Lab is a JSON feed: it surfaces over-performers
+// and emits copy + design recipes. The clinic SM pipeline (cockpit) owns GATE-1
+// dedupe, floor-locked rendering, the single preview, and publishing. These
+// constants + routeOf() make each post's routing unambiguous so the feed drops
+// straight into the cockpit with zero manual reshaping.
+
+// GATE-1 pre-flight: topics EHN has run in roughly the last 4 weeks. Keep in sync
+// with the pipeline's topic-log.md. Surfacing one risks a collapse in the cockpit,
+// so we de-prioritise it in selection and flag (never silently drop) any that slip in.
+export const RECENT_EHN_TOPICS = ['toxins/mould/microplastics']; // stealth mould ran 2026-05-25
+
+// Pillar → format schedule the pipeline runs. Each winner is tagged with its best-fit
+// pillar/day so the cockpit can slot it. Documentation copy carried in the feed.
+export const PILLAR_MAP = {
+  'education · Mon/Wed/Fri': 'text-only myth-bust OR stat-drop carousel',
+  'trust · Tue':            'headshot + symptom listicle (face-branded day)',
+  'trust · Sat':            'first-person reflective carousel',
+  'engagement · Thu':       'question carousel',
+  'conversion · Sun':       'text-led CTA carousel (booking/assessment link in the caption, not on a card)',
+};
+
+// Render contract the pipeline's floor-locked renderers enforce. Carried in the feed
+// so the design recipes and the cockpit agree on one set of rules.
+export const RENDER_CONSTRAINTS = {
+  palette:   { bg: '#FAF8F5', text: '#2D3436', accent: '#39B54A', note: 'EHN palette only — never the competitor colours/fonts.' },
+  typography:{ headings: 'Satoshi Bold', body: 'Satoshi Medium', note: 'NOT Libre Caslon — that is the branded-card lock, benched for this experiment.' },
+  legibility_floors_px_on_1080: { any_text: 36, body: 40, heading: 95 },
+  rule: 'Shorten copy, never shrink font. The renderer hard-asserts >=36px and crashes the build on an under-floor size.',
+  card_branding: 'Cards carry the business name "Elemental Health & Nutrition" (green close line) — NOT the suburb. Suburb keyword lives in the GBP caption only (local SEO).',
+  gbp: 'Every post ships a GBP hook card, including text-only days (Zernio silently schedules a card-less GBP post — always supply one).',
+  compliance: 'AHPRA/TGA-safe: no supplement doses, no cure/treat-[condition]/guarantee/miracle/before-after.',
+};
+
+// Count carousel slides from the on_image text ("Slide 1: …" / "Card 1: …").
+export function slideCountOf(p) {
+  if (p.format === 'reel/video') return null;
+  if (p.format !== 'carousel') return 1;
+  const m = (p.on_image || '').match(/\b(?:slide|card)\s*\d+/gi);
+  if (!m) return null;
+  return Math.max(...m.map(s => +s.match(/\d+/)[0]));
+}
+
+// Map a winner's format+hook to pillar/day + per-surface routing the cockpit consumes.
+export function routeOf(p) {
+  const face = p.has_face === true;
+  const isReel = p.format === 'reel/video';
+  const isCarousel = p.format === 'carousel';
+  const isTextOnly = p.format === 'text-only';
+
+  const image_need = isReel ? 'footage' : isTextOnly ? 'none' : 'still';
+
+  let pillar = 'education', day_fit = 'Mon/Wed/Fri';
+  if (p.hook === 'personal-story')        { pillar = 'trust';      day_fit = 'Sat'; }
+  else if (p.hook === 'listicle')         { pillar = 'trust';      day_fit = 'Tue'; }
+  else if (p.hook === 'question-bait')    { pillar = 'engagement'; day_fit = 'Thu'; }
+  else if (p.hook === 'comment-to-DM')    { pillar = 'conversion'; day_fit = 'Sun'; }
+  // myth-bust / stat-drop / contrarian / announcement → education default
+
+  const fb_text_only = isTextOnly;                 // FB text-only valid only for text-only myth-bust days
+  const gate1_risk = RECENT_EHN_TOPICS.includes(p.topic);
+
+  return {
+    pillar, day_fit,
+    image_need,                                    // none | still | footage
+    face_branded: face,                            // face brands the whole day (FB + GBP + every slide) if selected
+    fb_text_only,
+    gbp_card_required: true,                        // GBP ALWAYS carries a hook card
+    instagram: isCarousel ? { kind: 'slides', slides: slideCountOf(p) }
+             : isReel     ? { kind: 'reel', asset: 'footage' }
+             :              { kind: 'image' },
+    facebook: fb_text_only ? { image: null, text_only: true }
+                           : { kind: 'image', source: 'hook_card' },
+    googlebusiness: { image: 'hook_card_required' },
+    gate1_risk,
+    gate1_note: gate1_risk
+      ? `Topic "${p.topic}" ran in EHN's last ~4 weeks — pipeline GATE-1 will likely collapse/drop this pick.`
+      : null,
+  };
+}
 
 // ---- Scoring logic — ported verbatim from index.html -----------------------
 const norm = a => (a || '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -241,7 +323,7 @@ const modeOf = arr => {
 // ---- Weekly content plan ---------------------------------------------------
 // Pick N winners that MAXIMISE spread across format + hook + topic, so a week's posts
 // aren't seven of the same thing. Lightly favours higher scores and AU origin.
-function selectVaried(pool, n) {
+function selectVaried(pool, n, recent = []) {
   const chosen = [];
   const seen = { format: {}, hook: {}, topic: {} };
   const cands = pool.slice();
@@ -250,7 +332,8 @@ function selectVaried(pool, n) {
     cands.forEach((c, i) => {
       const pen = (seen.format[c.format] || 0) * 3 + (seen.hook[c.hook] || 0) * 2 + (seen.topic[c.topic] || 0) * 2;
       const au = c.region === 'au' ? 0.5 : 0;
-      const val = -pen + au + Math.min(Math.log10(c.score || 1), 1) * 0.3 - i * 0.001;
+      const g1 = recent.includes(c.topic) ? 6 : 0;   // GATE-1: de-prioritise topics EHN ran recently
+      const val = -pen - g1 + au + Math.min(Math.log10(c.score || 1), 1) * 0.3 - i * 0.001;
       if (val > bestVal) { bestVal = val; best = c; bestIdx = i; }
     });
     chosen.push(best); cands.splice(bestIdx, 1);
@@ -270,6 +353,10 @@ const EHN_BRAND =
   `- Backgrounds: Cream, white, charcoal, or a muted colour that complements green. NEVER pure black, never the competitor's exact palette, never a full green background.\n` +
   `- Type: Satoshi throughout (matching the winner's typographic weight/scale). Headlines in bold (700), with ONE meaningful word highlighted in green #39B54A or a complementary accent colour; body copy in charcoal or a neutral that reads clearly.\n` +
   `- Shape & feel: Match the winner's layout (whitespace, card shape, border radius, density). Keep it clinical-but-warm, editorial, grounded. Australian-natural imagery (sage, cream, charcoal tones), never stock-wellness clichés.\n` +
+  `- Typography lock: headings Satoshi BOLD (700), body Satoshi MEDIUM (500). NOT Libre Caslon (that is the branded-card lock, benched for this experiment).\n` +
+  `- Legibility floors (HARD — the renderer asserts and crashes below these on a 1080 canvas): any text >=36px, body >=40px, headline ~95px+. Rule: SHORTEN COPY, NEVER SHRINK THE FONT. Never specify a point/pixel size that implies sub-36px text.\n` +
+  `- Card branding: the brand/close line on cards is the business name "Elemental Health & Nutrition" (green close line) — NOT the suburb. The suburb keyword belongs in the GBP caption only.\n` +
+  `- GBP card: every post ships a Google Business hook card too (a minimal charcoal hook card), including text-only days.\n` +
   `- Brand floor (non-negotiable): EHN green anchor · logo lockup (small, unobtrusive) · booking/CTA destination · clinical-compliance (no cure claims).`;
 
 const DRAFT_TOOL = {
@@ -279,11 +366,11 @@ const DRAFT_TOOL = {
     type: 'object',
     properties: {
       angle: { type: 'string', description: 'One-line EHN topic angle for this post.' },
-      build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Borrow only the winner\'s LAYOUT/STRUCTURE; dress it entirely in EHN\'s brand. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background chosen to harmonize with EHN green #39B54A (may be cream, white, charcoal, sage, soft neutrals, or other complementary colours — never pure black, never the competitor\'s exact palette), headline placement + weight (Satoshi bold, one meaningful word in green #39B54A italic), green #39B54A as the primary visual anchor, any icon/photo/illustration in EHN\'s grounded editorial style. NEVER quote the competitor\'s hex colours or fonts. Concrete enough to hand straight to a designer.' },
+      build_brief: { type: 'string', description: 'Plain step-by-step instructions for EHN (or a VA) to build THIS graphic in Canva — describe what EHN should MAKE, not what the competitor did. Borrow only the winner\'s LAYOUT/STRUCTURE; dress it entirely in EHN\'s brand. Include: canvas/format (e.g. square carousel, 4 slides / single square card / vertical reel cover), background chosen to harmonize with EHN green #39B54A (may be cream, white, charcoal, sage, soft neutrals, or other complementary colours — never pure black, never the competitor\'s exact palette), headline placement + weight (Satoshi bold, one meaningful word in green #39B54A italic), green #39B54A as the primary visual anchor, any icon/photo/illustration in EHN\'s grounded editorial style. NEVER quote the competitor\'s hex colours or fonts. Respect the legibility floors (any text >=36px, body >=40px, headline ~95px+ on a 1080 canvas) — express sizes as relative hierarchy, never as a point size that implies sub-36px text; if copy is long, shorten it rather than shrinking the font. Headings Satoshi Bold, body Satoshi Medium. Brand/close line is "Elemental Health & Nutrition" (not the suburb). Concrete enough to hand straight to a designer.' },
       design_recipe: { type: 'string', description: 'A REUSABLE, TOPIC-AGNOSTIC version of build_brief — the same EHN-branded visual template with THIS post\'s specific words stripped out, so the design can be grafted onto ANY topic (including one the social pipeline surfaced). Use placeholders like "[headline]", "[stat]", "[supporting line]", "[slide N point]" instead of real copy. Describe only the reusable shell: canvas/format, layout/composition, EHN palette usage (green #39B54A as visual anchor, secondary colours chosen to harmonize and never clash), Satoshi headline treatment (one meaningful word in green #39B54A italic or a complementary accent colour), where text/stat/image/icon sit, and the overall feel. No topic-specific wording at all.' },
-      on_image: { type: 'string', description: 'The exact words that go ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → on-screen hook frame + a 2-3 beat script outline.' },
-      caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. End with a soft CTA + 3-5 relevant hashtags.' },
-      gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local Adelaide tone, ends with a clear CTA e.g. "Book an appointment"). No hashtags.' },
+      on_image: { type: 'string', description: 'The exact words that go ON the graphic. Carousel → slide by slide ("Slide 1: … | Slide 2: …"). Text card → headline + subline. Reel → on-screen hook frame + a 2-3 beat script outline. Keep every line SHORT so nothing must render below 36px (headline <= ~8 words; slide body a short phrase) — shorten copy, never shrink the font. The card brand/close line is "Elemental Health & Nutrition", never the suburb.' },
+      caption: { type: 'string', description: 'Caption for Instagram & Facebook in EHN voice: warm, clinician-credible, plain-English, AUSTRALIAN spelling, evidence-based, NOT hypey, NOT supplement-selling. AHPRA/TGA-safe (no doses, no cure/treat/guarantee/miracle/before-after). End with a soft CTA + 3-5 relevant hashtags.' },
+      gmb_caption: { type: 'string', description: 'Shorter Google Business Profile version (2-3 sentences, local tone, ends with a clear CTA e.g. "Book an appointment"). Include the locality keyword (e.g. "Eastwood, Adelaide") for local SEO — the suburb lives here, NOT on the cards. No hashtags.' },
     },
     required: ['angle', 'build_brief', 'design_recipe', 'on_image', 'caption', 'gmb_caption'],
   },
@@ -304,6 +391,10 @@ async function draftPost(anthropic, w) {
     `secondary colours must harmonize with green, never clash. The palette can flex per post, but everything must feel green-anchored and intentional. ` +
     `Then in design_recipe, give the SAME design as a reusable, topic-agnostic template (specific words replaced with placeholders) ` +
     `so the layout + colour scheme can be grafted onto a different topic later.\n\n` +
+    `LEGIBILITY: respect the renderer's hard floors — any on-card text >=36px, body >=40px, headline ~95px+ on a 1080 canvas. ` +
+    `Express size as relative hierarchy, never a point size implying sub-36px text. If copy is long, SHORTEN IT — never shrink the font. ` +
+    `Headings Satoshi Bold, body Satoshi Medium (never Libre Caslon). Card brand/close line is "Elemental Health & Nutrition", never the suburb. ` +
+    `Compliance: AHPRA/TGA-safe — no doses, no cure/treat/guarantee/miracle/before-after.\n\n` +
     `Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, not a supplement pitch. ` +
     `Call draft_post.`;
   const msg = await anthropic.messages.create({
@@ -443,7 +534,7 @@ async function main() {
   let planPool = competitors;                                   // AU+US, high-confidence
   if (planPool.length < 7) planPool = [...planPool, ...formatSchool];
   const PLAN_N = 10;   // generate extra so Rohan can choose his favourites
-  const picks = selectVaried(planPool, PLAN_N);
+  const picks = selectVaried(planPool, PLAN_N, RECENT_EHN_TOPICS);
   const baseSlot = (w, i) => ({
     slot: i + 1,
     modelled_on: { account: w.account, score: w.score, platform: w.platform, region: w.region, url: w.url },
@@ -462,11 +553,20 @@ async function main() {
     });
     posts = picks.map((w, i) => ({ ...baseSlot(w, i), ...(drafts[i] || NULL_DRAFT) }));
   }
+  // Routing fields (pipeline-locked): make each post's pillar/day + per-surface
+  // mapping + image-need + face/GBP/GATE-1 flags unambiguous for the cockpit.
+  posts = posts.map(p => ({ ...p, slide_count: slideCountOf(p), routing: routeOf(p) }));
+  const gate1Flagged = posts.filter(p => p.routing.gate1_risk).length;
+  if (gate1Flagged) console.log(`  ⚠ ${gate1Flagged} post(s) flagged gate1_risk (recent EHN topic) — pipeline will collapse/drop.`);
   const plan = {
     week: today,
     generated_at: new Date().toISOString(),
+    schema_version: 2,                                         // v2: pipeline routing fields + render_constraints
+    feed_role: 'Lab = generator/feed. The clinic SM pipeline (cockpit) owns GATE-1 dedupe, floor-locked rendering, the single preview, and publishing.',
     dry_run: DRY,
-    note: `One creative reused across Instagram, Facebook & Google Business Profile. ${posts.length} posts to choose from, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice.`,
+    note: `One creative reused across Instagram, Facebook & Google Business Profile. ${posts.length} posts to choose from, diversified by format/hook/topic, each modelled on a niche over-performer and rewritten in EHN clinician voice. Each post carries a routing block mapping it to the pipeline's pillar→format schedule.`,
+    pillar_format_map: PILLAR_MAP,
+    render_constraints: RENDER_CONSTRAINTS,
     variety: { formats: [...new Set(posts.map(p => p.format))], hooks: [...new Set(posts.map(p => p.hook).filter(Boolean))], topics: [...new Set(posts.map(p => p.topic).filter(Boolean))] },
     posts,
   };
@@ -474,4 +574,9 @@ async function main() {
   console.log(`✓ wrote weekly-plan.json (${posts.length} posts; formats: ${plan.variety.formats.join(', ')}).`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+// Run main() only when invoked directly — guarded so routeOf/slideCountOf and the
+// LOCKED constants can be imported (e.g. by apply-routing.mjs) without firing a full
+// network+API run that would overwrite the feeds.
+if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
+  main().catch(e => { console.error(e); process.exit(1); });
+}

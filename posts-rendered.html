@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EHN — This Week's Posts, Rendered</title>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900,400i,500i,700i&display=swap" rel="stylesheet">
+<style>
+:root{
+  --dark:#2D3436;--dark-deep:#252D2F;--green:#39B54A;--green-soft:#3DBF52;
+  --cream:#FAF8F5;--cream-warm:#F5F0EB;--white:#FFFFFF;
+  --text:#2D3436;--text-secondary:#5A5A5A;--text-muted:#8A8A8A;
+  --text-on-dark:#F5F3F0;--text-on-dark-muted:rgba(245,243,240,0.6);
+  --border:#E8E4E0;--border-light:#EDEBE8;
+  --font:'Satoshi',system-ui,-apple-system,sans-serif;
+  --page:#0E0F12;--panel:#1A1B1F;--panel-2:#222329;--hair:#2C2D33;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--page);color:var(--text-on-dark);line-height:1.55;-webkit-font-smoothing:antialiased;letter-spacing:-.01em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+em{font-style:italic}
+
+/* ---- page header ---- */
+header{padding:44px 0 10px}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--green)}
+h1{font-size:40px;font-weight:700;line-height:1.08;margin-top:10px;letter-spacing:-.03em}
+h1 em{color:var(--green)}
+.sub{color:var(--text-on-dark-muted);font-size:14.5px;margin-top:12px;max-width:760px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 6px}
+.tb{font-size:12.5px;font-weight:600;color:var(--text-on-dark-muted);background:var(--panel);border:1px solid var(--hair);border-radius:999px;padding:7px 14px}
+.tb b{color:var(--text-on-dark)}
+.tb a{color:var(--green-soft);font-weight:700}
+.note{background:rgba(57,181,74,.08);border:1px solid rgba(57,181,74,.3);color:#bfe9c8;border-radius:12px;padding:13px 16px;font-size:13px;margin:18px 0 30px;line-height:1.7}
+.note b{color:#fff}
+
+/* ---- post block ---- */
+.block{background:var(--panel);border:1px solid var(--hair);border-radius:18px;padding:22px;margin-bottom:26px}
+.bhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.snum{width:30px;height:30px;border-radius:9px;background:var(--green);color:#06280d;font-weight:900;display:grid;place-items:center;font-size:14px}
+.fmt{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:7px;background:rgba(57,181,74,.14);color:var(--green-soft)}
+.fmt.reel{background:rgba(255,107,157,.16);color:#ff8db5}
+.fmt.image{background:rgba(108,168,255,.16);color:#8fc0ff}
+.fmt.text{background:rgba(255,194,61,.16);color:#ffd470}
+.btag{font-size:11px;font-weight:600;color:var(--text-on-dark-muted);background:var(--panel-2);border-radius:6px;padding:3px 9px}
+.modelled{margin-left:auto;font-size:11.5px;color:var(--text-muted);white-space:nowrap}
+.modelled a{color:var(--green-soft);font-weight:700}
+.body{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+.creative-col{flex:0 0 auto}
+.cap-col{flex:1 1 340px;min-width:300px;display:flex;flex-direction:column;gap:14px}
+.cgrip{font-size:11px;color:var(--text-muted);margin-top:10px;text-align:center;max-width:360px}
+
+/* ============ CREATIVE CANVAS ============ */
+.cv{font-family:var(--font);overflow:hidden;border-radius:6px;position:relative;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+.r1{width:360px;aspect-ratio:1/1}
+.r45{width:360px;aspect-ratio:4/5}
+.r916{width:300px;aspect-ratio:9/16}
+.cream{background:var(--cream);color:var(--text)}
+.cv .ga{color:var(--green);font-style:italic}
+/* carousel ui */
+.cdots{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:5px}
+.cdots i{width:6px;height:6px;border-radius:50%;background:rgba(45,52,54,.22)}
+.cdots i.on{background:var(--green)}
+.cidx{position:absolute;top:14px;right:14px;font-size:11px;font-weight:700;color:#fff;background:rgba(45,52,54,.55);border-radius:999px;padding:3px 9px}
+.swipe{position:absolute;bottom:14px;right:14px;width:26px;height:26px;border-radius:50%;background:rgba(57,181,74,.14);border:1px solid var(--green);display:grid;place-items:center;color:var(--green);font-size:13px}
+.cvlogo{position:absolute;bottom:14px;left:16px;height:18px;opacity:.7}
+/* reel ui */
+.reelbg{position:absolute;inset:0}
+.reeltag{position:absolute;top:13px;right:13px;font-size:11px;font-weight:700;color:#fff;display:flex;align-items:center;gap:5px}
+.reeldur{position:absolute;top:13px;left:13px;font-size:11px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border-radius:999px;padding:3px 9px}
+.play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.16);backdrop-filter:blur(2px);border:1.5px solid rgba(255,255,255,.7);display:grid;place-items:center}
+.play:after{content:"";border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:4px}
+.vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 40%,transparent 40%,rgba(0,0,0,.45) 100%)}
+
+/* ============ PLATFORM CARDS ============ */
+.pc{background:#fff;color:#111;border-radius:12px;overflow:hidden;border:1px solid #e3e3e3}
+.pc-head{display:flex;align-items:center;gap:9px;padding:11px 13px}
+.av{width:34px;height:34px;border-radius:50%;object-fit:cover;border:1px solid #e3e3e3}
+.pc-name{font-size:13px;font-weight:700;color:#111;line-height:1.2}
+.pc-meta{font-size:11px;color:#888}
+.pc-chan{margin-left:auto;font-size:10.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:6px}
+.ch-ig{background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7);color:#fff}
+.ch-fb{background:#1877f2;color:#fff}
+.ch-gmb{background:#1a73e8;color:#fff}
+.pc-body{padding:0 13px 13px;font-size:13px;color:#1a1a1a;white-space:pre-wrap;line-height:1.55}
+.pc-body .ht{color:#00376b}
+.usethumb{display:flex;align-items:center;gap:9px;padding:10px 13px;background:#fafafa;border-top:1px solid #eee;border-bottom:1px solid #eee;font-size:11.5px;color:#666}
+.usethumb img,.usethumb .mini{width:40px;height:40px;border-radius:6px;object-fit:cover;flex:0 0 auto}
+.actions{display:flex;gap:16px;padding:9px 13px 4px;color:#222}
+.actions svg{width:22px;height:22px}
+.actions .sp{flex:1}
+.likes{padding:2px 13px 0;font-size:13px;font-weight:700;color:#111}
+.gmb-foot{display:flex;gap:8px;padding:11px 13px;border-top:1px solid #eee}
+.gmb-btn{font-size:12.5px;font-weight:600;color:#1a73e8;border:1px solid #dadce0;border-radius:6px;padding:7px 16px}
+.gmb-btn.solid{background:#1a73e8;color:#fff;border-color:#1a73e8}
+.na{font-size:12px;color:var(--text-muted);background:var(--panel-2);border:1px dashed var(--hair);border-radius:10px;padding:12px;text-align:center}
+
+/* text-only creative */
+.textpost{background:#fff;color:#1a1a1a;padding:18px;font-size:13px;white-space:pre-wrap;line-height:1.55;border-radius:6px;width:360px}
+
+footer{border-top:1px solid var(--hair);padding:24px 0 60px;font-size:12px;color:var(--text-muted);line-height:1.8;margin-top:20px}
+@media(max-width:560px){.cv.r1,.cv.r45{width:100%}.textpost{width:100%}}
+</style></head>
+<body>
+<header><div class="wrap">
+  <div class="eyebrow">Elemental Health · Weekly Plan · Rendered</div>
+  <h1>This week's posts, <em>rendered</em>.</h1>
+  <div class="sub">Not briefs — the actual creatives, drawn on-brand in HTML and placed inside Instagram, Facebook &amp; Google Business Profile post chrome. One creative per slot, reused across all three channels. Captions are live from <b>weekly-plan.json</b>.</div>
+  <div class="toolbar">
+    <span class="tb"><b>10</b> posts</span>
+    <span class="tb"><b>3</b> channels each</span>
+    <span class="tb">Week of <b>2026-06-04</b></span>
+    <span class="tb"><a href="plan.html">← back to the plan/brief view</a></span>
+  </div>
+  <div class="note" style="background:rgba(255,194,61,.1);border-color:rgba(255,194,61,.35);color:#ffe0a0">⚠ <b>Internal sanity check only.</b> Since 2026-06-04 the Lab is a JSON feed — approvals happen in the SM pipeline (cockpit) preview, not here. This page is a visual gut-check of the creatives, not the surface you publish from.</div>
+  <div class="note">📸 <b>About the photo/video posts:</b> reels and photo-based images show the finished <b>layout, text overlay and brand treatment</b> over a styled stand-in for the footage. The shaded zones marked <b>“photo / video”</b> are where your real clip or photograph drops in — everything else (typography, colour, composition, captions) is final.</div>
+</div></header>
+
+<main class="wrap">
+
+<!-- ============================ SLOT 1 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">1</div><span class="fmt">Carousel</span>
+    <span class="btag">announcement</span><span class="btag">thyroid</span><span class="btag">validation</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DYvfS3KFmnl/" target="_blank">@thelucyroseclinic · 14×</a> · AU</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r1 cream" style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:38px 34px;text-align:center">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#39B54A" stroke-width="2.4" style="margin-bottom:22px">
+          <path d="M32 30c-6-12-26-12-26 2 0 10 18 16 26 22 8-6 26-12 26-22 0-14-20-14-26-2z" opacity=".25"/>
+          <path d="M32 22c0 6 0 14 0 18M22 28c-7-6-15-2-15 6 0 7 9 9 15 6M42 28c7-6 15-2 15 6 0 7-9 9-15 6"/>
+          <circle cx="32" cy="24" r="3"/>
+        </svg>
+        <div style="font-size:34px;font-weight:700;line-height:1.12;letter-spacing:-.03em"><em class="ga">Thyroid</em> —<br>you're not imagining it.</div>
+        <div style="font-size:15px;color:var(--text-secondary);margin-top:14px;max-width:240px">Tired, cold, foggy, gaining weight? It's worth checking properly.</div>
+        <div class="cidx">1 / 5</div><div class="swipe">›</div>
+        <div class="cdots"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="cgrip">Carousel cover · 5 slides · text card (faceless)</div>
+    </div>
+    <div class="cap-col" data-slot="1"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 2 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">2</div><span class="fmt reel">Reel / Video</span>
+    <span class="btag">question-bait</span><span class="btag">mould / microplastics</span><span class="btag">curiosity</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DVj8Avvk5wz/" target="_blank">@askdrvincent · 11.4×</a> · AU</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r916">
+        <div class="reelbg" style="background:linear-gradient(150deg,#8FAE86 0%,#5E7A57 45%,#3C4F39 100%)"></div>
+        <div class="vig"></div>
+        <svg style="position:absolute;bottom:70px;left:50%;transform:translateX(-50%);opacity:.5" width="80" height="100" viewBox="0 0 80 100" fill="none" stroke="#fff" stroke-width="2.2">
+          <rect x="20" y="34" width="40" height="56" rx="6"/><path d="M28 34v-8a12 12 0 0124 0v8"/><line x1="20" y1="54" x2="60" y2="54"/>
+        </svg>
+        <div style="position:absolute;top:64px;left:0;right:0;padding:0 26px;text-align:center;font-size:25px;font-weight:800;line-height:1.15;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.4)">WHAT'S HIDING<br>IN YOUR <em class="ga" style="color:#9af0a8">HOME?</em></div>
+        <div class="reeldur">0:38</div>
+        <div class="reeltag">▶ Reel</div>
+        <div class="play"></div>
+        <div style="position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:11px;color:rgba(255,255,255,.7);letter-spacing:.05em">▓ photo / video zone</div>
+      </div>
+      <div class="cgrip">Reel hook-frame · 9:16 · clinician + sample prop</div>
+    </div>
+    <div class="cap-col" data-slot="2"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 3 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">3</div><span class="fmt image">Image</span>
+    <span class="btag">personal-story</span><span class="btag">nutrition heritage</span><span class="btag">validation</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DYIjU0dkj1s/" target="_blank">@anthia.koullouros · 4.6×</a> · AU</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r45 cream" style="padding:40px 36px;display:flex;flex-direction:column;justify-content:center">
+        <div style="width:34px;height:3px;background:var(--green);margin-bottom:18px"></div>
+        <div style="font-size:24px;font-weight:700;line-height:1.2;letter-spacing:-.02em">The way you were <em class="ga">fed</em> still shapes you.</div>
+        <div style="font-size:13.5px;color:var(--text-secondary);margin-top:16px;line-height:1.6">Long before we had labels for it, the people who raised us were practising functional nutrition without knowing it — broths, ferments, whole foods, meals shared slowly.<br><br>We inherit more than recipes. Those patterns shape our gut, our stress response, and how we eat for life.</div>
+        <img class="cvlogo" src="ehn-logo-wide.png" alt="EHN" style="left:auto;right:18px;height:16px">
+      </div>
+      <div class="cgrip">Editorial text card · 4:5 · faceless</div>
+    </div>
+    <div class="cap-col" data-slot="3"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 4 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">4</div><span class="fmt text">Text-only</span>
+    <span class="btag">myth-bust</span><span class="btag">household toxins</span><span class="btag">urgency</span>
+    <span class="modelled">modelled on <a href="https://www.facebook.com/doctorwillcole/" target="_blank">@doctorwillcole · 234×</a> · US</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="textpost">
+        <div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--green);text-transform:uppercase;margin-bottom:10px">Facebook · text-only post</div>
+        <div style="color:#888;font-style:italic">No graphic — the copy <b>is</b> the creative. Renders as a plain Facebook status. See the post on the right →</div>
+      </div>
+      <div class="cgrip">Text-only · Facebook + Google Business only</div>
+    </div>
+    <div class="cap-col" data-slot="4"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 5 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">5</div><span class="fmt">Carousel</span>
+    <span class="btag">listicle</span><span class="btag">blood sugar</span><span class="btag">authority</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DYAjVW9FVrp/" target="_blank">@theguthealthmd · 23×</a> · US</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r1 cream" style="padding:40px 36px;display:flex;flex-direction:column;justify-content:center">
+        <img src="ehn-avatar.jpg" style="width:38px;height:38px;border-radius:50%;margin-bottom:20px" alt="">
+        <div style="font-size:31px;font-weight:700;line-height:1.12;letter-spacing:-.03em">Five <em class="ga">practices</em><br>I recommend to my<br>own patients.</div>
+        <div style="font-size:14px;color:var(--text-secondary);margin-top:16px">Each takes 5 minutes. Backed by research.<br>None is a detox.</div>
+        <div class="cidx">1 / 6</div><div class="swipe">›</div>
+        <div class="cdots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="cgrip">Carousel cover · 6 slides · text-forward</div>
+    </div>
+    <div class="cap-col" data-slot="5"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 6 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">6</div><span class="fmt image">Image · Infographic</span>
+    <span class="btag">comment-to-DM</span><span class="btag">gut / SIBO</span><span class="btag">authority</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DYAUTWmD0UF/" target="_blank">@drpedre · 18.5×</a> · US</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r1 cream" style="padding:26px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px">
+        <div style="align-self:flex-end;background:var(--green);color:#fff;font-size:11px;font-weight:800;letter-spacing:.04em;padding:5px 11px;border-radius:7px;position:absolute;top:18px;right:18px">GUT TRIGGERS</div>
+        <div style="width:96%;background:var(--green);color:#fff;border-radius:8px;padding:11px;text-align:center"><b style="font-size:15px">SIBO — the overlooked trigger</b><div style="font-size:11px;opacity:.92;margin-top:2px">Bloating that worsens through the day? It may not be “just IBS.”</div></div>
+        <div style="width:84%;background:#E3EFE4;border-radius:8px;padding:9px;text-align:center;font-size:12px;color:#2D3436">Common triggers — onion, garlic, excess high-FODMAP veg</div>
+        <div style="width:70%;background:#D6E8D8;border-radius:8px;padding:9px;text-align:center;font-size:12px;color:#2D3436"><b>Worth testing</b> — a breath test gives real answers</div>
+        <div style="width:56%;background:#C9E0CB;border-radius:8px;padding:9px;text-align:center;font-size:11.5px;color:#2D3436">Gentle supports — broth, cooked veg, slow meals</div>
+        <div style="width:40%;background:#BBD8BE;border-radius:8px;padding:8px;text-align:center;font-size:11px;color:#2D3436">Rebuild — fibre, ferments</div>
+        <img src="ehn-logo-wide.png" style="height:15px;opacity:.65;margin-top:6px" alt="EHN">
+      </div>
+      <div class="cgrip">Pyramid infographic · 1:1</div>
+    </div>
+    <div class="cap-col" data-slot="6"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 7 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">7</div><span class="fmt reel">Reel / Video</span>
+    <span class="btag">contrarian</span><span class="btag">gut-brain</span><span class="btag">curiosity</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DU_3Pizk0cf/" target="_blank">@askdrvincent · 9.6×</a> · AU</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r916">
+        <div class="reelbg" style="background:radial-gradient(80% 60% at 50% 58%,rgba(57,181,74,.45) 0%,rgba(57,181,74,.12) 35%,#16201A 70%,#0C120E 100%)"></div>
+        <div class="vig"></div>
+        <svg style="position:absolute;bottom:90px;left:50%;transform:translateX(-50%);opacity:.85" width="70" height="92" viewBox="0 0 70 92" fill="none" stroke="#9af0a8" stroke-width="2.2">
+          <rect x="16" y="30" width="38" height="56" rx="8"/><path d="M22 30v-6h26v6"/><ellipse cx="35" cy="22" rx="12" ry="4"/>
+        </svg>
+        <div style="position:absolute;top:78px;left:0;right:0;padding:0 28px;text-align:center;font-size:26px;font-weight:800;line-height:1.18;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.5)">You Feed /<br>Your <em class="ga" style="color:#9af0a8">Gut</em> Feeds You</div>
+        <div class="reeldur">0:24</div><div class="reeltag">▶ Reel</div><div class="play"></div>
+        <div style="position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:11px;color:rgba(255,255,255,.55);letter-spacing:.05em">▓ cinematic photo / video zone</div>
+      </div>
+      <div class="cgrip">Reel hook-frame · 9:16 · fermented-food + green glow</div>
+    </div>
+    <div class="cap-col" data-slot="7"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 8 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">8</div><span class="fmt">Carousel</span>
+    <span class="btag">stat-drop</span><span class="btag">sleep / longevity</span><span class="btag">hope</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DYK7v7tGTvv/" target="_blank">@drjoshaxe · 13.6×</a> · US</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r1 cream" style="padding:36px 34px;display:flex;flex-direction:column;justify-content:center">
+        <div style="display:flex;align-items:center;gap:11px;margin-bottom:22px">
+          <div style="width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#9FB89A,#6E8A67);display:grid;place-items:center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+          </div>
+          <div style="font-size:13px;font-weight:700;color:var(--text)">Elemental Health</div>
+        </div>
+        <div style="font-size:30px;font-weight:700;line-height:1.12;letter-spacing:-.03em">Sleep quality drives <em class="ga">longevity</em>.</div>
+        <div style="font-size:14.5px;font-weight:700;color:var(--green);margin-top:14px">It's not the hours — it's the depth.</div>
+        <div style="font-size:13.5px;color:var(--text-secondary);margin-top:10px;line-height:1.6">Deep sleep is when your body repairs, clears the brain, and resets the nervous system.</div>
+        <div class="cidx">1 / 5</div><div class="cdots"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="cgrip">Carousel cover · 5 slides · twitter-style</div>
+    </div>
+    <div class="cap-col" data-slot="8"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 9 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">9</div><span class="fmt reel">Reel / Video</span>
+    <span class="btag">personal-story</span><span class="btag">movement / walking</span><span class="btag">hope</span>
+    <span class="modelled">modelled on <a href="https://www.instagram.com/p/DMsLX3sJK-i/" target="_blank">@askdrvincent · 4.5×</a> · AU</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r916">
+        <div class="reelbg" style="background:linear-gradient(160deg,#EAE3D8 0%,#CFD8C7 50%,#9FB29A 100%)"></div>
+        <div style="position:absolute;right:0;top:0;bottom:0;width:34%;background:repeating-linear-gradient(90deg,#5A6B57,#5A6B57 8px,#637560 8px,#637560 16px);opacity:.55"></div>
+        <svg style="position:absolute;bottom:0;left:6px;opacity:.6" width="150" height="200" viewBox="0 0 150 200" fill="#4E6249"><ellipse cx="70" cy="56" rx="30" ry="34"/><path d="M30 200c0-58 18-92 40-92s40 34 40 92z"/></svg>
+        <div style="position:absolute;top:50%;left:0;right:0;transform:translateY(-50%);padding:0 22px;text-align:center;font-size:23px;font-weight:800;line-height:1.16;color:#fff;text-shadow:0 1px 0 #2D3436,0 2px 12px rgba(0,0,0,.5)">I HELPED A CLIENT<br><em class="ga" style="color:#bff7c8">WALK</em><br>PAIN-FREE AGAIN</div>
+        <div class="reeldur">0:31</div><div class="reeltag">▶ Reel</div>
+        <div style="position:absolute;bottom:14px;left:50%;transform:translateX(-50%);width:30px;height:30px;border-radius:50%;background:rgba(45,52,54,.5);display:grid;place-items:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0012 0M12 17v4" stroke="#fff" stroke-width="2" fill="none"/></svg></div>
+      </div>
+      <div class="cgrip">Reel hook-frame · 9:16 · talking-head</div>
+    </div>
+    <div class="cap-col" data-slot="9"></div>
+  </div>
+</section>
+
+<!-- ============================ SLOT 10 ============================ -->
+<section class="block">
+  <div class="bhead"><div class="snum">10</div><span class="fmt image">Image</span>
+    <span class="btag">myth-bust</span><span class="btag">mental health · vagus</span><span class="btag">validation</span>
+    <span class="modelled">modelled on <a href="https://www.facebook.com/drmarkhyman/" target="_blank">@drmarkhyman · 65×</a> · US</span></div>
+  <div class="body">
+    <div class="creative-col">
+      <div class="cv r1 cream" style="padding:34px 30px;display:flex;flex-direction:column;justify-content:center">
+        <div style="display:flex;gap:16px;align-items:flex-start">
+          <div style="width:90px;height:90px;border-radius:50%;flex:0 0 auto;background:linear-gradient(135deg,#A7BFA1,#6E8A67);display:grid;place-items:center">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+          </div>
+          <div><div style="font-size:25px;font-weight:700;line-height:1.12;letter-spacing:-.02em">Your gut is <em class="ga">listening</em>.</div>
+          <div style="font-size:12.5px;color:var(--text-muted);margin-top:4px">Here's what the science says.</div></div>
+        </div>
+        <div style="margin-top:18px;font-size:12.5px;color:var(--text);line-height:2">
+          <div>Stress signals → vagal tone drops</div>
+          <div>Poor digestion → nervous system stays on</div>
+          <div>Gut imbalance → inflammation rises</div>
+          <div>Heal the gut → the vagus settles</div>
+        </div>
+        <div style="margin-top:14px;font-size:12.5px;font-weight:600;color:var(--text);border-left:3px solid var(--green);padding-left:10px;line-height:1.5">Your nervous system and microbiome are in constant dialogue. Tend to one, you support the other.</div>
+        <img src="ehn-logo-wide.png" style="height:15px;opacity:.6;margin-top:16px;align-self:flex-end" alt="EHN">
+      </div>
+      <div class="cgrip">Image · 1:1 · headshot + listicle</div>
+    </div>
+    <div class="cap-col" data-slot="10"></div>
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap">Creatives rendered in HTML from the EHN brand kit (Satoshi · green #39B54A · cream #FAF8F5). Modelled on competitor winners (≥2× their account median) — structure borrowed, content original, clinician voice. Always sense-check clinical claims before publishing.</div></footer>
+
+<script>
+const ICON_HEART='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 8.6c0 5-8.8 10.2-8.8 10.2S3.2 13.6 3.2 8.6A4.4 4.4 0 0112 6a4.4 4.4 0 018.8 2.6z"/></svg>';
+const ICON_CMT='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 01-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1121 11.5z"/></svg>';
+const ICON_SHARE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>';
+const ICON_SAVE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>';
+const fmtCap=t=>(t||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])).replace(/(#[A-Za-z0-9_]+)/g,'<span class="ht">$1</span>');
+
+function igCard(p){
+  return `<div class="pc"><div class="pc-head"><img class="av" src="ehn-avatar.jpg" alt=""><div><div class="pc-name">elemental_health_nutrition</div><div class="pc-meta">Adelaide, South Australia</div></div><span class="pc-chan ch-ig">Instagram</span></div>
+  <div class="usethumb"><span class="mini" style="background:linear-gradient(135deg,#9FB89A,#6E8A67)"></span>↑ uses the creative above</div>
+  <div class="actions"><span style="color:#e0245e">${ICON_HEART}</span>${ICON_CMT}${ICON_SHARE}<span class="sp"></span>${ICON_SAVE}</div>
+  <div class="likes">Liked by your community</div>
+  <div class="pc-body"><b>elemental_health_nutrition</b> ${fmtCap(p.caption)}</div></div>`;
+}
+function fbCard(p){
+  return `<div class="pc"><div class="pc-head"><img class="av" src="ehn-avatar.jpg" alt=""><div><div class="pc-name">Elemental Health &amp; Nutrition</div><div class="pc-meta">Just now · 🌏</div></div><span class="pc-chan ch-fb">Facebook</span></div>
+  <div class="pc-body" style="padding-top:4px">${fmtCap(p.caption)}</div>
+  <div class="actions" style="border-top:1px solid #eee;margin-top:8px;color:#65676b"><span style="display:flex;gap:6px;align-items:center;font-size:13px;font-weight:600">👍 Like</span><span style="display:flex;gap:6px;align-items:center;font-size:13px;font-weight:600">💬 Comment</span><span style="display:flex;gap:6px;align-items:center;font-size:13px;font-weight:600">↗ Share</span></div></div>`;
+}
+function gmbCard(p){
+  return `<div class="pc"><div class="pc-head"><img class="av" src="ehn-avatar.jpg" alt=""><div><div class="pc-name">Elemental Health &amp; Nutrition</div><div class="pc-meta">Google Business Profile · What's new</div></div><span class="pc-chan ch-gmb">Google</span></div>
+  <div class="usethumb"><span class="mini" style="background:linear-gradient(135deg,#9FB89A,#6E8A67)"></span>↑ uses the creative above</div>
+  <div class="pc-body" style="padding-top:10px">${fmtCap(p.gmb_caption)}</div>
+  <div class="gmb-foot"><span class="gmb-btn solid">Book</span><span class="gmb-btn">Learn more</span></div></div>`;
+}
+
+fetch('weekly-plan.json?t='+Date.now()).then(r=>r.json()).then(plan=>{
+  const by={};(plan.posts||[]).forEach(p=>by[p.slot]=p);
+  document.querySelectorAll('.cap-col').forEach(col=>{
+    const p=by[col.dataset.slot]; if(!p)return;
+    if(p.format==='text-only'){ col.innerHTML=fbCard(p)+gmbCard(p)+'<div class="na">Not posted to Instagram — text-only format suits Facebook + Google Business.</div>'; }
+    else { col.innerHTML=igCard(p)+fbCard(p)+gmbCard(p); }
+  });
+}).catch(e=>{document.querySelectorAll('.cap-col').forEach(c=>c.innerHTML='<div class="na">Couldn\'t load weekly-plan.json — start the local server.</div>');});
+</script>
+</body></html>

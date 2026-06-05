@@ -1,0 +1,208 @@
+{
+  "week": "2026-06-08/2026-06-14",
+  "generated_at": "2026-06-14T23:59:59Z",
+  "note": "Tracks which Lab recipes/archetypes drove which published posts. Links recipe attribution to post URLs for downstream engagement measurement.",
+  "posts": [
+    {
+      "day": "Mon 2026-06-08",
+      "ehn_topic": "Estrogen-dominance myth",
+      "format": "text-only + carousel",
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_4",
+        "modelled_on": "doctorwillcole",
+        "score": 234.43,
+        "note": "Text-only myth-bust archetype adopted; topic differs from slot's original (toxins/mould dropped as GATE-1 repeat)"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-06-09",
+      "ehn_topic": "3pm crash / reactive hypoglycaemia",
+      "format": "listicle",
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "note": "Listicle format from experiment pivot library. EHN-original topic + copy. No single-slot Lab attribution."
+      },
+      "face_branded": true,
+      "platforms": {
+        "facebook": {
+          "kind": "listicle_1to1",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "listicle_1to1",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "listicle_1to1",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-06-10",
+      "ehn_topic": "Sleep regularity beats duration",
+      "format": "carousel",
+      "lab_attribution": {
+        "type": "full_recipe",
+        "source": "slot_8",
+        "modelled_on": "drjoshaxe",
+        "score": 13.59,
+        "note": "Design recipe + copy reworked to EHN voice. Clean recipe→post attribution. This is the one full adoption."
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-06-11",
+      "ehn_topic": "Lean PCOS",
+      "format": "carousel",
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "note": "Carousel format from experiment pivot library. EHN-original topic + copy. No single-slot Lab attribution."
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-06-12",
+      "ehn_topic": "Healthy UPF inflammatory ingredients",
+      "format": "text-only + carousel",
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_4",
+        "modelled_on": "doctorwillcole",
+        "score": 234.43,
+        "note": "Text-only myth-bust archetype adopted; second instance of slot 4's format, different topic"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-06-13",
+      "ehn_topic": "Fasting — evidence not dogma",
+      "format": "carousel",
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "note": "Carousel format from experiment pivot library. Face-branded day. EHN-original topic + copy."
+      },
+      "face_branded": true,
+      "platforms": {
+        "facebook": {
+          "kind": "hook_card_headshot",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides_full_branding",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card_headshot",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-06-14",
+      "ehn_topic": "Stress/adrenal → assessment CTA",
+      "format": "carousel",
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "note": "Carousel format from experiment pivot library. EHN-original topic + copy. Conversion pillar (booking CTA)."
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    }
+  ],
+  "schema_notes": {
+    "attribution_types": "full_recipe (design + copy from Lab slot), archetype (format pattern from Lab slot, different topic), format_pattern (general format from pivot library, EHN-original topic/copy)",
+    "measurement_strategy": "Pull engagement (likes, comments, shares) for each post 7+ days after posting. Match attribution type to determine signal: full_recipe indicates recipe performance, archetype indicates format+hook pattern, format_pattern indicates general pivot effectiveness. Store results in recipe-performance.json."
+  }
+}

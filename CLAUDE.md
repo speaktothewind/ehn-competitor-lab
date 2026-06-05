@@ -81,6 +81,47 @@ Apify scrapers (weekly)  →  2 Google Sheets (mode: replace)  →  published as
 - **Live site:** https://speaktothewind.github.io/ehn-competitor-lab/
 - **Repo:** https://github.com/speaktothewind/ehn-competitor-lab (public, GitHub Pages from main/root)
 
+## Lab feeds, pipeline owns (LOCKED 2026-06-04)
+
+This Lab is **a JSON feed, not a publisher and not a review surface.** The clinic SM
+**pipeline (cockpit)** ingests the feed, runs GATE-1 dedupe, renders floor-locked creatives,
+shows the single preview, gates, and publishes. Division of labour:
+
+- **Lab (here) = generator.** Score over-performers → EHN-voice copy → `build_brief` +
+  topic-agnostic `design_recipe` → publish `weekly-plan.json` + `weekly-patterns.json`. Nothing more.
+- **Pipeline = owner.** Pulls the two published JSONs each **Thursday**; owns dedupe/render/preview/publish.
+- **`posts-rendered.html` / local `:8787` is an internal sanity check only — NOT the approval surface.**
+  Rohan approves from the cockpit's `build_preview_page.py`, never from the Lab's render.
+- The Lab **cannot publish** — `.env` holds only an `ANTHROPIC_API_KEY` (content generation), no Meta/GBP tokens.
+
+## Measurement loop (2026-06-05 onwards)
+
+The Lab now tracks which recipes/archetypes drive engagement via `published-posts.json` and `recipe-performance.json`.
+
+- **`published-posts.json`:** Maps 7 scheduled posts (Mon–Sun each week) to their Lab attribution type (full recipe / archetype / format pattern). Links to post URLs (filled in by Lab on Sun when all posts are live).
+- **`recipe-performance.json`:** Template for engagement results (likes, comments, shares per post). Pipeline populates this 7+ days after posting, keyed by attribution type for signal clarity.
+- **`MEASUREMENT-LOOP.md`:** Full process doc. Three attribution types tracked distinctly so measurement signal is clean: full recipe adoption, archetype borrowing (same format, different topic), and format pattern (EHN-original topic, general format from pivot library).
+
+**Weekly cycle:** Lab pulls post URLs on Sun (week fires Mon–Sun). Pipeline pulls engagement data the following Thu (7+ days post-publication) and populates `recipe-performance.json`. Results feed back into next week's Lab recipe weighting (optional, post-implementation).
+
+**`weekly-plan.json` is schema v2** — each post carries a `routing` block the cockpit consumes
+(`pillar`, `day_fit`, `image_need` none/still/footage, `face_branded`, `fb_text_only`,
+`gbp_card_required`, per-surface `instagram`/`facebook`/`googlebusiness`, `gate1_risk`) plus a
+top-level `render_constraints` + `pillar_format_map`. Routing is derived in `routeOf()` /
+`slideCountOf()` in `extract.mjs` (exported; `main()` is guarded so they import without firing a run).
+`apply-routing.mjs` back-fills an existing feed to v2 without a live regen.
+
+**Locked render contract (baked into `extract.mjs` prompts + `render_constraints`):**
+EHN palette only · **Satoshi Bold** headings / Satoshi Medium body (NOT Libre Caslon — benched) ·
+legibility floors **≥36px / body ≥40px / heading ~95px** ("shorten copy, never shrink font" — the
+renderer hard-asserts) · cards branded **"Elemental Health & Nutrition"** (suburb keyword in GBP
+caption only) · **every post ships a GBP hook card** (incl. text-only) · AHPRA/TGA-safe.
+
+**GATE-1:** keep `RECENT_EHN_TOPICS` in `extract.mjs` synced with the pipeline's `topic-log.md`;
+recent topics are de-prioritised in selection and any that slip through are flagged `gate1_risk`
+(never silently dropped). The **format pivot** (winning archetypes replace the Pillow branded cards)
+is a *tracked experiment* vs the branded-card baseline — if it loses, branded cards + Libre Caslon resume.
+
 ## Conventions & gotchas
 
 - **The whole app is one file:** `index.html` (HTML + CSS + JS inline). Scoring/mapping logic lives
