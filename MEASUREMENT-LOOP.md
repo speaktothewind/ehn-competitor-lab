@@ -6,6 +6,19 @@
 
 ---
 
+> ## ⚙️ AUTOMATED NOW (2026-06-05) — read this first
+>
+> The data-handoff steps further down (Lab manually fills `published-posts.json` URLs on Sunday; "pull engagement from Apify"; pbcopy → paste between chats) are **SUPERSEDED**. The clinic pipeline now does both writes automatically and pushes them into this repo. Treat the sections below as *conceptual reference* (attribution types, decision rule, analysis), not the operational procedure.
+>
+> **What's automated:**
+> - **Engagement + permalinks source = Zernio's native `/analytics` + `/posts` API** (NOT Apify — Apify only feeds the Lab's *outbound* weekly-plan/patterns). Zernio `/analytics` covers Facebook + Instagram only; **GBP engagement is unavailable** (gets a permalink, no metrics).
+> - **The pipeline owns both writes.** `tools/lab_results_push.py` (in the Social Media Pipeline repo) fills `published-posts.json` (permalink + posted_at) and `recipe-performance.json` (per-platform metrics at a +7d snapshot), then commits + pushes here. The Lab no longer hand-fills URLs.
+> - **Cadence:** a recurring pipeline task (`lab-results-push-weekly`, Mondays) runs `lab_results_push.py --auto`. For week 06-08 it fills permalinks Mon 06-15 and the +7d engagement snapshot Mon 06-22 — same dates the two retired one-off tasks used to target.
+> - **Lab's only job:** seed `published-posts.json` + `recipe-performance.json` with the week's attribution (type / source / modelled_on) so the pipeline has rows to fill. A `week`-match guard means the pipeline only writes a file whose `week` matches the due week.
+> - **Judge the experiment on the Lab's ×median outlier (primary) + ENG (secondary), not engagement-rate** — the sample is too small for rate precision.
+
+---
+
 ## The Challenge
 
 Not all posts are 1:1 Lab recipe adoptions. Three attribution types exist:
@@ -30,7 +43,7 @@ Maps 7 published posts (Mon–Sun) to their Lab attribution type. Links to post 
 ### `recipe-performance.json`
 Template for engagement results. Structured by attribution type for clean analysis.
 
-**Fill in:** On 2026-06-21 (7+ days after posting), pull engagement metrics from Apify and populate `engagement` sections.
+**Fill in:** Automated — the pipeline's `lab_results_push.py` populates the `engagement` sections from Zernio `/analytics` at the +7d snapshot (Mon 06-22 for this week). No manual Apify pull.
 
 ---
 
@@ -118,7 +131,7 @@ Once you have one week's data, the Lab can refine:
 | Date | Owner | Action |
 |------|-------|--------|
 | Sun 2026-06-14 | Lab | Pull post URLs, update published-posts.json, hand to pipeline |
-| Thu 2026-06-19 | Pipeline | Pull engagement from Apify, populate recipe-performance.json |
+| Mon 2026-06-22 | Pipeline (auto) | `lab-results-push-weekly` pulls +7d engagement from Zernio `/analytics`, writes + pushes recipe-performance.json |
 | Thu 2026-06-26+ | Lab (optional) | Analyze results, weight next week's recipe selection |
 
 ---
@@ -128,8 +141,8 @@ Once you have one week's data, the Lab can refine:
 **Q: What if a post URL is wrong?**
 A: Fix it in `published-posts.json` and re-pull engagement data.
 
-**Q: What if Apify doesn't have the post yet?**
-A: Pull on 2026-06-21 or later (7+ days after posting ensures data is in the system).
+**Q: What if Zernio hasn't synced the post yet?**
+A: `lab_results_push.py` is idempotent — the next weekly run re-pulls and fills any rows still missing. Engagement is snapshotted at +7d, by which point Zernio has synced.
 
 **Q: Do we measure GBP engagement separately?**
 A: Yes, GBP has its own `views` metric (not likes/comments/shares). Capture it if available, but note it's not directly comparable to FB/IG.
