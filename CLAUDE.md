@@ -33,43 +33,6 @@ is exactly what's transferable.
 - **Breakout (≥4×)** is worth studying but often driven by something hard to copy (a viral moment,
   a huge announcement, a personal/emotional post). Note *why* before recommending it.
 
-## How to actually use this for the goal
-
-When Rohan asks "what's working", "what should I post", "how do I improve engagement", or similar,
-don't just list posts. Run the analysis:
-
-1. **Pull the over-performers.** Focus on Replicable + Breakout. The live data is in the two
-   published Google Sheets CSVs (URLs in `index.html` / `README.md`); fetch and score the same way
-   the dashboard does, or read the dashboard's logic in `index.html`.
-2. **Cluster by pattern, not by account.** Group winners across these axes:
-   - **Hook type** — contrarian ("you've been told X, it's wrong"), myth-bust, listicle,
-     personal story, question/engagement-bait, data/stat drop, "comment WORD and I'll DM you".
-   - **Format** — Reel/video vs carousel/Sidecar vs single image; talking-head vs text-on-screen.
-   - **Topic** — gut health, hormones/perimenopause, thyroid, methylation/MTHFR, mental health,
-     microplastics/toxins, walking/movement, fasting, lab interpretation, etc.
-   - **Emotional register** — fear/urgency, hope, validation ("it's not your fault"), faith, humour.
-3. **Quantify the pattern.** Which hook types / formats / topics show up most in the ≥2× band?
-   Where's the consistent lift? That's the recommendation, backed by numbers.
-4. **Compare to EHN's own baseline.** Rohan's accounts are tagged **YOU** in the dashboard
-   (`elemental_health_nutrition` on IG, `elementalhealthandnutrition` on FB). What are his
-   over-performers vs the competitors'? Where's the gap — format mix, hook strength, topic, cadence?
-5. **Output specifics, not theory.** Give Rohan post ideas he could publish this week: the hook
-   line, the format, the topic, and which competitor pattern it's modelled on. Adapt to a clinician
-   voice — evidence-based, not hypey. EHN is a real clinic, not a supplement-pusher.
-
-## What the data looks like (so analysis is honest)
-
-- ~42 accounts, ~870 posts, rolling **last 30 days** (refreshes weekly via scheduled Apify runs).
-- The ~42 is wider than the ~30 tracked accounts — scrapers pick up tagged/collaborator pages
-  (e.g. `function`, `brainmdhealth`, `amen_clinics`, podcast accounts). Treat those as noise unless
-  relevant; the locked tracked list is in `README.md` / `apify-pipeline.md`.
-- **Views only exist for video.** Don't compare engagement *rates* across video vs image as if
-  they're the same denominator — the outlier score uses likes+comments+shares, which is consistent.
-- **`likes: -1`** in some rows means likes were hidden/unavailable on that post, not zero — exclude
-  from like-based comparisons rather than treating as 0.
-- Region tags: `us` = US/International (the aspirational reach targets), `au` = Australian
-  benchmarks (the realistic, same-market comparison set — weight these heavily for Rohan).
-
 ## The system (brief — full detail in README.md / apify-pipeline.md)
 
 ```
@@ -78,56 +41,90 @@ Apify scrapers (weekly)  →  2 Google Sheets (mode: replace)  →  published as
  FB: apify/facebook-posts-scraper   by column (ownerUsername=IG, pageName=FB), scores, ranks
 ```
 
-- **Live site:** https://speaktothewind.github.io/ehn-competitor-lab/
+- **Live dashboard:** https://speaktothewind.github.io/ehn-competitor-lab/ (index.html)
+- **Weekly feed:** https://speaktothewind.github.io/ehn-competitor-lab/weekly-plan.json (v2 schema)
 - **Repo:** https://github.com/speaktothewind/ehn-competitor-lab (public, GitHub Pages from main/root)
+
+---
 
 ## Lab feeds, pipeline owns (LOCKED 2026-06-04)
 
-This Lab is **a JSON feed, not a publisher and not a review surface.** The clinic SM
+This Lab is **a JSON feed generator, not a publisher and not a review surface.** The clinic SM
 **pipeline (cockpit)** ingests the feed, runs GATE-1 dedupe, renders floor-locked creatives,
 shows the single preview, gates, and publishes. Division of labour:
 
 - **Lab (here) = generator.** Score over-performers → EHN-voice copy → `build_brief` +
   topic-agnostic `design_recipe` → publish `weekly-plan.json` + `weekly-patterns.json`. Nothing more.
 - **Pipeline = owner.** Pulls the two published JSONs each **Thursday**; owns dedupe/render/preview/publish.
-- **`posts-rendered.html` / local `:8787` is an internal sanity check only — NOT the approval surface.**
+- **`plan.html` / local `:8787` is an internal render preview only — NOT the approval surface.**
   Rohan approves from the cockpit's `build_preview_page.py`, never from the Lab's render.
 - The Lab **cannot publish** — `.env` holds only an `ANTHROPIC_API_KEY` (content generation), no Meta/GBP tokens.
 
-## Measurement loop (2026-06-05 onwards)
-
-The Lab now tracks which recipes/archetypes drive engagement via `published-posts.json` and `recipe-performance.json`.
-
-- **`published-posts.json`:** Maps 7 scheduled posts (Mon–Sun each week) to their Lab attribution type (full recipe / archetype / format pattern). Links to post URLs (filled in by Lab on Sun when all posts are live).
-- **`recipe-performance.json`:** Template for engagement results (likes, comments, shares per post). Pipeline populates this 7+ days after posting, keyed by attribution type for signal clarity.
-- **`MEASUREMENT-LOOP.md`:** Full process doc. Three attribution types tracked distinctly so measurement signal is clean: full recipe adoption, archetype borrowing (same format, different topic), and format pattern (EHN-original topic, general format from pivot library).
-
-**Weekly cycle:** Lab pulls post URLs on Sun (week fires Mon–Sun). Pipeline pulls engagement data the following Thu (7+ days post-publication) and populates `recipe-performance.json`. Results feed back into next week's Lab recipe weighting (optional, post-implementation).
-
-**`weekly-plan.json` is schema v2** — each post carries a `routing` block the cockpit consumes
-(`pillar`, `day_fit`, `image_need` none/still/footage, `face_branded`, `fb_text_only`,
-`gbp_card_required`, per-surface `instagram`/`facebook`/`googlebusiness`, `gate1_risk`) plus a
-top-level `render_constraints` + `pillar_format_map`. Routing is derived in `routeOf()` /
-`slideCountOf()` in `extract.mjs` (exported; `main()` is guarded so they import without firing a run).
-`apply-routing.mjs` back-fills an existing feed to v2 without a live regen.
+**`weekly-plan.json` is schema v2** — each post carries routing metadata the cockpit consumes:
+`pillar`, `day_fit`, `image_need` (none/still/footage), `face_branded`, `fb_text_only`,
+`gbp_card_required`, per-surface (`instagram`/`facebook`/`googlebusiness`), `gate1_risk`,
+and `recency_window` (for dashboard's 7-day "breakouts" lens).
 
 **Locked render contract (baked into `extract.mjs` prompts + `render_constraints`):**
-EHN palette only · **Satoshi Bold** headings / Satoshi Medium body (NOT Libre Caslon — benched) ·
-legibility floors **≥36px / body ≥40px / heading ~95px** ("shorten copy, never shrink font" — the
-renderer hard-asserts) · cards branded **"Elemental Health & Nutrition"** (suburb keyword in GBP
-caption only) · **every post ships a GBP hook card** (incl. text-only) · AHPRA/TGA-safe.
+EHN palette only (#FAF8F5, #2D3436, #39B54A) · **Satoshi Bold** headings / Satoshi Medium body
+(NOT Libre Caslon — benched) · legibility floors **≥36px / body ≥40px / heading ~95px** 
+("shorten copy, never shrink font" — the renderer hard-asserts) · cards branded **"Elemental Health & Nutrition"**
+(suburb keyword in GBP caption only) · **every post ships a GBP hook card** (incl. text-only) · AHPRA/TGA-safe.
 
 **GATE-1:** keep `RECENT_EHN_TOPICS` in `extract.mjs` synced with the pipeline's `topic-log.md`;
-recent topics are de-prioritised in selection and any that slip through are flagged `gate1_risk`
-(never silently dropped). The **format pivot** (winning archetypes replace the Pillow branded cards)
-is a *tracked experiment* vs the branded-card baseline — if it loses, branded cards + Libre Caslon resume.
+recent topics are de-prioritised in selection and any that slip through are flagged `gate1_risk`.
+The **format pivot** (winning archetypes replace the Pillow branded cards) is a *tracked experiment*
+vs the branded-card baseline — if it loses, branded cards + Libre Caslon resume.
+
+---
+
+## Measurement loop (2026-06-05 onwards)
+
+The Lab tracks which recipes/archetypes drive engagement via structured measurement infrastructure.
+
+**Three attribution types are tracked distinctly:**
+1. **Full recipe** — design recipe + copy reworked to EHN voice (clean 1:1 adoption)
+2. **Archetype** — format pattern borrowed from Lab, different topic
+3. **Format pattern** — general format from pivot library, EHN-original topic + copy
+
+**Files:**
+- `published-posts.json` — Maps 7 weekly posts to Lab attribution type + post URLs (filled on Sun when posts live)
+- `recipe-performance.json` — Template for engagement results (filled +7 days post-publication, equal-age snapshots)
+- `baseline-control.json` — 3 weeks of branded-card control (05-18, 05-25, 06-01) for experiment comparison
+- `MEASUREMENT-LOOP.md` — Full process doc (read this for detailed workflow)
+
+**Weekly cycle:**
+- **Sun (week fires Mon–Sun):** Lab receives post URLs from pipeline's Zernio pull, commits to `published-posts.json`
+- **Mon +7 days:** Pipeline snapshots engagement per post (equal-age, stable baseline vs candidate lookback)
+- **Mon +7 days:** Pipeline backfills baseline weeks (05-18/25, 06-01) with same method
+- **Thu +9 days:** Lab analyzes results, directional weighting (low-confidence flag), no GATE-1/lock override
+
+**Decision rule:** Pivot must beat branded-card baseline to justify permanence. Rohan's call, logged in decisions/log.md.
+
+---
+
+## Dashboard: 7-day recency lens (2026-06-05)
+
+The competitor dashboard now supports filtering by post age without sacrificing statistical rigor.
+
+**How it works:**
+- **Candidate window is filterable:** 7-day "breakouts" | 30-day "proven" | All (default)
+- **Baseline median stays stable:** 30-90d rolling (unchanged)
+- **No noise:** Only the CANDIDATE pool becomes filterable; baseline doesn't shrink
+
+**Why:** Timely trend-jacks (posts that popped this week are culturally live) vs reliable patterns (proven 30-day winners).
+Each weekly-plan.json post is tagged `recency_window` ("7d" | "30d") so the pipeline preview can flag age.
+
+---
 
 ## Conventions & gotchas
 
-- **The whole app is one file:** `index.html` (HTML + CSS + JS inline). Scoring/mapping logic lives
-  in `compute()`, `mapIG()`, `mapFB()`, `mapRow()`. Edit there.
+- **The dashboard is one file:** `index.html` (HTML + CSS + JS inline). Scoring/mapping logic lives
+  in `compute()`, `mapIG()`, `mapFB()`, `mapRow()`. Recency filtering in `filtered()`.
+- **The generator is one file:** `extract.mjs` (Node.js). Routes winners through vision classification,
+  text drafting, pillar/format routing, and recency calculation. Core functions exported for reuse.
 - **Ship changes:** `git add -A && git commit -m "..." && git push` → Pages redeploys in ~1 min.
-  End commit messages with the `Co-Authored-By: Claude Opus 4.8 (1M context)` trailer.
+  End commit messages with the `Co-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>` trailer.
 - **The two CSV feeds are swapped** (the "IG" URL serves FB data and vice versa). This is harmless —
   `mapRow()` detects platform by column, not by feed order. Don't "fix" it by reordering URLs.
 - **The offline snapshot (`DATA_RAW`) is currently empty** — the live fetch is the real data source
@@ -135,3 +132,53 @@ is a *tracked experiment* vs the branded-card baseline — if it loses, branded 
   cleanly from a live CSV pull (don't hand-type it). Verified live: header reads "Live · <date>".
 - **Voice for any content output:** clinician-credible, warm, plain-English, Australian spelling.
   Model the *structure* of competitor winners (hooks, formats), not their supplement-sales tone.
+
+---
+
+## Files in this folder
+
+| File | What it is |
+|------|------------|
+| `index.html` | Live dashboard. 7-day recency filter + tier filters + search. Self-contained. |
+| `plan.html` | Internal week plan preview. Do not use as approval surface (cockpit owns that). |
+| `extract.mjs` | Weekly generator. Scores, classifies, drafts, routes, calculates recency_window. Exports routeOf() / slideCountOf() / daysSincePost() / recencyWindowOf(). |
+| `apply-routing.mjs` | Reusable v2 back-filler for existing feeds (idempotent). |
+| `weekly-plan.json` | Published feed: 10 ready-to-pick posts with routing metadata + recency_window. Schema v2. |
+| `weekly-patterns.json` | Published feed: raw winners + trending rollups. Scored candidates. |
+| `published-posts.json` | Measurement: maps 7 weekly posts to Lab attribution type + post URLs. |
+| `recipe-performance.json` | Measurement: template for engagement results (filled +7 days post-publication). |
+| `baseline-control.json` | Measurement: branded-card control weeks (05-18, 05-25, 06-01) for experiment comparison. |
+| `MEASUREMENT-LOOP.md` | Process doc: full weekly attribution → engagement workflow. |
+| `README.md` | User-facing: how the system works, tracked accounts, setup steps. |
+| `apify-pipeline.md` | Technical: Apify scraper configs, Sheets integration, field mappings. |
+| `.env` | Secret: `ANTHROPIC_API_KEY` only (content generation, no publishing). |
+
+---
+
+## Running the Lab
+
+**Live feed (automatic):** GitHub Pages redeploys on push to main.
+
+**Weekly generation (manual):**
+```bash
+ANTHROPIC_API_KEY=sk-... node extract.mjs
+```
+Outputs: `weekly-plan.json` (10 posts) + `weekly-patterns.json` (all winners).
+DRY mode (no API key): scores + format tags, AI fields null.
+
+**Back-fill v2 routing (one-time or as-needed):**
+```bash
+node apply-routing.mjs
+```
+Idempotent. Re-applies routing metadata to existing feeds without re-scoring.
+
+---
+
+## Next steps
+
+1. **Thursday pull (pipeline):** Fetch live feed URLs from `published-posts.json` at run time.
+2. **Sun +0:** Lab receives Zernio post URLs from pipeline, commits to `published-posts.json`.
+3. **Mon +7:** Pipeline snapshots engagement (equal-age), backfills baseline weeks, populates `recipe-performance.json`.
+4. **Thu +9:** Lab analyzes results, weights next week's recipe selection.
+
+Measurement loop is fully staged. Ready for execution starting 2026-06-08.
