@@ -81,6 +81,23 @@ export const RENDER_CONSTRAINTS = {
   compliance: 'AHPRA/TGA-safe: no supplement doses, no cure/treat-[condition]/guarantee/miracle/before-after.',
 };
 
+// Calculate days since post was published. Used for recency filtering in the dashboard.
+export function daysSincePost(timestamp) {
+  if (!timestamp) return null;
+  const now = new Date();
+  const post = new Date(timestamp);
+  return Math.floor((now - post) / (1000 * 60 * 60 * 24));
+}
+
+// Tag post with recency window: "7d" if ≤7 days old, "30d" if ≤30 days old, or null if older.
+export function recencyWindowOf(timestamp) {
+  const days = daysSincePost(timestamp);
+  if (days === null) return null;
+  if (days <= 7) return '7d';
+  if (days <= 30) return '30d';
+  return null;
+}
+
 // Count carousel slides from the on_image text ("Slide 1: …" / "Card 1: …").
 export function slideCountOf(p) {
   if (p.format === 'reel/video') return null;
@@ -537,7 +554,7 @@ async function main() {
   const picks = selectVaried(planPool, PLAN_N, RECENT_EHN_TOPICS);
   const baseSlot = (w, i) => ({
     slot: i + 1,
-    modelled_on: { account: w.account, score: w.score, platform: w.platform, region: w.region, url: w.url },
+    modelled_on: { account: w.account, score: w.score, platform: w.platform, region: w.region, url: w.url, post_date: w.timestamp },
     format: w.format, hook: w.hook, topic: w.topic, register: w.register,
     has_face: w.has_face, is_text_card: w.is_text_card,
     visual_recipe: w.visual_recipe, image_url: w.image_url,
@@ -555,7 +572,8 @@ async function main() {
   }
   // Routing fields (pipeline-locked): make each post's pillar/day + per-surface
   // mapping + image-need + face/GBP/GATE-1 flags unambiguous for the cockpit.
-  posts = posts.map(p => ({ ...p, slide_count: slideCountOf(p), routing: routeOf(p) }));
+  // Recency window: tag for dashboard's 7-day "breakouts" vs 30-day "proven" lens.
+  posts = posts.map(p => ({ ...p, slide_count: slideCountOf(p), recency_window: recencyWindowOf(p.modelled_on.post_date), routing: routeOf(p) }));
   const gate1Flagged = posts.filter(p => p.routing.gate1_risk).length;
   if (gate1Flagged) console.log(`  ⚠ ${gate1Flagged} post(s) flagged gate1_risk (recent EHN topic) — pipeline will collapse/drop.`);
   const plan = {
