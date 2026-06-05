@@ -1,0 +1,146 @@
+{
+  "baseline_arm": "branded-card system (pre-pivot control)",
+  "purpose": "Engagement baseline for comparing pivot week (2026-06-08 to 06-14) against. Pivot is a tracked experiment; this is the control.",
+  "format_system": "Pillow branded cards — infographic / photo-heading / question-card / cta-card. NOT the pivot's text-carousel / listicle / carousel.",
+  "format_pivot_contrast": {
+    "baseline": "Pillow branded-card system (infographic, photo-heading, question-card, cta-card)",
+    "pivot": "Winning niche archetypes from Lab (text-only myth-bust, listicle, carousel, stat-drop carousel)"
+  },
+  "pillar_rotation": "Mon=Education · Tue=Trust · Wed=Education · Thu=Engagement · Fri=Education · Sat=Trust · Sun=Conversion (locked across all baseline weeks)",
+  "weeks": {
+    "2026-05-18": [
+      {
+        "day": "Mon",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "CGM 'healthy breakfast' spikes — what TikTok misses about insulin"
+      },
+      {
+        "day": "Tue",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Postpartum depletion — bigger than iron and B12"
+      },
+      {
+        "day": "Wed",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "Eczema food triggers — gut-skin axis, beyond elimination diets"
+      },
+      {
+        "day": "Thu",
+        "pillar": "Engagement",
+        "format": "question-card",
+        "topic": "Migraine triggers — hormonal, glycaemic, gut-driven, mitochondrial"
+      },
+      {
+        "day": "Fri",
+        "pillar": "Education",
+        "format": "photo-heading",
+        "topic": "Sleep apnea in women — looks like anxiety, insomnia, jaw clenching"
+      },
+      {
+        "day": "Sat",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Long COVID mitochondria — post-exertional malaise, not burnout"
+      },
+      {
+        "day": "Sun",
+        "pillar": "Conversion",
+        "format": "cta-card",
+        "topic": "Telogen effluvium — postpartum/post-stress hair shedding"
+      }
+    ],
+    "2026-05-25": [
+      {
+        "day": "Mon",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "Why you catch every winter bug — the immune workup behind 'always sick'"
+      },
+      {
+        "day": "Tue",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Brain fog has real drivers, not 'just stress'"
+      },
+      {
+        "day": "Wed",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "Glutathione — master antioxidant or marketing?"
+      },
+      {
+        "day": "Thu",
+        "pillar": "Engagement",
+        "format": "question-card",
+        "topic": "Which winter shift do you notice first?"
+      },
+      {
+        "day": "Fri",
+        "pillar": "Education",
+        "format": "photo-heading",
+        "topic": "How your gut and bile clear estrogen"
+      },
+      {
+        "day": "Sat",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Stealth mould — the home question most people don't expect"
+      },
+      {
+        "day": "Sun",
+        "pillar": "Conversion",
+        "format": "cta-card",
+        "topic": "A 'normal' liver test isn't always all-clear"
+      }
+    ],
+    "2026-06-01": [
+      {
+        "day": "Mon",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "Gallbladder gone, gut chaos in — bile acid diarrhoea"
+      },
+      {
+        "day": "Tue",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Mouth-taping went viral last year, I've been saying it for 13 years"
+      },
+      {
+        "day": "Wed",
+        "pillar": "Education",
+        "format": "infographic",
+        "topic": "Reflux from low stomach acid, not high — the PPI paradox"
+      },
+      {
+        "day": "Thu",
+        "pillar": "Engagement",
+        "format": "question-card",
+        "topic": "Air hunger isn't always anxiety — sigh-frequency as a clinical sign"
+      },
+      {
+        "day": "Fri",
+        "pillar": "Education",
+        "format": "photo-heading",
+        "topic": "Endometriosis isn't just period pain — gut and immune disease"
+      },
+      {
+        "day": "Sat",
+        "pillar": "Trust",
+        "format": "photo-heading",
+        "topic": "Low-dose naltrexone — the real clinic picture vs the Reddit hype"
+      },
+      {
+        "day": "Sun",
+        "pillar": "Conversion",
+        "format": "cta-card",
+        "topic": "Slow caffeine metaboliser — CYP1A2 / MyDNA pharmacogenomics"
+      }
+    ]
+  },
+  "measurement_notes": "Pipeline pulls engagement (likes, comments, shares) per-platform from Zernio for all 3 baseline weeks using the same method as pivot week (2026-06-08 to 06-14). Baseline = control arm. Pivot must beat baseline to justify making the format system permanent; if pivot underperforms, branded cards resume.",
+  "decision_log": "Permanent pivot decision (commit vs rollback) is Rohan's call, logged in decisions/log.md. Measurement informs it; does not make it."
+}

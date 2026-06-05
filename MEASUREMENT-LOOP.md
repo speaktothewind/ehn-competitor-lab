@@ -36,6 +36,16 @@ Template for engagement results. Structured by attribution type for clean analys
 
 ## The Process (Week by Week)
 
+### Baseline Control (Reference)
+
+Three weeks of branded-card system (pre-pivot) are the control arm:
+- **05-18, 05-25, 06-01:** Pillow branded cards (infographic, photo-heading, question-card, cta-card)
+- Locked pillar rotation: Mon=Ed · Tue=Trust · Wed=Ed · Thu=Eng · Fri=Ed · Sat=Trust · Sun=Conv
+- **File:** `baseline-control.json` (all posts, topics, formats documented)
+- **Pipeline pulls engagement for these weeks using the same Zernio method** as the pivot week
+
+**Decision rule:** Pivot (2026-06-08 to 06-14) must beat baseline to justify permanence. If pivot underperforms branded cards, format system rolls back. This is Rohan's call, logged in decisions/log.md.
+
 ### Week 1: Posts Go Live (Mon 2026-06-08 → Sun 2026-06-14)
 
 **Your pipeline:**
@@ -43,17 +53,18 @@ Template for engagement results. Structured by attribution type for clean analys
 - Posts fire each day
 
 **Lab's job on Sun 2026-06-14:**
-- Pull live IG/FB permalinks for all 7 posts
-- Update `published-posts.json` with post URLs
-- Hand both JSON files to pipeline chat
+- Receive permalinks from pipeline's Zernio `/analytics` pull
+- Update `published-posts.json` with `platformPostUrl` for all 7 posts
+- Commit and push
 
-### Week 2: Measurement (Thu 2026-06-19)
+### Week 2: Measurement (Mon 2026-06-22, +7 days post-publication)
 
 **Pipeline's job:**
-- Pull EHN's posts from Apify (you already do this)
-- Extract engagement metrics (likes, comments, shares) for the 7 posts published Mon–Sun 06-08 to 06-14
+- Pull engagement metrics from Zernio `/analytics` for the 7 pivot posts (Mon 06-08 → Sun 06-14)
+- Pull engagement metrics from Zernio for baseline weeks (05-18, 05-25, 06-01) using the same method
+- **Snapshot at +7 days** (equal age across all posts) to avoid cumulative engagement bias
 - Match each post to its entry in `published-posts.json` (by URL)
-- Populate `recipe-performance.json` with engagement data
+- Populate `recipe-performance.json` with engagement data (snapshot_date, days_post_publish, per-platform metrics)
 
 **Analysis:**
 ```
