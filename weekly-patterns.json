@@ -1,6 +1,6 @@
 {
   "week": "2026-06-08",
-  "generated_at": "2026-06-08T03:35:48.429Z",
+  "generated_at": "2026-06-08T03:46:17.137Z",
   "dry_run": false,
   "counts": {
     "posts_scored": 820,
@@ -25,7 +25,7 @@
   "trending": {
     "n": 19,
     "hook": {
-      "value": "personal-story",
+      "value": "myth-bust",
       "count": 7
     },
     "topic": {
@@ -34,27 +34,27 @@
     },
     "register": {
       "value": "hope",
-      "count": 6
+      "count": 9
     },
     "format": {
       "value": "reel/video",
       "count": 8
     },
-    "faceless_share": 0.32
+    "faceless_share": 0.37
   },
   "trending_au": {
     "n": 3,
     "hook": {
       "value": "myth-bust",
-      "count": 2
+      "count": 1
     },
     "topic": {
       "value": "hormones/perimenopause",
       "count": 2
     },
     "register": {
-      "value": "authority",
-      "count": 1
+      "value": "hope",
+      "count": 2
     },
     "format": {
       "value": "carousel",
@@ -89,13 +89,13 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Dark, moody photograph of mold/moisture on a concrete surface with overhanging green foliage at top, creating ominous atmosphere. White serif text overlaid in stacked lines across the middle and lower portion, medium-large font weight, approximately 85 words. Heavy contrast between dark lower portion and lighter green vegetation creates visual tension. Photo conveys contamination/threat without showing human face—purely environmental hazard imagery.",
+      "visual_recipe": "Vertical video/reel format showing moody, dark atmospheric image of concrete/stone wall with lush green foliage at top (mold/nature contrast). White serif/elegant typography overlaid on dark background with question-driven opening (\"Is it mold? Is it EMFs? Or is it both?\") followed by compelling medical authority statement. Dark semi-transparent overlays ensure text readability. Approximately 65 words of white text distributed across frame, medium-to-bold weight font. Creates mysterious, urgent visual tone through chiaroscuro—bright nature above, dark decay below—reinforcing the hidden threat narrative.",
       "dominant_colors": [
-        "green",
         "black",
-        "grey"
+        "green",
+        "white"
       ],
-      "text_word_count_est": 85,
+      "text_word_count_est": 65,
       "image_classified": true,
       "exemplar": "Is it mold? Is it EMFs? Or is it both? That’s the question I’m getting more and more in my telehealth practice. The truth is, it’s often the perfect storm of the two. \n \nMold and mycotoxins have been ",
       "url": "https://www.facebook.com/reel/1333867068617834/",
@@ -115,14 +115,14 @@
       "format": "text-only",
       "is_format_school": false,
       "is_you": false,
-      "hook": "contrarian",
-      "topic": "toxins/mould/microplastics",
+      "hook": "myth-bust",
+      "topic": "other",
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only Facebook post with no image. Heavy contrarian hook (\"Your vet probably isn't telling you this...\") leading into fear-based stat-drops (3 in 4 dogs, lifespan decline) and authority credentialing (40-year vet, 9 books). Four bulleted claims in bold relief, each building urgency around hidden harms (rendered animals, neurotoxins, unnecessary procedures). Closes with CTA to podcast episode. Design relies on caption hierarchy, line breaks, and emoji (👉) for visual chunking in feed.\"",
+      "visual_recipe": "Text-only Facebook post with no image available. Layout: hook headline (\"Your vet probably isn't telling you this...\") followed by stat-driven opening (cancer rates, lifespan decline), credibility marker (expert bio), then 4 bullet-point revelations in contrarian style, closing CTA with podcast link. Estimated 280+ words of body text rendered as caption. High contrast, scannable format optimized for mobile reading.",
       "dominant_colors": null,
-      "text_word_count_est": 0,
+      "text_word_count_est": null,
       "image_classified": false,
       "exemplar": "Your vet probably isn't telling you this...\n\n3 in 4 dogs who reach age 10 get a cancer diagnosis. The average golden retriever lifespan has dropped from 17 years to 10. Something is very wrong.\n\nDr. J",
       "url": "https://www.facebook.com/doctorwillcole/posts/pfbid02JRkjeQDiH8mxgwb8F2Bb7sLjdk9d8FmPZLnX96UK2Uq2WijDR7R5RjfxLhZZnp5Zl",
@@ -146,14 +146,14 @@
       "topic": "mental-health",
       "register": "hope",
       "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Clean, minimal layout with a small circular headshot (beige/tan background) of a professional man in the top left, followed by his name \"Mark Hyman, M.D.\" and verified handle in medium-weight sans-serif. Main body text in large, black, ultra-light sans-serif font on white background, arranged in five short lines (listicle-style statements) followed by a bold closing line. No photographic background, no overlays—pure typography-driven authority play with the credible face acting as social proof anchor.",
+      "is_text_card": true,
+      "visual_recipe": "Clean, minimal layout with a circular headshot (tan/beige background) of Mark Hyman positioned upper left, followed by his name and verified handle in large, bold black sans-serif. Below, a listicle-style series of short declarative statements in black text on white background, starting with \"Laughter is anti-inflammatory\" and ending with \"Joy is a biological necessity\" — progressive reveal structure that builds toward the thesis. Font is generous and legible, approximately 48-60pt for headline statements. No overlays or gradients; pure typographic hierarchy on white.",
       "dominant_colors": [
         "white",
         "black",
         "tan"
       ],
-      "text_word_count_est": 30,
+      "text_word_count_est": 41,
       "image_classified": true,
       "exemplar": "Play, joy, and love are biological necessities, and the science is unambiguous. 🧬\n\nLaughter lowers cortisol and epinephrine, crying releases built-up nervous system tension, hugging shifts you out of",
       "url": "https://www.instagram.com/p/DYuVcAnuX5C/",
@@ -178,13 +178,13 @@
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head style shot of a bald man in black clothing against a muted grey-beige striped background, seated at a microphone in a serious, concerned expression. Bold white text overlay at bottom reads \"We are raising mentally weak children by doing this.\" The framing is close enough to capture facial micro-expressions conveying concern/authority, with professional lighting suggesting expert credibility.",
+      "visual_recipe": "Close-up, side-profile shot of a bald man in black clothing speaking seriously into a microphone against a soft grey-striped background. Bold white sans-serif text overlay at bottom reads \"We are raising mentally weak children by doing this.\" The framing is intimate and direct, creating an \"expert commentary\" tone—minimal staging, natural lighting, intentional authority posture.",
       "dominant_colors": [
-        "tan/beige",
-        "black",
-        "grey"
+        "grey",
+        "#C9956F",
+        "black"
       ],
-      "text_word_count_est": 7,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "We are raising mentally weak children by doing this. \n\n#parenting #brainhealth",
       "url": "https://www.facebook.com/reel/1933071244075676/",
@@ -204,18 +204,18 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "question-bait",
+      "hook": "myth-bust",
       "topic": "toxins/mould/microplastics",
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head format with a bearded male presenter (center frame, shoulders-up) wearing a black jacket against a blurred background. Top-left corner features a red \"HEALTH\" label banner. Background composite shows colorful candies/donuts (left) and bright red cherries (right) as thematic visual context. Bottom third displays 2-3 lines of large white/yellow text (18 words) in bold sans-serif overlaying the dark lower portion, framed to draw focus to the presenter's surprised/concerned facial expression.",
+      "visual_recipe": "Talking-head format with male speaker (bearded, mid-shot) against collaged background of colorful candies/donuts (upper left), bright red cherries (upper right), and dark teal-blue accent bar. Bold white text overlay in gold/yellow font positioned center-bottom: \"THE FDA JUST BANDED RED NO.3 IN FOOD ...\" with high contrast against the dark lower third. Approximately 26 words rendered on image; medium-weight sans-serif typography, 40-50% frame size. Combines authority (speaking directly) with visual toxin-education (bright artificial food coloring as visual proof).",
       "dominant_colors": [
         "red",
-        "white",
+        "blue",
         "black"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 26,
       "image_classified": true,
       "exemplar": "The FDA just banned Red Dye No. 3 for its link to cancer in lab rats—yet the industry has until 2027 to phase it out. Meanwhile, if there’s an E. coli outbreak in meat, it’s an instant recall.\n\nWhy ar",
       "url": "https://www.instagram.com/p/DE3v3DDNRct/",
@@ -240,13 +240,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up headshot of a fit, grey-haired man in formal black suit and grey tie, smiling directly at camera in what appears to be an official/governmental setting with blurred background figures and tan leather seating. Large white serif text overlaid in left-aligned blocks reads \"I just turned 66.\" on top, followed by \"Here are 5 things I wish I knew at 26...\" below, creating a listicle teaser format against the dark suit contrast.",
+      "visual_recipe": "Professional headshot of mature man in formal black suit and grey tie, smiling at camera in institutional setting (parliamentary-style chamber with leather chairs background). White serif text overlaid in two-line format on left side: \"I just turned 66.\" and \"Here are 5 things I wish I knew at 26...\" positioned at ~40% from top. High contrast white text against darker background for readability. Clean, authoritative composition emphasizing the speaker's credibility and age.",
       "dominant_colors": [
-        "#000000",
-        "#FFFFFF",
-        "#8B7355"
+        "black",
+        "white",
+        "tan"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 17,
       "image_classified": true,
       "exemplar": "I just turned 66. Here are 5 things I wish I knew at 26. \n\nThese lessons took me 40 years to learn, but you can start applying them today.\n\nYour age is negotiable. Your health is in your control. And ",
       "url": "https://www.instagram.com/p/DSpLCPCkgmF/",
@@ -271,11 +271,11 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Minimalist text-only card on solid off-white/cream background. Opens with bold uppercase headline (~80 words) framing a wellness philosophy, followed by a bulleted list of 11 micro-practices in lighter weight sans-serif. Closes with a short paragraph and attribution line. All copy is left-aligned in black serif or clean sans font. High whitespace, clean typography, no images or faces—designed for readability and scrolling impact.",
+      "visual_recipe": "Minimalist text-on-white card with left-aligned sans-serif typography in varying font weights. Opening statement in lighter weight, followed by a bulleted list of actionable micro-practices (blink slowly, sip water, etc.) in regular weight, then closing statement about systemic benefits in medium weight. Attribution line to Dr. Will Cole at bottom. High contrast, monochromatic palette with generous whitespace, designed for maximum readability and calm visual impact.",
       "dominant_colors": [
         "white",
         "black",
-        "cream"
+        "grey"
       ],
       "text_word_count_est": 165,
       "image_classified": true,
@@ -302,13 +302,13 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Side-by-side comparison carousel: Left side shows classic Heinz ketchup glass bottle labeled \"Then: Glass Container\" with ingredient list in light gray text (Fully Ripened Tomatoes, Cane Sugar, etc.); right side shows modern squeeze bottle labeled \"Now: Plastic Container\" with bolder ingredient list highlighting processed additives (High Fructose Corn Syrup, etc.). Top features large quoted text \"It's fine, I ate that when I was a kid.\" with red contradiction text \"(no you didn't)\". Minimal white background, dark red/burgundy text for emphasis, clean dividing line down center with arrow pointing right indicating progression/decline.",
+      "visual_recipe": "Before/after comparison layout with a vertical divider. Left side: vintage glass Heinz ketchup bottle with ingredient list (cane sugar, spices) in light grey text. Right side: modern plastic Heinz squeeze bottle with longer ingredient list (high fructose corn syrup, corn syrup) in bold red text. Top quotes contrarian statement in grey with red callout. Bottom labels read \"Then: Glass Container\" and \"Now: Plastic Container\" in bold maroon serif font. Clean white background with minimal product photography and typography hierarchy using size and bold weight to emphasize processed ingredients on the right.",
       "dominant_colors": [
-        "red",
-        "white",
-        "gray"
+        "#C41E3A",
+        "#FFFFFF",
+        "#6B4423"
       ],
-      "text_word_count_est": 85,
+      "text_word_count_est": 65,
       "image_classified": true,
       "exemplar": "Drop a YES below, and I’ll DM you a free copy of my Nutrition 101 Guide—your blueprint for reclaiming your health by understanding the hidden dangers in our modern food supply.\n\nFor decades, the indus",
       "url": "https://www.instagram.com/p/DFupl6NSRzT/",
@@ -328,18 +328,18 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "question-bait",
+      "hook": "comment-to-DM",
       "topic": "movement/walking",
-      "register": "validation",
+      "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up talking head shot of a smiling woman in an indoor setting with neutral background, wearing dark clothing and a patterned scarf. A teal rounded rectangle text overlay is positioned in the lower third of the frame with white sans-serif bold text reading \"The secret to getting kids to open up\" (approximately 10 words). The background is softly blurred with warm wood tones, suggesting a podcast or interview setting.",
+      "visual_recipe": "Talking-head portrait shot of a woman with long dark hair, warm neutral background (home office setting), filmed from shoulders-up with authentic conversational expression. Teal/turquoise rounded rectangle text overlay at bottom with white bold sans-serif text reading 'The secret to getting kids to open up' (8 words). Light, approachable setting with minimal branding elements visible in soft-focus background.",
       "dominant_colors": [
         "teal",
         "brown",
-        "beige"
+        "cream"
       ],
-      "text_word_count_est": 10,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "Who do you want to go for a walk with today? Share this with them!\n\nThere are so many benefits from walking that go far beyond the physical. Walking isn’t just good for our bodies. It’s good for our b",
       "url": "https://www.instagram.com/p/DY4y87oOwrp/",
@@ -364,13 +364,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up talking-head shot of an older male practitioner seated on a leather couch, wearing a black t-shirt, gesturing expressively with both hands while speaking directly to camera. White text overlay centered on frame reads \"A Psychiatrist's technique to help get rid of negative thoughts\" in a clean sans-serif font. Bright, natural indoor lighting with blurred background (window blinds visible). Shot framed as a short-form video reel designed for mobile vertical viewing.",
+      "visual_recipe": "Talking-head video of an older male practitioner in a black t-shirt sitting on a brown leather sofa, facing camera with hand gestures mid-explanation. White text overlay centered on frame reading \"A Psychiatrist's technique to help get rid of negative thoughts\" (11 words, medium weight, ~18-20pt size). Neutral interior background with vertical blinds. Casual, credible expert presentation style.",
       "dominant_colors": [
         "black",
-        "white",
-        "tan/brown"
+        "brown",
+        "white"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "love this technique I learned from Byron Katie, been using it for years with my patients.",
       "url": "https://www.facebook.com/reel/1041432961665197/",
@@ -395,13 +395,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Split-screen video format with bold white text-on-black banner at top reading \"How to break a panic attack in 4 steps\" (sans-serif, ~18-24pt, centre-aligned), positioned above a video still showing a credible male authority figure (doctor/practitioner in white coat with red tie) seated in professional office setting with bookshelves and plants visible. Clean, clinical aesthetic with high contrast between text overlay and background.",
+      "visual_recipe": "Video thumbnail with a professional man in a white doctor's coat and pink shirt seated in an office setting (visible plant and wooden cabinet in background). Bold white rounded-rectangle text banner overlay at top reading \"How to break a panic attack in 4 steps\" in medium-weight sans-serif. The talking-head format establishes credibility while the numbered listicle framing in the text creates clear promise of actionable steps.",
       "dominant_colors": [
-        "black",
         "white",
+        "black",
         "beige"
       ],
-      "text_word_count_est": 10,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "Revisiting a helpful conversation with @thelukecook on how to break a panic attack in 4 steps.",
       "url": "https://www.facebook.com/reel/1286104103703444/",
@@ -426,13 +426,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Bathroom shower scene with person in dark t-shirt and shorts standing in dimly lit space; soft warm orange/amber ambient lighting from candles on shower floor creating moody, intimate atmosphere; white serif bold headline text overlaid in center reading \"You were today years old when you found out you should be taking dark showers every night. Here's why..\" - text has dark semi-transparent backing for readability. Cool-toned bathroom tiles and glass shower door frame the warm golden lighting, creating high contrast between clinical space and therapeutic ambiance.",
+      "visual_recipe": "Bathroom setting with a person in a dark/black t-shirt standing in a dimly lit shower space. The dominant lighting is warm orange/amber from candles positioned low on the shower floor, creating a moody, ritualistic atmosphere. White serif text (bold, large ~28pt relative to frame) is overlaid in the upper half describing a personal discovery, with a dark semi-transparent text overlay ensuring readability. The photo is shot in low-light conditions with warm tungsten/candle lighting creating high contrast between the shadowed figure and the golden-orange ambient glow from flame sources below.",
       "dominant_colors": [
-        "#FFB366",
-        "#808080",
-        "#FFFFFF"
+        "#1a1a1a",
+        "#ffa500",
+        "#808080"
       ],
-      "text_word_count_est": 24,
+      "text_word_count_est": 28,
       "image_classified": true,
       "exemplar": "Dark showering is one of my favorite simple rituals I recommend to all of our telehealth patients who are struggling with nervous-system overload, poor sleep, or that constant “wired but tired” feelin",
       "url": "https://www.instagram.com/p/DWejXSIgi9p/",
@@ -457,13 +457,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Newspaper front-page screenshot (The Times Saturday) featuring a professional headshot of a male doctor in white shirt with stethoscope on right side. Large headline \"Drug-free doctor: The GP who...\" in serif font spans left to right. Body text in columns on left, with a pull-quote in larger text: \"The number of prescriptions we give out as doctors has increased by over 80 per cent in the past 20 years.\" White/cream background with black serif typography, blue-tinted accent box around the doctor's photo. Highly credible, newspaper-as-proof aesthetic.",
+      "visual_recipe": "Newspaper article (The Times) featuring a professional headshot of Dr Ranjean Chatterjee in white medical coat with stethoscope against a light grey newspaper background. The headline \"Drug-free doctor: The GP who\" is prominent in large serif font (approx 48pt). A pull-quote in the centre overlay reads \"The number of prescriptions we give out as doctors has increased by over 80 per cent in the past 20 years\" in medium-weight serif, with doctor's name and credentials in small text below. Layout mimics an authentic newspaper broadsheet front page, creating trust and authority through established media credentials.\"",
       "dominant_colors": [
         "white",
         "grey",
-        "dark blue"
+        "blue"
       ],
-      "text_word_count_est": 150,
+      "text_word_count_est": 45,
       "image_classified": true,
       "exemplar": "HUGE PIECE IN THE TIMES TODAY!\n\nI am delighted to see the @thetimes cover my thoughts on health in such a big way today.\n\nWe are an over-medicated country. 80-90% of what doctors see each day is in so",
       "url": "https://www.instagram.com/p/DTCsl9tDchm/",
@@ -488,13 +488,13 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Two people (partial torso/lower body visible) tying trainers laces on a concrete patio. The left person wears dark jeans, right person in light-coloured jeans. White overlay text at the bottom reads \"1,000 STEPS.\" in bold sans-serif, approximately 24pt. Minimal text, focus on relatable action shot of the common morning ritual. Grey concrete background with natural outdoor light, creating approachable, real-world context for the myth-busting message about achievable daily movement goals.",
+      "visual_recipe": "Close-up shot of two pairs of legs/feet (one in jeans, one in dark socks and trainers) on concrete steps, captured from waist down in daylight. Large bold white text overlay reading \"1,000 STEPS\" positioned at the lower third of frame. Realistic photo with natural shadows and concrete texture; minimal text, high visual impact through the relatable movement/action pose.",
       "dominant_colors": [
-        "navy blue",
+        "blue",
         "white",
         "grey"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "How many steps do you aim for per day? I'd love to know!\n\nThe 10,000 step target we've all heard of has no scientific basis. And as  Dr Courtney Conley explains, the good news is that the real number ",
       "url": "https://www.facebook.com/reel/947211238299357/",
@@ -519,13 +519,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Portrait of a middle-aged man wearing glasses, positioned center-frame holding a supplement bottle toward camera (proof/credibility prop), shot in warm-lit home office with blurred shelving backdrop. Bold white sans-serif headline (all-caps, ~40-50pt) at top reads \"HOW I REVERSED MY BIOLOGICAL AGE\", with the specific claim \"FROM 52 TO 42\" in bright red (~60pt, maximum contrast). Dark teal/charcoal gradient background overlay maintains legibility. Authoritative, \"expert in their own lab\" composition emphasizing the messenger and the concrete result.\"",
+      "visual_recipe": "Dark teal/charcoal solid background with bold white sans-serif headline (\"HOW I REVERSED MY BIOLOGICAL AGE\") occupying upper 40% of frame in heavy weight, followed by red accent text emphasizing the key metric (\"FROM 52 TO 42\"). Lower 60% features a professional close-up portrait of a middle-aged man wearing glasses in a home office setting (shelves visible, warm lighting), holding what appears to be supplement bottles, establishing credibility and tangibility for the health claim.",
       "dominant_colors": [
-        "dark teal",
+        "#1a2a2f",
         "white",
         "red"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 13,
       "image_classified": true,
       "exemplar": "My lab flagged 19 markers out of 161.\n\nThe one that mattered wasn't one of them.\n\nIt was sitting \"in range\" in clean black ink. Nine points from a threshold linked to 2.5x all-cause mortality, tripled",
       "url": "https://www.instagram.com/p/DYqaJcnDA5_/",
@@ -547,16 +547,16 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "methylation/MTHFR",
-      "register": "authority",
+      "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Dark teal/navy background with a confident middle-aged man wearing glasses in the lower half, with a warm-lit bookshelf visible behind him. Bold white sans-serif headline at top: \"HOW I REVERSED MY BIOLOGICAL AGE\" with key claim in bright red: \"FROM 52 TO 42\". Approx 15 words rendered on image in high-contrast white and red, large bold headlines (60+ pt) dominating upper third, with subtle warm tungsten lighting on face and background creating credibility and intimacy.",
+      "visual_recipe": "Dark teal/navy background photo of a man in glasses in an office/home setting (bookshelf behind). Bold white sans-serif headline text (large, ~40pt) reading \"HOW I REVERSED MY BIOLOGICAL AGE\" with the key transformation metric \"FROM 52 TO 42\" in bright red (~50pt, heavy weight) positioned below. Talking-head portrait photo of middle-aged man with subtle hand gesture. High contrast between dark background and bright white/red text overlay, creating urgency and authority.",
       "dominant_colors": [
         "white",
         "red",
         "dark teal/navy"
       ],
-      "text_word_count_est": 15,
+      "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "My lab flagged 19 markers out of 161.\n\nThe one that mattered wasn't one of them.\n\nIt was sitting \"in range\" in clean black ink. Nine points from a threshold linked to 2.5x all-cause mortality, tripled",
       "url": "https://www.facebook.com/drbenjaminlynch/posts/pfbid0EEyu96LswsTCyitA5GEMsahyxwXwje6QiRcmeVaoFepDbtpAVrunsdZYMg3bUgbsl",
@@ -578,15 +578,16 @@
       "is_you": false,
       "hook": "myth-bust",
       "topic": "hormones/perimenopause",
-      "register": "authority",
+      "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Solid muted sage-green background with white serif typography. Large headline in italic serif font (18-20pt equivalent): \"Why Calcium-D-Glucarate is a Game-Changer for Histamine Intolerance.\" Subtitle in smaller sans-serif (10-12pt equivalent) below explaining the supplement use case. Minimal design with ample whitespace. \"1/7\" carousel indicator in top right corner. Handle \"@STEVENJUDGENATURPATH\" centered at bottom in small text.",
+      "visual_recipe": "Solid muted sage-green background with centered, large serif headline in white italics (\"Why Calcium-D-Glucarate is a Game-Changer for Histamine Intolerance\"), smaller supporting body text below in white sans-serif, small uppercase label at top (\"CALCIUM-D-GLUCARATE\"), slide counter badge (1/7) in top right, footer handle in small caps. Minimal, high-contrast, professional wellness aesthetic.",
       "dominant_colors": [
-        "#5a7d6b",
-        "white"
+        "#5a7d6e",
+        "white",
+        "cream"
       ],
-      "text_word_count_est": 32,
+      "text_word_count_est": 35,
       "image_classified": true,
       "exemplar": "Histamine intolerance often runs hand-in-hand with oestrogen dominance.\n\nHere’s the loop:\n➤ Excess oestrogen → mast cells release histamine\n➤ More histamine → less DAO → worsened histamine intolerance",
       "url": "https://www.instagram.com/p/DZHWWtNlArB/",
@@ -606,18 +607,18 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "stat-drop",
       "topic": "hormones/perimenopause",
-      "register": "hope",
+      "register": "authority",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Light grey/off-white background with bold headline text at top (part bold, part regular weight) explaining the progesterone-oestrogen dynamic. Below sits a scientific line graph with dual y-axes showing two overlaid curves: teal/cyan solid line for progesterone and red/mauve dotted line for estradiol, charted across life stages (childhood, teens, reproductive years, perimenopause, menopause) with perimenopause highlighted in a subtle green box. Includes attribution text at bottom in smaller grey font. Clean, educational layout balancing accessibility with scientific credibility.",
+      "visual_recipe": "Light beige/cream background with ~60-word intro text in gray serif, medium weight, center-aligned at top. Below: white card containing scientific hormone graph with two overlaid line charts (teal \"progesterone\" and dotted red \"estradiol\") spanning lifecycle stages (childhood, teens, reproductive years, perimenoause, menopause—with perimenoause highlighted in green box). Chart shows steep progesterone decline against elevated erratic estrogen. Credit line in small gray text at bottom. Layout emphasizes the visual data contrast.",
       "dominant_colors": [
-        "#F5F5F5",
-        "#228B9E",
-        "#C85A6E"
+        "beige",
+        "#4ECDC4",
+        "#E85D75"
       ],
-      "text_word_count_est": 45,
+      "text_word_count_est": 60,
       "image_classified": true,
       "exemplar": "The first major physiological change that occurs at perimenopause is a rapid decline in progesterone…\n\n…the anti-inflammatory 🔥\n…anti-anxiety 😊\n…histamine-reducing hormone ⏬\n\nIn susceptible women, p",
       "url": "https://www.instagram.com/p/DQ6KCY7j0vl/",
@@ -642,13 +643,13 @@
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Cream/beige background with teal and green leaf logo top-left, bold teal headline \"HASHIMOTO'S\" (heavy weight, ~60pt), followed by 6 left-aligned italicized bullet points in teal serif font (~18pt) describing patient profile. Green circle graphic in top-right corner. Simple black divider line at bottom with \"Swipe to learn more →\" in small serif font. Minimalist, professional medical aesthetic.",
+      "visual_recipe": "Cream/beige background with a teal-green leaf logo and \"ADVANCED FUNCTIONAL MEDICINE\" header at top. Large bold teal headline \"HASHIMOTO'S\" centres the frame. Six bullet points in mixed roman and italic sans-serif text (medium weight, nested indentation) listing patient demographics and symptoms. Bottom third features a decorative dark line with right-aligned arrow and \"Swipe to learn more\" CTA. Organic curved green circle element in top-right corner adds visual balance. Clean, clinical-professional aesthetic with ample whitespace.",
       "dominant_colors": [
-        "cream",
-        "#1B7FA8",
-        "#7EB473"
+        "cream/beige",
+        "#1B6B8C",
+        "#7FB069"
       ],
-      "text_word_count_est": 55,
+      "text_word_count_est": 42,
       "image_classified": true,
       "exemplar": "38 year old woman. Hashimoto's diagnosed 6 years ago. On thyroxine. Still exhausted, still gaining weight, still flaring.\n\nHer endocrinologist said her thyroid was \"well managed.\" TSH was 1.8. Free T4",
       "url": "https://www.instagram.com/p/DZBN7tQE8qe/",
@@ -670,16 +671,16 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "mental-health",
-      "register": "faith",
+      "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Mint/sage green background with a rounded-corner white card container. Small circular profile photo (headshot in blue shirt) top-left with name and handle. Large bold headline \"MY PHILOSOPHY\" in dark charcoal, followed by two justified paragraph blocks of body text in heavy sans-serif font. Horizontal arrow icon at bottom right. Clean, minimal, authority-driven layout emphasizing text hierarchy and professional credibility.",
+      "visual_recipe": "Soft mint-green background with off-white rounded card container. Top-left circular profile photo of speaker (man in blue shirt), name and handle in sans-serif. Large bold heading \"MY PHILOSOPHY\" in dark charcoal, followed by two justified-align body paragraphs in heavy sans-serif font. Bottom line \"This is my philosophy\" in bold. Simple right-pointing arrow at base. Minimal, clean layout emphasizing text hierarchy and personal testimony.",
       "dominant_colors": [
         "white",
-        "sage green",
+        "#B8DFDB",
         "charcoal"
       ],
-      "text_word_count_est": 95,
+      "text_word_count_est": 105,
       "image_classified": true,
       "exemplar": "After working with thousands of clients over almost a decade in private practise, it's becoming clear to me that the most influential aspect on our health and over-coming illness is our mindset and th",
       "url": "https://www.instagram.com/p/C3hS5TgPIOY/",
@@ -704,11 +705,11 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Cream/off-white background with teal-blue logo (leaf emblem + \"ADVANCED FUNCTIONAL MEDICINE\" text top-left). Large bold sans-serif heading in teal: \"CHRONIC ILLNESS\" (100pt equiv), followed by black sans-serif subheading \"often gets blamed on genetics...\" (40pt). Italicized grey body text \"But that's not the full story\" with a thin horizontal line divider. Green circular shape (partial, top-right corner) as accent. Call-to-action text bottom: \"Swipe to learn more →\" in black. Minimal decoration with 3 small circles top-right. Clean, medical-professional aesthetic balancing authority with hope.",
+      "visual_recipe": "Minimalist text card with soft beige/cream background. Top-left: small teal leaf logo with \"ADVANCED FUNCTIONAL MEDICINE\" text (8pt, uppercase). Centre: large bold sans-serif headline in teal (#1B5E7C) reading \"CHRONIC ILLNESS\" followed by black medium-weight subheading \"often gets blamed on genetics...\" Below: italic grey body text \"But that's not the full story\" with horizontal divider line and \"Swipe to learn more →\" CTA. Right side: partial green circle graphic element. Minimal, high-contrast, professional clinic aesthetic.",
       "dominant_colors": [
-        "#E8E3D8",
-        "#1B5E7E",
-        "#7CB342"
+        "#F5F1E8",
+        "#1B5E7C",
+        "#7DB469"
       ],
       "text_word_count_est": 18,
       "image_classified": true,
@@ -735,13 +736,13 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Beige/cream background with a professional headshot of a man in a grey linen blazer and white shirt on the left side. Bold black sans-serif headline text \"THE GUT IS ALWAYS RELEVANT\" dominates the right two-thirds of the frame in large caps (approx 60+ pt). Above the headline, smaller grey body text (approx 12-14 pt) introduces the concept, with a thin black divider line separating sections. Company logo (Advanced Functional Medicine) in top-right corner. Clean, minimalist layout with ample whitespace.",
+      "visual_recipe": "Split-layout composition with beige/cream background. Left side: professional headshot of male practitioner in grey blazer and white shirt, smiling directly at camera. Right side: bold black sans-serif headline \"THE GUT IS ALWAYS RELEVANT\" (approx 48-52pt, very heavy weight) with supporting text above and below in medium-weight grey sans-serif (approx 14-16pt). Small branded logo (Advanced Functional Medicine) in top right corner. Minimal design with single thin dark line accent element separating sections.",
       "dominant_colors": [
         "#f5f1ed",
-        "black",
-        "#8b9b88"
+        "#000000",
+        "#7a8b7a"
       ],
-      "text_word_count_est": 28,
+      "text_word_count_est": 35,
       "image_classified": true,
       "exemplar": "You might think you don't have a gut problem because you don't have bloating or digestive symptoms.\n\nBut the gut drives far more than digestion. It influences immune function, hormonal balance, mood a",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid0wQJTdGN95wAdrCUrtL8NHYzqvJ2iMkoJP2iAHpRzt2J6Nh2K51L7GPyDFbva5QLl",
@@ -766,13 +767,13 @@
       "register": "curiosity",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Closeup portrait of a woman in light blue button-up shirt against soft grey background, hand thoughtfully near mouth with concerned/curious expression. Large white sans-serif question text overlay reads 'Can MTHFR cause anxiety?' positioned center-left. Small branding text 'MTHFR SUPPORT' at bottom in white. Minimal, clean design emphasizing relatable emotion and the core question.",
+      "visual_recipe": "Clean, minimalist portrait of a young woman in a soft periwinkle/blue button-up shirt against a neutral gray background, hand to face in a thoughtful/concerned expression. Large white sans-serif text overlay reading 'Can MTHFR cause anxiety?' positioned in the lower-right quadrant, with small branding text 'MTHFR SUPPORT' at bottom. The composition evokes introspection and anxiety, leveraging the emotional micro-expression to mirror the question being asked.\"",
       "dominant_colors": [
-        "light blue",
-        "#E8EBF0",
-        "brown"
+        "#a8c5d8",
+        "gray",
+        "white"
       ],
-      "text_word_count_est": 7,
+      "text_word_count_est": 6,
       "image_classified": true,
       "exemplar": "Can MTHFR cause anxiety?\nThis is one of the most common questions we see, and the answer is a little more complex than a simple yes or no 🧠\n\nThe MTHFR gene does not directly “cause” anxiety. However,",
       "url": "https://www.facebook.com/mthfrsupportglobal/posts/pfbid02HqnobNVoZDQudwiVTaiXDZaFzFWotqCLmAQC6rTMq25emrgy31V1fw1yp1Pa9bEUl",
@@ -797,9 +798,9 @@
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post with no image available. Structured as a narrative case study with patient demographics (age, condition) opening, clinical biomarkers in the middle section, and a resolution arc. Heavy use of bold/contrast through formatting (implied—numbers and before/after outcomes). Layout would be scrollable body text on a single-colour background, likely white or light neutral. The pattern combines medical authority (specific lab values and ranges) with emotional resolution (energy restored, flares stopped), creating a teaching moment. Approximately 210 words of long-form caption.",
+      "visual_recipe": "Text-only post on Facebook: ~300 words structured as a clinical case narrative. Opens with patient demographics and diagnosis, unfolds test results in numbered/segmented blocks (calprotectin, zonulin, IgA, Klebsiella), contrasts \"failed conventional management\" vs root-cause discovery, then reveals protocol timeline and outcome metrics. Likely uses bold/hierarchy for lab values and timeline markers. No image, no faces—pure text-based authority play leveraging specificity (exact numbers, 9-month arc, before/after labs) to drive pattern recognition and DM inquiries.",
       "dominant_colors": null,
-      "text_word_count_est": 0,
+      "text_word_count_est": 300,
       "image_classified": false,
       "exemplar": "38 year old woman. Hashimoto's diagnosed 6 years ago. On thyroxine. Still exhausted, still gaining weight, still flaring.\n\nHer endocrinologist said her thyroid was \"well managed.\" TSH was 1.8. Free T4",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid09CWwzMARmhPmHqMvmWyNZeDovfvxgRck64MrmFGHAQadZoEiyTT7LQhw4oQDcJ4Xl",
@@ -821,12 +822,12 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "gut/SIBO",
-      "register": "validation",
+      "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only Facebook post with no image available. Layout: opening problem statement (symptom tease), followed by structured lab data presented as bullet points with numeric comparisons (actual vs. normal), a numbered 4-phase treatment plan, before/after lab results summary, and closing call-to-action with URL and hashtags. Approximately 250 words rendered as plain text. High information density with specific numbers and metrics to build credibility and authority while maintaining narrative tension around patient transformation.",
+      "visual_recipe": "Text-only Facebook post with structured narrative: opens with relatable symptom trio (10 years of joint pain, skin flares, fatigue), followed by 5 bolded lab metrics showing dysfunction (zonulin, calprotectin, bacteria, secretory IgA, CRP), then 4-phase treatment plan, recovery metrics mirroring initial labs (showing before/after normalization), and closes with empowering takeaway. No image available. High density of numbers/data creates authority and credibility; emotional arc moves from problem→diagnosis→solution→victory. Approximately 180 words, likely in clean sans-serif, dark text on white/light background for Facebook feed legibility.",
       "dominant_colors": null,
-      "text_word_count_est": 250,
+      "text_word_count_est": 180,
       "image_classified": false,
       "exemplar": "10 years of joint pain, skin flares, and fatigue. Everything pointed to autoimmunity.\n\nTesting revealed:\n\n- Gut barrier wide open (zonulin 185, normal below 107)\n- Gut inflammation 5x too high (calpro",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid0Be4471JLwNjaRmU9ak45Fn3kbBHvezi7F9wjbV8CY7Rvg1YCzotTgnTw6vD8KYUyl",
@@ -851,13 +852,13 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Soft, minimalist portrait of a woman with shoulder-length brown hair gazing downward with a pensive expression, shot against a clean white background. She wears a neutral grey-toned garment. The headline \"You look fine\" appears in dark navy/blue text at the top in a bold sans-serif font, with the supporting text \"Invisible illness does not mean imaginary illness\" in white text overlaid at the bottom, creating visual contrast. The composition uses soft, even lighting with no harsh shadows—deliberately plain and intimate to reinforce the message of unseen struggle.\"",
+      "visual_recipe": "Clean, minimal portrait of a woman with shoulder-length brown hair resting her head on her hand against a light gray background. Large navy blue sans-serif headline \"You look fine\" positioned at top. Two lines of white body text overlaid at bottom in smaller sans-serif font: \"Invisible illness does not mean imaginary illness\" with brand logo. Soft, relatable mood with neutral colour palette emphasizing the contrast between outward appearance and inner experience.",
       "dominant_colors": [
         "white",
         "brown",
-        "grey"
+        "gray"
       ],
-      "text_word_count_est": 8,
+      "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "One of the hardest parts of living with chronic fatigue syndrome or fibromyalgia is that many people cannot see what you are carrying.\n\nFrom the outside, somebody may appear “fine.” But beneath the su",
       "url": "https://www.facebook.com/mthfrsupportglobal/posts/pfbid04ezXr5M9muQifsf9o3CLCnNJKAmRRSj8B8mhMAZEszhBE239gPCJdtap4HWbCkx7l",
@@ -882,13 +883,13 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Two women outdoors in mindful movement (yoga/walking pose) against a clear blue sky background. Foreground figure in dark navy/black clothing with blonde hair in side profile, middle figure in soft pink. Natural daylight, grounded and serene atmosphere. No text overlay—pure visual metaphor for calm, nervous system regulation, and grounded presence.",
+      "visual_recipe": "Outdoor scene with two women jogging/exercising side-by-side against a bright blue sky with light clouds. Woman in foreground (right) wears dark athletic wear; woman in background (left) wears pink. Both in motion, suggesting wellness/mindfulness. Minimal on-image text (only \"MTN\" watermark visible). Clean, aspirational fitness aesthetic with natural lighting that evokes calm and well-being.",
       "dominant_colors": [
         "sky blue",
-        "navy",
+        "black",
         "pink"
       ],
-      "text_word_count_est": 0,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "🌿 Mindful Monday: why your brain suddenly stops working when you’re stressed\n\nHave you ever been so overwhelmed that even replying to a message feels like too much?\n\nYou read it.\nYou think about repl",
       "url": "https://www.facebook.com/reel/1537860844456735/",
@@ -913,13 +914,13 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Minimalist text-card with soft cream/beige background. Large organic curved shape (sage green, ~40% of left frame) creates asymmetrical balance. Top right: small brand logo and \"ADVANCED FUNCTIONAL MEDICINE\" in teal serif type. Center: symptom teaser in light teal italics (~14 words), followed by large bold navy headline \"EVERYTHING POINTED TO AUTOIMMUNITY\" (4 lines, ~70% frame width). Bottom: website URL in small dark text. Single teal accent bookmark icon bottom right. No human faces or photos.",
+      "visual_recipe": "Minimalist text card on soft cream/beige background with organic curved shape in sage green on upper left. Clean sans-serif typography: small logo + tagline at top, problem statement (3 lines, medium weight) in teal-blue, then bold all-caps headline (6 words, heavy weight, large) in dark teal. Ample whitespace. Website URL and subtle accent mark in bottom corner. No photography or faces.",
       "dominant_colors": [
-        "#7ec85a",
+        "#a8d96c",
         "#f5f1ed",
         "#1e5a7a"
       ],
-      "text_word_count_est": 18,
+      "text_word_count_est": 22,
       "image_classified": true,
       "exemplar": "10 years of joint pain, skin flares, and fatigue. Everything pointed to autoimmunity.\n\nTesting revealed:\n\n- Gut barrier wide open (zonulin 185, normal below 107)\n- Gut inflammation 5x too high (calpro",
       "url": "https://www.instagram.com/p/DYN04C1FMn8/",

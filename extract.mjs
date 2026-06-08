@@ -320,11 +320,12 @@ async function classify(anthropic, w) {
   });
   const msg = await anthropic.messages.create({
     model: MODEL,
-    max_tokens: 700,
+    max_tokens: 1200,  // visual_recipe can run long and feeds draftPost; 700 risked silent truncation
     tools: [TOOL],
     tool_choice: { type: 'tool', name: 'record_pattern' },
     messages: [{ role: 'user', content }],
   });
+  if (msg.stop_reason === 'max_tokens') console.warn(`  ⚠ classify for @${w.account} hit max_tokens — visual_recipe may be truncated`);
   const use = msg.content.find(b => b.type === 'tool_use');
   return { ...use?.input, _sawImage: sawImage };
 }
@@ -423,10 +424,11 @@ async function draftPost(anthropic, w) {
     `Voice: warm, clinician-credible, plain-English, Australian spelling, evidence-based — not hypey, not a supplement pitch. ` +
     `Call draft_post.`;
   const msg = await anthropic.messages.create({
-    model: MODEL, max_tokens: 900,
+    model: MODEL, max_tokens: 3000,  // 6-field schema w/ two long structural fields (build_brief + design_recipe) overruns ~900; truncation drops trailing fields (caption/gmb/design_recipe)
     tools: [DRAFT_TOOL], tool_choice: { type: 'tool', name: 'draft_post' },
     messages: [{ role: 'user', content: prompt }],
   });
+  if (msg.stop_reason === 'max_tokens') console.warn(`  ⚠ draft for @${w.account} hit max_tokens — fields may be truncated`);
   return msg.content.find(b => b.type === 'tool_use')?.input;
 }
 
