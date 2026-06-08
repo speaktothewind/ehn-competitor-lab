@@ -218,6 +218,14 @@ function mapIG(r) {
     _isVideo: !!(r.videoUrl) || type.toLowerCase() === 'video',
   };
 }
+// FB feed: prefer ISO `time` col; `timestamp` is unix epoch (s or ms) — convert so recency_window/daysSincePost work (kept in sync with index.html fbDate)
+function fbDate(r) {
+  if (r.time && /^\d{4}-\d{2}-\d{2}/.test(r.time)) return r.time.slice(0, 10);
+  const ts = String(r.timestamp || '');
+  if (/^\d{10}$/.test(ts)) return new Date(+ts * 1000).toISOString().slice(0, 10);
+  if (/^\d{13}$/.test(ts)) return new Date(+ts).toISOString().slice(0, 10);
+  return ts.slice(0, 10);
+}
 function mapFB(r) {
   const isVideo = String(r.isVideo).toLowerCase() === 'true';
   return {
@@ -226,7 +234,7 @@ function mapFB(r) {
     caption: (r.text || '').slice(0, 200),
     captionFull: r.text || '',
     url: r.url || '',
-    timestamp: (r.timestamp || '').slice(0, 10),
+    timestamp: fbDate(r),
     likes: +r.likes || 0,
     comments: +r.comments || 0,
     shares: +r.shares || 0,
