@@ -130,6 +130,17 @@ Each weekly-plan.json post is tagged `recency_window` ("7d" | "30d") so the pipe
 - **The offline snapshot (`DATA_RAW`) is currently empty** — the live fetch is the real data source
   and works on the hosted site. If you ever need a true offline fallback, regenerate `DATA_RAW`
   cleanly from a live CSV pull (don't hand-type it). Verified live: header reads "Live · <date>".
+- **FB timestamps are Unix epoch, not ISO** (fixed 2026-06-08). The FB feed's `timestamp` column is
+  epoch seconds; the ISO date is in the separate `time` column. The `fbDate()` helper (in BOTH
+  `index.html` and `extract.mjs` — keep them in sync) prefers `time`, falls back to epoch (s/ms)
+  conversion. Without it, FB posts fail date parsing → invisible to the 7d/30d recency lens and show
+  raw numbers. IG's `timestamp` is already ISO; only FB needs the conversion.
+- **Draft generation needs generous `max_tokens`** (fixed 2026-06-08). The `draft_post` tool schema has
+  6 required fields including two long structural ones (`build_brief` + `design_recipe`). At the old
+  `max_tokens: 900` the tool-use JSON truncated mid-stream and silently dropped trailing fields
+  (`caption`/`gmb_caption`/`design_recipe` came back null → plan.html showed "Draft not generated yet").
+  Now `draftPost` = 3000, `classify` = 1200, both with `stop_reason === 'max_tokens'` guards that warn
+  loudly. If you add/lengthen schema fields, raise the ceiling and watch for the truncation warning.
 - **Voice for any content output:** clinician-credible, warm, plain-English, Australian spelling.
   Model the *structure* of competitor winners (hooks, formats), not their supplement-sales tone.
 
