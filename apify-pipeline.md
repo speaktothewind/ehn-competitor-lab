@@ -21,7 +21,7 @@ Both write to one Google Sheet that the dashboard reads and self-refreshes from.
 
 **5. Pipe to Sheets.** Open a task → **Integrations** tab → add **Google Sheets** → connect Google → pick your sheet + matching tab → mode **Replace**. Do it for both tasks (Instagram tab / Facebook tab).
 
-**6. Schedule.** Left menu → **Schedules** → **Create** → weekly cron (e.g. Monday 7am) → attach both tasks. It now refreshes itself.
+**6. Schedule.** Left menu → **Schedules** → **Create** → weekly cron → attach both tasks. It now refreshes itself. **Live schedule (confirmed 2026-06-11): the scrape runs Sunday night ACST** — fresh data hits the Sheets/dashboard by Monday, the Tue extract (GitHub Action `weekly-patterns.yml`) regenerates `weekly-plan.json` + `weekly-patterns.json`, and the clinic pipeline's Thursday brief draws from it. ("Monday 7am" in earlier versions of this doc was an example, not the real schedule.)
 
 **7. Connect the dashboard.** In the Sheet: File → Share → **Publish to web** → CSV → copy the link → paste it into the `SHEET_CSV_URL` line near the top of the dashboard file. Live.
 
