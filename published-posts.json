@@ -1,6 +1,6 @@
 {
   "week": "2026-06-08/2026-06-14",
-  "generated_at": "2026-06-14T23:59:59Z",
+  "generated_at": "2026-06-15T09:02:03",
   "note": "Tracks which Lab recipes/archetypes drove which published posts. Links recipe attribution to post URLs for downstream engagement measurement.",
   "posts": [
     {
@@ -17,18 +17,18 @@
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1650188893783523",
+          "posted_at": "2026-06-08T22:02:15.842Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZUUb2RDTIM/",
+          "posted_at": "2026-06-08T08:03:09.510Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM-g_dXXx6fCKg",
+          "posted_at": "2026-06-08T08:02:23.235Z"
         }
       }
     },
@@ -45,18 +45,18 @@
       "platforms": {
         "facebook": {
           "kind": "listicle_1to1",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1651187253683687",
+          "posted_at": "2026-06-09T22:02:26.109Z"
         },
         "instagram": {
           "kind": "listicle_1to1",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZW5NngEfyD/",
+          "posted_at": "2026-06-09T08:03:03.678Z"
         },
         "googlebusiness": {
           "kind": "listicle_1to1",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELeCx9aD9uzcjwE",
+          "posted_at": "2026-06-09T08:02:47.090Z"
         }
       }
     },
@@ -69,23 +69,23 @@
         "source": "slot_8",
         "modelled_on": "drjoshaxe",
         "score": 13.59,
-        "note": "Design recipe + copy reworked to EHN voice. Clean recipe→post attribution. This is the one full adoption."
+        "note": "Design recipe + copy reworked to EHN voice. Clean recipe\u2192post attribution. This is the one full adoption."
       },
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1652213483581064",
+          "posted_at": "2026-06-10T22:02:31.312Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZZeLn_CCya/",
+          "posted_at": "2026-06-10T08:04:36.290Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMjprt6H8aLOTQ",
+          "posted_at": "2026-06-10T08:02:31.020Z"
         }
       }
     },
@@ -101,18 +101,18 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1653239060145173",
+          "posted_at": "2026-06-11T22:01:05.618Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZcCu-gEda1/",
+          "posted_at": "2026-06-11T08:02:27.739Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENK247f22Ia-lgE",
+          "posted_at": "2026-06-11T08:01:37.913Z"
         }
       }
     },
@@ -130,24 +130,24 @@
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1654166196719126",
+          "posted_at": "2026-06-12T22:02:21.130Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZengRAkTET/",
+          "posted_at": "2026-06-12T08:02:17.886Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL2eqam35OWgpwE",
+          "posted_at": "2026-06-12T08:01:23.826Z"
         }
       }
     },
     {
       "day": "Sat 2026-06-13",
-      "ehn_topic": "Fasting — evidence not dogma",
+      "ehn_topic": "Fasting \u2014 evidence not dogma",
       "format": "carousel",
       "lab_attribution": {
         "type": "format_pattern",
@@ -158,24 +158,24 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card_headshot",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1655138253288587",
+          "posted_at": "2026-06-13T22:02:07.076Z"
         },
         "instagram": {
           "kind": "carousel_5_slides_full_branding",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZhMZfhF5rx/",
+          "posted_at": "2026-06-13T08:03:10.429Z"
         },
         "googlebusiness": {
           "kind": "hook_card_headshot",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP-y0rjOj975Rw",
+          "posted_at": "2026-06-13T08:02:22.408Z"
         }
       }
     },
     {
       "day": "Sun 2026-06-14",
-      "ehn_topic": "Stress/adrenal → assessment CTA",
+      "ehn_topic": "Stress/adrenal \u2192 assessment CTA",
       "format": "carousel",
       "lab_attribution": {
         "type": "format_pattern",
@@ -185,18 +185,18 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.facebook.com/635237239872498_1656099059859173",
+          "posted_at": "2026-06-14T22:02:15.908Z"
         },
         "instagram": {
           "kind": "carousel_4_slides",
-          "url": null,
-          "posted_at": null
+          "url": "https://www.instagram.com/p/DZjxMNrjlfG/",
+          "posted_at": "2026-06-14T08:03:14.131Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": null,
-          "posted_at": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO-i48arhfXsfw",
+          "posted_at": "2026-06-14T08:02:22.698Z"
         }
       }
     }
