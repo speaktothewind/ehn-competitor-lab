@@ -1,7 +1,7 @@
 {
   "week": "2026-06-08/2026-06-14",
-  "measurement_date": "2026-06-21T00:00:00Z",
-  "note": "Engagement metrics pulled from Apify 7+ days after posting. Connects Lab recipe/archetype attribution to actual engagement outcomes.",
+  "measurement_date": "2026-06-22",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
       "day": "Mon 2026-06-08",
@@ -12,22 +12,32 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 3,
+          "comments": 0,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1650188893783523",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 5,
+          "comments": 0,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.instagram.com/p/DZUUb2RDTIM/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 103,
+          "impressions": 233,
+          "engagementRate": 2.15
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM-g_dXXx6fCKg"
         }
       }
     },
@@ -40,22 +50,32 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1651187253683687",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DZW5NngEfyD/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 108,
+          "impressions": 152,
+          "engagementRate": 1.32
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELeCx9aD9uzcjwE"
         }
       }
     },
@@ -70,22 +90,32 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.facebook.com/1587872033348543/posts/1652213483581064",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 2,
+          "comments": 0,
+          "shares": 1,
+          "total": 3,
+          "url": "https://www.instagram.com/p/DZZeLn_CCya/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 66,
+          "impressions": 166,
+          "engagementRate": 1.81
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMjprt6H8aLOTQ"
         }
       }
     },
@@ -98,22 +128,32 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 8,
+          "comments": 0,
+          "shares": 0,
+          "total": 8,
+          "url": "https://www.facebook.com/1587872033348543/posts/1653239060145173",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DZcCu-gEda1/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 54,
+          "impressions": 100,
+          "engagementRate": 2
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENK247f22Ia-lgE"
         }
       }
     },
@@ -127,28 +167,38 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 6,
+          "comments": 0,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1654166196719126",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DZengRAkTET/",
+          "days_post_publish": 10,
+          "saves": 1,
+          "reach": 81,
+          "impressions": 162,
+          "engagementRate": 1.85
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL2eqam35OWgpwE"
         }
       }
     },
     {
       "day": "Sat 2026-06-13",
-      "ehn_topic": "Fasting — evidence not dogma",
+      "ehn_topic": "Fasting \u2014 evidence not dogma",
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
@@ -156,28 +206,38 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 1,
+          "comments": 0,
+          "shares": 1,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1655138253288587",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 3,
+          "comments": 0,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.instagram.com/p/DZhMZfhF5rx/",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 73,
+          "impressions": 156,
+          "engagementRate": 1.92
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP-y0rjOj975Rw"
         }
       }
     },
     {
       "day": "Sun 2026-06-14",
-      "ehn_topic": "Stress/adrenal → assessment CTA",
+      "ehn_topic": "Stress/adrenal \u2192 assessment CTA",
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
@@ -185,22 +245,32 @@
       },
       "engagement": {
         "facebook": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 6,
+          "comments": 0,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1656099059859173",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 0,
+          "impressions": 0,
+          "engagementRate": 0
         },
         "instagram": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "total": null,
-          "url": null
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DZjxMNrjlfG/",
+          "days_post_publish": 8,
+          "saves": 1,
+          "reach": 69,
+          "impressions": 145,
+          "engagementRate": 1.38
         },
         "googlebusiness": {
           "views": null,
-          "url": null
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO-i48arhfXsfw"
         }
       }
     }
@@ -210,14 +280,14 @@
       "slot_8": {
         "posts": 1,
         "avg_engagement": null,
-        "interpretation": "null — awaiting data"
+        "interpretation": "null \u2014 awaiting data"
       }
     },
     "archetype_performance": {
       "slot_4_myth_bust": {
         "posts": 2,
         "avg_engagement": null,
-        "interpretation": "null — awaiting data. Note: two different EHN topics (estrogen-dominance, UPF) borrowing the myth-bust archetype."
+        "interpretation": "null \u2014 awaiting data. Note: two different EHN topics (estrogen-dominance, UPF) borrowing the myth-bust archetype."
       }
     },
     "format_pattern_performance": {
