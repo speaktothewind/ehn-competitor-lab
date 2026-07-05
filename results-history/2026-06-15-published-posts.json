@@ -1,0 +1,224 @@
+{
+  "week": "2026-06-15/2026-06-21",
+  "generated_at": "2026-07-05T22:04:18",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-06-15",
+      "ehn_topic": "Total cholesterol number tells you almost nothing",
+      "format": "text-carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 234.43,
+        "instance": "text-only myth-bust",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1657059509763128",
+          "posted_at": "2026-06-15T22:01:41.805Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZmWHv0iNF3/",
+          "posted_at": "2026-06-15T08:04:15.965Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIiChcjPkvCS7gE",
+          "posted_at": "2026-06-15T08:03:00.526Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-06-16",
+      "ehn_topic": "Muscle is the longevity organ women lose fastest after 40",
+      "format": "listicle",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 65.0,
+        "instance": "headshot symptom listicle",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1657994056336340",
+          "posted_at": "2026-06-16T22:02:37.594Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DZo61mHDG4g/",
+          "posted_at": "2026-06-16T08:03:31.038Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPqO2KXH-uSfag",
+          "posted_at": "2026-06-16T08:03:11.757Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-06-17",
+      "ehn_topic": "Laughter is measurable nervous-system medicine",
+      "format": "carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_2",
+        "modelled_on": "stevenjudgenaturopath",
+        "score": 12.39,
+        "instance": "stat-drop carousel",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1658964279572651",
+          "posted_at": "2026-06-17T22:01:50.014Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZrfk5hjrUa/",
+          "posted_at": "2026-06-17T08:03:02.278Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELzChJnt8I36QA",
+          "posted_at": "2026-06-17T08:02:14.277Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-06-18",
+      "ehn_topic": "Why your gut feels better on holiday",
+      "format": "carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": 14.0,
+        "instance": "question carousel",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1659937599475319",
+          "posted_at": "2026-06-18T22:03:02.352Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZuEY07iArT/",
+          "posted_at": "2026-06-18T08:03:20.439Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPDMuKr6qey-vAE",
+          "posted_at": "2026-06-18T08:02:00.920Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-06-19",
+      "ehn_topic": "Sugar cravings vs salt cravings",
+      "format": "carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "pivot_library",
+        "score": null,
+        "instance": "question carousel",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1660867902715622",
+          "posted_at": "2026-06-19T22:02:24.388Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZwpAuyjGVP/",
+          "posted_at": "2026-06-19T08:01:47.495Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ_2oNy48sWddw",
+          "posted_at": "2026-06-19T08:00:56.637Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-06-20",
+      "ehn_topic": "Five things I'd tell every patient (13 years in)",
+      "format": "carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": 14.0,
+        "instance": "first-person reflective carousel",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1661816115954134",
+          "posted_at": "2026-06-20T22:02:23.085Z"
+        },
+        "instagram": {
+          "kind": "carousel_7_slides",
+          "url": "https://www.instagram.com/p/DZzN557ioFA/",
+          "posted_at": "2026-06-20T08:02:45.277Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP7275HEvsSECw",
+          "posted_at": "2026-06-20T08:00:52.193Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-06-21",
+      "ehn_topic": "What functional testing actually looks at",
+      "format": "text-carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "pivot_library",
+        "score": null,
+        "instance": "text-led CTA carousel",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1662800579189021",
+          "posted_at": "2026-06-21T22:02:16.745Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZ1yuZDgjNL/",
+          "posted_at": "2026-06-21T08:02:55.587Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPKnyfvz55b9UQ",
+          "posted_at": "2026-06-21T08:02:06.155Z"
+        }
+      }
+    }
+  ]
+}
