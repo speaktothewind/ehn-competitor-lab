@@ -1,208 +1,224 @@
 {
-  "week": "2026-06-08/2026-06-14",
-  "generated_at": "2026-06-15T09:02:03",
-  "note": "Tracks which Lab recipes/archetypes drove which published posts. Links recipe attribution to post URLs for downstream engagement measurement.",
+  "week": "2026-06-15/2026-06-21",
+  "generated_at": "2026-07-05T22:04:18",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-06-08",
-      "ehn_topic": "Estrogen-dominance myth",
-      "format": "text-only + carousel",
+      "day": "Mon 2026-06-15",
+      "ehn_topic": "Total cholesterol number tells you almost nothing",
+      "format": "text-carousel",
+      "face_branded": null,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_4",
+        "type": "format_pattern",
+        "source": "pivot_library",
         "modelled_on": "doctorwillcole",
         "score": 234.43,
-        "note": "Text-only myth-bust archetype adopted; topic differs from slot's original (toxins/mould dropped as GATE-1 repeat)"
+        "instance": "text-only myth-bust",
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1650188893783523",
-          "posted_at": "2026-06-08T22:02:15.842Z"
+          "url": "https://www.facebook.com/635237239872498_1657059509763128",
+          "posted_at": "2026-06-15T22:01:41.805Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DZUUb2RDTIM/",
-          "posted_at": "2026-06-08T08:03:09.510Z"
+          "url": "https://www.instagram.com/p/DZmWHv0iNF3/",
+          "posted_at": "2026-06-15T08:04:15.965Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM-g_dXXx6fCKg",
-          "posted_at": "2026-06-08T08:02:23.235Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIiChcjPkvCS7gE",
+          "posted_at": "2026-06-15T08:03:00.526Z"
         }
       }
     },
     {
-      "day": "Tue 2026-06-09",
-      "ehn_topic": "3pm crash / reactive hypoglycaemia",
+      "day": "Tue 2026-06-16",
+      "ehn_topic": "Muscle is the longevity organ women lose fastest after 40",
       "format": "listicle",
+      "face_branded": null,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "note": "Listicle format from experiment pivot library. EHN-original topic + copy. No single-slot Lab attribution."
+        "modelled_on": "drmarkhyman",
+        "score": 65.0,
+        "instance": "headshot symptom listicle",
+        "face_branded": true
       },
-      "face_branded": true,
       "platforms": {
         "facebook": {
-          "kind": "listicle_1to1",
-          "url": "https://www.facebook.com/635237239872498_1651187253683687",
-          "posted_at": "2026-06-09T22:02:26.109Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1657994056336340",
+          "posted_at": "2026-06-16T22:02:37.594Z"
         },
         "instagram": {
-          "kind": "listicle_1to1",
-          "url": "https://www.instagram.com/p/DZW5NngEfyD/",
-          "posted_at": "2026-06-09T08:03:03.678Z"
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DZo61mHDG4g/",
+          "posted_at": "2026-06-16T08:03:31.038Z"
         },
         "googlebusiness": {
-          "kind": "listicle_1to1",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELeCx9aD9uzcjwE",
-          "posted_at": "2026-06-09T08:02:47.090Z"
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPqO2KXH-uSfag",
+          "posted_at": "2026-06-16T08:03:11.757Z"
         }
       }
     },
     {
-      "day": "Wed 2026-06-10",
-      "ehn_topic": "Sleep regularity beats duration",
+      "day": "Wed 2026-06-17",
+      "ehn_topic": "Laughter is measurable nervous-system medicine",
       "format": "carousel",
-      "lab_attribution": {
-        "type": "full_recipe",
-        "source": "slot_8",
-        "modelled_on": "drjoshaxe",
-        "score": 13.59,
-        "note": "Design recipe + copy reworked to EHN voice. Clean recipe\u2192post attribution. This is the one full adoption."
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1652213483581064",
-          "posted_at": "2026-06-10T22:02:31.312Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DZZeLn_CCya/",
-          "posted_at": "2026-06-10T08:04:36.290Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMjprt6H8aLOTQ",
-          "posted_at": "2026-06-10T08:02:31.020Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-06-11",
-      "ehn_topic": "Lean PCOS",
-      "format": "carousel",
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "note": "Carousel format from experiment pivot library. EHN-original topic + copy. No single-slot Lab attribution."
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1653239060145173",
-          "posted_at": "2026-06-11T22:01:05.618Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DZcCu-gEda1/",
-          "posted_at": "2026-06-11T08:02:27.739Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENK247f22Ia-lgE",
-          "posted_at": "2026-06-11T08:01:37.913Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-06-12",
-      "ehn_topic": "Healthy UPF inflammatory ingredients",
-      "format": "text-only + carousel",
+      "face_branded": null,
       "lab_attribution": {
         "type": "archetype",
-        "source": "slot_4",
-        "modelled_on": "doctorwillcole",
-        "score": 234.43,
-        "note": "Text-only myth-bust archetype adopted; second instance of slot 4's format, different topic"
+        "source": "slot_2",
+        "modelled_on": "stevenjudgenaturopath",
+        "score": 12.39,
+        "instance": "stat-drop carousel",
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1654166196719126",
-          "posted_at": "2026-06-12T22:02:21.130Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1658964279572651",
+          "posted_at": "2026-06-17T22:01:50.014Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DZengRAkTET/",
-          "posted_at": "2026-06-12T08:02:17.886Z"
+          "url": "https://www.instagram.com/p/DZrfk5hjrUa/",
+          "posted_at": "2026-06-17T08:03:02.278Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL2eqam35OWgpwE",
-          "posted_at": "2026-06-12T08:01:23.826Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELzChJnt8I36QA",
+          "posted_at": "2026-06-17T08:02:14.277Z"
         }
       }
     },
     {
-      "day": "Sat 2026-06-13",
-      "ehn_topic": "Fasting \u2014 evidence not dogma",
+      "day": "Thu 2026-06-18",
+      "ehn_topic": "Why your gut feels better on holiday",
       "format": "carousel",
+      "face_branded": null,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "note": "Carousel format from experiment pivot library. Face-branded day. EHN-original topic + copy."
+        "modelled_on": "thelucyroseclinic",
+        "score": 14.0,
+        "instance": "question carousel",
+        "face_branded": false
       },
-      "face_branded": true,
       "platforms": {
         "facebook": {
-          "kind": "hook_card_headshot",
-          "url": "https://www.facebook.com/635237239872498_1655138253288587",
-          "posted_at": "2026-06-13T22:02:07.076Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1659937599475319",
+          "posted_at": "2026-06-18T22:03:02.352Z"
         },
         "instagram": {
-          "kind": "carousel_5_slides_full_branding",
-          "url": "https://www.instagram.com/p/DZhMZfhF5rx/",
-          "posted_at": "2026-06-13T08:03:10.429Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZuEY07iArT/",
+          "posted_at": "2026-06-18T08:03:20.439Z"
         },
         "googlebusiness": {
-          "kind": "hook_card_headshot",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP-y0rjOj975Rw",
-          "posted_at": "2026-06-13T08:02:22.408Z"
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPDMuKr6qey-vAE",
+          "posted_at": "2026-06-18T08:02:00.920Z"
         }
       }
     },
     {
-      "day": "Sun 2026-06-14",
-      "ehn_topic": "Stress/adrenal \u2192 assessment CTA",
+      "day": "Fri 2026-06-19",
+      "ehn_topic": "Sugar cravings vs salt cravings",
       "format": "carousel",
+      "face_branded": null,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "note": "Carousel format from experiment pivot library. EHN-original topic + copy. Conversion pillar (booking CTA)."
+        "modelled_on": "pivot_library",
+        "score": null,
+        "instance": "question carousel",
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
-          "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1656099059859173",
-          "posted_at": "2026-06-14T22:02:15.908Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1660867902715622",
+          "posted_at": "2026-06-19T22:02:24.388Z"
         },
         "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DZjxMNrjlfG/",
-          "posted_at": "2026-06-14T08:03:14.131Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZwpAuyjGVP/",
+          "posted_at": "2026-06-19T08:01:47.495Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO-i48arhfXsfw",
-          "posted_at": "2026-06-14T08:02:22.698Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ_2oNy48sWddw",
+          "posted_at": "2026-06-19T08:00:56.637Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-06-20",
+      "ehn_topic": "Five things I'd tell every patient (13 years in)",
+      "format": "carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": 14.0,
+        "instance": "first-person reflective carousel",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1661816115954134",
+          "posted_at": "2026-06-20T22:02:23.085Z"
+        },
+        "instagram": {
+          "kind": "carousel_7_slides",
+          "url": "https://www.instagram.com/p/DZzN557ioFA/",
+          "posted_at": "2026-06-20T08:02:45.277Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP7275HEvsSECw",
+          "posted_at": "2026-06-20T08:00:52.193Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-06-21",
+      "ehn_topic": "What functional testing actually looks at",
+      "format": "text-carousel",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "pivot_library",
+        "score": null,
+        "instance": "text-led CTA carousel",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1662800579189021",
+          "posted_at": "2026-06-21T22:02:16.745Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZ1yuZDgjNL/",
+          "posted_at": "2026-06-21T08:02:55.587Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPKnyfvz55b9UQ",
+          "posted_at": "2026-06-21T08:02:06.155Z"
         }
       }
     }
-  ],
-  "schema_notes": {
-    "attribution_types": "full_recipe (design + copy from Lab slot), archetype (format pattern from Lab slot, different topic), format_pattern (general format from pivot library, EHN-original topic/copy)",
-    "measurement_strategy": "Pull engagement (likes, comments, shares) for each post 7+ days after posting. Match attribution type to determine signal: full_recipe indicates recipe performance, archetype indicates format+hook pattern, format_pattern indicates general pivot effectiveness. Store results in recipe-performance.json."
-  }
+  ]
 }
