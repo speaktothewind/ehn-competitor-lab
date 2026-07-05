@@ -1,0 +1,210 @@
+{
+  "week": "2026-06-22/2026-06-28",
+  "generated_at": "2026-07-05T22:04:33",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-06-22",
+      "ehn_topic": "Microplastics are in your blood \u2014 what's worth doing vs just fear",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 124.6
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1663755662426846",
+          "posted_at": "2026-06-22T22:03:02.487Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZ4XZfujYgR/",
+          "posted_at": "2026-06-22T08:01:42.070Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOCC1pzBoe6LhQE",
+          "posted_at": "2026-06-22T08:01:03.676Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-06-23",
+      "ehn_topic": "Still stuck in fight-or-flight long after the stress ended?",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drdanielamen",
+        "score": 46.57
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1664692442333168",
+          "posted_at": "2026-06-23T22:02:54.859Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZ68W1zCDh2/",
+          "posted_at": "2026-06-23T08:03:14.046Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENmo3tf99-62mgE",
+          "posted_at": "2026-06-23T08:01:50.473Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-06-24",
+      "ehn_topic": "Waking at 3am every night? It's usually not your bladder",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 131.25
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1665707978898281",
+          "posted_at": "2026-06-24T22:01:17.386Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DZ9hCIMDVU3/",
+          "posted_at": "2026-06-24T08:02:06.108Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIzV9vDH0t6j5gE",
+          "posted_at": "2026-06-24T08:01:07.293Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-06-25",
+      "ehn_topic": "Exercise snacking: why 5 micro-bursts beat the workout you skip",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drchatterjee",
+        "score": 21.28
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1666659955469750",
+          "posted_at": "2026-06-25T22:02:04.300Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DaAF9o2CtpD/",
+          "posted_at": "2026-06-25T08:03:30.229Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKP09rOIn47nIQ",
+          "posted_at": "2026-06-25T08:02:03.517Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-06-26",
+      "ehn_topic": "A 10-minute walk after dinner does more than an hour at the gym (for this)",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drchatterjee",
+        "score": 40.86
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1667614362040976",
+          "posted_at": "2026-06-26T22:01:03.766Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DaCqtaYEaps/",
+          "posted_at": "2026-06-26T08:03:00.512Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMKt57nhqriZ0wE",
+          "posted_at": "2026-06-26T08:02:01.010Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-06-27",
+      "ehn_topic": "The 60-second nervous-system reset that beats reaching for melatonin",
+      "format": "question-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drwillcole",
+        "score": 23.25
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1668555558613523",
+          "posted_at": "2026-06-27T22:02:45.603Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DaFPfKnDaYS/",
+          "posted_at": "2026-06-27T08:02:41.453Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIK-p4Dz2p-WSA",
+          "posted_at": "2026-06-27T08:01:11.734Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-06-28",
+      "ehn_topic": "VO2 max: the longevity number your smartwatch already tracks",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 64.74
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1669500048519074",
+          "posted_at": "2026-06-28T22:01:19.762Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DaH0VQZEWoi/",
+          "posted_at": "2026-06-28T08:03:07.262Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJfQ-4yI7rSBGg",
+          "posted_at": "2026-06-28T08:02:07.580Z"
+        }
+      }
+    }
+  ]
+}
