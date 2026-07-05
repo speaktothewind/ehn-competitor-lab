@@ -14,7 +14,7 @@
 > - **Engagement + permalinks source = Zernio's native `/analytics` + `/posts` API** (NOT Apify — Apify only feeds the Lab's *outbound* weekly-plan/patterns). Zernio `/analytics` covers Facebook + Instagram only; **GBP engagement is unavailable** (gets a permalink, no metrics).
 > - **The pipeline owns both writes.** `tools/lab_results_push.py` (in the Social Media Pipeline repo) fills `published-posts.json` (permalink + posted_at) and `recipe-performance.json` (per-platform metrics at a +7d snapshot), then commits + pushes here. The Lab no longer hand-fills URLs.
 > - **Cadence:** a recurring pipeline task (`lab-results-push-weekly`, Mondays) runs `lab_results_push.py --auto`. For week 06-08 it fills permalinks Mon 06-15 and the +7d engagement snapshot Mon 06-22 — same dates the two retired one-off tasks used to target.
-> - **Lab's only job:** seed `published-posts.json` + `recipe-performance.json` with the week's attribution (type / source / modelled_on) so the pipeline has rows to fill. A `week`-match guard means the pipeline only writes a file whose `week` matches the due week.
+> - **Seeding is automated too (2026-07-05):** `lab_results_push.py` now seeds `published-posts.json` + `recipe-performance.json` itself each week from the pipeline's `content/<week>/batch-week.json` (attribution stamped at generation), archiving the outgoing filled week to `results-history/` before overwriting. The Lab no longer seeds anything — this repo is purely the storage + feed surface. The `week`-match guard remains as backstop.
 > - **Judge the experiment on the Lab's ×median outlier (primary) + ENG (secondary), not engagement-rate** — the sample is too small for rate precision.
 
 ---

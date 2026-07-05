@@ -1,6 +1,6 @@
 name: Weekly pattern extract
 
-# Runs the day after the Apify refresh (Apify: weekly, Monday ~7am Adelaide).
+# Runs after the Apify refresh (Apify: weekly, Sunday night Adelaide — corrected 2026-06-11).
 # Tuesday 02:00 UTC ≈ Tuesday lunchtime Adelaide — a full day of buffer so the CDN
 # image URLs in the feed are still fresh enough for the vision step to fetch.
 on:
