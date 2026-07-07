@@ -1,6 +1,6 @@
 {
-  "week": "2026-06-30",
-  "generated_at": "2026-06-30T06:02:16.974Z",
+  "week": "2026-07-07",
+  "generated_at": "2026-07-07T05:58:42.040Z",
   "schema_version": 2,
   "feed_role": "Lab = generator/feed. The clinic SM pipeline (cockpit) owns GATE-1 dedupe, floor-locked rendering, the single preview, and publishing.",
   "dry_run": false,
@@ -37,26 +37,25 @@
   "variety": {
     "formats": [
       "carousel",
-      "image",
+      "text-only",
       "reel/video",
-      "text-only"
+      "image"
     ],
     "hooks": [
       "stat-drop",
+      "myth-bust",
       "question-bait",
       "personal-story",
-      "announcement",
-      "myth-bust",
-      "comment-to-DM",
-      "contrarian"
+      "announcement"
     ],
     "topics": [
-      "hormones/perimenopause",
       "gut/SIBO",
-      "fasting/nutrition",
       "other",
       "mental-health",
-      "sleep"
+      "fasting/nutrition",
+      "longevity",
+      "sleep",
+      "hormones/perimenopause"
     ]
   },
   "posts": [
@@ -64,28 +63,28 @@
       "slot": 1,
       "modelled_on": {
         "account": "stevenjudgenaturopath",
-        "score": 19.5,
+        "score": 6.13,
         "platform": "instagram",
         "region": "au",
-        "url": "https://www.instagram.com/p/DQ6KCY7j0vl/",
-        "post_date": "2025-11-11"
+        "url": "https://www.instagram.com/p/DZW5w18lDG_/",
+        "post_date": "2026-06-09"
       },
       "format": "carousel",
       "hook": "stat-drop",
-      "topic": "hormones/perimenopause",
+      "topic": "gut/SIBO",
       "register": "authority",
       "has_face": false,
-      "is_text_card": false,
-      "visual_recipe": "Light grey background with centered bolded headline (25% frame height) in dark grey. Below: clinical line graph with teal (progesterone) and red dotted (estradiol) curves spanning childhood through menopause, with perimenopausal phase highlighted in green box. Graph sourced citation in small grey text at bottom. Minimal overlays, clean scientific presentation.",
-      "image_url": "https://scontent-atl3-1.cdninstagram.com/v/t39.30808-6/577203309_1473899714449392_8563266096023589401_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gH89HX0wayAkJX_ANq_9tvFZGRuY3xz_4tyOfPh5Yscx6kvwsvjRN63pGSXKKOKnwk&_nc_ohc=YD2FBUxaJRAQ7kNvwHIXo84&_nc_gid=yOtE6RWRTmUoxHresUe8YQ&edm=APs17CUAAAAA&ccb=7-5&oh=00_Af8_mEr5I3eS7oxQ2vOhsp6NsablBiX3Eh--xnn9bXYFNA&oe=6A46EEFE&_nc_sid=10d13b",
-      "angle": "Progesterone's drop in perimenopause is the first major shift — and it changes everything from inflammation to mood.",
-      "build_brief": "\n**Format**: Square carousel, 3 slides (1080px canvas).\n\n**Slide 1 — Hook & Headline**:\n- Background: warm cream (#F5F1EB or similar soft neutral, complements EHN green #39B54A without competing).\n- Centred, bold headline spanning ~25% of frame height at top third: \"Perimenopause\" in Satoshi Bold (95–110px equivalent), with the word \"Progesterone\" in EHN green #39B54A italic.\n- Below headline, small supporting line in Satoshi Medium, charcoal: \"The hormone shift that rewires everything\" (~50px relative weight, warm charcoal).\n- Whitespace-heavy, minimal overlay, clinical authority register.\n\n**Slide 2 — Clinical Line Graph**:\n- Same cream background.\n- Centred line graph illustrating two curves across lifespan (childhood → menopause):\n  - **Progesterone line**: solid EHN green #39B54A (primary visual anchor, ~3–4px stroke).\n  - **Estradiol line**: soft sage or muted grey-green dotted line (harmonises with green, not competing).\n  - X-axis labels: \"Childhood / Reproductive / Perimenopause / Menopause\" (small Satoshi Medium, charcoal, ~40px equiv).\n  - Perimenopause phase: subtle box highlight in soft sage or very pale green (not bold, suggests rather than shouts).\n- Graph footnote: tiny grey citation line at bottom (e.g. \"Data: adapted from clinical literature on hormone trajectories\").\n- Clean, minimal overlays; scientific presentation intact.\n\n**Slide 3 — Three Key Functions**:\n- Background: cream, same as Slide 1.\n- Headline: \"Why it matters\" in Satoshi Bold (~85px), with \"matters\" in EHN green #39B54A italic.\n- Three short statements below (Satoshi Medium, ~50px relative, stacked vertically, breathing space between):\n  1. \"🔥 *Progesterone reduces inflammation* — its decline amplifies joint, gut & skin symptoms\"\n  2. \"😊 *Anti-anxiety hormone* — fewer molecules = heightened worry, racing thoughts\"\n  3. \"⏬ *Keeps histamine in check* — when it drops, mast cells activate (hives, migraines, flushes)\"\n- Whitespace-generous, easy to read, clinical tone.\n\n**Colour harmony**: EHN green #39B54A as the primary anchor (progesterone curve + accent words). Cream background (warm, clinical, calm). Sage/muted grey-green accents (estradiol curve, perimenopause box highlight) that sit in the same tonal family as green, never clash. Charcoal type for maximum readability.\n\n**Typography lock**: All headlines Satoshi Bold (700), one accent word in green italic. Body/supporting Satoshi Medium (500). No point sizes <36px on card; body >=40px relative weight.\n\n**Closure**: Small \"Elemental Health & Nutrition\" in Satoshi Medium at bottom of Slide 3, green close line.\n",
-      "design_recipe": "\n**Reusable Carousel Template (3-Slide Green-Anchored Clinical Authority)**\n\n**Canvas**: 1080px square carousel, 3 slides.\n\n**Colour Recipe** (always anchored to EHN green #39B54A):\n- Primary anchor: EHN green #39B54A (headline accent, primary data line, close line).\n- Background: Warm cream or soft white (clinical calm, non-competing).\n- Secondary harmony: Sage, soft grey-green, or muted blue-grey (data accents, supporting elements; always in same tonal family as green, never clash).\n- Typography: Charcoal or dark grey for all body text (legibility floor).\n\n**Slide 1 — Hook & Headline**:\n- Headline (Satoshi Bold, ~95–110px equiv): \"[Main concept]\" + one meaningful word in green italic.\n- Supporting line (Satoshi Medium, ~50px relative): \"[Subheading/hook line]\".\n- Composition: Headline at upper third, supporting line below, generous whitespace. Cream background.\n\n**Slide 2 — Visual Data/Graph**:\n- Central line graph, chart, or illustration spanning ~60% of frame.\n- Primary line/data in EHN green #39B54A (solid stroke, ~3–4px).\n- Secondary line/data in sage or muted grey-green (solid or dotted, harmonises with green).\n- Axis labels in Satoshi Medium, charcoal, ~40px relative.\n- Optional: subtle highlight box (very pale sage/green) for emphasis area.\n- Citation/source line: tiny Satoshi Medium, light grey, bottom corner.\n- Composition: Whitespace-heavy, minimal overlay, scientific register.\n\n**Slide 3 — Three Supporting Points**:\n- Headline (Satoshi Bold, ~85px): \"[Concept]\" + one word in green italic.\n- Three short points (Satoshi Medium, ~50px relative) stacked vertically with breathing space.\n- Optional: emoji or small icon per point (adds warmth without clutter).\n- Composition: Left-aligned or centred, generous leading, cream background.\n\n**Closure**: \"Elemental Health & Nutrition\" (Satoshi Medium, green, bottom of final slide).\n\n**Overall feel**: Clinical authority, warm and grounded, EHN-green-anchored, Australian natural palette (cream, sage, charcoal tones). Never stock-wellness clichés, never sub-36px type. Layout is whitespace-generous and typographically clear.\n",
-      "on_image": "\n**Slide 1**: \"Perimenopause *Progesterone* | The hormone shift that rewires everything\"\n\n**Slide 2**: [Line graph: green solid curve (Progesterone: Childhood → Reproductive → Perimenopause decline → Menopause); sage dotted curve (Estradiol trajectory). X-axis: Childhood / Reproductive / Perimenopause / Menopause. Perimenopause phase marked with subtle pale-sage box. Footer: \"Data: adapted from clinical literature on hormone trajectories\"]\n\n**Slide 3**: \"Why it *matters* | 🔥 Progesterone reduces inflammation — its decline amplifies joint, gut & skin symptoms | 😊 Anti-anxiety hormone — fewer molecules = heightened worry, racing thoughts | ⏬ Keeps histamine in check — when it drops, mast cells activate (hives, migraines, flushes)\"\n\n**Branding**: \"Elemental Health & Nutrition\" (green close line, bottom of Slide 3)\n",
-      "caption": "Perimenopause doesn't start with hot flushes — it starts with progesterone. \n\nIn our 30s and 40s, progesterone is the quiet hero: it buffers inflammation, calms the nervous system, and keeps histamine (the itch-and-flush hormone) under control. When progesterone begins its steep decline in perimenopause — sometimes years before your period stops — those protective jobs start slipping away.\n\nThat's why so many women in their mid-40s suddenly notice joint stiffness, digestive flare-ups, racing thoughts at 3am, or hives they've never had before. It's not new stress or getting older. It's progesterone leaving the building.\n\nIf this resonates, a functional-medicine approach to perimenopause — looking at your full hormone picture, nutrient status, and nervous-system support — can make a real difference. We work through this with blood work, symptom tracking, and evidence-based nutrition and lifestyle strategies.\n\nReady to get a clearer picture of what's driving your symptoms? Book a consultation to explore your hormonal health.\n\n#perimenopause #hormonehealth #womenshealth #functionalnutrition #progesterone #Adelaide\n",
-      "gmb_caption": "Perimenopause starts with progesterone — and we help you understand your shifting hormones. Book an appointment in Eastwood, Adelaide to explore what's happening in your body and how targeted nutrition and lifestyle changes can ease the transition.",
+      "is_text_card": true,
+      "visual_recipe": "Solid sage-green background with white serif typography. Header \"NEW RESEARCH\" in small caps at top. Main headline in large, bold serif font (mix of regular and italic weights) reads \"Endometriosis & Intestinal Methanogen Overgrowth (IMO): The Endo-Gut Connection Just Got Stronger.\" Subheading in smaller sans-serif white text below explains the research finding. Handle @STEVENJUDGENATURPATH at bottom. Minimal spacing, centered alignment, no imagery or faces.",
+      "image_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/719852317_18403936102152339_9157825400881852826_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkxNTU3MDg4NzM4OTI0NDM1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=F1C1ltG3HHwQ7kNvwFVIZx5&_nc_oc=Ado62bCMV8QVhZFDnStCtnSD6L7xV5YWhktdDsjgmMEw9CMNA_jUvNaRSbAChFMO-LE&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=BEDEXteMT7YImG3Mvq5tJw&_nc_ss=7c689&oh=00_AQAMIf8NjhROEJR5-hj3rYMAdJ6ILqLdM-t8ZojQot_AfA&oe=6A4F959C",
+      "angle": "SIBO and hormonal imbalance: the gut-endocrine loop functional medicine misses",
+      "build_brief": "\n**Canvas & Format:** Square carousel, 3 slides. Vertical lockdown: all slides follow the same structure.\n\n**Background & Palette:**\n- Primary anchor: EHN green #39B54A — use as a bold accent stripe or header bar on each slide for visual continuity and clinical authority.\n- Secondary palette: Soft cream (off-white, like natural paper) as the main background, with gentle charcoal (#2C2C2C) for body text. Avoid the competitor's sage; instead, use the cream to feel warm, approachable, clinical.\n- Composition: Mimic the winner's minimal, centred approach — no imagery, no faces. Whitespace-rich. Text-forward and dense in authority.\n\n**Slide 1: Hook Frame (Stat-Drop)**\n- Top: Narrow EHN green bar (20–30px depth) stretching full width. Inside, white small-caps text: \"NEW RESEARCH\"\n- Centre: Large Satoshi Bold headline (~95px on 1080 canvas) in charcoal, reading \"SIBO & Hormones: A Hidden Link.\" Position ONE meaningful word (\"Hormones\") in EHN green #39B54A italic for visual pop.\n- Below: subline in Satoshi Medium (40–45px relative, readable), charcoal, 2 lines max: \"Why your gut dysbiosis may be disrupting your cycle—and what functional medicine reveals.\"\n- Bottom: Minimal white space, then \"Elemental Health & Nutrition\" in Satoshi Medium, green #39B54A, as a soft close line.\n\n**Slide 2: Research Finding (Authority Register)**\n- Top: Same EHN green bar + white small-caps \"THE RESEARCH\"\n- Centre: Satoshi Bold headline (~85px relative) in charcoal: \"Women with SIBO show elevated oestrogen reabsorption.\" Italicise ONE word (\"reabsorption\") in green #39B54A.\n- Below: Satoshi Medium body (40–45px relative), charcoal, max 3 lines: \"A dysbiotic microbiome can't metabolise oestrogen properly, causing it to recirculate. The result: bloating, irregular cycles, and worsening SIBO.\"\n- Layout: Centred, generous vertical spacing. No bullet points; use horizontal whitespace.\n- Bottom: \"Elemental Health & Nutrition\" in green, small Satoshi Medium.\n\n**Slide 3: Clinical Implication (Authority Close)**\n- Top: Same EHN green bar + white small-caps \"WHAT THIS MEANS\"\n- Centre: Satoshi Bold headline (~85px relative) in charcoal: \"Treating SIBO Alone Isn't Enough.\" Italicise \"Alone\" in green #39B54A.\n- Below: Satoshi Medium body (40–45px relative), charcoal, max 4 lines: \"Functional medicine addresses the whole loop: gut dysbiosis, hormone metabolism, liver detoxification, and oestrogen recirculation. Testing and rebalancing all three—not just antibiotics—supports long-term recovery.\"\n- Call-to-action (soft, clinical): \"Curious how your gut and hormones might be linked? Let's investigate together.\"\n- Bottom close: \"Elemental Health & Nutrition\" in green Satoshi Medium.\n\n**Typography & Spacing:**\n- All headlines: Satoshi Bold (700), centred, one meaningful word in green italic.\n- All body: Satoshi Medium (500), charcoal, generous line-height (1.5–1.8), fully justified or left-aligned with careful breathing room.\n- Minimal borders; no images; no stock photography. Pure authority through text hierarchy and green anchoring.\n- Respect the 36px floor: any text that must survive at thumbnail scale is held at or above 40px relative sizing.\n\n**Feel:** Clinical, warm, editorial. Matches the winner's minimal serif-forward aesthetic but redrawn in EHN's Satoshi + green world. No wellness clichés. Grounded, evidence-based tone in every line.\n",
+      "design_recipe": "\n**REUSABLE CAROUSEL TEMPLATE — EHN Green Authority Post**\n\n**Canvas & Format:** Square carousel, 3-slide minimum (extendable). Each slide locked to the same visual system.\n\n**Visual System:**\n- **Green Anchor (REQUIRED):** Narrow horizontal bar (20–30px) in EHN green #39B54A stretching full width at the top of each slide. White small-caps label inside (e.g., \"NEW RESEARCH\", \"THE RESEARCH\", \"WHAT THIS MEANS\"). This bar unifies the carousel visually and signals clinical authority.\n- **Background:** Soft cream (off-white, warm neutral) across all slides. Ensures readability and a calm, professional feel.\n- **Text Hierarchy:** \n  - Headline: Satoshi Bold (~95px on 1080, scaled down for Slide 2–3 to ~85px). Charcoal (#2C2C2C) base colour.\n  - ONE meaningful word per headline rendered in EHN green #39B54A italic for visual punctuation.\n  - Body: Satoshi Medium (40–45px relative, never sub-36px at any scale). Charcoal, generous line-height (1.5–1.8).\n  - Close line: \"Elemental Health & Nutrition\" in Satoshi Medium, green #39B54A, centred or placed at bottom.\n\n**Composition (per slide):**\n- Centred, text-forward layout. No imagery. Whitespace-rich and minimal, matching the authority/serif register of the winner.\n- Slide 1 (Hook): Green bar + large headline + supporting subline + close.\n- Slide 2 (Body): Green bar + headline + body copy (max 3 lines) + close.\n- Slide 3 (Close): Green bar + headline + body copy (max 4 lines, includes soft CTA) + close.\n\n**Palette & Mood:**\n- Primary: EHN green #39B54A (top bar, one word per headline, close line).\n- Secondary: Soft cream background, charcoal text.\n- Complementary: If a secondary colour is needed, choose from sage, soft grey-blue, warm terracotta, or muted teal — never purple, pink, orange, or red. Keep the palette calm and editorial.\n\n**Typographic Lock:**\n- Headings: Satoshi Bold (700), centred. One meaningful word in green italic.\n- Body: Satoshi Medium (500), charcoal, left-aligned or justified, ample breathing room.\n- Never sub-36px on any text. If copy is long, shorten — never shrink the font.\n\n**Feel:** Clinical, evidence-based, warm. Editorial and grounded. No stock wellness imagery. Pure authority through text, colour, and white space.\n\n**Legibility Floors (Hard):**\n- Headline: ~95px+ (Slide 1), ~85px+ (Slides 2–3) on a 1080 canvas.\n- Body: 40px minimum relative sizing.\n- Any text: >=36px at render.\n\n**Deployment:** Render this template across topics by swapping [headline], [stat], [supporting line], [slide body copy], and [soft CTA] placeholders. The green bar, cream background, Satoshi hierarchy, and composition remain constant. Change the topic; the design holds.\n",
+      "on_image": "\n**Slide 1:**\nNEW RESEARCH (small caps, white, in green bar)\nSIBO & *Hormones*: A Hidden Link (headline; \"Hormones\" in green italic)\nWhy your gut dysbiosis may be disrupting your cycle—and what functional medicine reveals. (subline)\n\n**Slide 2:**\nTHE RESEARCH (small caps, white, in green bar)\nWomen with SIBO show elevated oestrogen *reabsorption*. (headline; \"reabsorption\" in green italic)\nA dysbiotic microbiome can't metabolise oestrogen properly, causing it to recirculate. The result: bloating, irregular cycles, and worsening SIBO. (body)\n\n**Slide 3:**\nWHAT THIS MEANS (small caps, white, in green bar)\nTreating SIBO *Alone* Isn't Enough. (headline; \"Alone\" in green italic)\nFunctional medicine addresses the whole loop: gut dysbiosis, hormone metabolism, liver detoxification, and oestrogen recirculation. Testing and rebalancing all three—not just antibiotics—supports long-term recovery.\nCurious how your gut and hormones might be linked? Let's investigate together. (soft CTA)\n\nElemental Health & Nutrition (close line, green)\n",
+      "caption": "\nNew research is highlighting something many clinicians miss: SIBO doesn't exist in a vacuum. Women with small intestinal bacterial overgrowth often have dysbiotic microbiomes that can't metabolise oestrogen properly—and that recirculation can drive both worsening bloating and hormonal chaos.\n\nIn functional medicine, we don't just treat SIBO; we address the whole loop. That means investigating gut dysbiosis, liver detoxification capacity, and how oestrogen is being reabsorbed. It's why testing matters, and why long-term recovery usually requires more than antibiotics alone.\n\nIf your SIBO has felt stubborn or your cycle irregular alongside your gut symptoms, there's likely a connection worth exploring.\n\nReady to dig deeper? Let's work through it together.\n\n#SIBOhealth #GutHormones #FunctionalMedicine #WomensHealth #GutDysbiosis #AHPRA-safe\n",
+      "gmb_caption": "\nWomen with SIBO often have dysbiotic microbiomes that can't metabolise oestrogen properly—leading to hormonal chaos and stubborn bloating. At Elemental Health & Nutrition in Adelaide, we investigate the whole gut-hormone loop, not just treating SIBO in isolation. Ready to find the root cause of your symptoms? Book an appointment today.\n",
       "slide_count": 3,
-      "recency_window": null,
+      "recency_window": "30d",
       "routing": {
         "pillar": "education",
         "day_fit": "Mon/Wed/Fri",
@@ -111,122 +110,27 @@
     {
       "slot": 2,
       "modelled_on": {
-        "account": "thesibodoctor",
-        "score": 15.44,
+        "account": "doctorwillcole",
+        "score": 40.06,
         "platform": "facebook",
-        "region": "au",
-        "url": "https://www.facebook.com/thesibodoctor/posts/pfbid02n2nbk6YZgfKPnahKyopv7iKvmtp83PJZq4vvXGKx2FozzSjbvktQDLDjz5zLC89bl",
-        "post_date": "2026-06-21"
-      },
-      "format": "image",
-      "hook": "question-bait",
-      "topic": "gut/SIBO",
-      "register": "curiosity",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Split-screen layout with black-and-white headshot portrait on left (bearded man with glasses, ~40% width) and bright blue background on right with white text hierarchy: branded logo/icon at top, \"PODCAST 59\" in circle badge, episode title \"Gut Parasites Part 1\" in large sans-serif, and presenter credits below in smaller font. Clean, professional podcast thumbnail style with high contrast between portrait and solid blue field.",
-      "image_url": "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728439418_1060888349696886_5198721661185877842_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VVr4FDee0GcQ7kNvwHe99sE&_nc_oc=Adr47JD0daXvUP5Wccl680KBl_XdTOHUDAB0DWERJLGJlZUdrJUlaeJSj5YI60dk6o0&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=Z10zBPVVqh9F4Haz7JaXYg&_nc_ss=72289&oh=00_Af-TmzudGQii70n46g920WpgBDuJxrHcwBIJ95Ad-Sxl8g&oe=6A46CF10",
-      "angle": "SIBO and gas: why your bloating might not be what you think it is.",
-      "build_brief": "Canvas: 1080 × 1080px square card. Layout: Split-screen composition (mirroring the winner's left-portrait / right-text hierarchy). LEFT SIDE (~40% width): cream (#F5F1ED) background featuring a grounded editorial illustration or soft photograph—a clinician's hand holding a digestive-system diagram or a calm close-up of herbs/gut-health imagery in naturalistic tones (sage, warm grey, muted terracotta). RIGHT SIDE (~60% width): solid sage-green background (#39B54A primary anchor, or a softer complementary teal/soft grey-blue that harmonizes with the green). Stack text hierarchy top-to-bottom: (1) Small EHN logo lockup (unobtrusive, top-left of right field, ~40px height); (2) Circular badge or label \"FUNCTIONAL DEEP-DIVE\" in off-white text on green background (~80px diameter, Satoshi Bold, upper-right area); (3) Headline \"SIBO *unmasked*\" in large Satoshi Bold (~120px), one word (unmasked) in cream or charcoal italic for accent; (4) Short supporting line \"What your symptoms are *really* telling you\" (~48px, Satoshi Medium, warm tone); (5) Clinician credit + location line at bottom in small (~36px) Satoshi Medium, off-white. Whitespace: generous left margin on right field, balanced visual weight between portrait and text field. Border radius: 12–16px, soft card edge. Overall mood: clean, clinical, editorial—high contrast between portrait warmth and solid green field, professional podcast-thumbnail aesthetic but rendered in EHN's green-grounded palette.",
-      "design_recipe": "REUSABLE TEMPLATE — Topic-Agnostic Shell:\n\nCanvas: 1080 × 1080px square card.\n\nLayout: Split-screen composition with two equal-visual-weight fields.\n\nLEFT FIELD (~40% width): Cream or warm neutral background (#F5F1ED or equivalent) featuring a grounded editorial illustration, soft photograph, or clinician-hands shot. Imagery in naturalistic tones (sage, muted terracotta, soft grey, warm charcoal). Border radius 12–16px on card edge.\n\nRIGHT FIELD (~60% width): Solid complementary colour anchored to EHN green (#39B54A). Secondary colour chosen to harmonize: soft teal, sage variation, muted grey-blue, or warm charcoal—never pure black, never a clashing accent. Text stacked top-to-bottom with clean whitespace:\n\n1. Logo lockup (unobtrusive, top-left corner, ~40px height, white or off-white).\n2. Circular or pill-shaped badge label in Satoshi Bold, ~80px diameter, white text on green/complementary background (e.g., \"FUNCTIONAL DEEP-DIVE\", \"CLINIC INSIGHT\", \"[TOPIC] EXPLAINED\").\n3. Headline in Satoshi Bold (~120px, relative scale), ONE meaningful word in complementary italic accent (cream, soft grey, or a tonal highlight) to draw eye.\n4. Supporting subline in Satoshi Medium (~48px, relative scale), warm or readable tone, short phrase.\n5. Credit/clinician line + location in small Satoshi Medium (~36px, relative scale), off-white or neutral.\n\nVisual hierarchy: High contrast between portrait warmth and solid field colour; generous left margin on right field; professional, podcast-thumbnail aesthetic. EHN green #39B54A as primary anchor throughout; secondary palette harmonizes, never clashes. Card branding footer: \"Elemental Health & Nutrition\" (green or complementary colour, Satoshi Bold, ~32px).\n\nTypography lock: Satoshi Bold (headlines), Satoshi Medium (body/supporting). Never sub-36px text on card.\n\nLegibility floor: Headline ≥~95px, supporting line ≥~48px, small text ≥36px on 1080 canvas. Shorten copy, never shrink font.",
-      "on_image": "Slide (single card):\n\nTOP LEFT (Logo): [EHN logo lockup, unobtrusive white]\n\nTOP RIGHT (Badge): FUNCTIONAL DEEP-DIVE [in cream text, circular badge on green background]\n\nHEADLINE (right field, large): SIBO *unmasked* [*unmasked* in cream italic]\n\nSUPPORTING LINE (right field, below headline): What your symptoms are *really* telling you\n\nCREDIT LINE (bottom right, small): Functional Medicine Deep Dive | Adelaide\n\nCARD FOOTER (bottom centre, charcoal or green): Elemental Health & Nutrition",
-      "caption": "SIBO gets blamed for a lot—but bloating, gas, and abdominal discomfort can have several drivers. If you've been told you have Small Intestinal Bacterial Overgrowth, it's worth understanding what's *actually* happening in your gut, and whether the treatment plan matches your symptoms.\n\nIn functional medicine, we dig deeper than the diagnosis. We look at the underlying causes—food sensitivities, motility, stomach acid, inflammation, even stress. That's where real, lasting change begins.\n\nIf you've had a SIBO diagnosis and treatment hasn't shifted things, there might be more to explore. Let's chat about what's really going on.\n\n#SIBOawareness #GutHealth #FunctionalMedicine #FoodSensitivity #AdamaHealth",
-      "gmb_caption": "SIBO can be confusing—and treatment doesn't always stick. At Elemental Health & Nutrition in Eastwood, Adelaide, we investigate the root causes of your bloating and gas, not just the label. Book a consultation to explore what's really driving your symptoms.",
-      "slide_count": 1,
-      "recency_window": "30d",
-      "routing": {
-        "pillar": "engagement",
-        "day_fit": "Thu",
-        "image_need": "still",
-        "face_branded": true,
-        "fb_text_only": false,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "image"
-        },
-        "facebook": {
-          "kind": "image",
-          "source": "hook_card"
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
-      "slot": 3,
-      "modelled_on": {
-        "account": "askdrvincent",
-        "score": 3.74,
-        "platform": "instagram",
-        "region": "au",
-        "url": "https://www.instagram.com/p/DZyJI8czKbR/",
-        "post_date": "2026-06-19"
-      },
-      "format": "reel/video",
-      "hook": "personal-story",
-      "topic": "fasting/nutrition",
-      "register": "hope",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Screenshot of a news article/TV broadcast layered with overlaid white sans-serif headline text (\"AN AUSTRALIAN SCIENTIST JUST WENT VIRAL IN AMERICA\") positioned center-frame in bold, uppercase font. A black rounded banner bar with white text (\"EPISODE 9 OF AN APPLE A DAY SERIES\") sits mid-frame. The background shows a blurred newscast interface with a headshot of a man in a maroon shirt on the right side and article text on the left discussing an apple-derived health business. The composition uses contrast between the bold white text overlay and the muted gray/blurred background photo.",
-      "image_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/725816985_18339589111247863_1531934276896446278_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEAu8jQjJZB-wzFwfNHm4DMn9r8p_b19AjpqUJP9llnmxSJ-fzqWjXZb7LHYhfa8gQ&_nc_ohc=6HeyLrup2L0Q7kNvwFRR8iF&_nc_gid=Hbi5eWPLFcW8nItq09q4mg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Mx-4xjSBKmVL2HEfhjMnyeNxNEgONdJ_MC_pyqy0IJg&oe=6A46FAE2&_nc_sid=10d13b",
-      "angle": "How a functional-medicine shift to intermittent fasting changed what clinicians understand about metabolic reset.",
-      "build_brief": "Format: Vertical reel cover (1080×1920px). The design mirrors the winner's news-article-overlay structure — a softly blurred background image (a warm, muted clinical or wellness setting, e.g. a naturopath's consultation room, morning light through a window, or a blurred close-up of whole foods) sits behind all text. Overlay a bold white sans-serif headline in uppercase, centred on the upper third of the canvas: \"HOW FASTING REWIRES YOUR [METABOLIC] CLOCK\" — with one meaningful word (e.g. \"METABOLIC\" or \"CLOCK\") highlighted in EHN green #39B54A italic, bold weight. Below, place a horizontal rounded banner bar in EHN green #39B54A (matching the black bar in the winner's layout) with white sans-serif body text: \"PART OF OUR METABOLIC HEALTH SERIES\". In the lower half, layer a second text zone in white or cream (semi-transparent overlay if needed for legibility) with a supporting line: \"What research reveals about cellular renewal during fasting windows.\" Keep whitespace generous — mirror the winner's composition ratio (bold headline dominates upper third, banner sits mid-frame, supporting text sits lower). The overall feel is editorial and clinical, not stock-wellness. Green #39B54A is the unmistakable visual anchor. Background colour harmony: use a soft, warm neutral (cream, warm grey, or muted terracotta undertone) that complements green, never clashes. Include a small, unobtrusive EHN logo lockup in the bottom corner. Typography: Satoshi Bold for headline (95px+ relative scale), Satoshi Medium for supporting line (40px+ relative scale), white on muted background for maximum legibility.",
-      "design_recipe": "Format: Vertical reel cover (1080×1920px) with a softly blurred background image (a clinical or nature-based setting, rendered in warm, muted tones). Overlay structure mirrors a news-broadcast layout: bold uppercase headline in white sans-serif, centred in upper third, with ONE meaningful word in EHN green #39B54A italic; a horizontal rounded banner bar in EHN green #39B54A sits mid-frame with white body text; a supporting line in white or cream sits in lower half (semi-transparent overlay if needed). Whitespace ratio mirrors the winner's layout (headline-dominant upper third, banner mid, copy lower). Colour palette: EHN green #39B54A as primary anchor, complementary warm neutrals (cream, soft grey, muted terracotta) for background harmony — never purple, pink, orange, or bright red. Typography: Satoshi Bold (headline, 95px+ relative), Satoshi Medium (body, 40px+ relative). Small EHN logo lockup in corner. Overall feel: editorial, clinical, warm — grounded, not stock. On-canvas text must be >=36px minimum, body >=40px. Use this structure for any reel-cover topic: replace [headline], [banner text], and [supporting line] with topic-specific copy, maintain the green anchor and composition ratio.",
-      "on_image": "Slide 1 (hook/cover frame):\nHeadline: \"HOW FASTING REWIRES YOUR METABOLIC CLOCK\"\n(with \"METABOLIC\" in green italic)\n\nBanner: \"PART OF OUR METABOLIC HEALTH SERIES\"\n\nSupporting line: \"What research reveals about cellular renewal during fasting windows.\"",
-      "caption": "Over a decade of functional-medicine practice has shown us that fasting isn't just calorie restriction — it's a genuine shift in how your cells repair and renew themselves. New research into circadian-aligned eating windows reveals that timing, not just what you eat, shapes your metabolic health. We're diving into the science of fasting in our new series — no promises, no dogma, just evidence-based insights to help you understand what's happening during those rest periods. Interested in exploring fasting safely for your own health? Book a consultation with us — we'll map out what might work for your body.\n\n#FunctionalMedicine #MetabolicHealth #IntermittentFasting #EvidenceBased #AdelaideHealthClinic",
-      "gmb_caption": "Discover how fasting rewires your metabolic health with our new series. At Elemental Health & Nutrition in Eastwood, Adelaide, we explore evidence-based fasting strategies tailored to your unique body. Book an appointment today to learn more.",
-      "slide_count": null,
-      "recency_window": "30d",
-      "routing": {
-        "pillar": "trust",
-        "day_fit": "Sat",
-        "image_need": "footage",
-        "face_branded": true,
-        "fb_text_only": false,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "reel",
-          "asset": "footage"
-        },
-        "facebook": {
-          "kind": "image",
-          "source": "hook_card"
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
-      "slot": 4,
-      "modelled_on": {
-        "account": "sarahdilorenzoclinicalnutritionist",
-        "score": 2.32,
-        "platform": "facebook",
-        "region": "au",
-        "url": "https://www.facebook.com/sarahdilorenzoclinicalnutritionist/posts/pfbid027TmJ6FYu2MV3Le1M3YukN8uFvohP4J7LuddfY37Ebvk7iEon7yZFyuy4o75S3gRl",
-        "post_date": "2026-06-13"
+        "region": "us",
+        "url": "https://www.facebook.com/doctorwillcole/posts/pfbid02CuEpDGjuaTdVsJPqnomeX39oWf6ZJGH5Q13TEw32ReiCuMz3C41sTYgKGuzSyJHDl",
+        "post_date": "2026-06-24"
       },
       "format": "text-only",
-      "hook": "announcement",
+      "hook": "myth-bust",
       "topic": "other",
-      "register": "hope",
+      "register": "fear/urgency",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post with minimal caption (approx. 15 words). Lead with casual, uplifting weekend mood statement (\"Peach for Saturday 🫶🏽\") followed by brand mention and hashtags. Warm, lifestyle-oriented copy with emoji accents. No image available to assess layout, colours, or visual hierarchy.",
+      "visual_recipe": "Text-only Facebook post (no image available). Multi-paragraph format with escalating narrative: opens with provocative claim (\"engineering ticks to spread meat allergy\"), transitions to clinical credibility (\"in my telehealth clinic\"), builds to conspiracy-adjacent details (Gates funding, tribal health data), ends with autonomy argument and CTA. Likely rendered in platform default typography with possible paragraph breaks for readability. No color palette, no faces, no overlay graphics—pure text engagement architecture designed to trigger shares and comments through controversy and bioethical debate framing.",
       "image_url": null,
-      "angle": "Weekend reset: small nutrition wins that feel good, not restrictive",
-      "build_brief": "Canvas: single square card (1080×1080px), text-only, no image.\n\nBackground: soft cream (#F5F3F0 or similar warm neutral) to harmonize with EHN green and feel inviting + grounded.\n\nLayout & hierarchy (faithfully mirror the winner's whitespace and density):\n• Lead with a casual, uplifting weekend mood statement in the top third — e.g., \"Green for Saturday 🫶🏽\" — rendered in Satoshi BOLD, ~95px+ on canvas, with the single word \"Green\" in EHN green #39B54A italic or the entire hook in a warm tone to echo the weekend warmth.\n• Mid section: a short subline (Satoshi Medium, ~48px, charcoal #2B2B2B) that reframes the mood as a nutrition/wellness micro-win — e.g., \"one good choice, no guilt.\"\n• Lower third: business name \"Elemental Health & Nutrition\" in Satoshi Medium, charcoal, ~40px, left-aligned or centred to match the winner's minimal, lifestyle brand placement.\n• Whitespace-heavy, warm, intimate; no borders or graphic clutter — the green anchor and cream background do the work.\n\nColour anchors:\n– Primary: EHN green #39B54A (the word \"Green\" or a subtle accent line)\n– Secondary: warm cream background (#F5F3F0), charcoal text (#2B2B2B)\n– Never: the competitor's exact palette; never pure black; never a cluttered visual.\n\nTone: warm, clinical-light, weekend-friendly, no supplement pitch — just a micro-moment of self-care language that speaks to a functional-medicine audience.\n\nHand this brief straight to Canva designer: text-only card, cream background, EHN green accent on one word, Satoshi throughout, minimal whitespace structure, grounded-natural feel.",
-      "design_recipe": "Canvas: Single square text-only card (1080×1080px).\n\nBackground: Soft, warm neutral (cream, pale sage, or charcoal — chosen to harmonize with #39B54A; never pure black, never competitor palette).\n\nLayout (topic-agnostic, reusable shell):\n• Top third: HEADLINE in Satoshi BOLD, ~95px+, with ONE meaningful word in EHN green #39B54A italic; conversational, uplifting weekend/lifestyle tone (e.g., \"[mood word] for [day] 🫶🏽\").\n• Mid section: SUBLINE in Satoshi MEDIUM, ~48px, charcoal or complementary neutral, reframing the hook into a functional/wellness angle (e.g., \"[benefit message], [no-guilt reassurance]\").\n• Lower third: BRAND LOCKUP — \"Elemental Health & Nutrition\" in Satoshi MEDIUM, ~40px, charcoal, left-aligned or centred.\n• Whitespace-heavy composition; no graphic clutter; green #39B54A as the sole visual anchor (via text or a minimal accent line).\n\nColour palette (locked, topic-flexible):\n– Anchor: EHN green #39B54A (one word in headline or accent)\n– Secondary: warm cream or soft sage (background), charcoal text\n– Harmony: all colours chosen to feel grounded, clinical-but-warm, never competing with green\n\nType hierarchy:\n– Headline: Satoshi BOLD (700), large (~95px+), one word in green accent\n– Subline: Satoshi MEDIUM (500), smaller (~48px), charcoal\n– Brand: Satoshi MEDIUM (500), ~40px\n\nFeel: Minimal, text-led, lifestyle-warm, clinical-credible, Australian-natural; no stock wellness imagery; legibility floor: all text ≥36px minimum.",
-      "on_image": "Green for Saturday 🫶🏽\n\none good choice, no guilt.\n\nElemental Health & Nutrition",
-      "caption": "Green for Saturday 🫶🏽\n\nSometimes the best nutrition win is the one that feels like self-care, not a rule. We're here to help you find the choices that work for *your* body — no rigid playbooks, no shame. \n\nLet's chat about what nourishment looks like for you.\n\n#functionalhealth #nutritionreset #weekendwellness #Adelaidenaturalhealth",
-      "gmb_caption": "Green for Saturday 🫶🏽\n\nSmall nutrition wins matter. At Elemental Health & Nutrition in Eastwood, Adelaide, we support you in finding food choices that feel like self-care. Ready to explore what nourishment truly means for you? Book an appointment with us today.",
+      "angle": "The ultraprocessed-food-as-medicine myth: why functional medicine isn't about selling products, it's about food literacy",
+      "build_brief": "Render a text-only Facebook post in EHN's green-anchored palette — borrow the LAYOUT structure (multi-paragraph escalating narrative, provocative opening, clinical credibility bridge, bioethical/autonomy argument closer, strong CTA) but dress it entirely in EHN brand.\n\nCanvas: Full-width Facebook post (1080px minimum width).\n\nBackground: Soft cream (#F5F3F0) or warm off-white — clean, clinical, never pure white.\n\nHeadline hierarchy:\n- Main provocative headline: Satoshi Bold, ~95–110px, set in EHN green #39B54A. Lead with a short, punchy claim that feels urgent but truthful (e.g., \"Your food is being engineered to *need* supplementing\"). One word in italic green for emphasis.\n- Subheading (clinical credibility bridge): Satoshi Bold, smaller (~60px), charcoal #2C2C2C, opens with \"In my clinic\" to anchor trust.\n\nBody text: Satoshi Medium, charcoal #2C2C2C, ~40–44px minimum per line. Structure in short, breathing paragraphs (3–5 sentences each) with white space between. Build narrative arc: myth → clinic reality → bioethical/autonomy argument → CTA.\n\nParagraph breaks: Generous whitespace (30–50px) between paragraphs to match winner's density and readability.\n\nVisual anchors (non-text):\n- Small EHN logo (unobtrusive, top-right corner, ~60–80px, muted green).\n- Optional: a single 1–2px divider line in EHN green (#39B54A) between headline and body (cleanly separates sections).\n- No image, no icon clutter — keep it text-pure like the winner.\n\nClose/CTA line (bottom): Satoshi Medium, ~40px, in EHN green #39B54A, brand name \"Elemental Health & Nutrition\" with a soft CTA button or link (e.g., \"Book a telehealth chat\" in a subtle sage box outline, ~36px text).\n\nColour palette harmony:\n- Primary anchor: EHN green #39B54A (headline, close line).\n- Secondary: soft sage #A8B5A0 (optional divider or very light background accent).\n- Neutrals: charcoal #2C2C2C (body), off-white/cream background.\n- No competitor colours, no clash.\n\nOverall feel: Clinical, grounded, editorial — like reading a trusted health column, not a sales page. Whitespace and hierarchy make the content breathe and feel authoritative.\n",
+      "design_recipe": "TEXT-ONLY ESCALATING-NARRATIVE CARD (reusable template for myth-bust, fear/urgency register, clinical credibility hook)\n\nCanvas: Full-width social post (1080px+), soft background.\n\nBackground: Soft cream (#F5F3F0) or warm off-white — clean, clinical, neutral.\n\nHierarchy & composition:\n- [HEADLINE]: Satoshi Bold, ~95–110px, EHN green #39B54A. Provocative one-liner with ONE word in italic green for emphasis. Set flush-left or centre (choose per topic).\n- [SUBHEADING/CREDIBILITY LINE]: Satoshi Bold, ~50–60px, charcoal #2C2C2C. Opens with \"In my clinic\" or similar first-person clinical anchor. Sits below headline with 20–30px breathing room.\n- [BODY PARAGRAPHS 1–3]: Satoshi Medium, charcoal #2C2C2C, ~40–44px per line minimum. Structure: opening myth/fear → clinic observation → bioethical/autonomy argument → CTA. Each paragraph 3–5 sentences; separated by 30–50px white space.\n- Optional visual break: 1–2px divider line in EHN green #39B54A between headline section and body (no image, no icon).\n- [CTA/CLOSE]: Satoshi Medium, EHN green #39B54A, ~40px. Brand name \"Elemental Health & Nutrition\" + soft CTA (e.g., \"Book a telehealth chat\" in a subtle sage outline box).\n\nColour scheme:\n- Primary anchor: EHN green #39B54A (headline, close, divider).\n- Secondary harmony: soft sage #A8B5A0 (optional accent, button outline).\n- Neutral body: charcoal #2C2C2C.\n- Background: cream/off-white.\n\nType lock: Satoshi Bold (headline/subheading), Satoshi Medium (body/CTA). No sub-36px text.\n\nFeel: Clinical editorial, authority-driven narrative, generous whitespace, pure text engagement — mirrors winner's layout (escalating multi-paragraph fear-to-autonomy arc) in EHN's green-anchored, complementary palette.\n",
+      "on_image": "Headline: \"Your food is being engineered to *need* supplementing\"\n\nSubheading: \"In my clinic, I'm seeing the result\"\n\nBody (paragraph breaks as shown):\nA peer-reviewed paper just proposed engineering everyday foods to *require* supplements to be safe. Let that sink in for a second.\n\nIn my functional medicine clinic, I've watched clients trapped in a cycle: they buy a product marketed as a \"fix,\" it works temporarily, then they need another product. The foods they're buying have been stripped of their original nutrition, re-engineered for shelf life, and then sold back to them as premium \"functional\" goods.\n\nThis is why food literacy matters more than your supplement bottle. You deserve to know what you're actually eating—and whether you need to \"fix\" it at all.\n\nLet's talk about real food, not engineered solutions. Book a telehealth chat.\n\nElemental Health & Nutrition",
+      "caption": "A peer-reviewed paper recently proposed engineering everyday foods to require supplementation to be safe. That might sound far-fetched, but in my clinic I'm seeing something equally troubling: clients caught in a cycle of buying products marketed as \"fixes\" for foods that have been stripped of their original nutrition and re-engineered for profit.\n\nFood literacy—knowing what you're actually eating—matters far more than the supplement bottle. You deserve real answers, not engineered solutions. Let's talk about what your body actually needs.\n\nReady to explore real nutrition? Book a telehealth chat with us.\n\n#FunctionalMedicine #FoodLiteracy #RealNutrition #Adelaide #HealthCopy",
+      "gmb_caption": "At Elemental Health & Nutrition in Adelaide, we believe food literacy beats a supplement bottle every time. If you're caught in a cycle of engineered products and engineered solutions, let's talk real nutrition. Book an appointment with our clinicians today.",
       "slide_count": 1,
       "recency_window": "30d",
       "routing": {
@@ -251,31 +155,317 @@
       }
     },
     {
+      "slot": 3,
+      "modelled_on": {
+        "account": "drdanielamen",
+        "score": 36.01,
+        "platform": "facebook",
+        "region": "us",
+        "url": "https://www.facebook.com/reel/1970571070260451/",
+        "post_date": "2026-07-02"
+      },
+      "format": "reel/video",
+      "hook": "question-bait",
+      "topic": "mental-health",
+      "register": "curiosity",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Talking-head video of a bald older man in a dark navy/blue shirt, seated indoors, speaking directly to camera with an engaged expression. A white text overlay box centered mid-frame contains a question hook in medium-weight sans-serif (\"Is Saffron Helpful for ADHD?\" with emoji accents). Warm, neutral interior background with muted tones. The combination of direct eye contact, the question format, and emoji create an approachable, conversational tone inviting viewers to engage with the content.",
+      "image_url": "https://scontent-lax3-2.xx.fbcdn.net/v/t51.82787-10/731808174_18599212315039542_720489026378943105_n.jpg?stp=dst-jpg_tt6&cstp=mx1206x2144&ctp=p296x100&_nc_cat=103&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=ULH0SGE74BMQ7kNvwF83UPf&_nc_oc=AdokWRLpt8LBPf5OL2rI78bngRbfxV9ZCWfy3BUQYCbFN75l-BtnKHfL1n7dJAOrz8A&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=AnPh-CUKQLa8EWV32V_Xvg&_nc_ss=72289&oh=00_AQC0CK7G901uqx8fh81Ud3aU3olgqPyyWKocfgwV2BPLDQ&oe=6A4F6CD2",
+      "angle": "Can magnesium support mental clarity and mood without medication?",
+      "build_brief": "Format: reel/video talking-head (clinician seated indoors, direct eye contact).\n\nLAYOUT STRUCTURE (reuse competitor's whitespace & hierarchy exactly):\n- Backdrop: warm, neutral interior (soft cream or warm charcoal walls, muted natural light — never navy, never competitor's palette).\n- Text overlay: white or soft cream text box, CENTERED mid-frame, medium-weight sans-serif (Satoshi Medium).\n- HOOK LINE (primary visual): \"Can Magnesium Help Your Mood?\" — set in Satoshi BOLD (~95px on 1080 canvas), with ONE word in EHN green #39B54A italic (e.g. \"Magnesium\" or \"Mood\").\n- Add subtle emoji accents (e.g. 🧠 or ✨) in green #39B54A, echoing the competitor's conversational tone.\n- SECONDARY line (Satoshi Medium, ~50–60px): \"Let's explore what the research shows\" (or similar curiosity cue).\n- Logo placement: small, unobtrusive EHN lockup in bottom-right corner.\n- Overall density & whitespace: match competitor's generous whitespace around text box; avoid clutter.\n- Clinician appearance: warm, engaged expression, open posture, direct camera contact (to mirror the winning talking-head register).\n\nCOLOUR PALETTE:\n- Primary anchor: EHN green #39B54A (on hook word, emoji, small graphic accent).\n- Background: warm cream or soft greige (complements green, never pure white or navy).\n- Text: charcoal or deep neutral for legibility.\n- Complementary accent (optional): soft sage or warm terracotta (underscore secondary line or border).\n- NEVER use purple, bright pink, or the competitor's blue tones.\n\nThe reel should feel editorial, clinical-but-warm, and grounded — inviting curiosity without hype.",
+      "design_recipe": "REUSABLE REEL TEMPLATE (any mental-health or functional-medicine topic):\n\nFormat: talking-head video reel (clinician, direct eye contact, neutral warm interior).\n\nLayout structure:\n- Backdrop: warm, neutral room (cream, soft greige, or muted warm tones — never dark navy, never competitor's exact palette).\n- Centred mid-frame: soft cream or white text overlay box (maintains generous whitespace around it, matching competitor's density).\n- PRIMARY text (Satoshi BOLD, ~95px on 1080): \"[Question hook — e.g. Can [topic] help your [symptom]?]\" — ONE meaningful word in EHN green #39B54A italic (e.g. the noun or action verb).\n- SECONDARY text (Satoshi MEDIUM, ~50–60px, charcoal): \"[Curiosity cue — e.g. Let's explore what research shows]\" — subtle supporting line.\n- Emoji accents (2–3, in green #39B54A): reinforce conversational tone without clutter.\n- Logo: small EHN lockup, bottom-right, unobtrusive.\n\nColour palette (locked & reusable):\n- Primary anchor: EHN green #39B54A (hook word, emoji, small graphic elements).\n- Background: warm cream, soft greige, or muted warm neutral (complements green, breathable, never pure white or dark tones).\n- Text: charcoal or deep neutral for contrast & readability.\n- Optional complementary accent: soft sage, warm terracotta, or soft teal (underscore secondary line or thin border accent).\n- Palette principle: all colours harmonize with green; none clash (no purple, bright pink, orange, neon, or competitor's navy).\n\nOverall feel: editorial, clinical-but-warm, grounded, conversational — invites curiosity and engagement through direct eye contact and question format. Matches competitor's whitespace ratio and text hierarchy exactly; all typography Satoshi (bold headline, medium body).",
+      "on_image": "Slide (reel hook frame, on-screen text):\n\"Can Magnesium Help Your **Mood**? 🧠 ✨\"\n\n(with \"Magnesium\" and/or \"Mood\" in EHN green #39B54A italic, Satoshi Bold)\n\nSecondary line (Satoshi Medium):\n\"Let's explore what the research shows\"\n\nReel script outline (2–3 beats):\nBeat 1 (0–2s): Hook question on screen + clinician eye contact → \"Is magnesium one of those buzzwords you keep hearing about for mental health?\"\nBeat 2 (2–4s): Clinician speaking to camera → \"Magnesium plays a quiet but real role in how your nervous system works — and research suggests it may support mood and resilience.\"\nBeat 3 (4–6s): Clinician + close frame → \"If you're curious about whether magnesium might help you, let's chat. Functional medicine is about understanding your body's needs.\"\n\n(All text >=36px; no cure/treat/guarantee language; plain-English, warm clinician tone.)",
+      "caption": "Ever wondered if magnesium could support your mood? 🧠\n\nResearch suggests this humble mineral plays a key role in nervous-system regulation—and many people find their mental clarity improves when they address a deficiency.\n\nWe're not saying magnesium is a magic bullet, but it's one piece of the puzzle worth exploring. If you've struggled with low mood or anxiety, it might be worth investigating with a functional practitioner.\n\nCurious to learn more? Let's chat about your unique needs.\n\n#MentalHealthMatters #MagnesiumForMood #FunctionalMedicine #NaturalWellness #AdelaideNaturopath",
+      "gmb_caption": "Wondering if magnesium could support your mood and resilience? Research shows this mineral plays a quiet but powerful role in nervous-system health. Book a consultation at our Eastwood, Adelaide clinic to explore whether magnesium might be part of your wellness plan.",
+      "slide_count": null,
+      "recency_window": "7d",
+      "routing": {
+        "pillar": "engagement",
+        "day_fit": "Thu",
+        "image_need": "footage",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "reel",
+          "asset": "footage"
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
+      "slot": 4,
+      "modelled_on": {
+        "account": "drjoshaxe",
+        "score": 18.02,
+        "platform": "instagram",
+        "region": "us",
+        "url": "https://www.instagram.com/p/DZ-ZqoXOGAc/",
+        "post_date": "2026-06-24"
+      },
+      "format": "image",
+      "hook": "personal-story",
+      "topic": "mental-health",
+      "register": "faith",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Clean minimal layout with Dr. Josh Axe's circular profile photo (light blue shirt) in top-left corner, verified checkmark, and handle below. Large black serif/sans-serif text blocks on white background, organized in three stacked quote sections: a scripture quote (Philippians 4:6), followed by two shorter philosophical statements about anxiety and worry. Text hierarchy uses consistent font weight with subtle line spacing. No images, illustrations, or visual embellishments—purely typographic with strong emphasis on readability and spiritual messaging.",
+      "image_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/730743397_18601250155020589_5122876397910511823_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEJZ2prfrZZLYA57PiP10ORzxr2aNoqdKUWGJVqMHdx2s7g4YA4fssFT8ZN6Z3Fwbg&_nc_ohc=kw77_OtVDUsQ7kNvwFsXKIi&_nc_gid=ruVYwhZekAbRSdJamjQXcQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQDqvk2htqNwjSgeII0o2ZG7Drl1wDzXWhnuQ_ZH-6sU5Q&oe=6A4F714D&_nc_sid=c6f216",
+      "angle": "How functional medicine addresses both the nervous system and the gut drivers of anxiety — a two-layer framework.",
+      "build_brief": "Create a square card (1080 × 1080px) in a clean minimal typographic style, anchored by EHN green #39B54A. Background: soft cream or warm white with generous whitespace. Layout: Three stacked quote/statement sections, left-aligned, organised vertically with consistent line spacing and breathing room.\n\n**Section 1 (Top):** A small green accent line or dot (12–16px) positioned left of a brief clinical observation in Satoshi Medium, charcoal, ~40–44px relative line-height. Example topic: \"Anxiety almost always has two layers.\"\n\n**Section 2 (Middle):** A larger, more prominent statement in Satoshi Bold, charcoal (~80–95px on the 1080 canvas, or relative visual weight: headline scale), with ONE meaningful word in green #39B54A italic (e.g., \"nervous\" or \"gut\"). Keep the line short (~6–8 words max so nothing shrinks below 36px). Follow with a supporting subline in Satoshi Medium, charcoal, ~48–52px relative scale (smaller than headline, larger than body), explaining that layer in plain terms.\n\n**Section 3 (Bottom):** Repeat the pattern: a second clinical layer (e.g., stress, digestion, inflammation) introduced with a small green accent dot, then a bold headline with one green italic word, then a supporting subline.\n\n**Close:** At the bottom, left-aligned, \"Elemental Health & Nutrition\" in Satoshi Medium, 32–36px, green #39B54A.\n\n**Palette:** Green #39B54A as primary anchor (accent lines, one word in each headline, close line). Charcoal text throughout (no photos, no illustrations). Cream or warm white background. Borders/spacing: 60–80px margins, ~30px line spacing between sections for readability and calm. No clip-art or medical jargon; language is plain, clinical, warm.\n\n**Feel:** Quiet authority. Readable on mobile. Spiritual/reflective tone (matching the winner's faith register) translated into functional-medicine credibility — grounded, human, non-commercial.",
+      "design_recipe": "**REUSABLE TYPOGRAPHIC CARD TEMPLATE — Two-Layer Framework**\n\n**Format:** Square card (1080 × 1080px), minimal, text-focused.\n\n**Background:** Soft cream, warm white, or very light neutral (never pure black, never competitor's palette). Plenty of whitespace.\n\n**Palette:** EHN green #39B54A as the sole visual anchor. Primary text in charcoal or deep neutral. No secondary colours; green appears only as accent lines, one meaningful word per headline (italic), and the close line.\n\n**Layout — Three Stacked Sections (left-aligned):**\n- **Section 1:** Small green accent dot or vertical line (12–16px), followed by an introductory statement in Satoshi Medium, charcoal, ~40–44px relative scale.\n- **Section 2:** Large headline in Satoshi Bold (~80–95px relative visual weight, max 6–8 words to keep legible), with ONE meaningful word in green #39B54A italic. Below: supporting subline in Satoshi Medium, ~48–52px relative scale, charcoal.\n- **Section 3:** Repeat the pattern — green accent dot, brief clinical layer intro, bold headline with one green italic word, supporting subline.\n\n**Close Line:** \"Elemental Health & Nutrition\" in Satoshi Medium, green #39B54A, 32–36px, bottom-left aligned.\n\n**Spacing:** 60–80px margins. 30px line spacing between sections. No images, illustrations, or visual embellishments. Pure typography, high readability, clinical-but-warm tone.\n\n**Reusable Placeholders:**\n- [Intro statement] — clinical observation\n- [Layer 1 keyword in green italic]\n- [Layer 1 supporting line]\n- [Layer 2 keyword in green italic]\n- [Layer 2 supporting line]",
+      "on_image": "**Slide 1 (single card):**\n\n[Small green dot] Clinical observation about anxiety's dual nature\n\n**The [nervous] system**\nCortisol, stress response, sleep disruption\n\n**The [digestive] layer**\nGut inflammation, dysbiosis, nutrient gaps\n\nElemental Health & Nutrition",
+      "caption": "Anxiety is one of the most common things we see in clinic — and it almost always has two layers.\n\nThere's the nervous system: the cortisol, the sleep, the stress response wired tight. But there's also the digestive layer — inflammation in the gut, dysbiosis, nutrient gaps that feed the anxiety loop.\n\nFunctional medicine looks at both. We don't just calm the nervous system; we ask *why* it's dysregulated in the first place. Often the answer lives in the gut.\n\nIf anxiety's been knocking around for a while, it's worth exploring both layers. That's where real change starts.\n\nWant to chat about what might be driving yours? Book a consultation.\n\n#AnxietyRelief #FunctionalMedicine #GutHealth #MentalWellness #AdelaideClinician",
+      "gmb_caption": "Anxiety often has two hidden layers: nervous system dysregulation and gut inflammation. At Elemental Health & Nutrition in Eastwood, Adelaide, we address both — not just the symptoms. Book a consultation to explore what's really driving your anxiety.",
+      "slide_count": 1,
+      "recency_window": "30d",
+      "routing": {
+        "pillar": "trust",
+        "day_fit": "Sat",
+        "image_need": "still",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "image"
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
       "slot": 5,
       "modelled_on": {
+        "account": "drchatterjee",
+        "score": 24.92,
+        "platform": "instagram",
+        "region": "us",
+        "url": "https://www.instagram.com/p/DTCsl9tDchm/",
+        "post_date": "2026-01-03"
+      },
+      "format": "carousel",
+      "hook": "announcement",
+      "topic": "fasting/nutrition",
+      "register": "authority",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Full-page Times newspaper screenshot featuring a professional headshot portrait of Dr Rangan Chatterji in white shirt with stethoscope (right third), paired with headline \"Drug-free doctor: The GP who...\" in large serif font and body copy on white/newsprint background. Overlay box with blue tint contains quote text in white: \"The number of prescriptions we give out as doctors has increased by over 80 per cent in the past 20 years\" positioned bottom-center.",
+      "image_url": "https://instagram.fpit1-1.fna.fbcdn.net/v/t51.82787-15/610685353_18526267072067287_3859012635941705756_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=102&ig_cache_key=MzgwMTc5NzE1MDcwODE4Mjc0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EgvYsKs737YQ7kNvwFsGlAr&_nc_oc=AdptmA-_1PsNz8_4z8yxvlXOZvVwG-hQo38cXFIGK_dYVKeK68nqiaw36Z1BAabiYcY&_nc_zt=23&_nc_ht=instagram.fpit1-1.fna&_nc_gid=hGzhpKrKpPrSr1S7AUqJyQ&_nc_ss=72689&oh=00_AQA-7BXx2NBHu2wWlnhJ2dtVe1tpkOA3UdFGW9vd--6Ygw&oe=6A4F6400",
+      "angle": "Why intermittent fasting works best when metabolic foundation is sound — functional medicine, not dogma",
+      "build_brief": "Canvas: Single square card (1080 × 1080px) rendered as a modern editorial layout mimicking the Times newspaper structure, but in EHN's green-anchored palette.\n\nBACKGROUND & COMPOSITION:\n- Upper two-thirds: warm cream (#F5F3F0) base, evoking newsprint but softer and warmer than white\n- Lower third: sage-green tint overlay (#A8C5A3, a muted complement to #39B54A) containing the key quote\n- Whitespace: generous left margin (12% of canvas), mirroring the Times masthead rhythm\n- No borders; clean edges against cream\n\nTEXT HIERARCHY & PLACEMENT:\n- Headline (top-left, approx. 95–110px, Satoshi Bold): \"Why fasting works best when your\" (line 1) + \"**metabolic foundation** is sound\" (line 2, with \"metabolic foundation\" in #39B54A italic). Headline sits in upper-left third of card, leaving whitespace to the right.\n- Subheadline (below headline, ~50–55px, Satoshi Medium, charcoal #2C2C2C): \"A functional-medicine view\" — positioned left, no more than 35 characters per line.\n- Quote box (lower third, sage-green background #A8C5A3): A single meaningful sentence in white Satoshi Medium (~48px, centred): \"Intermittent fasting only works if your gut, hormones, and microbiome are balanced.\" Positioned centre-bottom, with ~40px padding all sides.\n- Credential line (bottom-right corner, ~32px, Satoshi Medium, charcoal): \"Elemental Health & Nutrition\" — warm green (#39B54A) close line.\n\nIMAGERY / ILLUSTRATIVE DETAIL:\n- Right margin (optional light detail): a minimal line-drawn icon of a circadian-rhythm circle or simple leaf motif in #39B54A (15–20px scale), subtle, not dominant — anchors the green without cluttering.\n- NO headshot portrait in this iteration; instead, trust the editorial weight of headline + quote to carry authority.\n\nPALETTE JUSTIFICATION:\n- Primary anchor: #39B54A (EHN green) — appears in one word of headline (italic), credential line, and optional icon\n- Secondary: sage-green #A8C5A3 (muted, harmonious with primary green; evokes calm, clinical groundedness)\n- Tertiary: warm cream #F5F3F0 (softens the newspaper feel, avoids harsh white; Australian natural)\n- Text: charcoal #2C2C2C (high contrast, warm-neutral, never pure black)\n- White (quote box text only, on sage background)\n\nOVERALL FEEL:\nEditorial authority, calm clinical tone, generous whitespace mimicking the Times layout but rendered entirely in EHN's warm, green-anchored palette. No competitor colours. No stock photography. Credibility through typography and quote weight, not image decoration.\n",
+      "design_recipe": "Canvas: Single square card (1080 × 1080px) with editorial layout structure.\n\nLAYOUT (REUSABLE):\n- Upper two-thirds: warm, neutral background (cream, soft beige, or light sage) evoking editorial/professional context\n- Lower third: muted secondary colour overlay (complementary to #39B54A — e.g. sage, soft teal, warm grey) containing the key message or quote\n- Generous left margin whitespace (12% of canvas width), mirroring professional news/editorial rhythm\n- No visible borders; clean, full-bleed edges\n\nTEXT HIERARCHY (REUSABLE):\n- [Headline]: ~95–110px, Satoshi Bold, positioned top-left; two lines max; ONE meaningful word in #39B54A italic (or complementary accent colour)\n- [Subheadline]: ~50–55px, Satoshi Medium, charcoal/neutral, immediately below headline; left-aligned; ≤35 characters per line\n- [Key quote / messaging]: ~48px, Satoshi Medium, white text, centred within the lower-third overlay box; single punchy sentence; ~40px padding all sides\n- [Credential line]: bottom-right, ~32px, Satoshi Medium, charcoal; brand name in #39B54A green\n\nCOLOUR PALETTE (REUSABLE):\n- Primary anchor: #39B54A (EHN green) — appears in one headline word (italic), credential line, optional small icon\n- Secondary overlay: muted colour harmonizing with green (sage #A8C5A3, soft teal, or warm grey-blue); never clashes with primary\n- Main background: warm neutral (cream #F5F3F0, off-white, or soft charcoal) — never pure black, never competitor's exact palette\n- Text: charcoal #2C2C2C (warm-neutral, high contrast)\n- Accent text (quote box): white on secondary overlay\n\nIMAGERY / DETAIL (REUSABLE):\n- Optional: minimal line-drawn icon or flourish in #39B54A (15–20px scale) in right margin — adds visual anchor without clutter\n- NO photography or stock imagery; trust typography and hierarchy to carry authority\n\nOVERALL FEEL (REUSABLE):\nProfessional editorial authority, calm clinical tone, generous whitespace. Green-anchored, warm, grounded, Australian-natural palette. Never hypey. Text-led; credibility through typography and strategic quote placement, not decoration. Ready to graft onto any functional-medicine topic (nutrition, fasting, gut health, sleep, immune, etc.).\n",
+      "on_image": "Headline (top-left): \"Why fasting works best when your\" | \"**metabolic foundation** is sound\"\n\nSubheadline: \"A functional-medicine view\"\n\nQuote box (lower third, sage background): \"Intermittent fasting only works if your gut, hormones, and microbiome are balanced.\"\n\nCredential line (bottom-right): \"Elemental Health & Nutrition\"\n",
+      "caption": "Fasting is having a moment — and rightly so. But here's what I see in practice: intermittent fasting works beautifully when your metabolic foundation is already sound. If your gut is inflamed, your hormones are out of rhythm, or your microbiome is depleted, fasting alone won't fix that. Instead, it can sometimes amplify the problem.\n\nThe functional-medicine approach is different: we look first. We ask *why* — and only then do we build a plan that includes fasting if it fits. That might be time-restricted eating for one person and a different nutrient-density strategy for another.\n\nIf you're curious about whether fasting is right for you, let's chat about your individual picture.\n\n#FunctionalMedicine #IntermittentFasting #NutritionThat Works #MetabolicHealth #AdelaideWellness",
+      "gmb_caption": "Intermittent fasting works best when your metabolic foundation is sound. At Elemental Health & Nutrition in Eastwood, Adelaide, we help you assess whether fasting is right for your unique picture — not a one-size-fits-all approach. Book an appointment to explore your nutrition strategy today.",
+      "slide_count": null,
+      "recency_window": null,
+      "routing": {
+        "pillar": "education",
+        "day_fit": "Mon/Wed/Fri",
+        "image_need": "still",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "slides",
+          "slides": null
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
+      "slot": 6,
+      "modelled_on": {
+        "account": "DrChatterjee",
+        "score": 23.38,
+        "platform": "facebook",
+        "region": "us",
+        "url": "https://www.facebook.com/reel/3278685848981401/",
+        "post_date": "2026-06-17"
+      },
+      "format": "reel/video",
+      "hook": "question-bait",
+      "topic": "longevity",
+      "register": "curiosity",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Live-action talking-head shot of a male physician speaking into a microphone against a soft, blurred warm-toned background (appears to be corrugated metal/industrial setting). Bold teal/turquoise text overlay in medium weight font positioned centrally with the hook question \"The best piece of health advice you've ever received?\" Acts as an engagement prompt interrupting the natural video moment. Clean, minimal overlay design with generous white space.",
+      "image_url": "https://scontent-lax3-1.xx.fbcdn.net/v/t15.5256-10/724894085_924188904014924_7279560146056473846_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=p296x100&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=kmVV_Ju8_WoQ7kNvwGLqqzi&_nc_oc=AdoQsjX54ihc8G6-_Ep7sRmK2qbDPKrw4jfytj62CWorPfOeAp_2fHjNPnuhECfm0EI&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=QHm4zuyl2Dontosb558b5w&_nc_ss=72289&oh=00_AQDC0BJPN1fOF8OLcBp7iSlNhrGX_h56y1vP_yLvY-3FQg&oe=6A4F8180",
+      "angle": "How much do your genes really control how you age?",
+      "build_brief": "Format: vertical reel (1080 × 1920px, 9:16 aspect ratio, designed for Instagram/TikTok and adaptable to GBP video). Structure: Live-action talking-head shot — a female functional-medicine clinician speaking naturally into camera against a soft, blurred warm neutral background (natural light on cream/sage studio wall, or gently blurred clinic setting). Minimal motion, clinical credibility. Hook text overlay: one bold question in Satoshi Bold, ~95–110px headline scale, positioned centrally on the frame. Main meaningful word (\"genes\", \"control\", or similar anchor) rendered in green #39B54A italic; remaining text in charcoal/dark neutral. Overlay sits in a generous white or cream transparent panel (30–40% opacity, subtle rounded corners) behind the text to ensure legibility over the talking head without obscuring the clinician. Text density: minimal — only the hook question, nothing else on this frame. Whitespace: generous, breathing room around the text block. Secondary hook cue (small, 40–50px, Satoshi Medium, charcoal) underneath or as a lower-third crawl: \"Keep watching to find out →\" or a micro-prompt. Palette: EHN green #39B54A as the text anchor (the one highlighted word + a thin accent line or underline); background & overlay tones in cream, soft sage, warm grey-blue, or muted terracotta — all harmonizing with green, never clashing. NO purple, pink, bright orange, or neon. The overall feel: clinical, warm, curiosity-driven, editorial. The video cuts on this hook frame for 2–3 seconds (allowing the hook to land), then transitions to the clinician answering. Keep the colour strategy consistent across the reel: green accent word, neutral warm palette, generous breathing room. No stock footage, no artificial backgrounds — authenticity is the visual anchor. Legibility floor: headline ≥95px (nothing smaller), secondary copy ≥40px minimum. Keep the hook punchy (max 8–10 words) so no text needs to shrink.",
+      "design_recipe": "Format: vertical reel template (1080 × 1920px, 9:16 aspect ratio, re-usable across topics). Structure: live-action talking-head shot (clinician or interviewee) against soft, warm, blurred neutral background. Hook text overlay: Satoshi Bold headline (~95–110px on a 1080 canvas), positioned centrally, with ONE meaningful word in green #39B54A italic; remaining text in charcoal neutral. Overlay sits within a semi-transparent (30–40% opacity) cream or soft sage panel with subtle rounded corners, ensuring legibility without obscuring talent. Text density: minimal — only the hook question. Whitespace: breathing room around the text block, no clutter. Secondary prompt (40–50px Satoshi Medium, charcoal): small engagement cue or micro-CTA beneath or as lower-third crawl. Palette lock: EHN green #39B54A as accent highlight (one word); background tones in cream, soft sage, warm grey-blue, or muted terracotta — all harmonizing with and subordinate to green, never vibrant or clashing. NO purple, pink, neon, or pure black backgrounds. Overall feel: clinical, warm, editorial, authentic, curiosity-driven. Video paces: hook frame holds for 2–3 seconds, then transitions to answer/content. Legibility floor: headline ≥95px, secondary copy ≥40px minimum. Hook copy max 8–10 words (never compromise font size). Brand lock: small EHN logo (unobtrusive, bottom-left or corner) + \"Elemental Health & Nutrition\" as close line (green text, small Satoshi Medium, visible in final frame or as end-card). No stock footage, no artificial backdrops — authenticity and clinical warmth are the visual DNA.",
+      "on_image": "Slide 1 (Hook frame, on-screen text): \"How much do your *genes* really control how you *age*?\" [*genes* and *age* in green #39B54A italic, remainder in charcoal, positioned centrally on semi-transparent cream panel] | Lower-third micro-prompt: \"Keep watching →\" [Satoshi Medium, charcoal, 40–50px] | Slide 2 onwards (clinician answer, minimal text overlay): no additional on-screen text; let the clinician speak naturally, maintain green accent as a thin lower-third bar or corner lockup with \"Elemental Health & Nutrition\" + logo for branding. Final frame (end-card): \"Elemental Health & Nutrition\" [green, Satoshi Bold, ~50px] + booking CTA e.g. \"Learn more about longevity planning\" [Satoshi Medium, charcoal, ~36px] on neutral cream background.",
+      "caption": "Genes load the gun, but lifestyle pulls the trigger. 🎯\n\nDr [Clinician Name] digs into the real drivers of healthy ageing — spoiler: you have more say than you think.\n\nHow much control do *you* feel you have over how you age? What's surprised you most in your own longevity journey? Drop a comment below.\n\nReady to explore your personal ageing trajectory? We'd love to help you stack the odds in your favour.\n\n#LongevityMedicine #FunctionalHealth #AgeingWell #EastwoordAdelaide #WellnessClinic",
+      "gmb_caption": "Genes load the gun, but lifestyle pulls the trigger. Dr [Clinician Name] reveals the real drivers of healthy ageing and how much control you actually have. Book an appointment in Eastwood, Adelaide to explore your personal longevity plan.",
+      "slide_count": null,
+      "recency_window": "30d",
+      "routing": {
+        "pillar": "engagement",
+        "day_fit": "Thu",
+        "image_need": "footage",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "reel",
+          "asset": "footage"
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
+      "slot": 7,
+      "modelled_on": {
+        "account": "drbenjaminlynch",
+        "score": 27.26,
+        "platform": "facebook",
+        "region": "us",
+        "url": "https://www.facebook.com/drbenjaminlynch/posts/pfbid0hvpfZazcv7EZ6cnnnsCvK9uGwDVGEuNgwkBsmEwZsLyUFA5k9Rk1m6g8Qb3EWCmbl",
+        "post_date": "2026-06-08"
+      },
+      "format": "image",
+      "hook": "myth-bust",
+      "topic": "other",
+      "register": "fear/urgency",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Close-up talking-head shot of man in dark polo in futuristic lab setting with teal/blue overhead lighting and streaking light effects. Man holds peptide vial in left hand and injection instrument in right hand with surprised/concerned expression. Bold white sans-serif text labels overlay: \"Peptides\" (top left, red background) and \"exposed\" (top right, white text). Pointing arrows indicate the vial and injection. High contrast, dynamic perspective with architectural lines in background.",
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/719252451_988196880634212_2453771104974490954_n.png?stp=dst-jpg_tt6&cstp=mx1641x2048&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=S4TiGyBIQo8Q7kNvwH0mDtA&_nc_oc=Adq7820uWllqj8CwHVp8MCzi8UVULwzWnqZgFP8hBZ4FL0sTGEXQoMViVHeAkyGQyqM&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=vf-eKCVHkmDlxpvWkhfTuA&_nc_ss=72289&oh=00_AQCBpQkLlKroWwOPN9j96hQs_DcEe3z5oX1sYB72tXNInw&oe=6A4F6E13",
+      "angle": "Herbal \"detox\" myths vs. how your liver actually works — and what really supports it",
+      "build_brief": "Format: single square image card (1080×1080px). Layout mirrors the competitor's dynamic close-up talking-head + overlay labels + arrows structure.\n\nCOMPOSITION:\n- Background: cream or soft warm-grey (never pure white, never competitor's teal). This allows green to pop without overwhelming.\n- Central element: close-up headshot of clinician (or relatable patient) in neutral medical/clinical setting (not futuristic; grounded, warm clinic light). Expression: thoughtful, slightly puzzled—conveying \"this myth needs unpacking.\" No injection props; instead, clinician holds a simple herbal leaf or points to a liver illustration.\n- Text overlay (high contrast, bold sans-serif Satoshi Bold): two label boxes mirroring the winner's \"Peptides\" + \"exposed\" structure:\n  - Top left: \"Detox myths\" in white text ON a green #39B54A background box (rectangular, generous padding)\n  - Top right: \"busted\" in charcoal or dark grey text, white or cream background box\n- Directional arrows (green #39B54A) pointing from the labels down to the central figure or organ illustration, copying the winner's dynamic \"reveal\" geometry.\n- Secondary accent: small sage or muted teal line or border element at bottom, harmonizing with green without clashing.\n- Small liver icon or herbal illustration (muted, editorial—not cartoon) in bottom corner, grounded style.\n- Logo: tiny EHN logo (unobtrusive, bottom right).\n- Whitespace: generous margins around the head, text labels positioned top-left/right to frame the image (copying the winner's compositional rhythm).\n- Close line: \"Elemental Health & Nutrition\" in green #39B54A, bottom centre or right, Satoshi Medium.\n\nTypography hierarchy:\n- \"Detox myths\" (headline, ~95px+, Satoshi Bold, white on green)\n- \"busted\" (secondary headline, ~80px, Satoshi Bold, charcoal on cream/white)\n- Any supporting line (if room: ~48–52px, Satoshi Medium, charcoal)\nNO text below 36px. If copy is too long, cut it—never downsize.",
+      "design_recipe": "REUSABLE TEMPLATE: Myth-Bust Card Layout (Green-Anchored)\n\nFormat: single square image (1080×1080px).\n\nPalette:\n- Primary anchor: green #39B54A (used for label background box, accent lines, logo)\n- Secondary harmony: sage, muted teal, or soft grey-blue (line/border accents, icons)\n- Background: cream or soft warm-grey (never pure white, never the competitor's original palette)\n- Text: white (on green label), charcoal (on light background)\n\nComposition:\n- Central close-up of figure (clinician or relatable subject) in neutral, grounded clinical setting with warm, natural lighting\n- Figure expression: thoughtful, curious, or slightly concerned—conveying \"let's unpack this\"\n- Top-left label box: [MYTH TOPIC] in white Satoshi Bold (~95px+) ON green #39B54A background\n- Top-right label box: [REVEAL WORD] in charcoal Satoshi Bold (~80px) on cream/white background\n- Directional arrows (green #39B54A) pointing from labels to figure or relevant illustration\n- Supporting line (if included): ~48–52px Satoshi Medium, charcoal, positioned below or beside labels\n- Bottom-right corner: small unobtrusive icon or herbal/medical illustration (muted, editorial style)\n- Bottom: small EHN logo (unobtrusive) + \"Elemental Health & Nutrition\" close line in green #39B54A, Satoshi Medium\n\nTypography:\n- Headline (label 1): Satoshi Bold, ~95px+, white on green\n- Secondary (label 2): Satoshi Bold, ~80px, charcoal on cream\n- Supporting text: Satoshi Medium, ~48–52px+, charcoal\n- All text ≥36px minimum; body ≥40px minimum\n\nWhitespace: generous margins, top-left/right framing of labels (copying the dynamic reveal geometry of the original winner). No cluttered background.",
+      "on_image": "Slide 1 (single card):\n\nTop left: \"Detox myths\" (white, Satoshi Bold ~95px+ on green #39B54A box)\nTop right: \"busted\" (charcoal, Satoshi Bold ~80px on cream box)\n\nCentral figure: clinician in soft clinic setting, thoughtful expression, gesturing toward a liver illustration or herbal element.\n\nBottom line (optional, if space): \"Your liver doesn't need flushing—it needs support.\" (charcoal, Satoshi Medium ~48px)\n\nClose: \"Elemental Health & Nutrition\" (green #39B54A, Satoshi Medium, bottom centre-right)",
+      "caption": "Many of us reach for \"detoxes\" and herbal cleanses when we want to feel better. But here's the thing: your liver doesn't need flushing or dramatic interventions. It's a sophisticated self-cleaning organ that works best when you give it the right *inputs*—enough water, good sleep, fibre, and a diet low in processed junk.\n\nSome herbal compounds do support liver function (milk thistle and NAC are evidence-based examples), but they work *with* your liver, not by \"detoxing\" it in some miracle way. The real myth? That you need a special product. The real answer? Boring basics—movement, sleep, stress management, and whole foods.\n\nIf your energy, digestion, or skin isn't where you'd like, let's dig into what's actually driving that—rather than chase the next detox trend.\n\nDrop us a message to book a chat.\n\n#LiverHealth #FunctionalMedicine #DetoxMyth #WellnessBasics #AdelaideHealth",
+      "gmb_caption": "Think you need a detox? Your liver is already doing the job—it doesn't need flushing or a special product. Let's talk about what *actually* supports your liver and energy, and what's just marketing hype. Book an appointment in Eastwood, Adelaide to unpack your health goals with us.",
+      "slide_count": 1,
+      "recency_window": "30d",
+      "routing": {
+        "pillar": "education",
+        "day_fit": "Mon/Wed/Fri",
+        "image_need": "still",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "image"
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
+      "slot": 8,
+      "modelled_on": {
+        "account": "drwillcole",
+        "score": 18.62,
+        "platform": "instagram",
+        "region": "us",
+        "url": "https://www.instagram.com/p/DWejXSIgi9p/",
+        "post_date": "2026-03-29"
+      },
+      "format": "reel/video",
+      "hook": "personal-story",
+      "topic": "sleep",
+      "register": "hope",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Moody bathroom interior shot with person in silhouette facing shower, shot from inside looking out. Dominant warm orange candlelight and muted amber tones from bathroom fixtures create intimate, calming atmosphere. White sans-serif text (bold, medium-large weight) overlaid in center of frame reading \"You were today years old when you found out you should be taking dark showers every night. Here's why..\" Dark shower environment with minimal bright elements emphasizes the concept visually. Low-light cinematic aesthetic with dramatic orange-warm colour grading.",
+      "image_url": "https://scontent-lax3-1.cdninstagram.com/v/t51.71878-15/657405851_928742906454880_1927305621104175221_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gELfiTa-tIok3ulw7Y-_Dh_zYuLmmFdVa2cbzwB7KcIpgT8jFYqfo5PmGSMXp8K0dc&_nc_ohc=pmO8QcV0KW4Q7kNvwGvzJBV&_nc_gid=ae54xkE1abSbRmP-DveNMQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQCQvDOB_oWTqZN8Hx73_QNUcScrNpbffP-E8Pgsav0WkA&oe=6A4F6079&_nc_sid=c6f216",
+      "angle": "Cold-water ritual resets your nervous system and deepens sleep — here's why clinicians recommend it.",
+      "build_brief": "Format: vertical reel/video (9:16, silent hook frame + short script).\n\nCanvas: Full-screen vertical video. Open on a serene, dimly-lit bathroom interior — NOT the competitor's moody orange aesthetic, but an EHN-grounded palette. Use COOL tones: soft sage-grey walls, charcoal fixtures, muted sage-green accents (tie to #39B54A subtly via natural tones, not direct green). Ambient lighting is warm but restrained — soft cream/pale yellow from a single light source (perhaps a window or soft lamp), creating a calm, clinical-clean feel. Person in profile or silhouette leaning toward shower, turned slightly as if about to step in. Shot from inside the bathroom looking at the subject; cinematic but not theatrical.\n\nText hierarchy (match the winner's bold, center-frame placement):\n- Primary headline (Satoshi BOLD, ~95px+, centre-top third of frame, dominant): \"You were today years old when you found out cold water resets your sleep.\" ONE meaningful word in EHN green #39B54A italic (e.g., \"resets\").\n- Secondary supporting line (Satoshi MEDIUM, ~50px, below headline, centre): \"Here's why it works\" (or similar short phrase, in charcoal or soft grey-charcoal).\n\nColour grading: Cool, calm, slightly desaturated. Sage, soft charcoal, pale cream as dominant tones. EHN green #39B54A appears as a subtle warm accent in fixtures, light source, or as a thin graphic line/element (e.g., a small vertical accent bar or highlight on the shower frame) — NOT dominating the shot, but unmistakably present as the visual anchor. Never orange, never the competitor's warm amber palette. The overall feel is clinical-calm, not spa-luxury.\n\nWhitespace: Match the winner's open, breathing composition — ample negative space around the text, text floating in the calm scene rather than cluttering. No badge, no clutter. Clean.\n\nDuration: 3–5 seconds on hook frame, then transition to 1–2 follow-up frames (optional cuts showing, e.g., a close-up of steam/water droplets with supporting text, or a split-screen anatomy-style visual if on-brand editorial). Keep the moody, intimate tone throughout.",
+      "design_recipe": "REUSABLE TEMPLATE — Topic-agnostic reel structure.\n\nFormat: Vertical reel/video (9:16). Silent hook frame + optional 1–2 supporting cuts.\n\nCanvas & Colour Palette:\n- Primary background: Soft, muted environment shot (could be bathroom, kitchen, bedroom, outdoor scene) rendered in cool sage-grey, charcoal, cream, or pale blue tones — never bright or clashing.\n- Secondary palette: Warm cream, pale yellow, or soft gold as a subtle light accent (natural, restrained).\n- EHN GREEN #39B54A: Appears as a small, intentional visual anchor — a thin accent line, a light source tint, a fixture highlight, or a graphic element. Must be present and unmistakable, but not dominating the shot. Feels clinical-integrated, not forced.\n- Overall: Cool, calm, desaturated, clinical-yet-warm. NO orange, NO bright contrasts, NO competitor's exact palette.\n\nComposition:\n- Primary shot: Interior or intimate scene, subject in profile or partial silhouette, shot from inside looking outward (or equivalent intimate angle).\n- Text placement: Centred in upper-middle third of frame, floating in negative space.\n- Whitespace: Generous; text doesn't crowd the scene.\n\nTypography:\n- Headline (Satoshi BOLD, ~95px+): Single-line or two-line, one meaningful word in EHN green #39B54A italic.\n- Subline (Satoshi MEDIUM, ~50px): Short supporting phrase in charcoal or soft grey.\n- All text >=36px minimum; body >=40px. No tiny text.\n\nVisual Hierarchy:\n- Mood first, text second. The cinematic scene is the story; the words anchor the message.\n- No badges, logos, clutter. Clean, breathable composition.\n\nBranding:\n- EHN logo (small, unobtrusive, bottom corner or integrated into final frame if a multi-frame cut).\n- Close line \"Elemental Health & Nutrition\" appears on final frame or as a graphic overlay (green text or white-on-charcoal, depending on background).\n\nTone: Moody-clinical, intimate, hopeful, grounded. NOT hypey, NOT stock-wellness. Editorial feel.",
+      "on_image": "Hook Frame:\n\"You were today years old when you found out cold water resets your sleep. Here's why it works.\"\n\n(ONE meaningful word in green #39B54A italic — suggest: \"resets\")\n\nOptional supporting frame(s):\nFrame 2: \"Cool temps lower core body temperature. Your nervous system downregulates. Sleep onset deepens.\"\nFrame 3: \"Start cool, end warm. Clinicians call it the thermal dip. Your body notices.\"\n\nFinal frame: \"Elemental Health & Nutrition\" (green text or white-on-charcoal).",
+      "caption": "Cold-water exposure in the evening is one of my favourite nervous-system tools to recommend to patients struggling with sleep onset or that restless, wired-but-tired feeling.\n\nHere's the physiology: a cool shower (or even a cool face splash) lowers your core body temperature and signals your parasympathetic nervous system to downregulate. Your body then triggers the natural rebound warmth — that cosy feeling — which is the neurochemical cue for melatonin release and deep sleep.\n\nYou don't need to be extreme about it. Even finishing a warm shower with 30 seconds of cool water can shift your sleep architecture if you do it consistently. The key is timing: cool exposure 60–90 minutes before bed.\n\nWhat's your current evening wind-down? If it's all warmth and screens, a cool ritual might be the missing piece.\n\nLet's talk about it at your next visit.\n\n#SleepClinic #NervousSystemHealth #FunctionalMedicine #AdelaideClinic #SleepWellAdelaide",
+      "gmb_caption": "Cold-water exposure in the evening is a proven nervous-system reset that supports deeper sleep. Here's why: cool temperatures lower your core body temperature and trigger your parasympathetic nervous system to downregulate — followed by a natural rebound warmth that signals melatonin release. If you're struggling with sleep onset or wired-but-tired feelings, we'd like to talk through your evening routine at our Eastwood, Adelaide clinic. Book an appointment today.",
+      "slide_count": null,
+      "recency_window": null,
+      "routing": {
+        "pillar": "trust",
+        "day_fit": "Sat",
+        "image_need": "footage",
+        "face_branded": true,
+        "fb_text_only": false,
+        "gbp_card_required": true,
+        "instagram": {
+          "kind": "reel",
+          "asset": "footage"
+        },
+        "facebook": {
+          "kind": "image",
+          "source": "hook_card"
+        },
+        "googlebusiness": {
+          "image": "hook_card_required"
+        },
+        "gate1_risk": false,
+        "gate1_note": null
+      }
+    },
+    {
+      "slot": 9,
+      "modelled_on": {
         "account": "stevenjudgenaturopath",
-        "score": 3,
+        "score": 6,
         "platform": "instagram",
         "region": "au",
-        "url": "https://www.instagram.com/p/DZbIB4dk9M9/",
-        "post_date": "2026-06-10"
+        "url": "https://www.instagram.com/p/DQ6KCY7j0vl/",
+        "post_date": "2025-11-11"
       },
       "format": "carousel",
       "hook": "myth-bust",
-      "topic": "mental-health",
-      "register": "hope",
+      "topic": "hormones/perimenopause",
+      "register": "authority",
       "has_face": false,
-      "is_text_card": true,
-      "visual_recipe": "Centered text on soft muted blue-gray background. Top line in small caps (\"HEALING ISN'T LINEAR\"), main statement in large serif font (~60pt, medium weight) centered vertically, supporting italicized text below in medium serif (~36pt, lighter weight). All text in white. Clean, minimal aesthetic with ample whitespace. Slide number in dark pill-shaped badge top-right corner.",
-      "image_url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.82787-15/722447669_18404191426152339_7879917038983838321_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gG2AuBfoEk1kqtviiA5KhGqpwC_sOgGq404PjRiBrlM8qnVk5tj8PcpU8iRb9Jyg-4&_nc_ohc=EgE-8gNC4p4Q7kNvwG2sDyM&_nc_gid=GvkVMwh6TGmyOw9nrImpPg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8djJfUC1PPRYEpI97HGgXFtbTrWXt9pnyDGKg_4gdsRw&oe=6A46E750&_nc_sid=10d13b",
-      "angle": "Mental health and gut function are deeply connected—understanding this bidirectional relationship empowers smarter, whole-person healing.",
-      "build_brief": "Create a 4-slide carousel on a warm cream background (harmonising with EHN green #39B54A). Each slide follows this structure:\n- Slide number in a small dark charcoal pill-shaped badge, top-right corner.\n- Top line in small caps (Satoshi Bold, ~48px, charcoal): a short phrase anchoring the theme.\n- Main statement in large Satoshi Bold (~95px+, centred vertically, with ONE meaningful word in green #39B54A italic): the core insight.\n- Supporting line in Satoshi Medium (~40px, lighter charcoal or sage tone, italicised, centred below main text): a softening or expansion of the idea.\n- Ample whitespace between text blocks—do not crowd.\n- All text centred, clean and minimal.\n\nSlide 1: Top line \"THE GUT-BRAIN AXIS\" | Main text \"Your *gut* isn't separate\" (gut in green italic) | Supporting: \"It talks to your mind, every day.\"\nSlide 2: Top line \"TWO-WAY STREET\" | Main text \"Stress *shapes* your microbiome\" (shapes in green italic) | Supporting: \"And your microbiome shapes your mood.\"\nSlide 3: Top line \"THE PATTERN\" | Main text \"Chronic inflammation *whispers*\" (whispers in green italic) | Supporting: \"Anxiety, brain fog, low mood—often rooted in the gut.\"\nSlide 4: Top line \"WHAT NOW?\" | Main text \"Healing *starts* with both\" (starts in green italic) | Supporting: \"Address stress + gut health together—they're one story.\"\n\nBackground: warm cream (off-white, never pure white, harmonious with green). Text colour: charcoal for body, green #39B54A for the one accent word. Include a small, unobtrusive icon or subtle illustration (e.g. a minimal gut outline, brain outline, or a gentle spiral suggesting connection) in soft sage or muted teal, placed near the supporting text or in the margin—nothing stock, keep it grounded and editorial. Logo small and unobtrusive, bottom-left corner. Close line bottom: \"Elemental Health & Nutrition\" in green #39B54A, Satoshi Bold, ~32px.",
-      "design_recipe": "Reusable carousel template (topic-agnostic):\n\nCanvas: 4-slide carousel, 1080 × 1350px per slide.\nBackground: warm cream or soft neutral (charcoal, soft sage, or muted teal also work), chosen to harmonise with green #39B54A anchor—never pure white, never pure black, never competitor's exact palette.\n\nLayout per slide (consistent across all):\n- Slide counter: small, dark pill-shaped badge, Satoshi Bold, ~24px, top-right corner (8–16px inset).\n- Top line: small caps, Satoshi Bold, ~48px, charcoal or soft grey, centred horizontally. Generous margin top (~60–80px).\n- Main statement: Satoshi Bold, ~95px+ (or up to ~120px if copy is very short), centred vertically and horizontally. ONE meaningful word in green #39B54A italic; rest in charcoal or neutral dark tone.\n- Supporting line: Satoshi Medium, ~40px, italicised, lighter charcoal or sage (not a clashing secondary colour), centred below main text. Generous whitespace between main and supporting.\n- Illustration/icon: optional, subtle, placed in margin or near supporting text. Colours: soft sage, muted teal, or gentle green accent—nothing bright, nothing stock. Editorial, grounded.\n- Logo: small, unobtrusive, bottom-left corner (~24–32px height).\n- Close line (bottom): \"Elemental Health & Nutrition\", Satoshi Bold, ~32px, green #39B54A. Margin bottom ~20–30px.\n\nColour anchor: green #39B54A must be the primary visual anchor (the highlighted word in the main statement). Secondary colours (sage, teal, soft grey-blue, warm cream, charcoal, muted terracotta) must harmonise with green—never clash. Palette flex per post, but always green-anchored.\n\nType hierarchy: Satoshi BOLD for headlines (700), Satoshi MEDIUM for body (500). No serif, no Libre Caslon. All text ≥36px on body, ≥40px on body copy, ~95px+ on headline. Shorten copy if needed; never shrink font below legibility floor.\n\nAesthetic: clean, minimal, clinical-but-warm, with ample whitespace. Editorial, grounded, never stock-wellness. Soft, hopeful tone—introspective, not prescriptive.",
-      "on_image": "Slide 1: THE GUT-BRAIN AXIS | Your *gut* isn't separate | It talks to your mind, every day.\n\nSlide 2: TWO-WAY STREET | Stress *shapes* your microbiome | And your microbiome shapes your mood.\n\nSlide 3: THE PATTERN | Chronic inflammation *whispers* | Anxiety, brain fog, low mood—often rooted in the gut.\n\nSlide 4: WHAT NOW? | Healing *starts* with both | Address stress + gut health together—they're one story.\n\nBrand close line (bottom): Elemental Health & Nutrition",
-      "caption": "The gut–brain connection is one of the most profound discoveries in modern health science. Your microbiome isn't just digesting food—it's influencing your mood, anxiety, focus and emotional resilience.\n\nWhen you're chronically stressed, your gut barrier weakens. When your gut is inflamed, your brain feels it. They talk to each other constantly.\n\nThis means healing isn't either-or. It's both. A functional medicine approach addresses stress regulation *and* gut health together, because they're inseparable.\n\nIf anxiety, brain fog or low mood are familiar, it's worth asking: what's happening in the gut? 🌿\n\nReady to explore the full picture? Let's talk.\n\n#GutBrainAxis #FunctionalMedicine #MentalHealth #MicrobiomeMatters #HolisticHealth",
-      "gmb_caption": "The gut–brain connection is real—and it's central to lasting mental-health improvement. At Elemental Health & Nutrition in Adelaide, we address stress, inflammation and microbiome health together. Ready to heal from the inside out? Book an appointment.",
+      "is_text_card": false,
+      "visual_recipe": "Light grey/beige background with bold title text at top (grey and teal accent) followed by a clinical line-graph illustration showing hormonal curves across life stages. The graph uses teal line for progesterone (steady high peaks during reproductive years, sharp drop at perimenopause), red dotted line for estradiol (chaotic spikes in perimenopause phase), with x-axis labels for childhood/teens/reproductive years/perimenopause/menopause. A green box highlights the perimenopause section. Image credit text at bottom. Clean, educational, scientific aesthetic.",
+      "image_url": "https://scontent-den2-1.cdninstagram.com/v/t39.30808-6/577203309_1473899714449392_8563266096023589401_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzc2MzM2NDU2MjY5MjE3MTcwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jiBC3TCbN_gQ7kNvwE0sfUx&_nc_oc=AdpTbduMOcRkom_Gr98q79d-DbLIsBXD6TY2r3X-dSW_YZnTpguXKWTbwMNu2MAkwXE&_nc_zt=23&_nc_ht=scontent-den2-1.cdninstagram.com&_nc_gid=YGb9Q2lZknwYCXQqi-MeUQ&_nc_ss=72a8c&oh=00_AQALgjspaI2GyvTBtQ8HleooY1plRIwY9GrDPcRgGlPEZg&oe=6A4F80BE",
+      "angle": "The hidden hormone that crashes first at perimenopause—and what that means for your body",
+      "build_brief": "Canvas: horizontal carousel, 4 slides (1080 × 1350 px).\n\nBackground: Warm cream (#F5F3F0) throughout—soft, clinical, grounded. No pure white; no competitor's grey.\n\nSlide 1 (hook): \n- Bold headline at top, centred: \"The Hormone Nobody Talks About\" with ONE word \"Progesterone\" in EHN green #39B54A italic, weight Satoshi Bold (~95px). Headline sits in top third, leaving substantial whitespace below.\n- Subline in charcoal (Satoshi Medium, ~48px): \"And why its decline hits first.\"\n- Small body line (Satoshi Medium, 40px): \"It's not estrogen.\" \n- Background: cream, uncluttered.\n\nSlide 2 (graph intro):\n- Same cream background.\n- Minimal text at top (Satoshi Bold, ~60px): \"What happens to progesterone\" + one word \"across\" in green #39B54A italic.\n- Large clinical illustration (editorial style, grounded aesthetic): horizontal line graph showing hormonal trajectory. Use EHN green #39B54A for progesterone line (steady, high during reproductive years; sharp cliff at perimenopause). Use a soft sage-grey (#7A8B7E or similar muted tone) for estradiol line (chaotic, spiky during perimenopause). X-axis labels: \"Teens → Reproductive Years → Perimenopause → Post-Menopause\" in small charcoal text (Satoshi Medium, 36px minimum).\n- Highlight the perimenopause zone with a soft sage box (not bright; subtle background wash behind that section).\n- Keep whitespace generous; clinical, not cluttered.\n\nSlide 3 (why it matters):\n- Cream background.\n- Headline (Satoshi Bold, ~80px): \"Why this matters:\" with word \"Progesterone\" in green #39B54A italic.\n- Three short bullet lines (Satoshi Medium, 40px each, charcoal), stacked vertically with breathing room:\n  - \"Anti-inflammatory powerhouse\"\n  - \"Calms your nervous system\"\n  - \"Regulates histamine release\"\n- Small clarifying text below each (Satoshi Medium, 36px): \n  - \"(manages your body's stress response)\"\n  - \"(keeps anxiety + sleep on track)\"\n  - \"(reduces bloating, hives, migraines)\"\n- Right-side accent: vertical bar in EHN green #39B54A, ~30px wide, running edge-to-edge (visual anchor).\n\nSlide 4 (closing + CTA):\n- Cream background.\n- Headline (Satoshi Bold, ~75px): \"What to do about it\" + word \"now\" in green #39B54A italic.\n- Body copy (Satoshi Medium, 40px, charcoal, short lines):\n  - \"Perimenopause is not a deficiency to 'fix'—it's a transition that needs support.\"\n  - \"The right nutrition, stress management + testing can make a real difference.\"\n- Small green accent bar (same as Slide 3) on left edge.\n- Closing line: \"Elemental Health & Nutrition\" in green #39B54A (Satoshi Medium, 36px), bottom right.\n\nWhitespace & hierarchy: Match the winner's generous spacing—each slide breathes. Text density is high enough to feel clinical, light enough to feel warm. Headlines scale down progressively (95px → 60px → 80px → 75px) to sustain hierarchy across carousel. Green #39B54A acts as the consistent visual anchor (headlines, accent bars, the progesterone line on the graph).\n\nLegibility lock: All body text ≥40px. All text ≥36px. No small caps, no sub-36 text. Shorten every line rather than shrink the font. Satoshi Bold for headlines (700 weight), Satoshi Medium for body (500 weight).",
+      "design_recipe": "Reusable carousel template (4 slides, 1080 × 1350 px per slide):\n\n**Canvas & palette:**\n- Format: horizontal carousel, cream background (#F5F3F0) across all slides—warm, clinical, uncluttered.\n- Primary visual anchor: EHN green #39B54A used in headlines (one key word italicised in green), on illustration lines, and as vertical accent bars on later slides.\n- Secondary palette: soft sage-grey (#7A8B7E or muted complement) for supporting visual elements (graph lines, background washes); charcoal (#2C2C2C) for body text. No clashing colours; all harmonize with green.\n\n**Typographic lock:**\n- Headlines: Satoshi Bold (700), ~95px on Slide 1, scaled down 60–80px on subsequent slides. ONE meaningful word per headline in green #39B54A italic.\n- Body: Satoshi Medium (500), 40px minimum; no text below 36px.\n- Hierarchy: headlines command top third of slide; whitespace separates sections.\n\n**Slide-by-slide structure (reusable shell):**\n\n*Slide 1 (hook):*\n- Centered headline at top: \"[Main statement]\" with \"[key word]\" in green italic.\n- Subline below: \"[sub-statement]\" (Satoshi Medium, ~48px).\n- One-liner beneath: \"[supporting phrase]\" (Satoshi Medium, 40px).\n- Cream background, generous whitespace.\n\n*Slide 2 (data/illustration):*\n- Headline at top: \"[Concept title]\" + \"[connector word]\" in green italic.\n- Large editorial illustration (graph, chart, or visual metaphor): uses EHN green #39B54A as primary line/accent; sage-grey for secondary elements. X-axis or supporting labels in 36px minimum Satoshi Medium.\n- Muted sage box or wash highlighting a key zone (not bright; subtle).\n- Substantial whitespace around illustration; clean, clinical feel.\n\n*Slide 3 (impact/benefits):*\n- Headline: \"[Intro phrase]:\" + \"[key concept]\" in green italic (Satoshi Bold, ~80px).\n- Three short claim lines (Satoshi Medium, 40px each), stacked with breathing room.\n- Clarifying sub-text below each (Satoshi Medium, 36px, charcoal).\n- Right-edge vertical accent bar in EHN green #39B54A (~30px wide, full height).\n\n*Slide 4 (closing + CTA):*\n- Headline: \"[Call to action]\" + \"[emphasis word]\" in green italic (Satoshi Bold, ~75px).\n- Body copy: 2–3 short sentences (Satoshi Medium, 40px, charcoal), plain-English, evidence-led tone.\n- Left-edge vertical accent bar in EHN green #39B54A (~30px wide).\n- Closing line: \"Elemental Health & Nutrition\" in green #39B54A (Satoshi Medium, 36px), positioned lower right.\n\n**Visual anchors:**\n- EHN green #39B54A: appears in at least one headline word per slide (italicised), on any graph/illustration lines, and as structural accent bars on Slides 3–4.\n- Sage-grey (#7A8B7E): secondary lines, background washes, supporting illustrations; always harmonizes with green, never competes.\n- Whitespace: generous, breathing; density is clinical but warm.\n- No pure black background; no competitor's palette; no clashing secondary colours.",
+      "on_image": "Slide 1: The Hormone Nobody Talks About | [word \"Progesterone\" in green italic] | And why its decline hits first | It's not estrogen\n\nSlide 2: What happens to progesterone [word \"across\" in green italic] | [Graph: progesterone line in green #39B54A (high in reproductive years, sharp cliff at perimenopause); estradiol line in sage-grey (chaotic spikes during perimenopause); x-axis labels \"Teens → Reproductive Years → Perimenopause → Post-Menopause\"; perimenopause zone highlighted in soft sage box]\n\nSlide 3: Why this matters: [word \"Progesterone\" in green italic] | Anti-inflammatory powerhouse (manages your body's stress response) | Calms your nervous system (keeps anxiety + sleep on track) | Regulates histamine release (reduces bloating, hives, migraines)\n\nSlide 4: What to do about it [word \"now\" in green italic] | Perimenopause is not a deficiency to 'fix'—it's a transition that needs support | The right nutrition, stress management + testing can make a real difference | Elemental Health & Nutrition",
+      "caption": "The story of perimenopause rarely starts with progesterone—but your body sure notices when it drops. \n\nThis anti-inflammatory, anxiety-calming, histamine-regulating hormone is often the *first* to decline as you move through perimenopause. When it goes, a lot of women feel it: mood shifts, sleep trouble, bloating, migraines.\n\nThe good news? Understanding what's happening is the first step. Functional medicine looks at the *whole picture*—your nutrition, stress resilience, cycle patterns, and sometimes targeted testing—to support you through this transition. It's not about 'fixing' hormones; it's about meeting your body where it is and giving it what it needs.\n\nIf you're noticing changes in your 40s, let's chat about what's really going on.\n\n#PerimenopauseMythBust #FunctionalMedicine #HormoneHealth #WomensHealthAdelaide #PerimenopausesupPort",
+      "gmb_caption": "Feeling the shifts of perimenopause? In Eastwood, Adelaide, we use functional medicine to understand your hormonal story—not just the oestrogen headline, but the progesterone drop that often hits first. Book an appointment to explore what's happening in your body.",
       "slide_count": 4,
-      "recency_window": "30d",
+      "recency_window": null,
       "routing": {
         "pillar": "education",
         "day_fit": "Mon/Wed/Fri",
@@ -299,230 +489,41 @@
       }
     },
     {
-      "slot": 6,
-      "modelled_on": {
-        "account": "thesibodoctor",
-        "score": 7.68,
-        "platform": "facebook",
-        "region": "au",
-        "url": "https://www.facebook.com/thesibodoctor/posts/pfbid02m6qVCk4oEHpZpyjx6gcgYFSAscMp5LaAF9eD99QZYnLWs5xctuxcfnXNybdA2XjDl",
-        "post_date": "2026-06-25"
-      },
-      "format": "image",
-      "hook": "comment-to-DM",
-      "topic": "gut/SIBO",
-      "register": "validation",
-      "has_face": false,
-      "is_text_card": true,
-      "visual_recipe": "Deep navy blue background (#003d82) with geometric dot pattern overlay in top-right corner. Bold white sans-serif headline \"FIND A SIBO PRACTITIONER\" (heavy weight, large scale ~40-50% of frame height), with \"SIBO\" emphasized in lighter blue (#5ba3d0). Center-bottom features an official-looking circular badge with \"SIBO DOCTOR APPROVED\" seal in white and lighter blue. Bottom-left corner has secondary branding logo. Layout is symmetrical and trust-focused, using medical/institutional authority cues through badge imagery and colour palette. No faces or photographs, solid colour background with branded elements only.",
-      "image_url": "https://scontent.fluk1-1.fna.fbcdn.net/v/t39.99422-6/727136720_1302033048579811_1340842588242880064_n.png?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=U4lTL0TkKhYQ7kNvwFDUHWh&_nc_oc=Adr8TahBjzo-CX7ISDNaLkghoOa1famQ4fSHda7adtTVnzJ85FYJ-dUNDbrLyDTjhVU&_nc_zt=14&_nc_ht=scontent.fluk1-1.fna&_nc_gid=7_OvftZ4ouM6gfC2iQUc9A&_nc_ss=72289&oh=00_Af-XxmQRrxPsfaV52kw8OzybWFCzUcw2PHyqq0vLHTQyYQ&oe=6A46C9E2",
-      "angle": "Most people with gut dysbiosis never get a proper functional-medicine diagnosis — validation and clarity matter.",
-      "build_brief": "Canvas: Single square card (1080×1080px).\n\nBackground: Warm cream (#F5F1ED) with a subtle sage-green geometric dot pattern overlay in the top-right corner (using EHN green #39B54A at 15% opacity to echo the winner's texture without replicating the navy).\n\nHeadline (top, centred, ~95px+, Satoshi Bold): \"UNDERSTAND YOUR GUT\" — with the word \"GUT\" rendered in EHN green #39B54A italic to anchor the visual hierarchy and mood.\n\nSubheading (secondary text, ~50px, Satoshi Medium, charcoal): \"Dysbiosis isn't a diagnosis. It's a clue.\"\n\nCentre-bottom: A circular badge-style element (matching the winner's trust/authority aesthetic) — NOT a medical seal, but a grounded clinical marker. Outline in EHN green #39B54A (2–3px stroke), interior in soft white/cream, interior text in charcoal: \"FUNCTIONAL MEDICINE APPROACH\" (Satoshi Medium, ~32px, centre-aligned, two lines). This echoes the winner's badge authority without mimicking medical certification.\n\nBottom-left corner: Small EHN logo lockup (monochrome sage or charcoal, ~60px wide, unobtrusive).\n\nBottom-right: Brand close line \"Elemental Health & Nutrition\" in Satoshi Medium, ~28px, charcoal.\n\nComposition: Mirror the winner's symmetry and whitespace — headline dominates upper half, badge sits low and centred, flanked by breathing room. No photographs, no faces. Minimal, institutional but warm. The sage dot pattern and cream base create a soft, clinical feel aligned with EHN's grounded editorial voice.",
-      "design_recipe": "Canvas: Single square card (1080×1080px).\n\nBackground: Warm neutral (cream, soft grey-white, or muted sage-cream hybrid) with a subtle geometric dot pattern overlay in the top-right corner — dots rendered in EHN green #39B54A at 15% opacity, creating texture without visual clutter.\n\nHeadline (top, centred, ~95px+, Satoshi Bold): \"[MAIN WORD]\" — with ONE meaningful word in EHN green #39B54A italic to anchor the visual and emotional centre.\n\nSubheading (secondary text, ~50–55px, Satoshi Medium, charcoal): \"[Supporting validation line, short phrase]\"\n\nCentre-bottom: Circular badge-style element (grounded clinical marker, NOT a medical seal). Outline in EHN green #39B54A (2–3px stroke), interior soft white/cream, text in charcoal (Satoshi Medium, ~32px, two lines, centre-aligned): \"[Authority marker / clinical descriptor]\". This element echoes the winner's trust cue and institutional feel.\n\nBottom-left corner: Small EHN logo lockup (monochrome sage or charcoal, ~60px wide, unobtrusive).\n\nBottom-right: Brand close line \"Elemental Health & Nutrition\" (Satoshi Medium, ~28px, charcoal).\n\nComposition: Symmetrical, whitespace-rich (matching the winner's hierarchy). Headline dominates the upper half; badge sits low and centred, flanked by breathing room. No photography. Minimal, clinical-warm aesthetic. Colour palette: EHN green #39B54A as primary anchor; cream/white/muted sage as background; charcoal for secondary text; sage or soft grey-blue as optional tertiary (never pure black, never bright or clashing accents). The overall feel is editorial, grounded, and medically credible.",
-      "on_image": "Headline: UNDERSTAND YOUR GUT (with \"GUT\" in green #39B54A italic)\n\nSubheading: Dysbiosis isn't a diagnosis. It's a clue.\n\nBadge text (two lines, centred): FUNCTIONAL MEDICINE APPROACH\n\nBrand close line: Elemental Health & Nutrition",
-      "caption": "Most people with gut dysbiosis never get a proper diagnosis — they're told \"it's all in your head\" or handed a probiotic and sent home.\n\nDysbiosis itself isn't the diagnosis. It's a *symptom* pointing to what's actually wrong: SIBO, leaky gut, dysbiosis, fungal overgrowth, or food sensitivities. Finding out which one matters, because the treatment is completely different.\n\nAt Elemental, we run the right functional tests — breath tests, stool analysis, food sensitivity markers — to understand *why* your gut isn't working. Once we know, we can actually fix it.\n\nIf you've been dismissed or left in the dark about your digestion, let's talk.\n\nReady to find answers? Book a consultation to discuss your gut health journey.\n\n#GutHealth #Dysbiosis #FunctionalMedicine #SIBO #AdelaideFunctionalHealth",
-      "gmb_caption": "Most people with gut dysbiosis never get a proper functional-medicine diagnosis — just a label, no answers. At Elemental Health & Nutrition in Eastwood, Adelaide, we run the right tests to understand what's actually wrong, so we can help you fix it. Book an appointment to start your gut health journey.",
-      "slide_count": 1,
-      "recency_window": "7d",
-      "routing": {
-        "pillar": "conversion",
-        "day_fit": "Sun",
-        "image_need": "still",
-        "face_branded": false,
-        "fb_text_only": false,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "image"
-        },
-        "facebook": {
-          "kind": "image",
-          "source": "hook_card"
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
-      "slot": 7,
-      "modelled_on": {
-        "account": "nicolebijlsma1",
-        "score": 2.2,
-        "platform": "facebook",
-        "region": "au",
-        "url": "https://www.facebook.com/nicolebijlsma1/posts/pfbid0fgK7dWy8oB21DVM8wurYoXzmBuFwxdd5CRtjaURmkj9vYxfyx7NdtNSfuuN7CxkKl",
-        "post_date": "2026-06-11"
-      },
-      "format": "text-only",
-      "hook": "myth-bust",
-      "topic": "sleep",
-      "register": "authority",
-      "has_face": false,
-      "is_text_card": true,
-      "visual_recipe": "Text-only carousel post (no image available). Multi-paragraph caption leading with contrarian headline hook (\"Ten journals rejected...\") establishing authority through research credentials. Approximately 120 words of body text in caption. Designed to be read as a carousel swipe-through narrative revealing suppressed research findings. Heavy hashtag footer targeting niche (EMF, building biology, sleep). The hook positions the creator as an outsider with forbidden/rejected knowledge—classic authority-register myth-busting angle in functional medicine space.",
-      "image_url": null,
-      "angle": "The sleep research journals won't publish — why gut health might be the missing link to your best sleep yet.",
-      "build_brief": "\nFORMAT: Text-only carousel post (4 slides maximum). No image. Green-anchored, clinical authority register.\n\nCANVAS & STRUCTURE:\n- Square carousel format (1080 × 1080 px per slide).\n- Background: Soft cream (#F5F3F0) throughout — warm, clinical, never white-bright or black.\n- Whitespace-heavy layout matching the winner's narrative reveal structure: each slide introduces one idea in short, punchy blocks.\n- Satoshi Bold headlines (~95px+, all-caps or title case) with ONE meaningful word in EHN green #39B54A italic or bold green accent.\n- Body copy in Satoshi Medium, charcoal (#2C2C2C), 40–50px range for readability. Short paragraphs (1–2 lines max per block) to mirror the competitor's swipe-through pacing.\n- Subtle visual anchor: a thin, 3–4px left border in EHN green #39B54A on each slide (consistent compositional anchor, no image needed).\n\nSLIDE-BY-SLIDE COMPOSITION:\nSlide 1 (Hook): \n- Headline centred or left-aligned, bold green word draws eye.\n- Authority statement below (2–3 lines, body copy size).\n- Whitespace below to invite scroll.\n- Green left border present.\n\nSlides 2–3 (Build):\n- Short sub-headline per slide (Satoshi Bold, ~70–80px).\n- Supporting line or stat (Satoshi Medium, ~45px).\n- Whitespace padding to match Slide 1 rhythm.\n- Green left border consistent.\n\nSlide 4 (Close):\n- Punchy CTA or clinician credential line (Satoshi Medium, ~50px).\n- \"Elemental Health & Nutrition\" brand lockup (small, unobtrusive, bottom right, charcoal text).\n- Green left border closes the suite.\n\nCOLOUR PALETTE:\n- Primary anchor: EHN green #39B54A (left border, one word highlight per slide).\n- Secondary: Soft cream background #F5F3F0 (calm, clinical, warm).\n- Text: Charcoal #2C2C2C for body and most headlines; green italic accent on ONE meaningful word per slide.\n- No competitor colours. No purple, bright pink, orange, neon, or clash. Green-anchored only.\n\nTONE & FEEL:\n- Authoritative, clinician-credible, myth-busting (mirror the winner's \"forbidden knowledge\" register).\n- Editorial, grounded, never supplement-shilling.\n- Whitespace and short copy blocks signal high-integrity research communication.\n",
-      "design_recipe": "\nREUSABLE TEMPLATE (topic-agnostic, any EHN functional-medicine angle):\n\nFORMAT: Text-only carousel suite (3–4 slides). Green-anchored, clinical authority register.\n\nCANVAS: Square (1080 × 1080 px per slide). Background soft cream #F5F3F0 (or pale charcoal if topic mood demands warmer contrast). Never pure black, never competitor's exact palette.\n\nCOMPOSITIONAL ANCHOR:\n- Thin left border (3–4px, EHN green #39B54A) on every slide — consistent visual thread, no image needed.\n- Whitespace-heavy: short text blocks, breathing room between paragraphs (mirror myth-bust/research-reveal rhythm).\n- Type hierarchy: Satoshi Bold (700) headlines at ~95px+ (Slide 1) and ~70–80px (subsequent slides); Satoshi Medium (500) body at 40–50px.\n\nCOLOUR SCHEME:\n- Primary visual anchor: EHN green #39B54A (left border, one meaningful word italicised/accented per slide).\n- Secondary palette: soft cream or pale neutral background + charcoal #2C2C2C text.\n- Harmonising colours (if mood requires lift): sage, teal, warm grey-blue — never clash with green.\n\nSLIDE STRUCTURE (Reusable):\n1. **Hook slide**: [headline — one word in green italic] + [authority/contrarian statement] + whitespace.\n2. **Build slide(s)**: [sub-headline] + [supporting stat or line] + whitespace.\n3. **Build slide(s)**: [sub-headline] + [supporting insight] + whitespace.\n4. **Close slide**: [CTA line or clinician credential] + \"Elemental Health & Nutrition\" lockup (small, charcoal, unobtrusive).\n\nCOPY DISCIPLINE:\n- All on-screen text ≥36px (headlines ~95px+ Slide 1, ~70–80px subsequent, body 40–50px).\n- Shorten copy ruthlessly — never shrink font below legibility floor.\n- No image, no icon clutter — text and green-anchored border carry the authority.\n\nVOICE & TONE:\n- Myth-bust or research-reveal register (positioning EHN as credible outsider).\n- Clinical, warm, Australian English, no supplement hyperbole.\n- AHPRA/TGA-safe: no cure/treat/guarantee claims, no dosing.\n\nThis template allows the same clean, text-only carousel layout to be deployed across any functional-medicine topic (sleep, gut, hormones, inflammation, etc.) while maintaining EHN's green-anchored, high-integrity brand feel.\n",
-      "on_image": "\nSlide 1: Sleep journals won't touch this | The gut–sleep connection most researchers ignore. | [Elemental Health & Nutrition logo, small bottom right]\n\nSlide 2: Your microbiome | controls your melatonin | [green left border]\n\nSlide 3: 70% of serotonin made in the gut — yet sleep medicine still treats the bedroom, not the belly. | [green left border]\n\nSlide 4: Ready to connect the dots? | Book a sleep assessment — we look deeper. | Elemental Health & Nutrition | [green left border]\n",
-      "caption": "Sleep troubles? Your GP might be looking in the wrong place. Most research on sleep hygiene stops at blue light and temperature — but your gut microbiome produces 70% of your serotonin, the neurotransmitter that makes melatonin possible. If your digestion is struggling, your sleep likely will too. This isn't suppressed research; it's just not the shiny headline. At Elemental, we trace sleep issues back to their root — often that means your gut health, not your pillow. Worth exploring? Let's chat about your sleep patterns and digestive health together.\n\nReady to uncover what's really affecting your sleep? Book a consultation with us.\n\n#SleepHealth #GutBrain #FunctionalMedicine #AustralianClinic #SleepWellness",
-      "gmb_caption": "Sleep troubles often start in your gut, not your bedroom. At Elemental Health & Nutrition in Adelaide, we trace the real roots of poor sleep — including your microbiome and digestive health. Book an appointment to explore your sleep patterns with a clinician who looks deeper.",
-      "slide_count": 1,
-      "recency_window": "30d",
-      "routing": {
-        "pillar": "education",
-        "day_fit": "Mon/Wed/Fri",
-        "image_need": "none",
-        "face_branded": false,
-        "fb_text_only": true,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "image"
-        },
-        "facebook": {
-          "image": null,
-          "text_only": true
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
-      "slot": 8,
-      "modelled_on": {
-        "account": "DrJoshAxe",
-        "score": 6.71,
-        "platform": "facebook",
-        "region": "us",
-        "url": "https://www.facebook.com/reel/27104733169185702/",
-        "post_date": "2026-06-10"
-      },
-      "format": "reel/video",
-      "hook": "contrarian",
-      "topic": "fasting/nutrition",
-      "register": "authority",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Outdoor daylight setting with a man in black casual wear standing on a sidewalk/path with manicured grass lawn and leafy green trees in background. He's gesturing while speaking directly to camera in a conversational, educational pose. Clean natural lighting, no on-image text overlay—designed as a talking-head reel format where caption text appears separately in the post copy.",
-      "image_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t15.5256-10/718378672_1238047441621458_4946153918134175919_n.jpg?stp=dst-jpg_tt6&cstp=mx584x1024&ctp=p296x100&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=a6BzPeE2WCUQ7kNvwHSPfZg&_nc_oc=AdqoAp9Jb1V7C-DS_fgNwPIXuHD_i8kUE3JvMrCdVTGRcmZbaTpLZOR7TyrF0vdHpGw&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=9tPhOZcvcLCVOqENtvLRXw&_nc_ss=72289&oh=00_Af9WVr0iT4KpW-oXiYpg2r6Hb2XQQvELktU8MWJv8ZGJeg&oe=6A46F346",
-      "angle": "Fasting isn't about restriction—it's about when your body actually *heals*.",
-      "build_brief": "Format: Vertical reel/talking-head video (1080 × 1920px or TikTok/Instagram Reels proportion). \n\nSetting & composition: Outdoor daylight, natural lighting. A clinician (or relatable practitioner) in neutral, professional-casual wear (cream, charcoal, or muted tone) standing in a calm garden or park setting—manicured lawn, leafy trees, soft dappled light in background. Conversational posture, facing camera directly, gesturing naturally as if speaking to the viewer. NO on-image text overlay—the reel is a clean talking-head format; all caption text lives in the post copy below.\n\nColour palette: Green #39B54A as the primary visual anchor—introduce it as a subtle accent in the background (e.g. foliage, a soft sage plant pot, or a muted green garden element) or as a gentle colour grade/tint in the lighting (warm cream-and-green tone to the outdoor scene). Secondary colours: warm cream, soft sage, natural greens from foliage, charcoal soil/paths, soft grey-blue sky. Avoid pure black, bright colours, or the competitor's exact palette. The overall feel should be warm, grounded, clinician-calm—not clinical or sterile.\n\nWhitespace & composition: Generous headroom above the speaker (rule of thirds, top third of frame occupied by background foliage/sky). Body occupies the middle and lower thirds. Slow, measured camera work—static or gentle zoom, no jump-cuts or hyperactive editing. The pacing should feel educational and thoughtful, not high-energy.\n\nTypography: No text overlays on the reel itself. All copy is in the caption below (Instagram, Facebook, GBP). The reel is 100% visual; the voice is the educational hook.\n\nClose/branding: Small, unobtrusive EHN logo appears briefly at the very end of the reel (final 1–2 seconds, bottom corner, white or cream, minimal opacity). No suburb name on the video itself.",
-      "design_recipe": "Reusable Reel Template (Topic-Agnostic):\n\nFormat: Vertical talking-head video reel (1080 × 1920px). Outdoor daylight setting with natural, dappled lighting. Speaker in neutral, professional-casual wear, positioned in rule-of-thirds composition—conversational gesture, facing camera, framed against soft background foliage/landscape.\n\nColour palette foundation:\n- Primary anchor: EHN green #39B54A subtly woven into the background (foliage, garden element, or warm colour grade to the outdoor light).\n- Secondary colours: warm cream, soft sage, natural greens, charcoal paths/soil, soft grey-blue sky.\n- Avoid: pure black, bright/clashing colours, competitor's exact palette.\n- Overall feel: warm, grounded, clinician-calm.\n\nComposition & whitespace:\n- Generous headroom (rule of thirds: top third = sky/foliage, middle/lower thirds = speaker).\n- Static or gentle zoom camera movement; no jump-cuts.\n- Measured, educational pacing—invites deep attention, not quick swipe-away.\n\nTypography:\n- ZERO on-image text overlays—clean talking-head format.\n- All educational/hook copy lives in the caption below (Instagram, Facebook, GBP).\n- Voice is the message; visuals anchor trust and approachability.\n\nBranding & close:\n- Small, unobtrusive EHN logo in final 1–2 seconds (bottom corner, white/cream, minimal opacity).\n- No suburb name on the video itself; suburb keyword lives in GBP caption only.\n\nThis structure can be reused for any functional-medicine topic (digestion, sleep, stress, immune, hormones, etc.) where a conversational clinician talking directly to the viewer builds authority and trust.",
-      "on_image": "No on-image text. Reel is clean talking-head format with all copy in the caption. Visual hook only: speaker, outdoor daylight, natural foliage, conversational gesture, EHN green subtly anchored in background or colour grade. Logo brief at reel end (1–2 sec, bottom corner, minimal opacity).",
-      "caption": "When you eat, your body digests. When you're not eating, it can *repair*.\n\nFasting isn't about starving yourself—it's about giving your gut, your cells, and your immune system space to reset. Most of us eat constantly, so we never really get that window.\n\nIf you're struggling with bloating, fatigue, or lingering inflammation, it might not be *what* you're eating—it might be *when*. A simple shift in timing can sometimes do more than any food swap.\n\nThat said, fasting isn't one-size-fits-all. Your history, your stress, your digestion all matter. We work out what rhythm makes sense *for you*.\n\nReady to rethink when—not just what?\n\n**Elemental Health & Nutrition**\n\n#FunctionalMedicine #GutHealth #IntermittentFasting #NutritionTiming #AdelaideClinic",
-      "gmb_caption": "Fasting can be a powerful reset tool—but it needs to fit *your* body, not a trend. In Eastwood, Adelaide, we work with you to find the eating (and fasting) rhythm that actually works. Book an appointment to explore whether timing could be your missing piece.",
-      "slide_count": null,
-      "recency_window": "30d",
-      "routing": {
-        "pillar": "education",
-        "day_fit": "Mon/Wed/Fri",
-        "image_need": "footage",
-        "face_branded": true,
-        "fb_text_only": false,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "reel",
-          "asset": "footage"
-        },
-        "facebook": {
-          "kind": "image",
-          "source": "hook_card"
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
-      "slot": 9,
-      "modelled_on": {
-        "account": "herbnerdreece",
-        "score": 6.95,
-        "platform": "instagram",
-        "region": "au",
-        "url": "https://www.instagram.com/p/DY_jpjMyoDT/",
-        "post_date": "2026-05-31"
-      },
-      "format": "image",
-      "hook": "personal-story",
-      "topic": "other",
-      "register": "humour",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Candid, lifestyle photograph of a smiling man in a sage green and black North Face puffer jacket holding a small brown puppy in an indoor shopping/retail setting. Soft natural lighting, shallow depth of field with blurred background. Caption overlay with light emoji. High-engagement personal moment emphasizing relatability and warmth.",
-      "image_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/708228405_18595285480010033_608479480162437585_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gG81lubphKhDUdH580lPD50grHgS53U2K0bzWRbWeDgSaOjDA-2-pViPJvsIxb0jHA&_nc_ohc=85bMIUQ83JYQ7kNvwGCuG2f&_nc_gid=Fm9KNpG8Fitq4rqOKyWGPA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9ocbJars7kgEvpMiRyv4lrxkhHUW8dV1exbf1MoYkVHA&oe=6A46DA50&_nc_sid=10d13b",
-      "angle": "Real moments with clients: why our approach feels human, not clinical.",
-      "build_brief": "Create a SINGLE SQUARE CARD (1080×1080px) in Canva using the winner's candid lifestyle layout.\n\nCOMPOSITION & WHITESPACE:\n- Feature a warm, candid photograph of a client (or clinician + client) in the EHN clinic or wellness setting, smiling and at ease — soft natural or studio lighting, shallow depth of field, blurred background. The image fills the left 60–70% of the card. Think: genuine moment, not staged.\n- Reserve right 30–40% as a clean white or soft cream breathing space for the overlay text.\n\nCOLOUR PALETTE (green-anchored, harmonizes with #39B54A):\n- Primary anchor: EHN green #39B54A — use as a vertical accent bar or thick left border (width ~80–100px), or as a graphic shape (circle, organic blob) behind or beside the text.\n- Secondary: soft cream (#F5F3F0) or white as the main card background; soft warm grey (#8B8680) for body text.\n- No competitor's colours; no pure black or clashing pastels.\n\nTEXT LAYOUT & HIERARCHY:\n- Headline (Satoshi Bold, ~100–120px on 1080 canvas, roughly 5–7 words max): positioned in the cream breathing space, top-third or centre-right. ONE meaningful word in green #39B54A italic or a complementary warm grey.\n  Example layout: \"Real. \\[meaningful word in green\\]. Moments.\" — very short, no word wrapping if possible.\n- Subline/Caption (Satoshi Medium, ~50–60px, 1–2 short lines): sit directly below the headline in warm grey. A brief, warm clinician voice observation (e.g., \"Why our clinic feels like home\").\n- Small brand lockup (EHN logo, 60–80px) + \"Elemental Health & Nutrition\" label (Satoshi Medium, ~36px, warm grey or green) sit bottom-right, subtle but present.\n\nFEEL:\n- Warm, human, candid — matches the winner's relatability and soft smile. Editorial photography, not stock imagery.\n- Shallow depth of field mimics the winner's approachability.\n- Green accent bar or shape anchors the eye and signals EHN instantly.\n- Plenty of whitespace, minimal copy — let the image and green accent do the work.\n\nDELIVER TO DESIGNER AS:\n\"Single square card with candid clinic/wellness photo (left 60–70%), cream/white breathing space (right 30–40%). EHN green vertical accent bar or shape. Bold headline (~100px, one word in green italic), subline (~50px, warm grey), tiny logo + close line bottom-right. Soft natural lighting, shallow depth of field, warm-toned and human.\"",
-      "design_recipe": "REUSABLE CANDID LIFESTYLE CARD TEMPLATE — Topic-Agnostic\n\nFORMAT: Single square card (1080×1080px)\n\nLAYOUT & COMPOSITION:\n- Left 60–70%: warm, candid lifestyle photograph (clinic setting, wellness moment, clinician + client interaction, soft natural/studio lighting, shallow depth of field, blurred background). Image does the heavy emotional lifting.\n- Right 30–40%: clean, breathing white or soft cream space for text overlay.\n\nCOLOUR PALETTE (EHN green-anchored):\n- Primary anchor: EHN green #39B54A as vertical accent bar (~80–100px width, left edge or behind text), or as an organic shape (circle, blob, underline) adjacent to headline.\n- Secondary: soft cream (#F5F3F0) or white card background.\n- Body text: soft warm grey (#8B8680) or charcoal for readability.\n- No pure black, no clashing pastels, no competitor's palette.\n\nTEXT HIERARCHY & PLACEMENT:\n- Headline (Satoshi Bold, ~100–120px relative scale on 1080, 5–7 words MAX): top-third or centre-right of cream space. ONE meaningful word in green #39B54A italic or complementary accent.\n- Subline (Satoshi Medium, ~50–60px relative scale, 1–2 short lines): directly below headline, warm grey tone, clinician-warm voice.\n- Brand close (logo lockup 60–80px + \"Elemental Health & Nutrition\" label, Satoshi Medium ~36px, warm grey or green): bottom-right, minimal presence.\n\nFEEL & TONE:\n- Candid, warm, human, relatable — genuine moment, not staged.\n- Editorial photography aesthetic (not stock wellness clichés).\n- Green as the unmistakable visual anchor.\n- Ample whitespace, minimal copy — image-led storytelling.\n- Clinical-but-warm, grounded Australian natural light.\n\nUSE THIS SHELL FOR: personal stories, client moments, behind-the-scenes, clinic culture, clinician perspective, any topic that benefits from candid human connection.",
-      "on_image": "Headline: \"Real \\[meaningful word in green italic\\] Moments\" (or similar 5–7 word structure)\nSubline: \"Why our clinic feels like home\" (or related 1–2 line clinician observation)\nClose line: \"Elemental Health & Nutrition\"",
-      "caption": "This is what it looks like when health feels personal, not transactional. We love when clients walk through the door already smiling — it tells us we're doing something right. Your wellness journey doesn't have to feel clinical; it just has to feel *real*. \n\nReady to feel the difference? Book a free discovery call with us today.\n\n#FunctionalMedicine #AdelhealthCare #RealMoments #WellnessJourney",
-      "gmb_caption": "At Elemental Health & Nutrition in Eastwood, Adelaide, we believe your health journey should feel warm and human, not clinical. Every appointment is a real conversation with a clinician who listens. Book your discovery call today and experience the difference.",
-      "slide_count": 1,
-      "recency_window": "30d",
-      "routing": {
-        "pillar": "trust",
-        "day_fit": "Sat",
-        "image_need": "still",
-        "face_branded": true,
-        "fb_text_only": false,
-        "gbp_card_required": true,
-        "instagram": {
-          "kind": "image"
-        },
-        "facebook": {
-          "kind": "image",
-          "source": "hook_card"
-        },
-        "googlebusiness": {
-          "image": "hook_card_required"
-        },
-        "gate1_risk": false,
-        "gate1_note": null
-      }
-    },
-    {
       "slot": 10,
       "modelled_on": {
-        "account": "sarah_di_lorenzo",
-        "score": 4.95,
+        "account": "drmarkhyman",
+        "score": 79.96,
         "platform": "instagram",
-        "region": "au",
-        "url": "https://www.instagram.com/p/DZPBf4HkxfA/",
-        "post_date": "2026-06-06"
+        "region": "us",
+        "url": "https://www.instagram.com/p/DNp4fJtMy-8/",
+        "post_date": "2025-08-22"
       },
       "format": "carousel",
-      "hook": "announcement",
-      "topic": "other",
-      "register": "validation",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "High-contrast studio portrait against a dark charcoal/black textured wall backdrop. Woman in fitted grey/slate ribbed long-sleeve dress with ruching detail at center, minimal gold accessories (bracelets/rings), hand on hip in confident power pose. Clean, polished aesthetic with concrete flooring. Minimal text overlay—brand mention and emoji callouts only (no on-image text apart from caption).",
-      "image_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/715790260_18588808447007016_6087821270984341295_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHrqkOZNqM3zu4RykXeOW9yi0W4_DBrHim3gkXCOeKEA5FEIkZsZ7lU5c_1ZBaHwjs&_nc_ohc=ny86xJwHT6IQ7kNvwEapRb5&_nc_gid=iliGPc0FpIWLxKyM1KCTrA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-c6FHkbiElBmImhXEQ-hpY-wENav1QBRa-ogFyYAUD1g&oe=6A46F2EA&_nc_sid=10d13b",
-      "angle": "Functional medicine is about meeting your body where it is, not where wellness trends say it should be.",
-      "build_brief": "Canvas: single square card (1080×1080px).\n\nLayout & composition: High-contrast studio portrait of a person (clinician or real patient) shot from waist-up against a soft sage or warm charcoal textured wall backdrop (muted, never pure black). Subject dressed in neutral, polished professional attire (soft grey, cream, or charcoal tones) with minimal, natural accessories—no jewellery required. Pose: relaxed, grounded confidence (arm resting naturally or hand on hip), feet firmly planted, direct gaze. Clean concrete or neutral flooring visible at base.\n\nBackground & colour: The backdrop wall is a soft muted charcoal or sage-grey (warm undertone, never black). This allows the subject to read clearly and creates calm, clinical authority without coldness.\n\nText placement: Minimal on-image text overlay. NO lengthy copy on the card itself—only a single headline (ONE meaningful word in green #39B54A italic, remainder in charcoal bold Satoshi) placed at the centre-top or top-third of the card. Optionally, a short brand tagline or emoji callout (2–3 words max) at the bottom in charcoal.\n\nGreen #39B54A anchor: Use green as a subtle border frame (1–2% of the card edge), a thin rule beneath the headline, or as the colour of that single meaningful word. Green must be visible and intentional but not dominating—it feels like a clinical accent, not a full-bleed background.\n\nLegibility: Headline ~95px (bold Satoshi, charcoal body text in grey/charcoal, green accent word ~95px italic). No body copy on card; all narrative lives in the caption.\n\nOverall feel: Editorial, grounded, clinical-but-warm. The portrait carries the message; the minimal text acts as a clinician's quiet endorsement, not a hard sell.",
-      "design_recipe": "Canvas: single square card (1080×1080px).\n\nReusable layout: High-contrast studio or editorial portrait (waist-up, subject facing camera) centred against a soft, muted textured wall backdrop in complementary neutrals (sage, warm grey, soft charcoal—never pure black, never bright colours). Subject in neutral professional attire, minimal or no jewellery, grounded pose (natural arm placement or light confident gesture). Clean flooring or neutral base visible.\n\nColour palette: \n- Primary anchor: EHN green #39B54A (used as one highlighted word in the headline, a thin rule beneath, or a delicate border frame—never as full-bleed background).\n- Secondary: Soft muted charcoal, sage, or warm grey for the backdrop (ensures contrast with subject while staying clinical and calm).\n- Tertiary: Charcoal (CMYK 0/0/0/80–100) for body text and brand close line.\n\nText hierarchy:\n- Headline: Satoshi Bold, ~95px, charcoal body + one meaningful word in green #39B54A italic, placed centre-top or top-third.\n- Optional callout/tagline: Satoshi Medium, ~36–40px, charcoal, 2–3 words max, placed bottom-centre.\n- Brand close line: \"Elemental Health & Nutrition\" (green text, Satoshi Medium, ~36px, bottom-right corner).\n\nComposition: Portrait occupies 65–75% of canvas, whitespace/neutral ground 25–35%. Minimal on-image text preserves the editorial impact of the photograph. All narrative voice and CTA belong in the caption.\n\nFeel: Grounded, editorial, clinician-credible. The portrait is the hero; the text is restraint and professionalism.",
-      "on_image": "Headline: \"Your body *knows* what it needs\" (where \"knows\" is green #39B54A italic, bold Satoshi ~95px, charcoal remainder) | Optional tag: \"Just ask.\" (Satoshi Medium, ~36px, charcoal, placed bottom-centre) | Brand line: \"Elemental Health & Nutrition\" (green, Satoshi Medium, ~36px, bottom-right)",
-      "caption": "Your body isn't trying to sabotage you—it's sending signals. In functional medicine, we listen. That might mean slowing down when the world says speed up, or nourishing differently when the trend feels wrong for your system.\n\nThere's no one-size-fits-all. There's just your body, your story, and a clinician who's trained to help you decode what's really going on.\n\nReady to listen to what yours is telling you? Let's start a conversation.\n\n#FunctionalMedicine #WellnessWithoutTrends #ListeningToYourBody #HealthAsIt #ClinicalNutrition",
-      "gmb_caption": "Functional medicine isn't about following a trend—it's about understanding what your body actually needs. If you're ready to work with a clinician who listens and personalises your care, we'd love to meet you in Eastwood, Adelaide. Book an appointment today.",
-      "slide_count": null,
-      "recency_window": "30d",
+      "hook": "stat-drop",
+      "topic": "fasting/nutrition",
+      "register": "authority",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Solid terracotta/burnt sienna background with centered large bold white sans-serif headline text reading \"AMERICA IS GOING SOBER\", followed by smaller white supporting text, and a gold/tan arrow pointing right at bottom. Clean, minimal layout with generous negative space, high contrast typography, no images or faces.",
+      "image_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.82787-15/537186120_18521316640033109_3147881466451499188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzcwNDUyODY4OTA3NzM4NTkxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=a1xRBydpYy8Q7kNvwEtMnRz&_nc_oc=AdoCKpzHG-UmxZQNGJBuColzlXnO1m97ruDo5u-u42l4tcJyblfUIhEpEX186xYv1jo&_nc_zt=23&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_gid=THnAwzmUT4Snf75s7Y6Zug&_nc_ss=7c689&oh=00_AQB5_xsVJBbYE7FetHQ0nPBsi21-MiJLvuoN5JrJxAZ9ng&oe=6A4F7454",
+      "angle": "Intermittent fasting adoption surges in Australia — functional medicine explains what the research actually says.",
+      "build_brief": "Square carousel (4 slides). Borrow the winner's structure exactly: solid muted background with centered, bold, large sans-serif headline (Satoshi Bold, ~95px+), generous negative space, high contrast, minimal density, no imagery.\n\nSlide 1 (Hook): Cream background (#F5F3F0 or warm ivory). Centered headline in Satoshi Bold: \"FASTING IS NO LONGER FRINGE\" with the word \"LONGER\" in green #39B54A italic. Supporting line in charcoal below (smaller, Satoshi Medium, ~50–55px relative scale). A soft sage-green accent arrow pointing right at base of slide (thin weight, ~3px stroke, #39B54A).\n\nSlides 2–3 (Supporting points): Alternate between sage-green (#9DB89D or soft muted sage) and cream backgrounds to maintain visual rhythm. Same typographic hierarchy: bold headline (one word in green #39B54A italic), supporting line in charcoal. No icon clutter; let whitespace and colour contrast do the work. Accent arrow at base of each slide.\n\nSlide 4 (Close): Cream background, final call-to-action headline in Satoshi Bold, one accent word in green. Subline in charcoal. Small \"Elemental Health & Nutrition\" lockup (green text, ~24–28px, Satoshi Medium) bottom right, unobtrusive.\n\nOverall feel: clinical, authoritative, warm. EHN green anchors the visual hierarchy (accent words + arrows). Muted earth palette (cream, sage, charcoal) harmonizes with green, never fights it. Every line of text renders at ≥36px headline, ≥40px body (relative scale). Whitespace mirrors the winner's minimal density — negative space is intentional and generous.",
+      "design_recipe": "Square carousel, 4 slides. Reusable minimal-stat-drop template.\n\nColour anchor: EHN green #39B54A in headline accent word + directional arrow (thin stroke, ~3px).\nPalette: Alternating backgrounds — cream (#F5F3F0) and muted sage (#9DB89D) — to maintain rhythm. Charcoal (#2C2C2C) for body text. No secondary clashing colours; every tone harmonizes with green.\n\nLayout (per slide):\n- Background: solid, no images or gradients.\n- Headline: Satoshi Bold, centered, ~95px+ (relative scale). One meaningful word in green #39B54A italic; remainder in charcoal or black.\n- Supporting line: Satoshi Medium, centered below headline, ~50–55px relative scale, charcoal, plain-English, short phrase (no jargon).\n- Accent arrow: thin sage-green or charcoal stroke, pointing right, positioned lower-third of slide, very subtle (~3px, minimal visual weight).\n- Whitespace: generous; composition is sparse and intentional, never dense.\n\nSlide progression:\n- Slide 1 (cream): Hook headline + stat-drop subline + arrow.\n- Slides 2–3 (alternate sage/cream): Supporting points, same typographic hierarchy.\n- Slide 4 (cream): Close headline + CTA subline + small \"Elemental Health & Nutrition\" lockup (green, ~24–28px, Satoshi Medium, bottom right).\n\nFeel: editorial, clinical, warm, grounded. High contrast typography on solid backgrounds. No faces, no lifestyle imagery. EHN green is the sole visual accent — it signals brand authority and ties every slide to the green anchor.",
+      "on_image": "Slide 1: FASTING IS NO [LONGER] FRINGE | Australians exploring intermittent fasting jumped 47% in the past two years.\n\nSlide 2: IT WORKS — [WHEN DONE RIGHT] | Functional medicine offers a clearer framework than generic diet trends.\n\nSlide 3: THREE KEY [PRINCIPLES] | Nutrient timing, metabolic adaptation, and individual metabolic health matter most.\n\nSlide 4: LET'S BUILD YOUR [PLAN] | Book a nutrition consultation to explore whether fasting aligns with your health goals.",
+      "caption": "Fasting has shifted from wellness fringe to mainstream health conversation — and the research is actually nuanced.\n\nWe're seeing more Australians curious about intermittent fasting, but the real question isn't \"should I fast?\" — it's \"when, how, and for how long *should I*?\"\n\nFunctional medicine helps us personalise this. Your metabolic health, gut function, stress load, and current nutrition all shape whether fasting serves you. Some people thrive on time-restricted eating; others feel depleted. Neither is a failure — it's about finding what fits your biology.\n\nIf you've been wondering whether fasting is right for you, we can explore that together with some real data about your health picture.\n\nReady to build a plan that actually works for *your* body? Book a nutrition appointment.\n\n#IntermittentFasting #FunctionalMedicine #NutritionPlanning #AustralianWellness #PersonalisedHealth",
+      "gmb_caption": "Intermittent fasting is trending, but one-size-fits-all approaches don't work. We help you explore whether time-restricted eating aligns with your unique health picture — Eastwood, Adelaide. Book an appointment to discuss your fasting questions.",
+      "slide_count": 4,
+      "recency_window": null,
       "routing": {
         "pillar": "education",
         "day_fit": "Mon/Wed/Fri",
         "image_need": "still",
-        "face_branded": true,
+        "face_branded": false,
         "fb_text_only": false,
         "gbp_card_required": true,
         "instagram": {
           "kind": "slides",
-          "slides": null
+          "slides": 4
         },
         "facebook": {
           "kind": "image",
