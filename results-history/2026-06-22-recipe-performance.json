@@ -1,0 +1,312 @@
+{
+  "week": "2026-06-22/2026-06-28",
+  "measurement_date": "2026-07-06",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "results": [
+    {
+      "day": "Mon 2026-06-22",
+      "ehn_topic": "Microplastics are in your blood \u2014 what's worth doing vs just fear",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 124.6
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 18,
+          "comments": 1,
+          "shares": 0,
+          "total": 19,
+          "url": "https://www.facebook.com/1587872033348543/posts/1663755662426846",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 305,
+          "impressions": 544,
+          "engagementRate": 3.49
+        },
+        "instagram": {
+          "likes": 5,
+          "comments": 0,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.instagram.com/p/DZ4XZfujYgR/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 82,
+          "impressions": 197,
+          "engagementRate": 2.54
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOCC1pzBoe6LhQE"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-06-23",
+      "ehn_topic": "Still stuck in fight-or-flight long after the stress ended?",
+      "winning_format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drdanielamen",
+        "score": 46.57
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1664692442333168",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 93,
+          "impressions": 156,
+          "engagementRate": 1.28
+        },
+        "instagram": {
+          "likes": 7,
+          "comments": 0,
+          "shares": 1,
+          "total": 8,
+          "url": "https://www.instagram.com/p/DZ68W1zCDh2/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 108,
+          "impressions": 244,
+          "engagementRate": 3.28
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENmo3tf99-62mgE"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-06-24",
+      "ehn_topic": "Waking at 3am every night? It's usually not your bladder",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 131.25
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 2,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1665707978898281",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 92,
+          "impressions": 160,
+          "engagementRate": 3.75
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/DZ9hCIMDVU3/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 105,
+          "impressions": 223,
+          "engagementRate": 1.79
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIzV9vDH0t6j5gE"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-06-25",
+      "ehn_topic": "Exercise snacking: why 5 micro-bursts beat the workout you skip",
+      "winning_format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drchatterjee",
+        "score": 21.28
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 6,
+          "comments": 0,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1666659955469750",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 179,
+          "impressions": 274,
+          "engagementRate": 2.19
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DaAF9o2CtpD/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 53,
+          "impressions": 122,
+          "engagementRate": 0.82
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKP09rOIn47nIQ"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-06-26",
+      "ehn_topic": "A 10-minute walk after dinner does more than an hour at the gym (for this)",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drchatterjee",
+        "score": 40.86
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 14,
+          "comments": 1,
+          "shares": 0,
+          "total": 15,
+          "url": "https://www.facebook.com/1587872033348543/posts/1667614362040976",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 613,
+          "impressions": 859,
+          "engagementRate": 1.75
+        },
+        "instagram": {
+          "likes": 6,
+          "comments": 0,
+          "shares": 1,
+          "total": 7,
+          "url": "https://www.instagram.com/p/DaCqtaYEaps/",
+          "days_post_publish": 10,
+          "saves": 1,
+          "reach": 95,
+          "impressions": 205,
+          "engagementRate": 3.9
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMKt57nhqriZ0wE"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-06-27",
+      "ehn_topic": "The 60-second nervous-system reset that beats reaching for melatonin",
+      "winning_format": "question-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drwillcole",
+        "score": 23.25
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1668555558613523",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 82,
+          "impressions": 113,
+          "engagementRate": 1.77
+        },
+        "instagram": {
+          "likes": 9,
+          "comments": 0,
+          "shares": 0,
+          "total": 9,
+          "url": "https://www.instagram.com/p/DaFPfKnDaYS/",
+          "days_post_publish": 9,
+          "saves": 2,
+          "reach": 126,
+          "impressions": 294,
+          "engagementRate": 3.74
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIK-p4Dz2p-WSA"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-06-28",
+      "ehn_topic": "VO2 max: the longevity number your smartwatch already tracks",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 64.74
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1669500048519074",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 50,
+          "impressions": 69,
+          "engagementRate": 2.9
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/DaH0VQZEWoi/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 49,
+          "impressions": 123,
+          "engagementRate": 0
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJfQ-4yI7rSBGg"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "computed_at": "2026-07-06T09:02:31",
+    "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
+    "by_attribution": {
+      "archetype:pivot_library": {
+        "posts": 7,
+        "avg_engagement": 12.29,
+        "avg_ig_engagement_rate": 2.3
+      }
+    }
+  }
+}
