@@ -1,0 +1,210 @@
+{
+  "week": "2026-07-06/2026-07-12",
+  "generated_at": "2026-07-13T09:02:17",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-07-06",
+      "ehn_topic": "Everyday plastics and hormone disruption (EDCs)",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drjoshaxe",
+        "score": 25.31
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1677417367727342",
+          "posted_at": "2026-07-06T22:01:58.974Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dacaj5gDZAh/",
+          "posted_at": "2026-07-06T08:02:03.627Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP7y4dO7qJjfHw",
+          "posted_at": "2026-07-06T08:01:10.842Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-07-07",
+      "ehn_topic": "Early thyroid signs written off as ageing",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1678430827625996",
+          "posted_at": "2026-07-07T22:01:10.302Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Dae_OlhjRqb/",
+          "posted_at": "2026-07-07T08:00:53.087Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM2fpurLlo_7fg",
+          "posted_at": "2026-07-07T08:00:37.779Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-07-08",
+      "ehn_topic": "Low mood can be a lab result, not just mindset",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 46.12
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1679362754199470",
+          "posted_at": "2026-07-08T22:02:25.736Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DahkN-YDUNX/",
+          "posted_at": "2026-07-08T08:02:51.464Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEML4hLjuo4fIeg",
+          "posted_at": "2026-07-08T08:01:47.803Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-07-09",
+      "ehn_topic": "Who should not be fasting (fasting contraindications)",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1680348387434240",
+          "posted_at": "2026-07-09T22:04:15.241Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DakI_7zl_-C/",
+          "posted_at": "2026-07-09T08:02:34.770Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOK15fjsrbieaQ",
+          "posted_at": "2026-07-09T08:01:19.545Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-10",
+      "ehn_topic": "Normal blood sugar hiding insulin resistance (fasting insulin/HOMA-IR)",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1681252807343798",
+          "posted_at": "2026-07-10T22:01:56.206Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Damtt15DhZn/",
+          "posted_at": "2026-07-10T08:01:47.335Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOSCvKedodfZiAE",
+          "posted_at": "2026-07-10T08:01:03.749Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-07-11",
+      "ehn_topic": "Why people stay stuck (13 years reflection)",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "herbnerdreece",
+        "score": 6.95
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1682175863918159",
+          "posted_at": "2026-07-11T22:04:47.320Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DapSiRajsjp/",
+          "posted_at": "2026-07-11T08:02:02.486Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOD_87DZgdDirwE",
+          "posted_at": "2026-07-11T08:01:12.249Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-07-12",
+      "ehn_topic": "Not all bloating is SIBO (four patterns) - conversion",
+      "format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "thesibodoctor",
+        "score": 15.44
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1683035013832244",
+          "posted_at": "2026-07-12T22:00:57.996Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Dar3MjrDE5s/",
+          "posted_at": "2026-07-12T08:00:47.502Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO6Mq4_cyOuWhQE",
+          "posted_at": "2026-07-12T08:00:43.267Z"
+        }
+      }
+    }
+  ]
+}
