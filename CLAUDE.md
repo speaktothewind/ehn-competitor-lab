@@ -58,7 +58,8 @@ shows the single preview, gates, and publishes. Division of labour:
 - **Pipeline = owner.** Pulls the two published JSONs each **Thursday**; owns dedupe/render/preview/publish.
 - **`plan.html` / local `:8787` is an internal render preview only — NOT the approval surface.**
   Rohan approves from the cockpit's `build_preview_page.py`, never from the Lab's render.
-- The Lab **cannot publish** — `.env` holds only an `ANTHROPIC_API_KEY` (content generation), no Meta/GBP tokens.
+- The Lab **cannot publish** — `.env` holds an `ANTHROPIC_API_KEY` (content generation) and an
+  `APIFY_TOKEN` (scraper management, added 2026-07-21), but no Meta/GBP tokens.
 
 **`weekly-plan.json` is schema v2** — each post carries routing metadata the cockpit consumes:
 `pillar`, `day_fit`, `image_need` (none/still/footage), `face_branded`, `fb_text_only`,
@@ -116,6 +117,21 @@ The competitor dashboard now supports filtering by post age without sacrificing 
 Each weekly-plan.json post is tagged `recency_window` ("7d" | "30d") so the pipeline preview can flag age.
 
 ---
+
+## Apify (scraper) access — 2026-07-21
+
+`.env` holds `APIFY_TOKEN` — full API access to the scrapers via `api.apify.com/v2`.
+Tasks: **ehn-instagram** = `gI7IMXet6tVdlDjcJ`, **ehn-fb-scrape** = `w3oaWCRfunu8JM4VJ`;
+both fired by schedule "my-schedule" (`@weekly`). Inputs: `onlyPostsNewerThan: "30 days"`, `resultsLimit: 50`.
+
+- **Gotcha (root-caused 2026-07-21):** the *live* task inputs can drift from the account lists in
+  `apify-pipeline.md` — 4 accounts (EHN IG+FB, melbournefxmed, mthfrsupportglobal IG) had silently
+  dropped out, so the dashboard showed no EHN posts. If accounts go missing from the dashboard,
+  diff `GET /actor-tasks/{id}/input` against `apify-pipeline.md` FIRST; the dashboard is downstream.
+- After editing an input, `POST /actor-tasks/{id}/runs` re-scrapes and the Sheets integration
+  refreshes the published CSVs within ~1 min (mode: replace).
+- **Open loose end:** `facebook.com/DrVincentPedre` is configured but returns 0 posts every run
+  (his IG works fine) — page is quiet or blocking the scraper; check manually sometime.
 
 ## Conventions & gotchas
 
