@@ -1,0 +1,317 @@
+{
+  "week": "2026-07-06/2026-07-12",
+  "measurement_date": "2026-07-20",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "results": [
+    {
+      "day": "Mon 2026-07-06",
+      "ehn_topic": "Everyday plastics and hormone disruption (EDCs)",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drjoshaxe",
+        "score": 25.31
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.facebook.com/1587872033348543/posts/1677417367727342",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 66,
+          "impressions": 98,
+          "engagementRate": 0
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/Dacaj5gDZAh/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 79,
+          "impressions": 171,
+          "engagementRate": 0.58
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEP7y4dO7qJjfHw"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-07-07",
+      "ehn_topic": "Early thyroid signs written off as ageing",
+      "winning_format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1678430827625996",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 138,
+          "impressions": 195,
+          "engagementRate": 2.05
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/Dae_OlhjRqb/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 113,
+          "impressions": 184,
+          "engagementRate": 1.09
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM2fpurLlo_7fg"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-07-08",
+      "ehn_topic": "Low mood can be a lab result, not just mindset",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 46.12
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1679362754199470",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 53,
+          "impressions": 79,
+          "engagementRate": 1.27
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 1,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DahkN-YDUNX/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 81,
+          "impressions": 211,
+          "engagementRate": 0.95
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEML4hLjuo4fIeg"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-07-09",
+      "ehn_topic": "Who should not be fasting (fasting contraindications)",
+      "winning_format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 1,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1680348387434240",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 81,
+          "impressions": 114,
+          "engagementRate": 1.75
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/DakI_7zl_-C/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 55,
+          "impressions": 125,
+          "engagementRate": 0
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOK15fjsrbieaQ"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-10",
+      "ehn_topic": "Normal blood sugar hiding insulin resistance (fasting insulin/HOMA-IR)",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 23.35
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 9,
+          "comments": 0,
+          "shares": 0,
+          "total": 9,
+          "url": "https://www.facebook.com/1587872033348543/posts/1681252807343798",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 227,
+          "impressions": 328,
+          "engagementRate": 2.74
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/Damtt15DhZn/",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 74,
+          "impressions": 175,
+          "engagementRate": 0
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOSCvKedodfZiAE"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-07-11",
+      "ehn_topic": "Why people stay stuck (13 years reflection)",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "herbnerdreece",
+        "score": 6.95
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 1,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1682175863918159",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 180,
+          "impressions": 250,
+          "engagementRate": 1.2
+        },
+        "instagram": {
+          "likes": 8,
+          "comments": 0,
+          "shares": 0,
+          "total": 8,
+          "url": "https://www.instagram.com/p/DapSiRajsjp/",
+          "days_post_publish": 9,
+          "saves": 1,
+          "reach": 120,
+          "impressions": 239,
+          "engagementRate": 3.77
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOD_87DZgdDirwE"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-07-12",
+      "ehn_topic": "Not all bloating is SIBO (four patterns) - conversion",
+      "winning_format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "thesibodoctor",
+        "score": 15.44
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.facebook.com/1587872033348543/posts/1683035013832244",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 93,
+          "impressions": 134,
+          "engagementRate": 0
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/Dar3MjrDE5s/",
+          "days_post_publish": 8,
+          "saves": 1,
+          "reach": 68,
+          "impressions": 107,
+          "engagementRate": 1.87
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO6Mq4_cyOuWhQE"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "computed_at": "2026-07-20T09:02:03",
+    "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
+    "by_attribution": {
+      "archetype:pivot_library": {
+        "posts": 3,
+        "avg_engagement": 6.0,
+        "avg_ig_engagement_rate": 2.24
+      },
+      "format_pattern:pivot_library": {
+        "posts": 4,
+        "avg_engagement": 3.75,
+        "avg_ig_engagement_rate": 0.38
+      }
+    }
+  }
+}
