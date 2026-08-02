@@ -1,186 +1,70 @@
 {
-  "week": "2026-07-20/2026-07-26",
-  "generated_at": "2026-07-27T09:02:03",
+  "week": "2026-07-27/2026-08-02",
+  "generated_at": "2026-08-03T09:02:35",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-07-20",
-      "ehn_topic": "70% of Australians report disrupted sleep",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 81.73
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1690564856412593",
-          "posted_at": "2026-07-20T22:03:30.987Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbAd7pTAC6S/",
-          "posted_at": "2026-07-20T08:04:13.300Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKOXwKvq0NO4QA",
-          "posted_at": "2026-07-20T08:03:15.726Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-07-21",
-      "ehn_topic": "Adult ADHD that got missed - functional drivers",
-      "format": "listicle",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 65.0
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1691520529650359",
-          "posted_at": "2026-07-21T22:02:24.258Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DbDCk4wkYgI/",
-          "posted_at": "2026-07-21T08:02:53.837Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJqMg8GF4NewjAE",
-          "posted_at": "2026-07-21T08:02:25.210Z"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-07-22",
-      "ehn_topic": "Ultra-processed foods reshape the gut in days",
+      "day": "Mon 2026-07-27",
+      "ehn_topic": "The anxiety that flares when you skip meals",
       "format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
         "modelled_on": "doctorwillcole",
-        "score": 31.64
+        "score": 23.14
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1692458112889934",
-          "posted_at": "2026-07-22T22:01:46.176Z"
+          "url": "https://www.facebook.com/635237239872498_1697104739091938",
+          "posted_at": "2026-07-27T22:03:36.904Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbFnZYxjUP_/",
-          "posted_at": "2026-07-22T08:03:10.558Z"
+          "url": "https://www.instagram.com/p/DbSfZggit-f/",
+          "posted_at": "2026-07-27T08:03:18.184Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOzfgPCSgbWKvQE",
-          "posted_at": "2026-07-22T08:02:25.777Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELX7iMK-upqUtAE",
+          "posted_at": "2026-07-27T08:01:40.525Z"
         }
       }
     },
     {
-      "day": "Thu 2026-07-23",
-      "ehn_topic": "PMDD - 5 signs it isn't just bad PMS",
-      "format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1693427182793027",
-          "posted_at": "2026-07-23T22:01:35.746Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DbIMB0CDMbG/",
-          "posted_at": "2026-07-23T08:01:45.533Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIXp1cT4_72vQQ",
-          "posted_at": "2026-07-23T08:01:35.190Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-07-24",
-      "ehn_topic": "Patients who improved when we stopped adding supplements",
-      "format": "reflective-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1694364896032589",
-          "posted_at": "2026-07-24T22:04:04.153Z"
-        },
-        "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DbKxF2LgFhj/",
-          "posted_at": "2026-07-24T08:03:55.291Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKXVt-PUjqD6Ww",
-          "posted_at": "2026-07-24T08:03:15.253Z"
-        }
-      }
-    },
-    {
-      "day": "Sat 2026-07-25",
-      "ehn_topic": "When 'anxiety' turned out to be the thyroid",
+      "day": "Tue 2026-07-28",
+      "ehn_topic": "Five shifts after 40 that quietly compound",
       "format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "drjoshaxe",
-        "score": 19.74
+        "modelled_on": "drmarkhyman",
+        "score": 153.05
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1695286672607078",
-          "posted_at": "2026-07-25T22:02:34.586Z"
+          "url": "https://www.facebook.com/635237239872498_1698099025659176",
+          "posted_at": "2026-07-28T22:03:28.489Z"
         },
         "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DbNVq2jCt6T/",
-          "posted_at": "2026-07-25T08:02:05.278Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbVEVFdkZsp/",
+          "posted_at": "2026-07-28T08:04:35.376Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMTCh7716Z3W8QE",
-          "posted_at": "2026-07-25T08:01:00.386Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJqVva7avaKQxAE",
+          "posted_at": "2026-07-28T08:03:29.679Z"
         }
       }
     },
     {
-      "day": "Sun 2026-07-26",
-      "ehn_topic": "What actually happens in a root-cause first appointment",
-      "format": "cta-carousel",
+      "day": "Wed 2026-07-29",
+      "ehn_topic": "High thyroid antibodies? What actually moves them",
+      "format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
@@ -191,18 +75,134 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1696168162518929",
-          "posted_at": "2026-07-26T22:01:12.859Z"
+          "url": "https://www.facebook.com/635237239872498_1699118152223930",
+          "posted_at": "2026-07-29T22:03:21.154Z"
         },
         "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DbP6uH2FxIb/",
-          "posted_at": "2026-07-26T08:04:16.026Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbXo9PolXet/",
+          "posted_at": "2026-07-29T08:03:05.285Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ_T8r-ZmpqDPw",
-          "posted_at": "2026-07-26T08:03:34.577Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELi6qaTb4sPnVw",
+          "posted_at": "2026-07-29T08:02:10.688Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-07-30",
+      "ehn_topic": "Which of these do you blame on 'just getting older'?",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1700105678791844",
+          "posted_at": "2026-07-30T22:02:18.416Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DbaNzL8HNS5/",
+          "posted_at": "2026-07-30T08:03:22.564Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKS99-z6_IbEXw",
+          "posted_at": "2026-07-30T08:02:38.674Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-31",
+      "ehn_topic": "By late winter, most of Adelaide is low on vitamin D",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1700295492106196",
+          "posted_at": "2026-07-31T03:02:47.536Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
+          "posted_at": "2026-07-31T08:04:23.517Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
+          "posted_at": "2026-07-31T08:02:51.529Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-01",
+      "ehn_topic": "Why we never wave off a 'small' symptom",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doc_amen",
+        "score": 17.44
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/watch/?v=2091580871712185",
+          "posted_at": "2026-08-01T22:01:22.583Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DbfXaROiP11/",
+          "posted_at": "2026-08-01T08:03:39.140Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN25tNj5n5rfhgE",
+          "posted_at": "2026-08-01T08:03:08.714Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-31",
+      "ehn_topic": "Ashwagandha and cortisol: what the evidence shows",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1700295492106196",
+          "posted_at": "2026-07-31T03:02:47.536Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
+          "posted_at": "2026-07-31T08:04:23.517Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
+          "posted_at": "2026-07-31T08:02:51.529Z"
         }
       }
     }

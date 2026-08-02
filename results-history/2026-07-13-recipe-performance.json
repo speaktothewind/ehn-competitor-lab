@@ -1,0 +1,350 @@
+{
+  "week": "2026-07-13/2026-07-19",
+  "measurement_date": "2026-07-27",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "results": [
+    {
+      "day": "Mon 2026-07-13",
+      "ehn_topic": "Intermittent fasting only works when your metabolism is ready",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drmarkhyman",
+        "score": 79.96,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 8,
+          "comments": 0,
+          "shares": 0,
+          "total": 8,
+          "url": "https://www.facebook.com/1587872033348543/posts/1683922797076799",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 969,
+          "impressions": 1238,
+          "engagementRate": 0.65
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/DaucLLkkYbF/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 77,
+          "impressions": 173,
+          "engagementRate": 0
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMr1jMrCrYCbbQ"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-07-14",
+      "ehn_topic": "Why I've changed how I look at stress and cortisol (DUTCH Adrenal)",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "slot_8",
+        "modelled_on": "herbnerdreece",
+        "score": 7.0,
+        "face_branded": true,
+        "instance": "au_reflective"
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 3,
+          "comments": 0,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1684841720318240",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 102,
+          "impressions": 161,
+          "engagementRate": 1.86
+        },
+        "instagram": {
+          "likes": 5,
+          "comments": 0,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.instagram.com/p/DaxA__TlQQG/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 118,
+          "impressions": 235,
+          "engagementRate": 2.13
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL6o-6mOuJyCaQ"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-07-15",
+      "ehn_topic": "Why your anxiety keeps coming back: you're treating one driver, not two",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_4",
+        "modelled_on": "drjoshaxe",
+        "score": 18.02,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1685847216884357",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 76,
+          "impressions": 119,
+          "engagementRate": 1.68
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 1,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.instagram.com/p/DazlvKqjVZq/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 62,
+          "impressions": 146,
+          "engagementRate": 2.05
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOat4K6Lp7e98gE"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-07-16",
+      "ehn_topic": "5 signs of low magnesium that masquerade as anxiety",
+      "winning_format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_3",
+        "modelled_on": "drdanielamen",
+        "score": 36.01,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 14,
+          "comments": 0,
+          "shares": 0,
+          "total": 14,
+          "url": "https://www.facebook.com/1587872033348543/posts/1686846713451074",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 308,
+          "impressions": 495,
+          "engagementRate": 2.83
+        },
+        "instagram": {
+          "likes": 3,
+          "comments": 0,
+          "shares": 1,
+          "total": 4,
+          "url": "https://www.instagram.com/p/Da2KkOzEZiT/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 74,
+          "impressions": 119,
+          "engagementRate": 3.36
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJPJqaqM9JK0rAE"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-17",
+      "ehn_topic": "Your liver doesn't need a detox tea",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_6",
+        "modelled_on": "drbenjaminlynch",
+        "score": 27.26,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 10,
+          "comments": 0,
+          "shares": 0,
+          "total": 10,
+          "url": "https://www.facebook.com/1587872033348543/posts/1687829966686082",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 91,
+          "impressions": 149,
+          "engagementRate": 6.71
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/Da4vyu8DBaK/",
+          "days_post_publish": 10,
+          "saves": 1,
+          "reach": 78,
+          "impressions": 181,
+          "engagementRate": 1.66
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN2ZtpCav-fe0QE"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-07-18",
+      "ehn_topic": "I used to think my health was written in my genes",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_7",
+        "modelled_on": "drchatterjee",
+        "score": 23.38,
+        "face_branded": true
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1688801773255568",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 94,
+          "impressions": 146,
+          "engagementRate": 0.68
+        },
+        "instagram": {
+          "likes": 6,
+          "comments": 1,
+          "shares": 0,
+          "total": 7,
+          "url": "https://www.instagram.com/p/Da7UTu7jI3u/",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 104,
+          "impressions": 245,
+          "engagementRate": 2.86
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPf-2Mzj-MeQRg"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-07-19",
+      "ehn_topic": "How a cold rinse deepens your sleep",
+      "winning_format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "slot_10",
+        "modelled_on": "drwillcole",
+        "score": 18.62,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1689647783170967",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 72,
+          "impressions": 102,
+          "engagementRate": 0.98
+        },
+        "instagram": {
+          "likes": 3,
+          "comments": 0,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.instagram.com/p/Da948KPiEz_/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 71,
+          "impressions": 103,
+          "engagementRate": 2.91
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKmah6Pa5KfHnQE"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "computed_at": "2026-07-27T09:02:12",
+    "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
+    "by_attribution": {
+      "archetype:slot_1": {
+        "posts": 1,
+        "avg_engagement": 8.0,
+        "avg_ig_engagement_rate": 0.0
+      },
+      "archetype:slot_3": {
+        "posts": 1,
+        "avg_engagement": 18.0,
+        "avg_ig_engagement_rate": 3.36
+      },
+      "archetype:slot_4": {
+        "posts": 1,
+        "avg_engagement": 5.0,
+        "avg_ig_engagement_rate": 2.05
+      },
+      "archetype:slot_6": {
+        "posts": 1,
+        "avg_engagement": 12.0,
+        "avg_ig_engagement_rate": 1.66
+      },
+      "archetype:slot_7": {
+        "posts": 1,
+        "avg_engagement": 8.0,
+        "avg_ig_engagement_rate": 2.86
+      },
+      "format_pattern:slot_10": {
+        "posts": 1,
+        "avg_engagement": 4.0,
+        "avg_ig_engagement_rate": 2.91
+      },
+      "format_pattern:slot_8": {
+        "posts": 1,
+        "avg_engagement": 8.0,
+        "avg_ig_engagement_rate": 2.13
+      }
+    }
+  }
+}
