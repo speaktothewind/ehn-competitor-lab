@@ -1,7 +1,7 @@
 {
   "week": "2026-06-15/2026-06-21",
-  "measurement_date": "2026-07-05",
-  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "measurement_date": "2026-08-08",
+  "note": "Re-derived 2026-08-08 to correct the Zernio UTC read-path skew (every Facebook row was previously attributed to the next day's post). Engagement is Zernio's current cumulative AT RE-DERIVATION, not the original +7d snapshot \u2014 the original snapshot date is measurement_date_original (2026-07-05). Compare on engagementRate and days_post_publish, not raw counts. GBP excluded by Zernio /analytics. Tiny sample: directional only.",
   "results": [
     {
       "day": "Mon 2026-06-15",
@@ -18,16 +18,16 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 4,
+          "likes": 6,
           "comments": 0,
           "shares": 0,
-          "total": 4,
-          "url": "https://www.facebook.com/1587872033348543/posts/1657059509763128",
-          "days_post_publish": 20,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1656099059859173",
+          "days_post_publish": 54,
           "saves": 0,
-          "reach": 120,
-          "impressions": 188,
-          "engagementRate": 2.13
+          "reach": 253,
+          "impressions": 389,
+          "engagementRate": 1.54
         },
         "instagram": {
           "likes": 0,
@@ -35,10 +35,10 @@
           "shares": 0,
           "total": 0,
           "url": "https://www.instagram.com/p/DZmWHv0iNF3/",
-          "days_post_publish": 20,
+          "days_post_publish": 54,
           "saves": 0,
-          "reach": 53,
-          "impressions": 111,
+          "reach": 57,
+          "impressions": 117,
           "engagementRate": 0
         },
         "googlebusiness": {
@@ -66,12 +66,12 @@
           "comments": 0,
           "shares": 0,
           "total": 4,
-          "url": "https://www.facebook.com/1587872033348543/posts/1657994056336340",
-          "days_post_publish": 19,
+          "url": "https://www.facebook.com/1587872033348543/posts/1657059509763128",
+          "days_post_publish": 53,
           "saves": 0,
-          "reach": 84,
-          "impressions": 137,
-          "engagementRate": 2.92
+          "reach": 123,
+          "impressions": 192,
+          "engagementRate": 2.08
         },
         "instagram": {
           "likes": 2,
@@ -79,11 +79,11 @@
           "shares": 0,
           "total": 3,
           "url": "https://www.instagram.com/p/DZo61mHDG4g/",
-          "days_post_publish": 19,
+          "days_post_publish": 53,
           "saves": 0,
-          "reach": 120,
-          "impressions": 178,
-          "engagementRate": 1.69
+          "reach": 126,
+          "impressions": 184,
+          "engagementRate": 1.63
         },
         "googlebusiness": {
           "views": null,
@@ -106,16 +106,16 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 0,
+          "likes": 4,
           "comments": 0,
           "shares": 0,
-          "total": 0,
-          "url": "https://www.facebook.com/1587872033348543/posts/1658964279572651",
-          "days_post_publish": 18,
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1657994056336340",
+          "days_post_publish": 52,
           "saves": 0,
-          "reach": 30,
-          "impressions": 44,
-          "engagementRate": 0
+          "reach": 87,
+          "impressions": 141,
+          "engagementRate": 2.84
         },
         "instagram": {
           "likes": 4,
@@ -123,11 +123,11 @@
           "shares": 0,
           "total": 5,
           "url": "https://www.instagram.com/p/DZrfk5hjrUa/",
-          "days_post_publish": 18,
+          "days_post_publish": 52,
           "saves": 0,
-          "reach": 43,
-          "impressions": 113,
-          "engagementRate": 4.42
+          "reach": 47,
+          "impressions": 117,
+          "engagementRate": 4.27
         },
         "googlebusiness": {
           "views": null,
@@ -150,16 +150,16 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 3,
+          "likes": 0,
           "comments": 0,
           "shares": 0,
-          "total": 3,
-          "url": "https://www.facebook.com/1587872033348543/posts/1659937599475319",
-          "days_post_publish": 17,
+          "total": 0,
+          "url": "https://www.facebook.com/1587872033348543/posts/1658964279572651",
+          "days_post_publish": 51,
           "saves": 0,
-          "reach": 71,
-          "impressions": 104,
-          "engagementRate": 2.88
+          "reach": 33,
+          "impressions": 47,
+          "engagementRate": 0
         },
         "instagram": {
           "likes": 0,
@@ -167,10 +167,10 @@
           "shares": 0,
           "total": 0,
           "url": "https://www.instagram.com/p/DZuEY07iArT/",
-          "days_post_publish": 17,
+          "days_post_publish": 51,
           "saves": 0,
-          "reach": 55,
-          "impressions": 135,
+          "reach": 58,
+          "impressions": 138,
           "engagementRate": 0
         },
         "googlebusiness": {
@@ -194,16 +194,16 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 15,
+          "likes": 3,
           "comments": 0,
           "shares": 0,
-          "total": 15,
-          "url": "https://www.facebook.com/1587872033348543/posts/1660867902715622",
-          "days_post_publish": 16,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1659937599475319",
+          "days_post_publish": 50,
           "saves": 0,
-          "reach": 247,
-          "impressions": 379,
-          "engagementRate": 3.96
+          "reach": 74,
+          "impressions": 108,
+          "engagementRate": 2.78
         },
         "instagram": {
           "likes": 1,
@@ -211,11 +211,11 @@
           "shares": 0,
           "total": 1,
           "url": "https://www.instagram.com/p/DZwpAuyjGVP/",
-          "days_post_publish": 16,
+          "days_post_publish": 50,
           "saves": 0,
-          "reach": 60,
-          "impressions": 155,
-          "engagementRate": 0.65
+          "reach": 63,
+          "impressions": 158,
+          "engagementRate": 0.63
         },
         "googlebusiness": {
           "views": null,
@@ -238,28 +238,28 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
+          "likes": 15,
           "comments": 0,
           "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1661816115954134",
-          "days_post_publish": 15,
+          "total": 15,
+          "url": "https://www.facebook.com/1587872033348543/posts/1660867902715622",
+          "days_post_publish": 49,
           "saves": 0,
-          "reach": 144,
-          "impressions": 240,
-          "engagementRate": 0.42
+          "reach": 250,
+          "impressions": 383,
+          "engagementRate": 3.92
         },
         "instagram": {
-          "likes": 12,
+          "likes": 13,
           "comments": 0,
           "shares": 0,
-          "total": 12,
+          "total": 13,
           "url": "https://www.instagram.com/p/DZzN557ioFA/",
-          "days_post_publish": 15,
+          "days_post_publish": 49,
           "saves": 0,
-          "reach": 118,
-          "impressions": 254,
-          "engagementRate": 4.72
+          "reach": 121,
+          "impressions": 257,
+          "engagementRate": 5.06
         },
         "googlebusiness": {
           "views": null,
@@ -282,16 +282,16 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 11,
-          "comments": 2,
+          "likes": 1,
+          "comments": 0,
           "shares": 0,
-          "total": 13,
-          "url": "https://www.facebook.com/1587872033348543/posts/1662800579189021",
-          "days_post_publish": 14,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1661816115954134",
+          "days_post_publish": 48,
           "saves": 0,
-          "reach": 243,
-          "impressions": 400,
-          "engagementRate": 3.25
+          "reach": 148,
+          "impressions": 245,
+          "engagementRate": 0.41
         },
         "instagram": {
           "likes": 0,
@@ -299,10 +299,10 @@
           "shares": 0,
           "total": 0,
           "url": "https://www.instagram.com/p/DZ1yuZDgjNL/",
-          "days_post_publish": 14,
+          "days_post_publish": 48,
           "saves": 0,
-          "reach": 49,
-          "impressions": 111,
+          "reach": 52,
+          "impressions": 114,
           "engagementRate": 0
         },
         "googlebusiness": {
@@ -313,24 +313,25 @@
     }
   ],
   "analysis": {
-    "computed_at": "2026-07-05T22:04:29",
+    "computed_at": "2026-08-08T12:57:16",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
       "anchor:pivot_library": {
         "posts": 1,
-        "avg_engagement": 13.0,
-        "avg_ig_engagement_rate": 4.72
+        "avg_engagement": 28.0,
+        "avg_ig_engagement_rate": 5.06
       },
       "archetype:slot_2": {
         "posts": 1,
-        "avg_engagement": 5.0,
-        "avg_ig_engagement_rate": 4.42
+        "avg_engagement": 9.0,
+        "avg_ig_engagement_rate": 4.27
       },
       "format_pattern:pivot_library": {
         "posts": 5,
-        "avg_engagement": 8.6,
-        "avg_ig_engagement_rate": 0.47
+        "avg_engagement": 3.6,
+        "avg_ig_engagement_rate": 0.45
       }
     }
-  }
+  },
+  "measurement_date_original": "2026-07-05"
 }

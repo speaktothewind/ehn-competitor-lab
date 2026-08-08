@@ -1,6 +1,6 @@
 {
   "week": "2026-06-08/2026-06-14",
-  "generated_at": "2026-06-15T09:02:03",
+  "generated_at": "2026-08-08T12:57:16",
   "note": "Tracks which Lab recipes/archetypes drove which published posts. Links recipe attribution to post URLs for downstream engagement measurement.",
   "posts": [
     {
@@ -17,8 +17,8 @@
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1650188893783523",
-          "posted_at": "2026-06-08T22:02:15.842Z"
+          "url": "https://www.facebook.com/635237239872498_1649219637213782",
+          "posted_at": "2026-06-07T22:02:09.561Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -45,8 +45,8 @@
       "platforms": {
         "facebook": {
           "kind": "listicle_1to1",
-          "url": "https://www.facebook.com/635237239872498_1651187253683687",
-          "posted_at": "2026-06-09T22:02:26.109Z"
+          "url": "https://www.facebook.com/635237239872498_1650188893783523",
+          "posted_at": "2026-06-08T22:02:15.842Z"
         },
         "instagram": {
           "kind": "listicle_1to1",
@@ -74,8 +74,8 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1652213483581064",
-          "posted_at": "2026-06-10T22:02:31.312Z"
+          "url": "https://www.facebook.com/635237239872498_1651187253683687",
+          "posted_at": "2026-06-09T22:02:26.109Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -101,8 +101,8 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1653239060145173",
-          "posted_at": "2026-06-11T22:01:05.618Z"
+          "url": "https://www.facebook.com/635237239872498_1652213483581064",
+          "posted_at": "2026-06-10T22:02:31.312Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -130,8 +130,8 @@
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1654166196719126",
-          "posted_at": "2026-06-12T22:02:21.130Z"
+          "url": "https://www.facebook.com/635237239872498_1653239060145173",
+          "posted_at": "2026-06-11T22:01:05.618Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -158,8 +158,8 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card_headshot",
-          "url": "https://www.facebook.com/635237239872498_1655138253288587",
-          "posted_at": "2026-06-13T22:02:07.076Z"
+          "url": "https://www.facebook.com/635237239872498_1654166196719126",
+          "posted_at": "2026-06-12T22:02:21.130Z"
         },
         "instagram": {
           "kind": "carousel_5_slides_full_branding",
@@ -185,8 +185,8 @@
       "platforms": {
         "facebook": {
           "kind": "hook_card",
-          "url": "https://www.facebook.com/635237239872498_1656099059859173",
-          "posted_at": "2026-06-14T22:02:15.908Z"
+          "url": "https://www.facebook.com/635237239872498_1655138253288587",
+          "posted_at": "2026-06-13T22:02:07.076Z"
         },
         "instagram": {
           "kind": "carousel_4_slides",

@@ -1,6 +1,6 @@
 {
   "week": "2026-07-13/2026-07-19",
-  "generated_at": "2026-07-20T09:01:47",
+  "generated_at": "2026-08-08T12:57:16",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
@@ -18,8 +18,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1683922797076799",
-          "posted_at": "2026-07-13T22:03:00.575Z"
+          "url": "https://www.facebook.com/635237239872498_1683035013832244",
+          "posted_at": "2026-07-12T22:00:57.996Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -49,8 +49,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1684841720318240",
-          "posted_at": "2026-07-14T22:01:20.627Z"
+          "url": "https://www.facebook.com/635237239872498_1683922797076799",
+          "posted_at": "2026-07-13T22:03:00.575Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -79,8 +79,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1685847216884357",
-          "posted_at": "2026-07-15T22:02:24.594Z"
+          "url": "https://www.facebook.com/635237239872498_1684841720318240",
+          "posted_at": "2026-07-14T22:01:20.627Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -109,8 +109,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1686846713451074",
-          "posted_at": "2026-07-16T22:03:14.171Z"
+          "url": "https://www.facebook.com/635237239872498_1685847216884357",
+          "posted_at": "2026-07-15T22:02:24.594Z"
         },
         "instagram": {
           "kind": "single_image",
@@ -139,8 +139,8 @@
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1687829966686082",
-          "posted_at": "2026-07-17T22:03:59.441Z"
+          "url": "https://www.facebook.com/635237239872498_1686846713451074",
+          "posted_at": "2026-07-16T22:03:14.171Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -169,8 +169,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1688801773255568",
-          "posted_at": "2026-07-18T22:01:50.498Z"
+          "url": "https://www.facebook.com/635237239872498_1687829966686082",
+          "posted_at": "2026-07-17T22:03:59.441Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
@@ -199,8 +199,8 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1689647783170967",
-          "posted_at": "2026-07-19T22:03:17.992Z"
+          "url": "https://www.facebook.com/635237239872498_1688801773255568",
+          "posted_at": "2026-07-18T22:01:50.498Z"
         },
         "instagram": {
           "kind": "single_image",
