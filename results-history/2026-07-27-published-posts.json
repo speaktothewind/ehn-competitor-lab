@@ -1,0 +1,210 @@
+{
+  "week": "2026-07-27/2026-08-02",
+  "generated_at": "2026-08-08T12:57:16",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-07-27",
+      "ehn_topic": "The anxiety that flares when you skip meals",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 23.14
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1696168162518929",
+          "posted_at": "2026-07-26T22:01:12.859Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbSfZggit-f/",
+          "posted_at": "2026-07-27T08:03:18.184Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELX7iMK-upqUtAE",
+          "posted_at": "2026-07-27T08:01:40.525Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-07-28",
+      "ehn_topic": "Five shifts after 40 that quietly compound",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 153.05
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1697104739091938",
+          "posted_at": "2026-07-27T22:03:36.904Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbVEVFdkZsp/",
+          "posted_at": "2026-07-28T08:04:35.376Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJqVva7avaKQxAE",
+          "posted_at": "2026-07-28T08:03:29.679Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-07-29",
+      "ehn_topic": "High thyroid antibodies? What actually moves them",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1698099025659176",
+          "posted_at": "2026-07-28T22:03:28.489Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbXo9PolXet/",
+          "posted_at": "2026-07-29T08:03:05.285Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELi6qaTb4sPnVw",
+          "posted_at": "2026-07-29T08:02:10.688Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-07-30",
+      "ehn_topic": "Which of these do you blame on 'just getting older'?",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1699118152223930",
+          "posted_at": "2026-07-29T22:03:21.154Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DbaNzL8HNS5/",
+          "posted_at": "2026-07-30T08:03:22.564Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKS99-z6_IbEXw",
+          "posted_at": "2026-07-30T08:02:38.674Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-31",
+      "ehn_topic": "By late winter, most of Adelaide is low on vitamin D",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1700105678791844",
+          "posted_at": "2026-07-30T22:02:18.416Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
+          "posted_at": "2026-07-31T08:04:23.517Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
+          "posted_at": "2026-07-31T08:02:51.529Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-01",
+      "ehn_topic": "Why we never wave off a 'small' symptom",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doc_amen",
+        "score": 17.44
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1701108108691601",
+          "posted_at": "2026-07-31T22:01:07.596Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DbfXaROiP11/",
+          "posted_at": "2026-08-01T08:03:39.140Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN25tNj5n5rfhgE",
+          "posted_at": "2026-08-01T08:03:08.714Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-07-31",
+      "ehn_topic": "Ashwagandha and cortisol: what the evidence shows",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "",
+        "score": 0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1700105678791844",
+          "posted_at": "2026-07-30T22:02:18.416Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
+          "posted_at": "2026-07-31T08:04:23.517Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
+          "posted_at": "2026-07-31T08:02:51.529Z"
+        }
+      }
+    }
+  ]
+}

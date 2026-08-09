@@ -1,208 +1,215 @@
 {
-  "week": "2026-07-27/2026-08-02",
-  "generated_at": "2026-08-08T12:57:16",
+  "week": "2026-08-03/2026-08-09",
+  "generated_at": "2026-08-10T09:01:48",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-07-27",
-      "ehn_topic": "The anxiety that flares when you skip meals",
-      "format": "stat-drop-carousel",
+      "day": "Mon 2026-08-03",
+      "ehn_topic": "5 gut-health rules quietly wasting your money",
+      "format": "listicle",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "pivot_library",
+        "source": "slot_1",
         "modelled_on": "doctorwillcole",
-        "score": 23.14
+        "score": 32.09,
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1696168162518929",
-          "posted_at": "2026-07-26T22:01:12.859Z"
+          "url": "https://www.facebook.com/635237239872498_1703046555164423",
+          "posted_at": "2026-08-02T22:03:20.630Z"
         },
         "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbSfZggit-f/",
-          "posted_at": "2026-07-27T08:03:18.184Z"
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DbkhKE3FEa-/",
+          "posted_at": "2026-08-03T08:04:56.085Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELX7iMK-upqUtAE",
-          "posted_at": "2026-07-27T08:01:40.525Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJXutZHKgN_W5AE",
+          "posted_at": "2026-08-03T08:04:49.672Z"
         }
       }
     },
     {
-      "day": "Tue 2026-07-28",
-      "ehn_topic": "Five shifts after 40 that quietly compound",
+      "day": "Tue 2026-08-04",
+      "ehn_topic": "Why I spend a full day preparing before I see your results",
       "format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 153.05
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1697104739091938",
-          "posted_at": "2026-07-27T22:03:36.904Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbVEVFdkZsp/",
-          "posted_at": "2026-07-28T08:04:35.376Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJqVva7avaKQxAE",
-          "posted_at": "2026-07-28T08:03:29.679Z"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-07-29",
-      "ehn_topic": "High thyroid antibodies? What actually moves them",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
+        "modelled_on": "stevenjudgenaturopath",
+        "score": null,
+        "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1698099025659176",
-          "posted_at": "2026-07-28T22:03:28.489Z"
+          "url": "https://www.facebook.com/635237239872498_1704058921729853",
+          "posted_at": "2026-08-03T22:02:55.499Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbXo9PolXet/",
-          "posted_at": "2026-07-29T08:03:05.285Z"
+          "url": "https://www.instagram.com/p/DbnGAMaIGTC/",
+          "posted_at": "2026-08-04T08:05:23.510Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELi6qaTb4sPnVw",
-          "posted_at": "2026-07-29T08:02:10.688Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJjBh8374-uM7gE",
+          "posted_at": "2026-08-04T08:04:43.503Z"
         }
       }
     },
     {
-      "day": "Thu 2026-07-30",
-      "ehn_topic": "Which of these do you blame on 'just getting older'?",
+      "day": "Wed 2026-08-05",
+      "ehn_topic": "4 things quietly stealing your focus",
+      "format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_3",
+        "modelled_on": "drdanielamen",
+        "score": 18.5,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1705047638297648",
+          "posted_at": "2026-08-04T22:02:15.599Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DbpqloCkTAj/",
+          "posted_at": "2026-08-05T08:03:35.054Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKewy-2h3YrhPg",
+          "posted_at": "2026-08-05T08:03:12.543Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-08-06",
+      "ehn_topic": "Which 3pm energy crash sounds like you?",
       "format": "question-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
+        "modelled_on": "functionalmedicineau",
+        "score": 8.0,
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1699118152223930",
-          "posted_at": "2026-07-29T22:03:21.154Z"
-        },
-        "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DbaNzL8HNS5/",
-          "posted_at": "2026-07-30T08:03:22.564Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKS99-z6_IbEXw",
-          "posted_at": "2026-07-30T08:02:38.674Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-07-31",
-      "ehn_topic": "By late winter, most of Adelaide is low on vitamin D",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1700105678791844",
-          "posted_at": "2026-07-30T22:02:18.416Z"
+          "url": "https://www.facebook.com/635237239872498_1706073428195069",
+          "posted_at": "2026-08-05T22:02:08.263Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
-          "posted_at": "2026-07-31T08:04:23.517Z"
+          "url": "https://www.instagram.com/p/DbsPdeOAEV6/",
+          "posted_at": "2026-08-06T08:04:12.865Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
-          "posted_at": "2026-07-31T08:02:51.529Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIS-uJmH257RoAE",
+          "posted_at": "2026-08-06T08:03:40.894Z"
         }
       }
     },
     {
-      "day": "Sat 2026-08-01",
-      "ehn_topic": "Why we never wave off a 'small' symptom",
+      "day": "Fri 2026-08-07",
+      "ehn_topic": "The anxiety supplements can make worse \u2014 copper, zinc and B6",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_2",
+        "modelled_on": "drdanielamen",
+        "score": 17.45,
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1707094888092923",
+          "posted_at": "2026-08-06T22:02:58.752Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Dbu0EIrCmcx/",
+          "posted_at": "2026-08-07T08:02:37.136Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENzbtvDXl6etHg",
+          "posted_at": "2026-08-07T08:02:24.496Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-08",
+      "ehn_topic": "What my longest-lived, healthiest patients have in common",
       "format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "doc_amen",
-        "score": 17.44
+        "source": "slot_4",
+        "modelled_on": "DrChatterjee",
+        "score": 204.17,
+        "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1701108108691601",
-          "posted_at": "2026-07-31T22:01:07.596Z"
+          "url": "https://www.facebook.com/635237239872498_1708089931326752",
+          "posted_at": "2026-08-07T22:02:42.963Z"
         },
         "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DbfXaROiP11/",
-          "posted_at": "2026-08-01T08:03:39.140Z"
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DbxZCEkiL0T/",
+          "posted_at": "2026-08-08T08:04:09.037Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN25tNj5n5rfhgE",
-          "posted_at": "2026-08-01T08:03:08.714Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJyGg6H9xNnPoAE",
+          "posted_at": "2026-08-08T08:02:41.112Z"
         }
       }
     },
     {
-      "day": "Fri 2026-07-31",
-      "ehn_topic": "Ashwagandha and cortisol: what the evidence shows",
-      "format": "text-only-myth-bust",
+      "day": "Sun 2026-08-09",
+      "ehn_topic": "Snoring isn't harmless \u2014 sleep apnoea in women",
+      "format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
-        "type": "format_pattern",
+        "type": "anchor",
         "source": "pivot_library",
-        "modelled_on": "",
-        "score": 0
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1700105678791844",
-          "posted_at": "2026-07-30T22:02:18.416Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1709053964563682",
+          "posted_at": "2026-08-08T22:03:31.398Z"
         },
         "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DbcysWOCEXB/",
-          "posted_at": "2026-07-31T08:04:23.517Z"
+          "kind": "carousel_3_slides",
+          "url": "https://www.instagram.com/p/Dbz9t7XiIYs/",
+          "posted_at": "2026-08-09T08:03:14.130Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMnn3fr2qOXE2QE",
-          "posted_at": "2026-07-31T08:02:51.529Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKXsvJ-cwfvi_QE",
+          "posted_at": "2026-08-09T08:02:20.759Z"
         }
       }
     }
