@@ -37,6 +37,15 @@ const FORMAT = ['karan','dridz','doctormike','idriss','doctorly','muneeb','whitn
 // slots per bucket and take the top scorers within each. Niche TOPIC signal comes from
 // AU+US competitors; format-school accounts are mined for FORMAT, not topic.
 const ALLOC = { 'AU-competitor': 18, 'US/other': 16, 'format-school': 8, 'YOU': 6 };
+// Reserved slots per bucket for CURRENT-WEEK breakouts (recency_window === '7d').
+// Without this, `winners` is ranked on raw all-time outlier score, and a post's score
+// climbs with the engagement it accumulates over time — so this week's breakouts lose
+// every slot to months-old all-time greats and the feed silently re-serves stale signal.
+// Measured 2026-08-20: 4 of the 16 US slots were held by posts from Dec-2024/Jan-2025/
+// Feb-2025/Jan-2026, while that week's actual #1 dashboard breakout (@doctorwillcole
+// 19.8x, 14 Aug) missed the cut by ONE position (cut line 20.23x). Reserving fresh slots
+// is what makes the pipeline's topic sourcing track the 7-day lens Rohan reads.
+const RESERVE_FRESH = { 'AU-competitor': 6, 'US/other': 6, 'format-school': 3, 'YOU': 2 };
 const MAX_PER_ACCOUNT = 3;  // stop one low-median page defining a bucket's pattern signal
 // Confidence floor: below this median engagement, an account is near-dead (mostly low-
 // engagement Facebook mirror pages) and a "2x outlier" is just noise (~20 interactions).
@@ -462,9 +471,22 @@ async function main() {
     const ordered = [...inBucket.filter(r => !r._low), ...inBucket.filter(r => r._low)];
     const perAcct = {};
     const pick = [];
+    const picked = new Set();
+    // Pass 1 — reserve slots for CURRENT-WEEK breakouts, taken by score among fresh
+    // posts only. A post's outlier score grows as engagement accumulates, so without
+    // this pass a 7-day-old breakout can never outrank a months-old all-time great and
+    // the feed re-serves stale signal every week. See RESERVE_FRESH.
+    const reserve = Math.min(RESERVE_FRESH[bucket] ?? 0, n);
+    for (const r of ordered) {
+      if (pick.length >= reserve) break;
+      if (recencyWindowOf(r.timestamp) !== '7d') continue;
+      if ((perAcct[r.account] = (perAcct[r.account] || 0) + 1) <= MAX_PER_ACCOUNT) { pick.push(r); picked.add(r); }
+    }
+    // Pass 2 — fill the remaining slots by all-time score (original behaviour).
     for (const r of ordered) {
       if (pick.length >= n) break;
-      if ((perAcct[r.account] = (perAcct[r.account] || 0) + 1) <= MAX_PER_ACCOUNT) pick.push(r);
+      if (picked.has(r)) continue;
+      if ((perAcct[r.account] = (perAcct[r.account] || 0) + 1) <= MAX_PER_ACCOUNT) { pick.push(r); picked.add(r); }
     }
     selected.push(...pick);
     dropPerBucket[bucket] = Math.max(0, inBucket.length - pick.length);
@@ -516,6 +538,12 @@ async function main() {
     url: w.url,
     image_url: w.image || null,   // disposable — expires; recipe is the durable artifact
     timestamp: w.timestamp,
+    // Recency lens, same tag the dashboard's "7-day breakouts" / "30-day proven" buttons
+    // use. weekly-plan.json's posts have always carried this; weekly-patterns.json's
+    // winners never did, so the clinic pipeline could not filter the way Rohan reads the
+    // dashboard and had to invent its own window (which silently drifted). Computed at
+    // extract time — consumers running days later should re-derive from `timestamp`.
+    recency_window: recencyWindowOf(w.timestamp),
   }));
 
   // 6. trending rollups. Niche TOPIC signal comes from competitors (AU+US); AU-only is the
