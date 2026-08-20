@@ -1,6 +1,6 @@
 {
-  "week": "2026-08-18",
-  "generated_at": "2026-08-18T02:46:06.221Z",
+  "week": "2026-08-20",
+  "generated_at": "2026-08-20T01:42:24.790Z",
   "dry_run": false,
   "counts": {
     "posts_scored": 843,
@@ -26,26 +26,26 @@
     "n": 18,
     "hook": {
       "value": "myth-bust",
-      "count": 8
+      "count": 7
     },
     "topic": {
-      "value": "longevity",
-      "count": 4
+      "value": "mental-health",
+      "count": 6
     },
     "register": {
-      "value": "authority",
-      "count": 7
+      "value": "hope",
+      "count": 6
     },
     "format": {
-      "value": "image",
-      "count": 7
+      "value": "reel/video",
+      "count": 6
     },
-    "faceless_share": 0.22
+    "faceless_share": 0.39
   },
   "trending_au": {
     "n": 2,
     "hook": {
-      "value": "myth-bust",
+      "value": "stat-drop",
       "count": 1
     },
     "topic": {
@@ -53,8 +53,8 @@
       "count": 1
     },
     "register": {
-      "value": "validation",
-      "count": 1
+      "value": "hope",
+      "count": 2
     },
     "format": {
       "value": "carousel",
@@ -89,18 +89,19 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Speaking-head video format: woman in floral patterned dark top seated at podcast microphone setup (professional studio setting with fern plant, glass of water visible). Warm, natural lighting on subject against neutral grey/white background. Clean, trustworthy aesthetic with professional audio equipment. Medium shot framing on face and shoulders, conversational and intimate despite being a talking-head. Approx 250-300 words of caption text overlaid below or alongside, soft typography in light colour.",
+      "visual_recipe": "Wide-angle podcast/interview setup: woman in mid-shot seated at table wearing dark floral print blouse with burgundy and purple florals, professional microphone and studio lighting visible. Soft background with potted plants (ferns), neutral greys and whites. Warm, intimate studio environment suggesting authentic conversation or expert interview format—no text overlays on the image itself.",
       "dominant_colors": [
-        "black",
-        "navy",
-        "white"
+        "#2a2a2a",
+        "#ffffff",
+        "#6b4c9a"
       ],
-      "text_word_count_est": 280,
+      "text_word_count_est": 0,
       "image_classified": true,
       "exemplar": "Thinking about the end of our lives can be difficult, but so many of us wait until then to reflect on the things we wish we’d done to lead a happier life.\n\nSo why don’t you dedicate some time today an",
       "url": "https://www.facebook.com/reel/1304180521517592/",
       "image_url": "https://scontent-det1-1.xx.fbcdn.net/v/t15.5256-10/750146985_1044197431430505_26580773626529836_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s526x296&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=yWLb7DSaYyUQ7kNvwFgRj2G&_nc_oc=Adol8sSCmyJGBTYfC8bhesOEyJROThfAx6qA_LfSyVp6FOhnWcNetgwm35WOojBCjMQ&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=RQoCg2iya8YPSxVjFOi0Wg&_nc_ss=72289&oh=00_AQEyd09SHJiL2uCSIO1iMhFFnY3w9pdmciY0yvEsPzQSsg&oe=6A86C35D",
-      "timestamp": "2026-07-21"
+      "timestamp": "2026-07-21",
+      "recency_window": "30d"
     },
     {
       "account": "drmarkhyman",
@@ -117,21 +118,22 @@
       "is_you": false,
       "hook": "personal-story",
       "topic": "longevity",
-      "register": "hope",
+      "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Professional headshot of a smiling middle-aged man in business formal attire (dark suit, grey tie) seated at a formal wooden desk with tan/gold leather chairs blurred in background. Large white serif typography overlaid on left side reading \"I just turned 66. Here are 5 things I wish I knew at 26...\" with \"at 26\" italicized. Clean, authority-conveying setting suggesting institutional credibility, dark background with warm wood tones.",
+      "visual_recipe": "A middle-aged man in formal business attire (navy blazer, grey tie) smiling at camera in what appears to be an official or professional setting (wooden desks, formal background), with white serif text overlaid on lower left reading \"I just turned 66. Here are 5 things I wish I knew at 26...\" The text is large, high-contrast white on dark background, serif font (appears to be Georgia or similar), creating authority and gravitas. Photo is a close headshot with warm lighting, establishing credibility and relatability.",
       "dominant_colors": [
+        "white",
         "black",
-        "#D4AF37",
-        "tan"
+        "tan/beige"
       ],
-      "text_word_count_est": 23,
+      "text_word_count_est": 25,
       "image_classified": true,
       "exemplar": "I just turned 66. Here are 5 things I wish I knew at 26. \n\nThese lessons took me 40 years to learn, but you can start applying them today.\n\nYour age is negotiable. Your health is in your control. And ",
       "url": "https://www.instagram.com/p/DSpLCPCkgmF/",
       "image_url": "https://scontent-nrt6-1.cdninstagram.com/v/t51.82787-15/602487904_18546677296033109_5200801352682482833_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGhIa-r67eVeUQKwZd5wB6bldnbxt4hojMYK1dDkMUazK9t_Xn213mGflzIxgUkMe4&_nc_ohc=0KU4H0G9iuUQ7kNvwHTchpV&_nc_gid=c5A8ZOWuSJNWrypYTJ7tLg&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFqlkIjY3XfZaXsMBrS0F86iCr2WxyxffJPEyjp_7H3Tg&oe=6A86BE27&_nc_sid=c6f216",
-      "timestamp": "2025-12-24"
+      "timestamp": "2025-12-24",
+      "recency_window": null
     },
     {
       "account": "DavidPerlmutterMd",
@@ -147,22 +149,23 @@
       "is_format_school": false,
       "is_you": false,
       "hook": "myth-bust",
-      "topic": "longevity",
+      "topic": "mental-health",
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean, minimal layout with a verified MD author's circular headshot (professional portrait photo) positioned top-left, name and handle to the right. Main text in large, dark navy sans-serif (\"The best time to protect your brain is before symptoms begin\") centered on white background. ~18 words rendered on image in clean, light weight typography. Professional, authority-building aesthetic with subtle verified checkmark badge.",
+      "visual_recipe": "Minimal white/light grey background with a small circular profile photo (headshot of male doctor in business casual) positioned left, accompanied by name, handle and verification badge. Large, bold sans-serif headline in navy/dark blue (approx 28-32pt) centered below: \"The best time to protect your brain is before symptoms begin.\" Clean, spacious layout with strong type hierarchy and professional credibility markers.",
       "dominant_colors": [
         "white",
-        "navy",
-        "grey"
+        "grey",
+        "navy blue"
       ],
       "text_word_count_est": 18,
       "image_classified": true,
       "exemplar": "One of the greatest misconceptions about Alzheimer's disease is that it begins with memory loss.\n\nBy the time someone notices changes in memory or thinking, the underlying biology has often been evolv",
       "url": "https://www.facebook.com/DavidPerlmutterMd/posts/pfbid02R2aLQPR3TENTMFZMDmWBDixA2j8u8WY3uECQjALwx7ZvzrCcZQnqEPkpnMiNPfKgl",
       "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/749419657_1690029648954313_232763278543335314_n.png?stp=dst-jpg_tt6&cstp=mx439x550&ctp=s439x550&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mo9B0RV1YXMQ7kNvwG4FUgQ&_nc_oc=AdrPtP15D3MLu7Aw29rAEDiRvan8fj-kZ-FR1UoVDekPYidsQGzwAHio0ELg1Pt6gtk&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=KXGJIPZZW09b06HT50XKfQ&_nc_ss=72289&oh=00_AQFKyRm8F-zL9eA1qohwlUYaicCRl3OpZE3X8k-YnqZxGg&oe=6A86DC86",
-      "timestamp": "2026-07-23"
+      "timestamp": "2026-07-23",
+      "recency_window": "30d"
     },
     {
       "account": "drpedre",
@@ -177,23 +180,24 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "question-bait",
+      "hook": "comment-to-DM",
       "topic": "toxins/mould/microplastics",
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head video screenshot of a bearded male health influencer wearing a black jacket, shot against a composite background featuring bright red food items (colored donuts and cherries) on the left, and a \"HEALTH\" red banner label at the top-left. Large bold yellow/white text overlay at bottom reads \"THE FDA JUST BANDED RED NO.3 IN FOOD ...\" with a clean sans-serif font (high contrast against dark lower third). The framing combines an engaging close-up portrait with visually relevant food/toxin imagery, creating urgency through facial expression and color-coded warning aesthetic.",
+      "visual_recipe": "Vertical reel with a bearded male talking head (center, smiling/shocked expression) with natural lighting, wearing dark clothing. Background layered with collage-style food images (pink donuts, red cherries, colorful candy on left; white text overlay at bottom in gold/yellow sans-serif font reading \"THE FDA JUST BANDED RED NO.3 IN FOOD ...\" Bold red banner header with white text reading \"HEALTH\" at very top. Lower third dominated by semi-transparent black fade with contrasting text overlay.",
       "dominant_colors": [
         "red",
-        "white",
-        "black"
+        "black",
+        "white"
       ],
-      "text_word_count_est": 22,
+      "text_word_count_est": 24,
       "image_classified": true,
       "exemplar": "The FDA just banned Red Dye No. 3 for its link to cancer in lab rats—yet the industry has until 2027 to phase it out. Meanwhile, if there’s an E. coli outbreak in meat, it’s an instant recall.\n\nWhy ar",
       "url": "https://www.instagram.com/p/DE3v3DDNRct/",
       "image_url": "https://instagram.fbod1-1.fna.fbcdn.net/v/t51.2885-15/486838531_18500451844039501_5906477521385765701_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fbod1-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gE-gOf-qCscd4JGcG0C49Kv80OG9XXuJG6eg_yHicjz9XGD-6LieMZqjvcgvg6Y-xw&_nc_ohc=BcHhFD4MO7AQ7kNvwGx2ZaQ&_nc_gid=PJM0ezR_XK1ww2L_FkZL8Q&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQG3L5ND8nUZBxGCo0zePD0kXjPDM34QR5WIVabJtW5OfQ&oe=6A86CB9D&_nc_sid=c6f216",
-      "timestamp": "2025-01-16"
+      "timestamp": "2025-01-16",
+      "recency_window": null
     },
     {
       "account": "drmarkhyman",
@@ -213,18 +217,19 @@
       "register": "fear/urgency",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Two-column before/after carousel card with a vertical divider. Left side shows a classic Heinz glass bottle (Then) with ingredient list in light gray text below; right side shows modern plastic squeeze bottle (Now) with longer ingredient list highlighting \"High Fructose Corn Syrup\" in bold burgundy. Top features a relatable quote in sans-serif with contrasting red subheader contradiction. Burgundy (#8B3A3A) used for headers and emphasis, white background with product photography flanking descriptive text. Arrows and labels guide visual comparison.\"",
+      "visual_recipe": "Split-screen comparison layout with vertical divider: Left side shows vintage Heinz ketchup glass bottle labeled \"Then: Glass Container\" with ingredient list (Cane Sugar, etc.) in smaller text. Right side shows modern plastic squeeze bottle labeled \"Now: Plastic Container\" with ingredient list highlighting High Fructose Corn Syrup in bold. Opening quote at top \"It's fine, I ate that when I was a kid\" with red text rebuttal \"(no you didn't)\" creates the myth-bust framing. Dark red/maroon text for headers and callouts against white/light background.",
       "dominant_colors": [
         "red",
-        "white",
-        "gray"
+        "#8B3A3A",
+        "white"
       ],
-      "text_word_count_est": 85,
+      "text_word_count_est": 95,
       "image_classified": true,
       "exemplar": "Drop a YES below, and I’ll DM you a free copy of my Nutrition 101 Guide—your blueprint for reclaiming your health by understanding the hidden dangers in our modern food supply.\n\nFor decades, the indus",
       "url": "https://www.instagram.com/p/DFupl6NSRzT/",
       "image_url": "https://scontent-det1-1.cdninstagram.com/v/t51.2885-15/476656786_18483818107033109_7381494300765983191_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-det1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGkzxrJCIW7rSRm5yM3pr2i_Rdt6mBavIZhfFPhHaXiQFioludY78GBPeyb1_LHI7k&_nc_ohc=HcyiuDDPF3sQ7kNvwEw-36F&_nc_gid=M4vXELZ-qN3Lz9gkSfHfGw&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQG8pjNPflhMaXEGA1DNGGg124VqFR37cUlJkY_pEjbRbA&oe=6A86D641&_nc_sid=c6f216",
-      "timestamp": "2025-02-06"
+      "timestamp": "2025-02-06",
+      "recency_window": null
     },
     {
       "account": "DrJoshAxe",
@@ -239,23 +244,24 @@
       "format": "reel/video",
       "is_format_school": false,
       "is_you": false,
-      "hook": "comment-to-DM",
+      "hook": "contrarian",
       "topic": "other",
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up talking-head video frame of a man in a blue shirt at a microphone against a neutral gray background. Bold white sans-serif text overlaid at bottom in two lines: 'HOW FAUCI GOT RICH' / 'DURING COVID-19'. Minimal overlay, high contrast text designed to stop scroll and drive engagement toward comment/DM call-to-action.",
+      "visual_recipe": "Close-up portrait shot of a man in a blue button-up shirt speaking into a microphone against a blurred gray background. Large white and light-blue bold sans-serif text overlaid at top and bottom reading \"HOW FAUCI GOT RICH DURING COVID-19\". Minimal design with strong contrast between subject and background.",
       "dominant_colors": [
-        "blue",
         "white",
-        "gray"
+        "dark gray",
+        "blue"
       ],
-      "text_word_count_est": 10,
+      "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "There’s a lot of talk about Dr. Fauci right now.\n\nHe’s pleading the fifth to questions that hundreds of thousands of people are desperately searching for answers to. And the people asking those questi",
       "url": "https://www.facebook.com/reel/3299445503591487/",
       "image_url": "https://scontent.fslc3-1.fna.fbcdn.net/v/t15.5256-10/759446222_1363096318532311_3735915514670518900_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=p296x100&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=Y585FPfZGaUQ7kNvwHoy8l8&_nc_oc=AdoY5mFMdF1H0nXvAhfvXv9bcMquTiQpAeUebwF3LvvXzR_pRfl2y_1GCWbP3X-nKIfEw7DVnkFwUHzFNP0RN-ig&_nc_zt=23&_nc_ht=scontent.fslc3-1.fna&_nc_gid=W8pyCxLd-22bpxGbwi80mQ&_nc_ss=72289&oh=00_AQFs74Drw0-BqNSALu6MPAQ3Q9u80BDCY0_yqWox2zHDQQ&oe=6A86E9EC",
-      "timestamp": "2026-07-29"
+      "timestamp": "2026-07-29",
+      "recency_window": "30d"
     },
     {
       "account": "doctorwillcole",
@@ -275,18 +281,19 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Outdoor natural setting with man in cold plunge/ice bath in foreground (torso visible above white water), trees and garden furniture softly blurred in background. Warm golden hour lighting. Clean, healthy aesthetic suggesting biohacking/wellness lifestyle. Face visible, calm expression, direct camera presence.",
+      "visual_recipe": "Shirtless male practitioner in cold plunge/ice bath at sunset in backyard setting with trees and pool equipment in background. Calm, authoritative personal branding through wellness lifestyle imagery. No text overlay on image—credibility anchored by caption stats (54 HLA variants, 800k genomes, 2026 Nature study, 39.2% COVID-EBV rate) and professional credential drops (16 years, telehealth practice, podcast). Natural outdoor light, cool water tones.",
       "dominant_colors": [
-        "white",
+        "blue",
         "green",
-        "blue"
+        "white"
       ],
       "text_word_count_est": 0,
       "image_classified": true,
       "exemplar": "We’ve known clinically for long time that HLA and other gene variants increase susceptibility to chronic viral infections, mold toxicity, and chronic Lyme, some of the top types of cases I’ve helped f",
       "url": "https://www.facebook.com/reel/1319511866837824/",
       "image_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-10/763918360_18615070384025895_2170548634775099989_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=p296x100&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=a2wB7gAh9LUQ7kNvwH6J3Sf&_nc_oc=AdoJplV4gCuOpIEA3_jxLjaN3RbIoiks5tU5EMo0e_pCeQXdnkeU0026RLr_U77pftMVdamGiw505TpQI8blv6lo&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=I37EJZI4uSLpBek3p0XHdg&_nc_ss=72289&oh=00_AQExtmS7aINwgcLovrJfc3j1z8lr9WnMLWplXxKnk_kAIw&oe=6A86F338",
-      "timestamp": "2026-08-05"
+      "timestamp": "2026-08-05",
+      "recency_window": "30d"
     },
     {
       "account": "drmarkhyman",
@@ -301,23 +308,24 @@
       "format": "image",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "listicle",
       "topic": "mental-health",
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Cream/beige background with 16 lines of black serif body text left-aligned. Each line pairs a command verb (Delete, Watch, Embrace, etc.) in black with a highlighted key phrase in a pastel colour block (purple, yellow, blue, green, pink, brown, etc.). Large font, medium weight. Minimal spacing. Watermark @tjpower at bottom. Mimics a motivational listicle with colour-coded emphasis words.",
+      "visual_recipe": "Off-white/cream textured background with 15 left-aligned lines of black serif text in medium weight. Each line features 1-3 key words highlighted with pastel coloured boxes (purple, yellow, blue, green, pink, beige, tan) creating visual rhythm and scanability. Clean, simple layout with consistent spacing. No images, faces, or overlays—pure typography-driven design with colour blocking for emphasis.",
       "dominant_colors": [
-        "beige",
         "purple",
-        "yellow"
+        "yellow",
+        "blue"
       ],
-      "text_word_count_est": 118,
+      "text_word_count_est": 85,
       "image_classified": true,
       "exemplar": "I love this post by @tjpower 📱✨\n\nYour brain wasn’t designed for constant stimulation.\n\nEvery notification, endless scroll, and moment of distraction competes for your attention—and over time, it can ",
       "url": "https://www.instagram.com/p/DbZYHsut-pG/",
       "image_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/760862065_18609155929033109_8842970810903777795_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFlr32qiFPxud0OwFkbHIeleybVWdZC8f55E3hl72daf-J6Ry92BzzLJS98ObI4T9I&_nc_ohc=4Y-TZtsdzIoQ7kNvwGxfhJf&_nc_gid=63IZRXk0uMLkYii6vjR-ZQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFfEnn4yzCnrDvRGDuCrDClgFiGDKt-5qQIOLKo4S295Q&oe=6A86E07C&_nc_sid=c6f216",
-      "timestamp": "2026-07-30"
+      "timestamp": "2026-07-30",
+      "recency_window": "30d"
     },
     {
       "account": "DavidPerlmutterMd",
@@ -336,19 +344,20 @@
       "topic": "longevity",
       "register": "hope",
       "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Clean, minimal social media profile card layout with circular profile photo on left (MD headshot in blue shirt), name and handle on top right with verification badge. Large, bold sans-serif statement text \"Memory loss is often a late sign of Alzheimer's.\" (approximately 12 words) in heavy black weight centered below, on white background. No overlay, no illustrations—pure text-on-white with authority-building profile verification element.",
+      "is_text_card": true,
+      "visual_recipe": "Minimal white background with a circular avatar photo (head shot of credentialed male physician) positioned top-left, followed by name/credential/handle (David Perlmutter, MD, @DavidPerlmutter with blue verified check). Main text body rendered in large, bold, sans-serif font in dark gray/black, centered: \"Memory loss is often a late sign of Alzheimer's.\" Clean, authority-driven layout emphasizing the text message with physician credibility as anchor.",
       "dominant_colors": [
         "white",
-        "black",
-        "grey"
+        "dark gray",
+        "blue"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 16,
       "image_classified": true,
       "exemplar": "Your greatest opportunity to reduce your risk of Alzheimer's comes long before the first symptom appears.\n\nBy the time memory begins to decline, the disease has often been developing silently for year",
       "url": "https://www.facebook.com/DavidPerlmutterMd/posts/pfbid02cdxvn37PnGT96LLJopQGGYKoNkrTBDM2AdxUhx3h4sD9khWxS13Qg4yJvbnny1efl",
       "image_url": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.99422-6/749767388_1002535339446591_432040231593690212_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6sUApmo5GIUQ7kNvwGOst8k&_nc_oc=Adocdy8WIhCw9uldJX4a4OTg1X6wG0hsMkXNf4qKu30NYsDY5T08bfji2HtDryLmEh4&_nc_zt=14&_nc_ht=scontent-lax7-1.xx&_nc_gid=_4JkHSajadQkOqbiIZjT9w&_nc_ss=72289&oh=00_AQHyEv_jEsmM9HOPZG3DrdUCD2QUSrSLnMWjUGEZE1JhEA&oe=6A86ED16",
-      "timestamp": "2026-07-17"
+      "timestamp": "2026-07-17",
+      "recency_window": null
     },
     {
       "account": "drjoshaxe",
@@ -363,116 +372,24 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "comment-to-DM",
+      "hook": "validation",
       "topic": "other",
-      "register": "validation",
+      "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean white/light background with Dr. Josh Axe profile header (circular avatar + blue checkmark, name, handle) at top left. Large bold black sans-serif headline \"BREAKING NEWS\" followed by a secondary headline in black about Fauci. Beneath is a candid photo of an older man in blue suit and tie gesturing while speaking (authority figure in formal setting). Below photo: \"Here's what we know....\" in large thin sans-serif font. Minimal text overlay on image itself, emphasis on photo credibility and headline dominance.",
+      "visual_recipe": "Clean white/light background with centered text hierarchy: large bold \"BREAKING NEWS\" header at top (sans-serif, ~60pt), followed by a bold subheading (~28pt) quoting the news story. A professional photograph of an older man in a navy suit and tie gesturing while speaking dominates the center 60% of the frame, shot in warm institutional lighting against an out-of-focus background. Below the photo is a simple grey divider line, followed by conversational copy \"Here's what we know....\" in regular weight sans-serif (~24pt). Small byline attribution in fine print at top of article excerpt. Creator's verified avatar and name appear at very top left.",
       "dominant_colors": [
         "white",
-        "black",
-        "brown/tan"
+        "navy blue",
+        "warm brown/gold"
       ],
-      "text_word_count_est": 35,
+      "text_word_count_est": 25,
       "image_classified": true,
       "exemplar": "We’ve been right all along. We knew this from the start.\n\nDr. Fauci pleading the fifth today is exactly what we should have expected from someone with his level of involvement in COVID-19. This is not",
       "url": "https://www.instagram.com/p/DbYidNajuEj/",
       "image_url": "https://instagram.fmel18-1.fna.fbcdn.net/v/t51.82787-15/758444935_18612289948020589_6866001073820180453_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fmel18-1.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2gFbY5L_vM4GhnmJAlbyrIv0yYGR00E9BS92d-xO1z7UkvZaRljw_jdYc3hAdEH2N4Q&_nc_ohc=J0Tt37Or24UQ7kNvwEEEHNX&_nc_gid=RxAGzC4OfPKaGMZCGxzDbw&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQHcpR1O3ZO2H4Rzc7JDWFpWRhsUVDONc2-120QUfzpBMw&oe=6A86D810&_nc_sid=c6f216",
-      "timestamp": "2026-07-29"
-    },
-    {
-      "account": "drjoshaxe",
-      "platform": "instagram",
-      "region": "us",
-      "bucket": "US/other",
-      "score": 27.87,
-      "tier": "breakout",
-      "engagement": 56478,
-      "account_median": 2026.5,
-      "low_confidence": false,
-      "format": "image",
-      "is_format_school": false,
-      "is_you": false,
-      "hook": "announcement",
-      "topic": "thyroid",
-      "register": "fear/urgency",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Screenshot-style social post layout with circular headshot profile (medium size, top-left) showing professional male headshot against light background, verified blue checkmark, name and handle in bold sans-serif. Main body text in large black sans-serif (medium-heavy weight) on white background, ~70-80 words. Below is a distinct text card section with bold black headline text on white background (4-5 lines, heavy sans-serif weight), followed by social sharing icons row and source attribution in smaller grey text at bottom. Clean, minimal layout mimicking authentic Twitter/X post.",
-      "dominant_colors": [
-        "white",
-        "black",
-        "blue"
-      ],
-      "text_word_count_est": 18,
-      "image_classified": true,
-      "exemplar": "Synthetic thyroid medications like Synthroid and Levothyroxine don’t get to the root of the issue. They don’t heal your hypothyroidism. At best, they mask the symptoms...while draining your body of th",
-      "url": "https://www.instagram.com/p/DbTziHJS5CB/",
-      "image_url": "https://scontent-nrt1-2.cdninstagram.com/v/t51.82787-15/757603082_18611755960020589_614483487815636423_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gG_ycwOtxGN3EEHVkddoPTPH6xKKiNYnJ_aIbxxvli5yYthk-V7foUfty7zV8st4Lk&_nc_ohc=0xZZSM0eZlsQ7kNvwG1L4_W&_nc_gid=ZYBCeoVBHtc9WFHFyg9gAA&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQGb208aIJtFFs787fLpj2ZrH1ktwdt9fFwWwIa-knV7pw&oe=6A86F2B0&_nc_sid=c6f216",
-      "timestamp": "2026-07-27"
-    },
-    {
-      "account": "drchatterjee",
-      "platform": "instagram",
-      "region": "us",
-      "bucket": "US/other",
-      "score": 25.34,
-      "tier": "breakout",
-      "engagement": 48598,
-      "account_median": 1918,
-      "low_confidence": false,
-      "format": "carousel",
-      "is_format_school": false,
-      "is_you": false,
-      "hook": "announcement",
-      "topic": "fasting/nutrition",
-      "register": "authority",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Newspaper clipping (The Times) featuring a professional headshot of a male doctor in white coat with stethoscope, positioned right of centre. Bold serif headline \"Drug-free doctor: The GP who...\" in large text at top. Body text in narrow columns left side with pull-quote overlay on the portrait in blue-grey box. High-contrast black text on white newspaper stock, professional editorial aesthetic establishing credibility and authority.",
-      "dominant_colors": [
-        "white",
-        "blue-grey",
-        "black"
-      ],
-      "text_word_count_est": 120,
-      "image_classified": true,
-      "exemplar": "HUGE PIECE IN THE TIMES TODAY!\n\nI am delighted to see the @thetimes cover my thoughts on health in such a big way today.\n\nWe are an over-medicated country. 80-90% of what doctors see each day is in so",
-      "url": "https://www.instagram.com/p/DTCsl9tDchm/",
-      "image_url": "https://scontent-nrt1-2.cdninstagram.com/v/t51.82787-15/610685353_18526267072067287_3859012635941705756_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEPCK-g_v-yhvpPaf81wxX2AyTAKO11wLsLrZdrKJiKwp2SEbLCv7A31pCbfv7VskM&_nc_ohc=8e8RnAeb3X0Q7kNvwE1n7SE&_nc_gid=e_B4w4y1TW56hzXwjBIzNA&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQE-_HEvStWouV3mEacKohrs8xmG5ioVVVV5QiJ1wjcARA&oe=6A86C300&_nc_sid=c6f216",
-      "timestamp": "2026-01-03"
-    },
-    {
-      "account": "DavidPerlmutterMd",
-      "platform": "facebook",
-      "region": "us",
-      "bucket": "US/other",
-      "score": 24.72,
-      "tier": "breakout",
-      "engagement": 1854,
-      "account_median": 75,
-      "low_confidence": false,
-      "format": "image",
-      "is_format_school": false,
-      "is_you": false,
-      "hook": "myth-bust",
-      "topic": "sleep",
-      "register": "authority",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Clean, minimal profile-style layout with a circular headshot photo (MD with blue checkmark verified badge) on the left, followed by the speaker's name and handle (@DavidPerlmutter) in medium-weight sans-serif. The body text is a short, punchy two-line statement in large, thin black sans-serif on white background: \"Poor sleep is both a warning sign and a driver of Alzheimer's disease.\" No overlays, illustrations, or secondary graphics—pure text and face-based authority play.",
-      "dominant_colors": [
-        "white",
-        "black",
-        "gray"
-      ],
-      "text_word_count_est": 16,
-      "image_classified": true,
-      "exemplar": "We spend nearly a third of our lives asleep. That's too much time for it to be biologically unimportant.\n\nWhile you're sleeping, your brain is doing some of its most important work. It strengthens mem",
-      "url": "https://www.facebook.com/DavidPerlmutterMd/posts/pfbid0gVJQ5iSfjGeY6FyRCtGcEND8KkTvvYMMW4YqgTDkzmGFS7hzXgiYuXoBHj9YEBZyl",
-      "image_url": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.99422-6/772725913_1566463581626640_8295453464821640805_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CMAtG4HFiQAQ7kNvwFu-ICL&_nc_oc=AdpzgbC4-RApaS9qkq3EOEDpN4qDDnKBbDUdFSkigd030_3cJUmwBwjx2joLPGrqoB0MrZV6aKcGr0_m2HBKG4K2&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=93hioX1FNiHcchaHcRQ_WA&_nc_ss=72289&oh=00_AQGeCvKvaTmy7MHWb4ucQIrxThUMjqd26HP-5F4z93QeMA&oe=6A86C3AF",
-      "timestamp": "2026-08-11"
+      "timestamp": "2026-07-29",
+      "recency_window": "30d"
     },
     {
       "account": "elementalhealthandnutrition",
@@ -492,111 +409,146 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Real-world outdoor setting (farm/garden) with bearded male practitioner in black puffy jacket and branded cap as focal point, child visible softly blurred in background. Minimal white text overlay at bottom (8 words: \"A full day of prep\") with professional name and green credential text below. Warm, documentary-style photography establishing credibility and hands-on approach.",
+      "visual_recipe": "Portrait photo of bearded male practitioner (Rohan Smith) wearing dark quilted jacket and baseball cap, standing outdoors in farm/rural setting with blurred child and tree in background. Large white sans-serif text overlay in lower third reads \"A full day of prep.\" with name and credential in smaller text below (green accent on \"Functional & Nutritional Medicine\"). Warm natural daylight, earthy background tones contrasting with dark jacket.",
       "dominant_colors": [
-        "black",
-        "white",
-        "green"
+        "dark grey/black",
+        "green",
+        "white"
       ],
-      "text_word_count_est": 8,
+      "text_word_count_est": 10,
       "image_classified": true,
       "exemplar": "For every two days of appointments, I spend about a full day preparing.\n\nPeople are sometimes surprised by that. It's the actual work, not admin.\n\nA set of results isn't a scorecard you read top to bo",
       "url": "https://www.facebook.com/elementalhealthandnutrition/posts/pfbid0vFxJXppWtxf8vPKzd38RtnTq5P7XbXrnx5jESKJStpZymB62Wb5fm8Ravb7Ab9FBl",
       "image_url": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/763028598_1704058898396522_6121315077168110066_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rBwYUS17Mz8Q7kNvwGwWfPv&_nc_oc=Adp48NI2IdDA-8hY-_iVqE97y7OFvc3xAVB8cK9fdkOi2VJ5n2z4y9aEbI-KbnzHlLyxz-oHcLg6rXHV2FZ6weEJ&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=A75R5N5IBESY937l7TcdOQ&_nc_ss=7d289&oh=00_AQH9kaVZO1hJX_fuVCXjlGPR9YI-7foJHipCFzfUi6JutQ&oe=6A86D0C5",
-      "timestamp": "2026-08-03"
-    },
-    {
-      "account": "drdanielamen",
-      "platform": "facebook",
-      "region": "us",
-      "bucket": "US/other",
-      "score": 21.19,
-      "tier": "breakout",
-      "engagement": 2733,
-      "account_median": 129,
-      "low_confidence": false,
-      "format": "image",
-      "is_format_school": false,
-      "is_you": false,
-      "hook": "myth-bust",
-      "topic": "mental-health",
-      "register": "authority",
-      "has_face": false,
-      "is_text_card": false,
-      "visual_recipe": "Dark navy/teal background with two side-by-side 3D brain SPECT scan visualizations in gradient purple-to-cyan, labeled \"HEALTHY\" and \"ADHD\" in white sans-serif. The ADHD brain has two white circled areas highlighting decreased prefrontal cortex activity. Title \"ADHD Brains Work Differently\" at top in thin, light sans-serif font. Amen Clinics logo and branding at bottom. Clinical, scientific aesthetic with volumetric imaging.",
-      "dominant_colors": [
-        "#1a2a3a",
-        "#9d4edd",
-        "#00d9ff"
-      ],
-      "text_word_count_est": 8,
-      "image_classified": true,
-      "exemplar": "ADHD isn’t just about behavior - it’s visible in the brain.\n\nAbove shows the difference between a healthy brain SPECT scan and one of the brain patterns commonly seen in ADHD.\n\nWhen most people focus,",
-      "url": "https://www.facebook.com/drdanielamen/posts/pfbid028oWemzs5hDt36aMNXqFMu9E4mu6qynVy7P4dwnDv1Yq1Gwer7DHj2bxir4RyxFEyl",
-      "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/772973443_1640424287695861_5091834085406365578_n.png?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7DQjQBpruyAQ7kNvwFKzRzu&_nc_oc=Adpwief4CgRt5FEKpejKRvnmDGAZLeaBRwrpIzBft8ifnW0arqHS_M35IqOcPhmJ-lI&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=yCtb1mZJg33922fh6Omwxg&_nc_ss=72289&oh=00_AQFez0lOaltFRdHvJDQIijpWfNGwaFOZ5a3Wy_Ebkghfuw&oe=6A86EA7C",
-      "timestamp": "2026-08-12"
-    },
-    {
-      "account": "DrJoshAxe",
-      "platform": "facebook",
-      "region": "us",
-      "bucket": "US/other",
-      "score": 20.85,
-      "tier": "breakout",
-      "engagement": 16284,
-      "account_median": 781,
-      "low_confidence": false,
-      "format": "reel/video",
-      "is_format_school": false,
-      "is_you": false,
-      "hook": "myth-bust",
-      "topic": "toxins/mould/microplastics",
-      "register": "authority",
-      "has_face": true,
-      "is_text_card": false,
-      "visual_recipe": "Candid bathroom scene showing a man in dark t-shirt and light shorts standing at a white countertop sink, looking into a framed mirror. Neutral bathroom setting with white walls, wooden cabinetry, and bathroom fixtures visible. Natural daylight illuminates the space. The framing captures a relatable, everyday moment without text overlay—positioning the practitioner as trustworthy and approachable in a familiar home environment.",
-      "dominant_colors": [
-        "white",
-        "brown",
-        "#2d2d2d"
-      ],
-      "text_word_count_est": 0,
-      "image_classified": true,
-      "exemplar": "Mold is a silent health threat that can linger in walls, carpets, or damp areas. In my decades of working with patients, I’ve found that there are actually very simple and effective ways to cleanse yo",
-      "url": "https://www.facebook.com/reel/2237627310413733/",
-      "image_url": "https://scontent-bos5-1.xx.fbcdn.net/v/t15.5256-10/762796576_870227692618627_6943443842655333418_n.jpg?stp=dst-jpg_tt6&cstp=mx586x1024&ctp=p296x100&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=702hdH73kaUQ7kNvwE-vRMe&_nc_oc=Adq7h3b6ATYnHi3SsiZ4Ak-m2CrF2pBQyaBEurVfLK93yEL9gQiTpvV7zCTT3uPD0zY&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=xhRzJ500dMVGzm56hx4AfQ&_nc_ss=7d289&oh=00_AQHFA3GD0s7GpiuYGxHK_j9qpA5YHCQEOcTSHSVnxDgbZQ&oe=6A86BE8B",
-      "timestamp": "2026-08-05"
+      "timestamp": "2026-08-03",
+      "recency_window": "30d"
     },
     {
       "account": "doctorwillcole",
       "platform": "facebook",
       "region": "us",
       "bucket": "US/other",
-      "score": 20.23,
+      "score": 19.83,
       "tier": "breakout",
-      "engagement": 1426,
+      "engagement": 1398,
       "account_median": 70.5,
       "low_confidence": false,
       "format": "image",
       "is_format_school": false,
       "is_you": false,
+      "hook": "myth-bust",
+      "topic": "mental-health",
+      "register": "validation",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Minimal text-on-white card with serif or sans-serif typography in black. Large opening statement at top (14-16pt equivalent), followed by bulleted listicle with progressive indentation (4/8/12 hugs per day), then supporting paragraph on physiological benefits in smaller type (9-10pt). Clean, clinical hierarchy with ample whitespace between sections. Attribution line at bottom in italics. No imagery, faces, or colour—pure typographic authority play.",
+      "dominant_colors": [
+        "white",
+        "black"
+      ],
+      "text_word_count_est": 115,
+      "image_classified": true,
+      "exemplar": "I bring this up with patients more than you’d think, especially the ones dealing with chronic stress, anxiety, or a nervous system that’s stuck in overdrive. \n\nWe treat touch like a nice-to-have inste",
+      "url": "https://www.facebook.com/doctorwillcole/posts/pfbid087yiEcujDQXW49wzFe9KiVCj4MwYAabPNYrjT2wVDMAXviodu3NFueYxsvPZs264l",
+      "image_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/773252276_1762156321453008_8803068322776833340_n.png?stp=dst-jpg_tt6&cstp=mx1350x1687&ctp=s640x640&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sFP0OAnZr9MQ7kNvwFPRHoH&_nc_oc=AdpzsTLirIb5WizFQgeM0B4M8Bo_oFdKnlz0AvHdWO_lZYMYslTe_KFrVSNrqgE89dU&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=-HFRgSsLv4ccArjIK-2m7g&_nc_ss=72289&oh=00_AQGHp3Ru5OJcQkaD_IDFiGxlBGPQV6E6cwoixSxWI2_2FQ&oe=6A86D60C",
+      "timestamp": "2026-08-13",
+      "recency_window": "7d"
+    },
+    {
+      "account": "drdanielamen",
+      "platform": "facebook",
+      "region": "us",
+      "bucket": "US/other",
+      "score": 19.05,
+      "tier": "breakout",
+      "engagement": 2457,
+      "account_median": 129,
+      "low_confidence": false,
+      "format": "reel/video",
+      "is_format_school": false,
+      "is_you": false,
       "hook": "question-bait",
-      "topic": "toxins/mould/microplastics",
+      "topic": "mental-health",
+      "register": "curiosity",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Talking head shot of an older male expert (wearing black t-shirt) against neutral gray background, looking thoughtful/engaged. Two bold white text overlays on semi-transparent black boxes positioned over the chest area: top box reads \"This Is The Smallest Habit To Do To Get Mentally Healthier (from a Psychiatrist)\" and lower box reads \"what is the smallest thing I can do today\". Medium-weight sans-serif font, ~50-60pt for main text.",
+      "dominant_colors": [
+        "gray",
+        "#FFB8A3",
+        "black"
+      ],
+      "text_word_count_est": 15,
+      "image_classified": true,
+      "exemplar": "This is my favorite daily habit that has allowed me to stay healthy. Share this information with someone who needs it. \n\n#brainhealth",
+      "url": "https://www.facebook.com/reel/2293053164770675/",
+      "image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-10/772932209_18611195851039542_831993084401209370_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x2347&ctp=p296x100&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=p0GeIPGVoXcQ7kNvwGiFdMb&_nc_oc=Ado66JYDJtQsdTQ1NgOFWZtF10ubCKrmHVgRF43otRLv6gsYY3ApJjBalmml7gkmdRY&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=XnsU8IxUsct_0nycRbf3Uw&_nc_ss=7c289&oh=00_AQE3cvnkDN0BPbEGU5BlPuMFX2WvSDFmYYoIAYzF3EpFjA&oe=6A86E9D7",
+      "timestamp": "2026-08-13",
+      "recency_window": "7d"
+    },
+    {
+      "account": "drdanielamen",
+      "platform": "facebook",
+      "region": "us",
+      "bucket": "US/other",
+      "score": 8.98,
+      "tier": "breakout",
+      "engagement": 1158,
+      "account_median": 129,
+      "low_confidence": false,
+      "format": "reel/video",
+      "is_format_school": false,
+      "is_you": false,
+      "hook": "myth-bust",
+      "topic": "mental-health",
       "register": "fear/urgency",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Profile photo of Dr. Will Cole in circular frame with gradient border (pink to orange) against white background. Bold black headline with red emoji icons (\"BREAKING NEWS\") followed by body text in clean sans-serif, medium weight. Multiple short-form questions rendered on-image in black text, spaced vertically for readability. Simple, high-contrast layout designed for rapid scanning and engagement. Talking-head credibility anchor (verified account badge visible) combined with text-heavy journalistic format.",
+      "visual_recipe": "Talking-head video of a bearded man in black hoodie, shot from shoulders up against a blurred medical/clinical background with partial signage visible. Two white text overlays with black outline positioned lower-center on the frame: \"of the\" on first line and \"Side Effects of Not Treating or Taking ADHD Medication\" on second line, using sans-serif font in medium-large size relative to frame. Conversational, direct gaze engagement with slight hand gestures visible.",
+      "dominant_colors": [
+        "black",
+        "blue",
+        "white"
+      ],
+      "text_word_count_est": 8,
+      "image_classified": true,
+      "exemplar": "Side effects of not taking #ADHD medication. \n\nIf you or a loved one are seeking treatment for ADHD, we have 11 clinic locations in the US and 55 doctors on staff. amenclinics.com.",
+      "url": "https://www.facebook.com/reel/28510499685223845/",
+      "image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-10/772074158_18611196703039542_5803439198951755204_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x2347&ctp=p296x100&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=56l32pk_OWsQ7kNvwFJu3JK&_nc_oc=Adq7kajaMBqZgwVYDspDU0e3hUOeIVXCHDIGl__ApHxIXQAxRifoPl05BymfVlLDGPQ&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=XnsU8IxUsct_0nycRbf3Uw&_nc_ss=7c289&oh=00_AQHGDYrzU2tR24zs5WMkGDxBYCxqv0-F30lDgEqLxctVWQ&oe=6A86E7C8",
+      "timestamp": "2026-08-13",
+      "recency_window": "7d"
+    },
+    {
+      "account": "DavidPerlmutterMd",
+      "platform": "facebook",
+      "region": "us",
+      "bucket": "US/other",
+      "score": 8.43,
+      "tier": "breakout",
+      "engagement": 632,
+      "account_median": 75,
+      "low_confidence": false,
+      "format": "image",
+      "is_format_school": false,
+      "is_you": false,
+      "hook": "question-bait",
+      "topic": "longevity",
+      "register": "hope",
+      "has_face": true,
+      "is_text_card": false,
+      "visual_recipe": "Minimal, clean layout with a circular profile photo of a verified medical professional (headshot) on the left, paired with medium-weight sans-serif text (~26 words) directly to the right on a white/light background. No decorative overlays or brand marks; authority established through verified checkmark and professional framing. High contrast dark text on light creates readability and trust.",
       "dominant_colors": [
         "white",
-        "black",
-        "pink"
+        "dark gray",
+        "blue"
       ],
-      "text_word_count_est": 95,
+      "text_word_count_est": 26,
       "image_classified": true,
-      "exemplar": "I’m not writing this out of anger. I’m writing it because a man who ran our nation’s pandemic response just pled the fifth over 100 times rather than answer basic questions about what he knew and when",
-      "url": "https://www.facebook.com/doctorwillcole/posts/pfbid02g7MAfkqohDnrCtVzeVLX3Wiqrhj7nTvNq2LgwFYZLmhJyUsiQTBx5JvEdx9toLmil",
-      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/769007946_891204853634417_5037906468590712461_n.png?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hALJzLHyWqsQ7kNvwFKYoB8&_nc_oc=Adqesom31hYoMinpFlfEqpGKu6jcl74VEv3b8g7EGYrg8dZMhkH37XmdGdpdJgxrntB6R-SBVFzti1TEdRHSzHIs&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=9E4omcr7LF51MiPOo_FxDg&_nc_ss=72289&oh=00_AQEGemkGG-H9GMApQqDOl6ditfTj90ufrr3veLu-suilWQ&oe=6A86F25F",
-      "timestamp": "2026-08-06"
+      "exemplar": "A new blood test is bringing that possibility closer to reality.\n\nA blood test called p-tau217 is emerging as one of the most promising tools for identifying biological changes associated with Alzheim",
+      "url": "https://www.facebook.com/DavidPerlmutterMd/posts/pfbid0r3m4afET4X5RgutZwZH6on7GEJHzi92DFwYhtbjo5VS7KdmwrwiLsaHWwGvSQkSCl",
+      "image_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t39.30808-6/773981599_1610280570468408_1611908517912849091_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-CaMpnTOkoQQ7kNvwFq9HSJ&_nc_oc=Ado7R5gdwdGbjY98e6DHU6OAY0dil7SJaLd_04PS6uSsXo-K7TJxe7xVKxoNNrSfMNw&_nc_zt=23&_nc_ht=scontent-dfw5-3.xx&_nc_gid=4N5EF2LGeuLahDCLpsD7Vw&_nc_ss=72289&oh=00_AQHTnKSxQSDX-usBSGpOfg3dpePuTcMdItS8emTviyKSIQ&oe=6A86C644",
+      "timestamp": "2026-08-14",
+      "recency_window": "7d"
     },
     {
       "account": "mthfrsupportglobal",
@@ -616,14 +568,43 @@
       "register": "authority",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only Facebook post with no image available. Content uses emoji bullet points (🧬, 🤰, 🥬) as visual anchors to segment dense technical information about MTHFD1 gene variants. Structure follows: provocative question opener → enzyme mechanism explanation → specific variant (rs2236225) → research evidence with qualification → practical context factors. Typography appears to use varied line breaks and emoji to maintain readability of 300+ word technical copy. Authority-driven, educational register with careful language (\"may,\" \"suggests,\" \"association not prediction\") to avoid overstating genetic determinism.",
+      "visual_recipe": "Text-only Facebook post with no image. Opens with emoji hook (🧬) followed by bold question, then structured paragraphs explaining MTHFD1 gene function, research findings, and clinical considerations. Uses emoji section breaks (🤰, 🥬) and a bulleted checklist at the end. Scientific/educational tone with moderate word density (~320 words). No dominant colours or visual elements beyond text formatting and emoji markers.",
       "dominant_colors": null,
-      "text_word_count_est": 0,
+      "text_word_count_est": 320,
       "image_classified": false,
       "exemplar": "🧬 One change in your MTHFD1 gene. What can it actually tell you?\n\nMTHFD1 receives less attention than MTHFR, but it catalyses three important reactions in the folate cycle.\n\nThis enzyme helps move on",
       "url": "https://www.facebook.com/mthfrsupportglobal/posts/pfbid027ci7cKP4pfdC9wUbdW9ZjA4MpFdhbyq7NUXxjsLLqzPbNivqhsKEfKvCSxK7r4TEl",
       "image_url": null,
-      "timestamp": "2026-08-05"
+      "timestamp": "2026-08-05",
+      "recency_window": "30d"
+    },
+    {
+      "account": "doctorwillcole",
+      "platform": "facebook",
+      "region": "us",
+      "bucket": "US/other",
+      "score": 6.4,
+      "tier": "breakout",
+      "engagement": 451,
+      "account_median": 70.5,
+      "low_confidence": false,
+      "format": "text-only",
+      "is_format_school": false,
+      "is_you": false,
+      "hook": "myth-bust",
+      "topic": "gut/SIBO",
+      "register": "authority",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Text-only Facebook post with no image/media available. Long-form educational carousel or single caption in native platform font, leveraging authority voice and functional medicine credentials (clinic mention, co-author status) to reframe bone broth from \"grandma's remedy\" into clinical intervention. Multi-paragraph structure breaking down mechanism (amino acids, inflammation, gut integrity, immune system, collagen benefits) followed by inclusive alternative (galangal broth) and CTA (comment BROTH for recipes). Authority established through clinical experience (\"in my telehealth clinic\"), science references (80% immune system claim), and book mention with recognized collaborator.",
+      "dominant_colors": null,
+      "text_word_count_est": 0,
+      "image_classified": false,
+      "exemplar": "Bone broth gets filed under “grandma’s remedy,” and most people never think about it again. That’s a mistake. The amino acid and mineral profile in a properly made broth is doing real work in your bod",
+      "url": "https://www.facebook.com/doctorwillcole/posts/pfbid0JL7foV5kqVnFzga5NYoTdePkPFHrsmMwmTvf4VHKuXRxiCJWum6rE1nHtuzxQpppl",
+      "image_url": null,
+      "timestamp": "2026-08-14",
+      "recency_window": "7d"
     },
     {
       "account": "mthfrsupportglobal",
@@ -638,23 +619,24 @@
       "format": "image",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "question-bait",
       "topic": "methylation/MTHFR",
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Clean, bright dental office setting with white walls and medical equipment. Female dentist in white coat and blue gloves attending to male patient in dental chair with blue upholstery. Medical supplies and equipment visible in background. Dark blue headline text (approx 11 words) posed as a question at top of image in sans-serif bold font. MTHFR Support logo in purple at bottom. Clinical, professional aesthetic emphasizing authority and medical credibility.",
+      "visual_recipe": "Clean, bright dental office setting with a female dentist in white coat and safety glasses examining a patient in the dental chair. The patient wears a black/navy bib. Teal and white colour palette dominates (chair, equipment, storage). Bold navy blue sans-serif headline question (approximately 16-18pt) centred at top of image over neutral light background. Bottom footer contains logo and branding. Professional, clinical aesthetic with subtle medical instruments visible in frame.",
       "dominant_colors": [
         "white",
-        "blue",
-        "#0066CC"
+        "#1a4d8f",
+        "teal/blue"
       ],
       "text_word_count_est": 11,
       "image_classified": true,
       "exemplar": "🦷 Do you need to tell your dentist you have an MTHFR variant?\n\nThe answer is not as simple as yes or no.\n\nThe concern relates specifically to nitrous oxide, sometimes called laughing gas, rather than",
       "url": "https://www.facebook.com/mthfrsupportglobal/posts/pfbid0NZcwnKNDenMikKuq7Gndys9SK17xssBx3dPntm3kZSw28qHKHRyfQTEp1PAYyuvnl",
       "image_url": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.99422-6/773469449_1866768950961190_8627745689541544112_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HeEHFKhAedwQ7kNvwHZumVT&_nc_oc=AdoVXK7M9oNRPt2JufS2wTxcxYhL8JlAu5monTFEXI5N2tXQ7v6bLRC-fJ8ZnH-Wvm0&_nc_zt=14&_nc_ht=scontent-lax3-2.xx&_nc_gid=8ItuCp2SUtTHnaFjTeMcAg&_nc_ss=72289&oh=00_AQEX5Og_XG_9-6eoXByp_EtdcqIMBEPpT4coGY6_fdWvkw&oe=6A86C69A",
-      "timestamp": "2026-08-12"
+      "timestamp": "2026-08-12",
+      "recency_window": "30d"
     },
     {
       "account": "elementalhealthandnutrition",
@@ -669,23 +651,24 @@
       "format": "image",
       "is_format_school": false,
       "is_you": true,
-      "hook": "myth-bust",
-      "topic": "mental-health",
-      "register": "authority",
+      "hook": "comment-to-DM",
+      "topic": "methylation/MTHFR",
+      "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head shot of a bearded male practitioner in a light blue button-up shirt, seated in a warm, softly-lit home office setting with bookshelves visible in background. Large white sans-serif text overlay top-left reads \"Adult ADHD that got missed.\" with practitioner name and credential (green text) bottom-left. Warm, trust-building aesthetic with professional but approachable framing.",
+      "visual_recipe": "Professional headshot of a man (Rohan Smith) in a light blue button-up shirt, seated indoors with bookshelves and natural light in soft-focus background. Large white sans-serif text overlay on left side reading \"Adult ADHD that got missed.\" with name and credentials in white and green text below. Warm, professional, trustworthy setting with minimal visual distraction.",
       "dominant_colors": [
-        "beige",
-        "light blue",
+        "tan",
+        "blue",
         "white"
       ],
-      "text_word_count_est": 11,
+      "text_word_count_est": 8,
       "image_classified": true,
       "exemplar": "Adult ADHD often gets diagnosed late, and the picture is rarely just 'a brain thing'. In clinic, the same drivers keep showing up underneath: low iron and ferritin, blood sugar swings, MTHFR and methy",
       "url": "https://www.facebook.com/elementalhealthandnutrition/posts/pfbid0nHEMb81RPkCEVgX4ewDFnJsrqNTWZCDMWkgray4CaSsG3AAcZW7gBD5HUn1A7VyDl",
       "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/751563164_1690564816412597_147753685462396653_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VLzPGwqNwWcQ7kNvwEYI_hZ&_nc_oc=AdoRWeODfKjTdbVvzruSOrU8BIFycqMUh2xUAYJ0vALhRoWsbJGGsDiJMBOR-5i0Up8mhbw-CHrIMtuO1tYbou0h&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1-yP_1pPfrYPiAIKf9Ar6A&_nc_ss=7d289&oh=00_AQH7jnUcKcyi3V5XLSZVEIWW3QayO_GT8WTk-d6SGhr6Dw&oe=6A86DF97",
-      "timestamp": "2026-07-20"
+      "timestamp": "2026-07-20",
+      "recency_window": null
     },
     {
       "account": "elemental_health_nutrition",
@@ -705,18 +688,19 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Close-up portrait photo of bearded male practitioner in black puffer jacket and grey cap outdoors (blurred park/trees background with small child visible). Large white sans-serif text overlay (2–3 lines, left-aligned, approximately 60pt) stating \"A full day of prep before I see your results.\" Green horizontal accent bar and practitioner name/credentials at bottom in white/green text.",
+      "visual_recipe": "Outdoor portrait of bearded male practitioner in dark puffer jacket and branded cap, with soft-focus child in background and natural trees/grass. Large white sans-serif text overlay (approx 18 words: \"A full day of prep before I see your results.\") positioned over lower third; white attribution text below (\"Rohan Smith\") with green accent line and green subheader (\"Functional & Nutritional Medicine\"). Warm, natural daylight with earthy ground tones.",
       "dominant_colors": [
-        "black",
         "green",
-        "grey"
+        "gray",
+        "brown"
       ],
-      "text_word_count_est": 15,
+      "text_word_count_est": 18,
       "image_classified": true,
       "exemplar": "For every two days of appointments, about a full day goes into preparation.\n\nNot paperwork — the actual work. A set of results isn't a scorecard you read top to bottom. The information is in how marke",
       "url": "https://www.instagram.com/p/DbnGAMaIGTC/",
       "image_url": "https://instagram.fman2-2.fna.fbcdn.net/v/t51.82787-15/763318586_18438451540193587_1591235567746163484_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fman2-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gH2JIaEP52HqxvwWPkenNLtJb38--uw6RPDf6B_cRn3Y9nBkxDH5r5fLM9IjcYTfDY&_nc_ohc=EAsn3hS9W40Q7kNvwHJVpwJ&_nc_gid=DyLQnX5FplhMltqvTv9kPQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQEG5OBeUbuF3KS1V04HbRZAxpoCAV_qQTwHgwHdLBJbGQ&oe=6A86C142&_nc_sid=c6f216",
-      "timestamp": "2026-08-04"
+      "timestamp": "2026-08-04",
+      "recency_window": "30d"
     },
     {
       "account": "elementalhealthandnutrition",
@@ -736,18 +720,19 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head shot of a bearded man in a light blue shirt seated at a desk in a warm, professional home office (bookshelves and plants visible in soft focus background). Large white sans-serif text overlay on the left side reading \"When 'anxiety' is the thyroid.\" followed by the speaker's name and credential below in smaller text (name in white, credentials in green). Warm, beige and cream colour palette with accent lighting from a desk lamp.",
+      "visual_recipe": "Professional talking-head shot of male practitioner in light blue shirt seated at desk in warm home office setting (bookshelves, ambient lamp in background). Large bold white sans-serif text overlay on lower third: \"When 'anxiety' is the thyroid.\" with creator name and credential below in smaller text. Warm neutral and green color palette with professional, trustworthy framing.",
       "dominant_colors": [
-        "cream",
-        "#87CEEB",
-        "white"
+        "cream/beige",
+        "light blue",
+        "green"
       ],
       "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "One of the patterns I keep seeing: someone told for years that it's anxiety, when the thyroid was driving it all along. Racing heart, wired-but-tired, low mood and a short fuse can all come from thyro",
       "url": "https://www.facebook.com/elementalhealthandnutrition/posts/pfbid0iqp8b3rxC7RyxMc1Gi7wufKDDpvuqjZzvwmPXLNGR6wYaLmMtS9VnKJmv5DRExYml",
       "image_url": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/753880996_1694364846032594_4564314061259504557_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IEfqtz7MdmoQ7kNvwFvCG0s&_nc_oc=Adqe2ElVjLEFWlwXHCi1f0CQDJojfeXIVH4TU8um0OrdygT9rthc_Af5ZpBc5PNgRLhYw3PAK2kFmr6HVGMbdsv4&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=NzXF5YZNDHpifTUDp0N0xw&_nc_ss=7c289&oh=00_AQELv0m7gCTVhwGbaExMsAOQ2staLH2YW3W1K1pgiwxuWg&oe=6A86C776",
-      "timestamp": "2026-07-24"
+      "timestamp": "2026-07-24",
+      "recency_window": "30d"
     },
     {
       "account": "stevenjudgenaturopath",
@@ -762,23 +747,24 @@
       "format": "carousel",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "stat-drop",
       "topic": "hormones/perimenopause",
-      "register": "validation",
+      "register": "hope",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Light grey background card with centred serif headline (bold: \"Progesterone drops before oestrogen\", regular: supporting explanation text ~35 words). Below sits a scientific line-graph chart with teal/cyan solid line (progesterone) and dotted red/pink line (estradiol) across life stages (childhood → perimenopause highlighted in green box). Clean, medical aesthetic with expert attribution caption below. No faces or overlays.",
+      "visual_recipe": "Light beige background with centered explanatory text at top in serif font (bolding key terms like \"progesterone\" and \"oestrogen\"). Below sits a dual-line graph chart showing hormonal fluctuations across life stages (teal line for progesterone, pink/red dotted line for estradiol), with lifecycle labels (childhood, teens, reproductive years, perimenopause, menopause) across the x-axis. Perimenopause phase is highlighted with green border. Minimal, clean data visualization style with professional attribution credit at bottom.",
       "dominant_colors": [
-        "#E8E8E8",
-        "#20A39E",
-        "#D63E52"
+        "beige",
+        "#4DB8A8",
+        "#D64D64"
       ],
-      "text_word_count_est": 35,
+      "text_word_count_est": 45,
       "image_classified": true,
       "exemplar": "The first major physiological change that occurs at perimenopause is a rapid decline in progesterone…\n\n…the anti-inflammatory 🔥\n…anti-anxiety 😊\n…histamine-reducing hormone ⏬\n\nIn susceptible women, p",
       "url": "https://www.instagram.com/p/DQ6KCY7j0vl/",
       "image_url": "https://instagram.fbio3-1.fna.fbcdn.net/v/t39.30808-6/577203309_1473899714449392_8563266096023589401_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fbio3-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gFLAsCQxFuxdYmcxX2qfxX-zqjzI_mdU6EXuaz7LqR-8dCWCdqv1Knw1Jjr8z4tvK4&_nc_ohc=l07bdRsNPQ8Q7kNvwG9m-SY&_nc_gid=HFQd7kjV9_2cVdBkB4WBcA&edm=ADp7STQAAAAA&ccb=7-5&oh=00_AQE6LubCL0gZ9zZtd45uDs_9P1DEfd9KKuVFhCzxm--46w&oe=6A86DFBE&_nc_sid=c6f216",
-      "timestamp": "2025-11-11"
+      "timestamp": "2025-11-11",
+      "recency_window": null
     },
     {
       "account": "mthfrsupportglobal",
@@ -797,19 +783,20 @@
       "topic": "lab-interpretation",
       "register": "validation",
       "has_face": false,
-      "is_text_card": false,
-      "visual_recipe": "Light grey/white background with overhead flat-lay of clinical blood test tubes (red caps, purple caps) and lab equipment slightly out of focus in background. Two lines of bold, deep navy text at top (~65pt, heavy weight): \"Your B12 is 'normal'\" and \"So why do you still have B12 deficiency symptoms?\" Dark purple/magenta DNA helix logo with \"MTHFR SUPPORT\" branding at bottom. Clean, minimalist medical aesthetic with high contrast text for readability.",
+      "is_text_card": true,
+      "visual_recipe": "Light gray/white background with lab blood test vials (purple-capped and red-capped) in soft focus at bottom. Two lines of bold navy blue text centered at top: \"Your B12 is 'normal'\" and \"So why do you still have B12 deficiency symptoms?\" Large, high-contrast font (estimated 10-12% of frame height). Clinical/medical setting with blurred lab equipment in background. Logo with DNA helix at bottom in purple and navy.",
       "dominant_colors": [
-        "#F5F5F5",
-        "#001D6B",
-        "#E535AB"
+        "#E8E8E8",
+        "#001F66",
+        "#8B0000"
       ],
-      "text_word_count_est": 16,
+      "text_word_count_est": 18,
       "image_classified": true,
       "exemplar": "Your blood test says your vitamin B12 is within range.\n\nBut you are still dealing with fatigue, brain fog, poor concentration, tingling, low mood or a sore tongue.\n\nSo does a normal result completely ",
       "url": "https://www.instagram.com/p/DbY7RtXgLzd/",
       "image_url": "https://instagram.fqnv2-1.fna.fbcdn.net/v/t39.30808-6/757954972_1486320316867879_3811338777463405414_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fqnv2-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gH5KA99dSCbShUqK3ujwTf6YqpHf2G1XntGz8Yl5IGaZP7uBDRG3LP7X9f77WtEcvc&_nc_ohc=pv25EbDO7cUQ7kNvwHAyp2t&_nc_gid=KB3uSIibJXdk64ieBrVUSQ&edm=ADp7STQAAAAA&ccb=7-5&oh=00_AQEc5JOFjOnB7tKvDaClmFf38DtDVo7wdeJPLMYP_sBoyw&oe=6A86D975&_nc_sid=c6f216",
-      "timestamp": "2026-07-29"
+      "timestamp": "2026-07-29",
+      "recency_window": "30d"
     },
     {
       "account": "melbournefxmed",
@@ -829,18 +816,19 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head format: blonde woman in glasses wearing cream/off-white t-shirt, seated against neutral white/light background with framed artwork. Mint-green rounded text box overlay in center-lower third with black bold sans-serif copy (14 words, ~22-24pt). Natural indoor setting, profile-to-camera angle, confident authority posture with hand gestures visible. No heavy filters; authentic professional setting.",
+      "visual_recipe": "Close-up talking-head shot of a blonde woman wearing glasses and cream/white sleeveless top, seated indoors against a neutral white wall with framed artwork. Mint-green rounded text card overlay centred on the chest with bold black sans-serif text asking \"What happens in a 60min Initial Appointment at MFM?\" Natural daylight, minimal background clutter to keep focus on presenter and text overlay.",
       "dominant_colors": [
-        "#F5F5F0",
-        "#000000",
-        "#B0E8D8"
+        "white",
+        "#A8D8B8",
+        "blonde/tan"
       ],
       "text_word_count_est": 14,
       "image_classified": true,
       "exemplar": "Practitioner Nina talks over what to expect in our 60min initial appointment.  This a great entry into functional medicine care for people ready to look at their health from a root-cause, comprehensiv",
       "url": "https://www.instagram.com/p/DUpSbKGD0yj/",
       "image_url": "https://scontent-atl3-3.cdninstagram.com/v/t51.71878-15/630109029_1326499579498426_5911955684959498645_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHorG6lZSmFxo7K50196YdAdqsLA_LwNoTBp6lGU9qNKIi3P5nzhyc8b1N43J4wciAV5ourPgAoyqEniTWWb5N6&_nc_ohc=hnHCDlzIwvQQ7kNvwFcqHEk&_nc_gid=14Mz_FMHby387_jvkHQ-oQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQEQt1D95H7PlurMyDH1kT5MVTCPwa7RJ5E7JTapRLwFqA&oe=6A86D6B3&_nc_sid=c6f216",
-      "timestamp": "2026-02-12"
+      "timestamp": "2026-02-12",
+      "recency_window": null
     },
     {
       "account": "melbournefxmed",
@@ -859,19 +847,20 @@
       "topic": "other",
       "register": "curiosity",
       "has_face": false,
-      "is_text_card": true,
-      "visual_recipe": "Dark teal/slate background (upper 60%) with white serif headline \"Beyond Cholesterol\" in large bold letters, followed by orange/gold subheading \"The silent drivers of heart disease (and how to fix them)\" in medium weight. Bottom 40% features a medical illustration on deep maroon background showing red and gold stylized blood cells/cholesterol particles flowing dynamically. Melbourne Functional Medicine logo in white at top left.",
+      "is_text_card": false,
+      "visual_recipe": "Dark teal/slate background (upper 60%) with centered serif headline \"Beyond Cholesterol\" in white, followed by orange subheading \"The silent drivers of heart disease (and how to fix them)\". Lower portion (40%) transitions to stylized medical illustration of red blood cells and golden lipid particles against a burgundy wavy background, creating depth and movement. Melbourne Functional Medicine logo in top left. Clean, professional medical aesthetic with high contrast typography.",
       "dominant_colors": [
-        "#3a5456",
+        "#3d5555",
         "#d4a574",
-        "#a41e34"
+        "#8b1a1a"
       ],
-      "text_word_count_est": 9,
+      "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "Did you know there is much more than “high cholesterol” to heart disease. Cholesterol also plays a part in hormones and bone health. Last night our head practitioner Mark Payne talked about the silent",
       "url": "https://www.instagram.com/p/DKySt4Rz3-t/",
       "image_url": "https://instagram.fper10-2.fna.fbcdn.net/v/t51.2885-15/505482397_18092541808719752_7259910537839521719_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=instagram.fper10-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gEtxmaBbMz1lqe7QNTkUlyAKdahU8Q0QAihE1wATHEGpfr2ZNFgGcSaE8PK6BxJj4I&_nc_ohc=uEWeGyJOWlEQ7kNvwE9-5hD&_nc_gid=Gw_OySJhfOFUgIdbn0i-yg&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQHXdIic8ND8Lryy-fEp8QWKhoI6j86TlMudDgRNGN6q_g&oe=6A86BE89&_nc_sid=c6f216",
-      "timestamp": "2025-06-12"
+      "timestamp": "2025-06-12",
+      "recency_window": null
     },
     {
       "account": "elemental_health_nutrition",
@@ -891,18 +880,50 @@
       "register": "authority",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head selfie of bearded male practitioner in bike helmet on forest trail (second person cycling in background). Large white sans-serif text overlay on left side (main message in 3 lines), smaller green accent text for name/credential below. Natural outdoor setting with trees and overcast sky. Approximately 32 words of large display text positioned to frame the face.",
+      "visual_recipe": "Candid outdoor selfie of bearded male practitioner in cycling helmet on rural/forest trail, with another cyclist visible blurred in background. Large white bold sans-serif text overlay on left side reads \"Why we never wave off a 'small' symptom.\" Green accent line and smaller green text below with name and credentials (Functional & Nutritional Medicine). Natural daylight, overcast sky, eucalyptus forest setting. Authentic, relatable, authority-building visual.",
       "dominant_colors": [
         "green",
-        "grey",
-        "tan"
+        "gray",
+        "white"
       ],
-      "text_word_count_est": 32,
+      "text_word_count_est": 25,
       "image_classified": true,
       "exemplar": "Some of the most useful things patients tell me start with 'this is probably nothing, but...' The afternoon crash. One patch of broken sleep. A nail that changed. Small symptoms are often the body's f",
       "url": "https://www.instagram.com/p/DbfXaROiP11/",
       "image_url": "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/762866931_18437910082193587_2080873327522144812_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-fra5-2.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGePXwINB0j5HzwwqFeQ6VMJoObVMwZ4jZ1ri9OQYNbFRYTYV4hqVu1Hc4FIMkJtxI&_nc_ohc=0hpXqbLuxLcQ7kNvwHNSmKJ&_nc_gid=GO0mnWHpmdd6PwvxF2NR8g&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFhdNZjhcR-BxHsof0CBMuhOa1dfhkE01nbrIQajY253A&oe=6A86E8B8&_nc_sid=c6f216",
-      "timestamp": "2026-08-01"
+      "timestamp": "2026-08-01",
+      "recency_window": "30d"
+    },
+    {
+      "account": "drwillcole",
+      "platform": "instagram",
+      "region": "us",
+      "bucket": "US/other",
+      "score": 3.98,
+      "tier": "replicable",
+      "engagement": 13909,
+      "account_median": 3493,
+      "low_confidence": false,
+      "format": "image",
+      "is_format_school": false,
+      "is_you": false,
+      "hook": "myth-bust",
+      "topic": "mental-health",
+      "register": "validation",
+      "has_face": false,
+      "is_text_card": true,
+      "visual_recipe": "Minimalist white background with left-aligned black serif/sans-serif text in varying hierarchy. Opening hook as statement in medium weight (~18-20pt), followed by listicle-style numbered/bulleted breakdown (4/8/12 hugs progression), then larger body paragraph (~14-16pt) explaining physiological benefits, and closing statement. Attribution line in italics at bottom. Clean, editorial typography with generous whitespace.",
+      "dominant_colors": [
+        "white",
+        "black"
+      ],
+      "text_word_count_est": 120,
+      "image_classified": true,
+      "exemplar": "I bring this up with patients more than you’d think, especially the ones dealing with chronic stress, anxiety, or a nervous system that’s stuck in overdrive. \n\nWe treat touch like a nice-to-have inste",
+      "url": "https://www.instagram.com/p/Db-8ghvqdCZ/",
+      "image_url": "https://scontent-mia3-2.cdninstagram.com/v/t51.82787-15/769907340_18617697307025895_5526487292252786565_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHnqZSAJbnoPw8AWy0DiD_8gpXFW3t5w-GGhxDyYaRuaG2CCkN27D1XeD5V4mGNTL0&_nc_ohc=6HbMKdHKZagQ7kNvwHY9lmL&_nc_gid=s-bEJcLLVzFdcXxaV9onLw&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQGgawdzsSJYQ7EqJ5h2CrQFb0fRzNcyKO78xmJJIqwUEQ&oe=6A86E5AD&_nc_sid=c6f216",
+      "timestamp": "2026-08-13",
+      "recency_window": "7d"
     },
     {
       "account": "stevenjudgenaturopath",
@@ -918,22 +939,23 @@
       "is_format_school": false,
       "is_you": false,
       "hook": "personal-story",
-      "topic": "mental-health",
-      "register": "authority",
+      "topic": "other",
+      "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Soft mint-green background with white rounded-corner card container. Small circular headshot photo (profile pic) top-left with subject in blue shirt. Bold sans-serif headline \"MY PHILOSOPHY\" in large charcoal text (60+ pt), followed by two paragraphs of justified body text (medium weight, ~18pt) in charcoal on white. Hierarchy emphasizes opening statement and closing tagline \"This is my philosophy\" in semi-bold. Small arrow icon bottom-right. Clean, premium wellness aesthetic with breathing room between text blocks.",
+      "visual_recipe": "Soft sage/mint green background with rounded white card container. Small circular profile photo (man in blue shirt) top-left with name and handle. Bold dark grey headline \"MY PHILOSOPHY\" in heavy sans-serif, followed by two body paragraphs in black justified text on white background. Small black arrow icon at bottom right. Clean, minimal, professional healthcare aesthetic with emphasis on typography hierarchy.",
       "dominant_colors": [
-        "mint green",
-        "white",
-        "charcoal"
+        "#c8dcd8",
+        "#ffffff",
+        "#2d2d2d"
       ],
-      "text_word_count_est": 108,
+      "text_word_count_est": 107,
       "image_classified": true,
       "exemplar": "After working with thousands of clients over almost a decade in private practise, it's becoming clear to me that the most influential aspect on our health and over-coming illness is our mindset and th",
       "url": "https://www.instagram.com/p/C3hS5TgPIOY/",
       "image_url": "https://instagram.fmel16-1.fna.fbcdn.net/v/t51.82787-15/656269404_18096975529818634_693582342319497654_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=instagram.fmel16-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gGXTnCGVMPC5d_mNWgzwTEys9bbDXuZIZ3nBVKterH9mnri8ZcVReN07ZF6sV1BrVQ&_nc_ohc=wCPJTGGsXuAQ7kNvwHAqrD-&_nc_gid=58taSMnX88Ty2W-fUQThqw&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFmYMWOPc01wR64jZWWViLvYIcTxnKn_QPOf1HieYl59A&oe=6A86DA31&_nc_sid=c6f216",
-      "timestamp": "2024-02-19"
+      "timestamp": "2024-02-19",
+      "recency_window": null
     },
     {
       "account": "functionalmedicineau",
@@ -950,21 +972,22 @@
       "is_you": false,
       "hook": "question-bait",
       "topic": "lab-interpretation",
-      "register": "curiosity",
+      "register": "authority",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Solid muted sage-green background with large, light serif typography (white, all-caps, high weight) occupying ~60% of frame. Headline text spans 5 lines centred left. Thin dark green underline accent beneath main text. Minimalist decorative element (dashed circle with line) in bottom-right corner. Clean, premium, data-focused aesthetic with ample breathing room.",
+      "visual_recipe": "Solid sage green background with large, light serif typography (headings 16–18pt, heavy weight) stacked left-aligned. Main headline \"5 BLOOD MARKERS THAT TELL YOU MORE THAN YOU THINK\" in white caps, centered-left with an underline accent in dark green. Small supporting body text (~10pt) in white below. Minimal illustration detail (dotted circle outline, thin line accent) in dark green on the right edge. Clean, premium minimal aesthetic with ample white space.",
       "dominant_colors": [
-        "#9DBE8F",
+        "#9DBB95",
         "white",
-        "#2D5F3F"
+        "#3D5C45"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 22,
       "image_classified": true,
       "exemplar": "Have you ever looked at your blood test and wondered what all those numbers actually mean?\n\nBlood tests aren't just about finding disease, they can also identify early changes in your health before sy",
       "url": "https://www.instagram.com/p/DbHOGlAAdf8/",
       "image_url": "https://scontent-waw2-2.cdninstagram.com/v/t39.30808-6/746171533_1653565276775226_2564668791084444281_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gEpAh44XT7eOHExSoefrjxB7P9zjz0JcU8tXty967Vj6OgnbBLcF8TIg_ZayGKlgx0&_nc_ohc=hre5tQPa-XwQ7kNvwGrtjLX&_nc_gid=tDlxsz_Uvx7ME4ZtoglbPA&edm=ADp7STQAAAAA&ccb=7-5&oh=00_AQGl075jMzmmXqQ7jjRaVR_Nbw5Iv8PwEZ7HeIH4w3o-sg&oe=6A86CCC2&_nc_sid=c6f216",
-      "timestamp": "2026-07-22"
+      "timestamp": "2026-07-22",
+      "recency_window": "30d"
     },
     {
       "account": "elemental_health_nutrition",
@@ -984,18 +1007,19 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Professional headshot of a bearded man in a black shirt against a warm beige/tan blurred background (library shelves). Large white bold sans-serif text (24-28pt) overlay in lower-left quarter reading \"I used to think my health was written in my genes\". Thin bright green accent line beneath the text. Name and title \"Rohan Smith\" and \"Functional & Nutritional Medicine\" in white and green text below.",
+      "visual_recipe": "Close-up portrait of a bearded man against a warm beige/cream background with softly blurred bookshelves, shot at eye level. Large white sans-serif text (bold, 60-80pt) overlaid in lower left: \"I used to think my health was written in my genes\" with a thin green horizontal accent line beneath. Attribution in white text below: \"Rohan Smith\" with \"Functional & Nutritional Medicine\" in bright green (approximately #00AA66). Clean, minimal design with high contrast text on background.",
       "dominant_colors": [
-        "tan",
-        "black",
-        "green"
+        "beige",
+        "white",
+        "black"
       ],
-      "text_word_count_est": 24,
+      "text_word_count_est": 15,
       "image_classified": true,
       "exemplar": "I used to think my health was written in my genes.\n\nFamily history can feel like a verdict — 'it runs in the family', so why bother? Then the evidence, and 13 years in clinic, changed my mind. Only ab",
       "url": "https://www.instagram.com/p/Da7UTu7jI3u/",
       "image_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/750865314_18435489706193587_6195060208857607207_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHbRQorYBCKnwe9RRbL6twHPiCjshfmpY4fQUF-MDtObd3WfNmDVpzpHX_7U3g-FW0&_nc_ohc=xvEQfe9S5y8Q7kNvwFZi_JO&_nc_gid=hvH-D1khjs143uHb2_UU_A&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQG-XaYJydr0Zx18wyETuf8GlBLDAC4ZQrpIYhruzg3EHA&oe=6A86ECD1&_nc_sid=c6f216",
-      "timestamp": "2026-07-18"
+      "timestamp": "2026-07-18",
+      "recency_window": null
     },
     {
       "account": "theshiftclinic",
@@ -1015,18 +1039,19 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Medium close-up shot of a woman with reddish-brown wavy hair wearing a dark navy/black blouse and gold pendant necklace, shot against a warm beige/cream interior background. Large white sans-serif text overlaid in center (\"WEREN'T COLLABORATING\") in bold, heavy weight. Professional talking-head style with natural lighting and direct camera engagement.",
+      "visual_recipe": "Talking head shot of a professional woman in a dark button-up shirt against a neutral peach/beige background, shot from mid-chest up. White bold sans-serif text overlay reading \"WEREN'T COLLABORATING\" positioned in center-left of frame. Professional indoor setting with soft, warm lighting. Warm gold/bronze jewelry accent visible.",
       "dominant_colors": [
-        "beige",
+        "peach",
         "black",
-        "brown"
+        "gold"
       ],
       "text_word_count_est": 3,
       "image_classified": true,
       "exemplar": "You can’t underestimate the value of having proper collaboration between the team member members who are involved in your healthcare. This is something that medicine does extremely poorly. You might h",
       "url": "https://www.instagram.com/p/DbSsRd1yO4Y/",
       "image_url": "https://instagram.fcdg1-1.fna.fbcdn.net/v/t51.82787-15/757305044_18188857051389576_3759979628743690455_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fcdg1-1.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gGShS2YnJetUheTWtCo4zNYbqwOVqUioMLLZMVj61qxFRH1EAULqFhJZjp-6MbfVnI&_nc_ohc=oa_OuFw55NsQ7kNvwE-mADP&_nc_gid=CHuL4Y_LbhDMA3PvO4IlcQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQEaFxaWkDFB-MsC2EtDXhmPtiISDeaQReXQpRCHWkKXBg&oe=6A86DAEF&_nc_sid=c6f216",
-      "timestamp": "2026-07-27"
+      "timestamp": "2026-07-27",
+      "recency_window": "30d"
     },
     {
       "account": "theshiftclinic",
@@ -1046,18 +1071,19 @@
       "register": "validation",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Talking-head video reel of a young woman (light brown hair, glasses, wearing bright blue ribbed knit top) in a bright, minimalist office setting with plants and a navy circle logo in background. Centered white sans-serif text overlay reading \"WHAT STOPPED THEM FROM HEALING\" (large, bold, ~22pt) positioned at mid-chest, with smaller white italic text below reading \"Rachel Campbell / BHSc Naturopathy\" (~12pt). Clean, bright lighting; professional but approachable aesthetic. Approximately 12 words rendered on image.",
+      "visual_recipe": "Talking-head style video frame featuring a woman with reddish-blonde hair wearing glasses and a royal blue ribbed t-shirt, seated indoors with green plants and branded logo visible in soft-neutral background. Large white sans-serif text overlay (18 words) positioned center-chest reading \"WHAT STOPPED THEM FROM HEALING\" with name and credentials (\"Rachel Campbell, BHSc Naturopathy\") below in smaller white text. Warm, professional, trustworthy aesthetic with minimal distractions.",
       "dominant_colors": [
-        "#1e3a8a",
-        "#e8d4c4",
-        "#ffffff"
+        "blue",
+        "#2c3e50",
+        "#f5f5f0"
       ],
-      "text_word_count_est": 12,
+      "text_word_count_est": 18,
       "image_classified": true,
       "exemplar": "One of our amazing naturopaths Rachel wants to know her clients’ fears and boundaries. It’s an intuitive approach, and it’s how real trust gets built. ✨",
       "url": "https://www.instagram.com/p/Da_mn9dSkS3/",
       "image_url": "https://instagram.fntr6-5.fna.fbcdn.net/v/t51.71878-15/750975456_4064784367155052_4076940968504530289_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fntr6-5.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2gFMVrxo0nC1DCnh5zMWye00DlxUJkJ7CtsWLFXFBIjYEkAfnnsPftCNQKe97x2o5fk&_nc_ohc=aqd-7bF877QQ7kNvwGo9T_g&_nc_gid=mEtZIziK-uSOFVIEjiCc9Q&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFqx9Rwuz_U3PEqfNks7IThu-vZzfjkqvqnVJl3pP1cnw&oe=6A86CBF6&_nc_sid=c6f216",
-      "timestamp": "2026-07-20"
+      "timestamp": "2026-07-20",
+      "recency_window": null
     },
     {
       "account": "advancedfunctionalmedicine",
@@ -1077,14 +1103,15 @@
       "register": "hope",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post (no image available). Layout: opening hook line, followed by bolded key concept (\"fasting insulin\"), bullet-pointed symptom list, followed by reassuring paragraph blocks with progressive messaging (problem → early detection → actionable solution). Estimated 250 words rendered as caption text. Likely light background with dark text for readability. No faces, no photos, no visual design elements—pure copywriting-driven engagement.",
+      "visual_recipe": "Text-only Facebook post (no image available). Long-form educational caption with hierarchical structure: opening contrasts common misconception against deeper truth, followed by bullet-pointed symptom list, then reassuring benefit statement and call-to-action. Approximately 180–200 words in body copy plus 13 hashtags. Likely rendered as plain text on white/neutral background with strategic line breaks and bold emphasis on \"fasting insulin\" to guide eye movement. No visual elements, faces, or colours—relies entirely on copywriting and formatting for engagement.",
       "dominant_colors": null,
-      "text_word_count_est": 250,
+      "text_word_count_est": 0,
       "image_classified": false,
       "exemplar": "Most people think blood sugar is only something to worry about after a diabetes diagnosis. But by the time blood sugar becomes abnormal, metabolic changes may have been developing for years.\n\nOne of t",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid024BjE94FhL8mdvEspUYo8We8fh8VaKhjBWvGLwD72vjnfvHswQFwYmuPdLeUeAWKal",
       "image_url": null,
-      "timestamp": "2026-07-27"
+      "timestamp": "2026-07-27",
+      "recency_window": "30d"
     },
     {
       "account": "functionalmedicineau",
@@ -1101,21 +1128,22 @@
       "is_you": false,
       "hook": "question-bait",
       "topic": "other",
-      "register": "myth-bust",
+      "register": "curiosity",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Soft sage/cream background with large serif headline text in deep forest green asking a provocative question (\"WHAT DOES 'FINDING THE ROOT CAUSE' REALLY MEAN?\") followed by a subheading with supporting statement. Decorative botanical line illustrations in muted green (leaf flourishes, gut anatomy outline with concentric circles and arrow) positioned in top right and bottom right corners. Minimal serif font, moderate to bold weight, left-aligned text block with small leaf divider. Clean, clinical-meets-wellness aesthetic.",
+      "visual_recipe": "Soft sage/cream background (#d4e6d4) with centered serif heading in dark forest green (#4a7c59) asking \"WHAT DOES 'FINDING THE ROOT CAUSE' REALLY MEAN?\" Subheading below in smaller serif font: \"It's rarely about finding one hidden cause.\" Right side features minimalist line-illustration icons: organic leaf motif at top, concentric circles with arrow at middle-right, and simplified intestinal/gut diagram at bottom in complementary sage green (#a8c89a). Decorative leaf divider separates heading and subheading. Clean, medical-educational aesthetic.",
       "dominant_colors": [
-        "#E8EDE6",
-        "#5A7A6F",
-        "#8BA999"
+        "#d4e6d4",
+        "#4a7c59",
+        "#a8c89a"
       ],
-      "text_word_count_est": 22,
+      "text_word_count_est": 21,
       "image_classified": true,
       "exemplar": "“Finding the root cause” is a phrase often used in functional medicine, but it doesn’t necessarily mean that every symptom has one hidden cause waiting to be discovered.\n\nHealth is usually more comple",
       "url": "https://www.instagram.com/p/DbwomdCjYRB/",
       "image_url": "https://scontent-syd2-1.cdninstagram.com/v/t39.30808-6/763824667_1664620469003040_7086288681503136824_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-syd2-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFP1-O4nqf8cpeWkHvYflN6QMOScjAJ7hBmQYNEYJ9FCLQzGbEFZMA-op_Ue8UenHM&_nc_ohc=9bPkc0Dm890Q7kNvwHa0AQR&_nc_gid=XEzQZDmGw-G5eAyqkb8CBA&edm=ADp7STQAAAAA&ccb=7-5&oh=00_AQEstszr1wI_EV8LN4ryIFYOJLSVPLMC9vBxNs63KMGoUQ&oe=6A86D6CD&_nc_sid=c6f216",
-      "timestamp": "2026-08-08"
+      "timestamp": "2026-08-08",
+      "recency_window": "30d"
     },
     {
       "account": "melbournefxmed",
@@ -1130,15 +1158,15 @@
       "format": "image",
       "is_format_school": false,
       "is_you": false,
-      "hook": "contrarian",
+      "hook": "question-bait",
       "topic": "other",
       "register": "authority",
       "has_face": false,
       "is_text_card": false,
-      "visual_recipe": "Minimalist professional interior scene with warm, neutral tones (beige walls, wooden desk, window light). Composition features a round wooden mirror hung on pale wall as focal point, positioned above a thriving potted green plant (appears to be a Philodendron or similar) in a white ribbed planter. Simple desk workspace visible to left with keyboard and amber glass bottle. Green upholstered chair partially visible. No text overlays. Conveys calm, trusted, wellness-focused environment through natural light, organic elements, and minimal design aesthetic.",
+      "visual_recipe": "Calm, minimalist lifestyle photography: beige/cream wall with natural window light on the left, wooden desk with keyboard and amber glass bottle in lower left, round wooden-framed mirror (18-24\" diameter) mounted at center-right, lush green potted plant (Philodendron or similar) in white ribbed planter positioned beneath mirror, and a muted green upholstered chair with wooden legs visible in lower right. Clean, bright, professional wellness aesthetic with warm wood tones (#C19A6B approx) and soft greens (#4A7C59 approx).",
       "dominant_colors": [
         "beige",
-        "#D4A574",
+        "wood brown",
         "green"
       ],
       "text_word_count_est": 0,
@@ -1146,7 +1174,8 @@
       "exemplar": "How are our practitioners different from a General Practitioner?⁠\n⁠\n⁠\nWhile our practitioners are not medical doctors and cannot prescribe medication, they offer a complementary approach to convention",
       "url": "https://www.instagram.com/p/DWPV3iHk2kx/",
       "image_url": "https://scontent-waw2-1.cdninstagram.com/v/t51.82787-15/656156889_18121548475719752_794871549345215810_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF3lYdj4a--jvgz_34gQu7eX3Uabn6PCvfmwyp0F7lEzDZ2sVTQypD9NsX59lFfhSpAI72Fc6x-r5Z4-rnPfI3k&_nc_ohc=RIGAtzJwJMEQ7kNvwEcovJL&_nc_gid=XzSCNt3upwtQSVNM3ouRBQ&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQG-SBc8Mwi7q_Rt1IVBiV8sVQlgG6hJOVVSCW7TXUYZyA&oe=6A86EE87&_nc_sid=c6f216",
-      "timestamp": "2026-03-23"
+      "timestamp": "2026-03-23",
+      "recency_window": null
     },
     {
       "account": "theshiftclinic",
@@ -1166,18 +1195,19 @@
       "register": "hope",
       "has_face": true,
       "is_text_card": false,
-      "visual_recipe": "Modern, airy wellness clinic setting with smiling female founder at a product-lined counter. Large navy circular neon sign reading \"Shift\" in rose gold above. Overlaid semi-transparent white card in lower half with navy + gold/yellow accent stripe on left edge. Text hierarchy: large bold navy \"Join team Shift\" with \"Shift\" in gold, followed by navy banner box with gold \"GENERAL MANAGER\" text, then smaller \"POSITION VACANT\" and bold \"HELP US GROW\" copy. Clean white background, professional product shelving visible, aspirational and welcoming tone.",
+      "visual_recipe": "Split-screen layout with high-end clinic interior on left (shelving with supplement bottles, plants, modern minimalist aesthetic) and founder portrait on right. Text overlay on white banner in center-lower third reads \"Join team Shift.\" in navy and gold, with \"GENERAL MANAGER\" in gold caps on navy bar, followed by \"POSITION VACANT / HELP US GROW\" in navy. Navy circular neon \"shift\" sign visible in background. Gold vertical accent stripe on left edge of banner. Clean, professional, spacious composition with warm neutrals (white, navy #001F3F, gold/yellow accents).",
       "dominant_colors": [
         "navy",
-        "#F4C430",
-        "white"
+        "white",
+        "gold"
       ],
       "text_word_count_est": 12,
       "image_classified": true,
       "exemplar": "We have an exciting opportunity for a General Manager at Shift. This is a hands on position where you’ll be working in tandem with our founder @katherinemaslen to work towards our ambitious growth goa",
       "url": "https://www.instagram.com/p/DbDSrhTko8e/",
       "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/754068760_18188252608389576_5965736139045722204_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gH2Z8mN3OQilv2_np1cROhI5F--U14ydxGNZFsnAhwwf7X2XMSgMCm_QXkPQvDwZP8&_nc_ohc=zk8KE0LJo5IQ7kNvwFTCBVh&_nc_gid=5Ft6rj4DBsnPWX_TUQ6iFg&edm=ADp7STQBAAAA&ccb=7-5&oh=00_AQFvUfIROWnSB6Av4xcfHC9zb2BmaV7FKfpDPiTqUHVxYw&oe=6A86EC8C&_nc_sid=c6f216",
-      "timestamp": "2026-07-21"
+      "timestamp": "2026-07-21",
+      "recency_window": "30d"
     },
     {
       "account": "advancedfunctionalmedicine",
@@ -1197,14 +1227,15 @@
       "register": "curiosity",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post with no image available. Multi-paragraph educational copy with opening rhetorical question ('Have you ever looked...?'), followed by value proposition around pattern-based health assessment and root-cause medicine. Likely rendered as plain text on a solid colour or default feed background, approximately 85 words across 3 short paragraphs, concluding with 7 hashtags emphasizing functional/integrative medicine positioning.\"",
+      "visual_recipe": "Text-only post (no image available). Multi-paragraph caption structured as: opening question hook (\"Have you ever looked at...\"), educational value proposition, and brand/service callout. Likely formatted as plain text post on Facebook with hashtags. Estimated ~80 words in body copy. Design strategy appears to rely on copy clarity and hashtag discoverability rather than visual elements.",
       "dominant_colors": null,
-      "text_word_count_est": 85,
+      "text_word_count_est": null,
       "image_classified": false,
       "exemplar": "Have you ever looked at your blood test and wondered what all those numbers actually mean?\n\nBlood tests aren't just about finding disease, they can also identify early changes in your health before sy",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid0oedJtThaKNberohYpxYDJ646NKUujEDPPqoyxcRpy8MNDVJTbAjV8ahZd1gH3qEjl",
       "image_url": null,
-      "timestamp": "2026-07-22"
+      "timestamp": "2026-07-22",
+      "recency_window": "30d"
     },
     {
       "account": "advancedfunctionalmedicine",
@@ -1219,19 +1250,20 @@
       "format": "text-only",
       "is_format_school": false,
       "is_you": false,
-      "hook": "myth-bust",
+      "hook": "question-bait",
       "topic": "lab-interpretation",
       "register": "validation",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Text-only post on solid background (likely white or light neutral). Primary body copy ~65 words in medium-weight font, opening with question hook to challenge the myth that \"normal\" lab results = good health. Call-to-action (CTA) with location pin emoji and booking link below. Hashtags appended (9 total, functional medicine focused). No image, faces, or visual elements—pure caption-driven engagement.",
+      "visual_recipe": "Text-only post with no image available. Opening rhetorical question (\"Have you ever been told...\") creates relatable friction point. Body copy breaks into 3 short assertion paragraphs, followed by CTA with location pin emoji. Hashtag-heavy footer (11 tags) signals algorithmic optimization. Likely rendered as plain text on solid colour or default platform background, minimal design elements beyond emoji.",
       "dominant_colors": null,
       "text_word_count_est": 65,
       "image_classified": false,
       "exemplar": "Have you ever been told \"everything looks normal\" while still feeling far from your best?\n\nBlood tests often contain far more information than many people realise.\n\nAt Advanced Functional Medicine we ",
       "url": "https://www.facebook.com/advancedfunctionalmedicine/posts/pfbid0N3hNtnZyH53tJyWZYF658LpXpuuVPMjBXmcvJQC6vtFb7PvWfiuWoK4v6v8X3LFMl",
       "image_url": null,
-      "timestamp": "2026-07-22"
+      "timestamp": "2026-07-22",
+      "recency_window": "30d"
     },
     {
       "account": "functionalmedicineau",
@@ -1251,18 +1283,19 @@
       "register": "authority",
       "has_face": false,
       "is_text_card": true,
-      "visual_recipe": "Dark forest green (#2d5a4a) solid background with centered white serif typography. Large bold headline \"HASHIMOTO'S LOOKING BEYOND THE THYROID\" in all caps, medium weight body copy subtitle below (~48 words), flanked by decorative four-pointed stars. Bottom left features detailed botanical-anatomical illustration of thyroid gland with surrounding herbs, bacteria, and botanical elements in cream/white and muted green palette. Top right has small crescent leaf motif. Elegant, medical-aesthetic layout balancing bold typography with organic illustrated detail.",
+      "visual_recipe": "Sage green solid background with centered serif typography hierarchy: large uppercase headline \"HASHIMOTO'S\" (bold, 40+ pt), followed by subtitle \"LOOKING BEYOND THE THYROID\" (smaller, elegant serif, 24pt), decorative horizontal line with dual star/sparkle elements in pale green/cream. Body text in elegant serif, 16-18pt describing functional medicine approach. Lower third features detailed botanical/medical line-art illustration: anatomical thyroid gland with surrounding virus particles, herb leaves, and root illustrations in cream and muted greens. Small leaf motif illustration top-right corner. Minimal spacing, balanced asymmetrical layout with illustration anchoring bottom-left quadrant.",
       "dominant_colors": [
-        "#2d5a4a",
-        "#e8f0e8",
-        "#c4a57b"
+        "#3d5c4a",
+        "#e8e8d8",
+        "#c4d4a8"
       ],
-      "text_word_count_est": 48,
+      "text_word_count_est": 92,
       "image_classified": true,
       "exemplar": "Hashimoto’s is more than an underactive thyroid.\n\nIt is an autoimmune condition in which antibodies target the thyroid gland, causing inflammation that can gradually affect thyroid hormone production.",
       "url": "https://www.instagram.com/p/Db1rRkSmTbF/",
       "image_url": "https://instagram.ficn3-4.fna.fbcdn.net/v/t39.30808-6/767803803_1668657015266052_5235851017149835369_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_ht=instagram.ficn3-4.fna.fbcdn.net&_nc_cat=100&_nc_oc=Q6cZ2gEEwAjJ2Iy8CjWfLYG3pm6TQ7qEhDian_-rGbw3mO-vsddFJj9dG85iJAwzuBccTbk&_nc_ohc=cXxZ27lmSBgQ7kNvwFnGVbe&_nc_gid=QrV6ZnOeZ4iqsAq5n0FkHA&edm=ADp7STQAAAAA&ccb=7-5&oh=00_AQHZhaKw0vtjeC2ZXXC0XnWHDKbDprRH69l-vwAD2PgZ5g&oe=6A86D2D7&_nc_sid=c6f216",
-      "timestamp": "2026-08-10"
+      "timestamp": "2026-08-10",
+      "recency_window": "30d"
     }
   ]
 }
