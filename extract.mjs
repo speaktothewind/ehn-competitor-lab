@@ -45,7 +45,13 @@ const ALLOC = { 'AU-competitor': 18, 'US/other': 16, 'format-school': 8, 'YOU': 
 // Feb-2025/Jan-2026, while that week's actual #1 dashboard breakout (@doctorwillcole
 // 19.8x, 14 Aug) missed the cut by ONE position (cut line 20.23x). Reserving fresh slots
 // is what makes the pipeline's topic sourcing track the 7-day lens Rohan reads.
-const RESERVE_FRESH = { 'AU-competitor': 6, 'US/other': 6, 'format-school': 3, 'YOU': 2 };
+// ADDITIVE, not carved out of ALLOC. ALLOC is the ALL-TIME proven set (what drives the
+// format ranking); FRESH_MAX is how many of THIS WEEK's breakouts we always take on top.
+// Carving fresh slots out of ALLOC was the 2026-08-20 v1 mistake: it capped current-week
+// coverage at 6 while 17 existed, so Rohan still saw dashboard winners the brief had never
+// touched ("there's a lot in there that you have not touched on at all"). The brief is
+// sourced from current-week winners, so under-serving them starves the thing that matters.
+const FRESH_MAX = { 'AU-competitor': 12, 'US/other': 16, 'format-school': 6, 'YOU': 6 };
 const MAX_PER_ACCOUNT = 3;  // stop one low-median page defining a bucket's pattern signal
 // Confidence floor: below this median engagement, an account is near-dead (mostly low-
 // engagement Facebook mirror pages) and a "2x outlier" is just noise (~20 interactions).
@@ -472,19 +478,20 @@ async function main() {
     const perAcct = {};
     const pick = [];
     const picked = new Set();
-    // Pass 1 — reserve slots for CURRENT-WEEK breakouts, taken by score among fresh
-    // posts only. A post's outlier score grows as engagement accumulates, so without
-    // this pass a 7-day-old breakout can never outrank a months-old all-time great and
-    // the feed re-serves stale signal every week. See RESERVE_FRESH.
-    const reserve = Math.min(RESERVE_FRESH[bucket] ?? 0, n);
+    // Pass 1 — take THIS WEEK's breakouts, by score among fresh posts only, up to
+    // FRESH_MAX. A post's outlier score grows as engagement accumulates, so a 3-day-old
+    // breakout can never outrank a months-old all-time great; without this pass the feed
+    // re-serves stale signal every week. These slots are ADDITIVE to ALLOC.
     for (const r of ordered) {
-      if (pick.length >= reserve) break;
+      if (pick.length >= (FRESH_MAX[bucket] ?? 0)) break;
       if (recencyWindowOf(r.timestamp) !== '7d') continue;
       if ((perAcct[r.account] = (perAcct[r.account] || 0) + 1) <= MAX_PER_ACCOUNT) { pick.push(r); picked.add(r); }
     }
-    // Pass 2 — fill the remaining slots by all-time score (original behaviour).
+    // Pass 2 — add the ALL-TIME proven set on top (original behaviour). This is what the
+    // format ranking leans on; fresh posts alone are too few and too jumpy to rank from.
+    const budget = pick.length + n;
     for (const r of ordered) {
-      if (pick.length >= n) break;
+      if (pick.length >= budget) break;
       if (picked.has(r)) continue;
       if ((perAcct[r.account] = (perAcct[r.account] || 0) + 1) <= MAX_PER_ACCOUNT) { pick.push(r); picked.add(r); }
     }
@@ -497,6 +504,16 @@ async function main() {
   console.log(`Classifying ${selected.length} (per-bucket): ` +
     Object.entries(ALLOC).map(([b, n]) => `${b} ${Math.min(n, overperformers.filter(r => r._bucket === b).length)}/${overperformers.filter(r => r._bucket === b).length}`).join(' · '));
   if (dropped > 0) console.log(`(${dropped} lower-scored over-performers not classified this run — see counts.not_classified_by_bucket)`);
+  // Fresh coverage telemetry. THE number to watch: the clinic brief is sourced from
+  // current-week winners, so if the feed carries only a handful of the week's breakouts
+  // the brief cannot represent what's actually winning. Rohan 2026-08-20: "there's a lot
+  // in there that you have not touched on at all" — the feed was surfacing 6 of them.
+  const freshAll = overperformers.filter(r => recencyWindowOf(r.timestamp) === '7d');
+  const freshSel = selected.filter(r => recencyWindowOf(r.timestamp) === '7d');
+  console.log(`Current-week (7d) coverage: ${freshSel.length}/${freshAll.length} breakouts kept ` +
+    Object.keys(ALLOC).map(b => `· ${b} ${freshSel.filter(r => r._bucket === b).length}/${freshAll.filter(r => r._bucket === b).length}`).join(' '));
+  if (freshAll.length && freshSel.length / freshAll.length < 0.5)
+    console.log(`  ⚠ under half this week's breakouts made the feed — raise RESERVE_FRESH/ALLOC.`);
 
   // 4. classify
   const anthropic = DRY ? null : new Anthropic({ apiKey: key });
