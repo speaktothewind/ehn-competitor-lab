@@ -1,343 +1,335 @@
 {
-  "week": "2026-08-03/2026-08-09",
-  "measurement_date": "2026-08-17",
+  "week": "2026-08-10/2026-08-16",
+  "measurement_date": "2026-08-24",
   "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
-      "day": "Mon 2026-08-03",
-      "ehn_topic": "5 gut-health rules quietly wasting your money",
+      "day": "Mon 2026-08-10",
+      "ehn_topic": "Postpartum thyroiditis \u2014 exhausted, anxious and losing hair after having a baby",
       "winning_format": "listicle",
-      "face_branded": false,
+      "face_branded": true,
       "lab_attribution": {
-        "type": "archetype",
+        "type": "full_recipe",
         "source": "slot_1",
-        "modelled_on": "doctorwillcole",
-        "score": 32.09,
-        "face_branded": false
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "headshot + symptom listicle",
+        "face_branded": true
       },
       "engagement": {
         "facebook": {
-          "likes": 6,
+          "likes": 5,
           "comments": 0,
           "shares": 0,
-          "total": 6,
-          "url": "https://www.facebook.com/1587872033348543/posts/1703046555164423",
+          "total": 5,
+          "url": "https://www.facebook.com/1587872033348543/posts/1709973857805026",
           "days_post_publish": 14,
           "saves": 0,
-          "reach": 150,
-          "impressions": 243,
-          "engagementRate": 2.47
+          "reach": 176,
+          "impressions": 263,
+          "engagementRate": 1.9
         },
         "instagram": {
-          "likes": 1,
-          "comments": 0,
+          "likes": 0,
+          "comments": 2,
           "shares": 0,
-          "total": 1,
-          "url": "https://www.instagram.com/p/DbkhKE3FEa-/",
+          "total": 2,
+          "url": "https://www.instagram.com/p/Db2ke5hEZyz/",
           "days_post_publish": 14,
           "saves": 1,
-          "reach": 92,
-          "impressions": 166,
-          "engagementRate": 1.2
+          "reach": 81,
+          "impressions": 123,
+          "engagementRate": 2.44
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJXutZHKgN_W5AE"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPDjjO3sxtfNnwE"
         }
       }
     },
     {
-      "day": "Tue 2026-08-04",
-      "ehn_topic": "Why I spend a full day preparing before I see your results",
+      "day": "Tue 2026-08-11",
+      "ehn_topic": "Post-viral fatigue \u2014 the exhaustion that lingered months after the virus cleared",
       "winning_format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
-        "modelled_on": "stevenjudgenaturopath",
+        "modelled_on": "thelucyroseclinic",
         "score": null,
+        "instance": "first-person reflective carousel, face-branded",
         "face_branded": true
       },
       "engagement": {
         "facebook": {
-          "likes": 58,
-          "comments": 5,
-          "shares": 1,
-          "total": 64,
-          "url": "https://www.facebook.com/1587872033348543/posts/1704058921729853",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 1753,
-          "impressions": 2541,
-          "engagementRate": 2.52
-        },
-        "instagram": {
-          "likes": 9,
-          "comments": 2,
-          "shares": 0,
-          "total": 11,
-          "url": "https://www.instagram.com/p/DbnGAMaIGTC/",
-          "days_post_publish": 13,
-          "saves": 2,
-          "reach": 143,
-          "impressions": 288,
-          "engagementRate": 4.51
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJjBh8374-uM7gE"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-08-05",
-      "ehn_topic": "4 things quietly stealing your focus",
-      "winning_format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_3",
-        "modelled_on": "drdanielamen",
-        "score": 18.5,
-        "face_branded": false
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 4,
+          "likes": 5,
           "comments": 0,
           "shares": 0,
-          "total": 4,
-          "url": "https://www.facebook.com/1587872033348543/posts/1705047638297648",
-          "days_post_publish": 12,
+          "total": 5,
+          "url": "https://www.facebook.com/1587872033348543/posts/1710901281045617",
+          "days_post_publish": 13,
           "saves": 0,
-          "reach": 111,
-          "impressions": 175,
-          "engagementRate": 2.29
-        },
-        "instagram": {
-          "likes": 1,
-          "comments": 1,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DbpqloCkTAj/",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 72,
-          "impressions": 109,
-          "engagementRate": 1.83
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKewy-2h3YrhPg"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-08-06",
-      "ehn_topic": "Which 3pm energy crash sounds like you?",
-      "winning_format": "question-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "functionalmedicineau",
-        "score": 8.0,
-        "face_branded": false
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 0,
-          "comments": 0,
-          "shares": 0,
-          "total": 0,
-          "url": "https://www.facebook.com/1587872033348543/posts/1706073428195069",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 107,
-          "impressions": 154,
-          "engagementRate": 0
+          "reach": 120,
+          "impressions": 190,
+          "engagementRate": 2.63
         },
         "instagram": {
           "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DbsPdeOAEV6/",
-          "days_post_publish": 11,
-          "saves": 1,
-          "reach": 75,
-          "impressions": 175,
-          "engagementRate": 1.71
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIS-uJmH257RoAE"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-08-07",
-      "ehn_topic": "The anxiety supplements can make worse \u2014 copper, zinc and B6",
-      "winning_format": "listicle",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_2",
-        "modelled_on": "drdanielamen",
-        "score": 17.45,
-        "face_branded": true
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 6,
-          "comments": 0,
-          "shares": 0,
-          "total": 6,
-          "url": "https://www.facebook.com/1587872033348543/posts/1707094888092923",
-          "days_post_publish": 10,
-          "saves": 0,
-          "reach": 194,
-          "impressions": 287,
-          "engagementRate": 2.09
-        },
-        "instagram": {
-          "likes": 4,
-          "comments": 0,
+          "comments": 2,
           "shares": 0,
           "total": 4,
-          "url": "https://www.instagram.com/p/Dbu0EIrCmcx/",
-          "days_post_publish": 10,
-          "saves": 2,
-          "reach": 155,
-          "impressions": 285,
-          "engagementRate": 2.11
+          "url": "https://www.instagram.com/p/Db5HSGnl7Oo/",
+          "days_post_publish": 13,
+          "saves": 1,
+          "reach": 117,
+          "impressions": 234,
+          "engagementRate": 2.14
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENzbtvDXl6etHg"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELqax7DQy8jqDg"
         }
       }
     },
     {
-      "day": "Sat 2026-08-08",
-      "ehn_topic": "What my longest-lived, healthiest patients have in common",
-      "winning_format": "reflective-carousel",
-      "face_branded": true,
+      "day": "Wed 2026-08-12",
+      "ehn_topic": "Bloating that builds through the day is usually motility, not a new food intolerance",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_4",
-        "modelled_on": "DrChatterjee",
-        "score": 204.17,
-        "face_branded": true
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": null,
+        "instance": "long-form text-only myth-bust, FB pure copy",
+        "face_branded": false
       },
       "engagement": {
         "facebook": {
-          "likes": 11,
+          "likes": 10,
           "comments": 0,
           "shares": 0,
-          "total": 11,
-          "url": "https://www.facebook.com/1587872033348543/posts/1708089931326752",
-          "days_post_publish": 9,
+          "total": 10,
+          "url": "https://www.facebook.com/1587872033348543/posts/1711880927614319",
+          "days_post_publish": 12,
           "saves": 0,
-          "reach": 137,
-          "impressions": 213,
-          "engagementRate": 5.16
+          "reach": 333,
+          "impressions": 535,
+          "engagementRate": 1.87
         },
         "instagram": {
           "likes": 3,
           "comments": 1,
           "shares": 0,
           "total": 4,
-          "url": "https://www.instagram.com/p/DbxZCEkiL0T/",
-          "days_post_publish": 9,
+          "url": "https://www.instagram.com/p/Db7snOVkQem/",
+          "days_post_publish": 12,
           "saves": 1,
-          "reach": 93,
-          "impressions": 198,
-          "engagementRate": 2.53
+          "reach": 103,
+          "impressions": 222,
+          "engagementRate": 2.25
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJyGg6H9xNnPoAE"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJGSvc2fu92IgAE"
         }
       }
     },
     {
-      "day": "Sun 2026-08-09",
-      "ehn_topic": "Snoring isn't harmless \u2014 sleep apnoea in women",
-      "winning_format": "cta-carousel",
+      "day": "Thu 2026-08-13",
+      "ehn_topic": "CYP1A2 \u2014 why coffee wrecks some people and not others",
+      "winning_format": "listicle",
       "face_branded": false,
       "lab_attribution": {
-        "type": "anchor",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "symptom listicle, faceless",
         "face_branded": false
       },
       "engagement": {
         "facebook": {
-          "likes": 0,
-          "comments": 1,
+          "likes": 11,
+          "comments": 4,
           "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1709053964563682",
-          "days_post_publish": 8,
+          "total": 15,
+          "url": "https://www.facebook.com/1587872033348543/posts/1712892074179871",
+          "days_post_publish": 11,
           "saves": 0,
-          "reach": 223,
-          "impressions": 362,
-          "engagementRate": 0.28
+          "reach": 260,
+          "impressions": 420,
+          "engagementRate": 3.57
         },
         "instagram": {
+          "likes": 2,
+          "comments": 2,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/Db-RB_ujHev/",
+          "days_post_publish": 11,
+          "saves": 1,
+          "reach": 101,
+          "impressions": 167,
+          "engagementRate": 2.99
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIjO6df57sOmIQ"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-08-14",
+      "ehn_topic": "Perimenopause can start in your late 30s \u2014 the early shifts blamed on stress",
+      "winning_format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "symptom listicle, faceless (AU signal: perimenopause performs faceless)",
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "total": 2,
-          "url": "https://www.instagram.com/p/Dbz9t7XiIYs/",
-          "days_post_publish": 8,
-          "saves": 1,
-          "reach": 117,
-          "impressions": 262,
-          "engagementRate": 1.15
+          "url": "https://www.facebook.com/1587872033348543/posts/1713849737417438",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 108,
+          "impressions": 156,
+          "engagementRate": 1.28
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/DcA1nB_EXL7/",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 79,
+          "impressions": 124,
+          "engagementRate": 0
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKXsvJ-cwfvi_QE"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPeDqvOV8a3rywE"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-15",
+      "ehn_topic": "Wired at night, flat in the morning \u2014 a reversed cortisol curve",
+      "winning_format": "reflective-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": null,
+        "instance": "first-person reflective carousel, faceless",
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1714832743985804",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 133,
+          "impressions": 189,
+          "engagementRate": 1.06
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 1,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DcDamdwkSyA/",
+          "days_post_publish": 9,
+          "saves": 1,
+          "reach": 65,
+          "impressions": 165,
+          "engagementRate": 1.82
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKe4l_6Io5D6UA"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-08-16",
+      "ehn_topic": "Tried every supplement and still stuck \u2014 the sign to look at the whole picture",
+      "winning_format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "instance": "text-led CTA carousel, link in caption",
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1715875613881517",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 186,
+          "impressions": 303,
+          "engagementRate": 0.66
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 1,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.instagram.com/p/DcF_eUOjM2G/",
+          "days_post_publish": 8,
+          "saves": 1,
+          "reach": 73,
+          "impressions": 167,
+          "engagementRate": 2.4
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOX4m9K45NX91AE"
         }
       }
     }
   ],
   "analysis": {
-    "computed_at": "2026-08-17T09:02:30",
+    "computed_at": "2026-08-24T09:02:34",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
-      "anchor:pivot_library": {
-        "posts": 1,
-        "avg_engagement": 3.0,
-        "avg_ig_engagement_rate": 1.15
-      },
       "archetype:slot_1": {
-        "posts": 1,
-        "avg_engagement": 7.0,
-        "avg_ig_engagement_rate": 1.2
-      },
-      "archetype:slot_2": {
-        "posts": 1,
-        "avg_engagement": 10.0,
-        "avg_ig_engagement_rate": 2.11
-      },
-      "archetype:slot_3": {
-        "posts": 1,
-        "avg_engagement": 6.0,
-        "avg_ig_engagement_rate": 1.83
-      },
-      "archetype:slot_4": {
-        "posts": 1,
-        "avg_engagement": 15.0,
-        "avg_ig_engagement_rate": 2.53
+        "posts": 2,
+        "avg_engagement": 10.5,
+        "avg_ig_engagement_rate": 1.5
       },
       "format_pattern:pivot_library": {
-        "posts": 2,
-        "avg_engagement": 38.5,
-        "avg_ig_engagement_rate": 3.11
+        "posts": 4,
+        "avg_engagement": 8.0,
+        "avg_ig_engagement_rate": 2.15
+      },
+      "full_recipe:slot_1": {
+        "posts": 1,
+        "avg_engagement": 7.0,
+        "avg_ig_engagement_rate": 2.44
       }
     }
   }

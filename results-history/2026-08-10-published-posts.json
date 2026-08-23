@@ -1,0 +1,224 @@
+{
+  "week": "2026-08-10/2026-08-16",
+  "generated_at": "2026-08-17T09:02:23",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-08-10",
+      "ehn_topic": "Postpartum thyroiditis \u2014 exhausted, anxious and losing hair after having a baby",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "full_recipe",
+        "source": "slot_1",
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "headshot + symptom listicle",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1709973857805026",
+          "posted_at": "2026-08-09T22:04:08.274Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Db2ke5hEZyz/",
+          "posted_at": "2026-08-10T08:20:30.267Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPDjjO3sxtfNnwE",
+          "posted_at": "2026-08-10T11:39:08.682Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-08-11",
+      "ehn_topic": "Post-viral fatigue \u2014 the exhaustion that lingered months after the virus cleared",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": null,
+        "instance": "first-person reflective carousel, face-branded",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1710901281045617",
+          "posted_at": "2026-08-10T22:02:28.687Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/Db5HSGnl7Oo/",
+          "posted_at": "2026-08-11T08:02:53.598Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELqax7DQy8jqDg",
+          "posted_at": "2026-08-11T08:01:59.341Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-08-12",
+      "ehn_topic": "Bloating that builds through the day is usually motility, not a new food intolerance",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": null,
+        "instance": "long-form text-only myth-bust, FB pure copy",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1711880927614319",
+          "posted_at": "2026-08-11T22:03:07.984Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/Db7snOVkQem/",
+          "posted_at": "2026-08-12T08:07:41.072Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJGSvc2fu92IgAE",
+          "posted_at": "2026-08-12T08:06:31.111Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-08-13",
+      "ehn_topic": "CYP1A2 \u2014 why coffee wrecks some people and not others",
+      "format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "symptom listicle, faceless",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1712892074179871",
+          "posted_at": "2026-08-12T22:01:47.957Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Db-RB_ujHev/",
+          "posted_at": "2026-08-13T08:04:18.462Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIjO6df57sOmIQ",
+          "posted_at": "2026-08-13T08:03:50.041Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-08-14",
+      "ehn_topic": "Perimenopause can start in your late 30s \u2014 the early shifts blamed on stress",
+      "format": "listicle",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drjoshaxe",
+        "score": 24.9,
+        "instance": "symptom listicle, faceless (AU signal: perimenopause performs faceless)",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1713849737417438",
+          "posted_at": "2026-08-13T22:01:46.448Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DcA1nB_EXL7/",
+          "posted_at": "2026-08-14T08:02:38.019Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPeDqvOV8a3rywE",
+          "posted_at": "2026-08-14T08:01:22.591Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-15",
+      "ehn_topic": "Wired at night, flat in the morning \u2014 a reversed cortisol curve",
+      "format": "reflective-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "thelucyroseclinic",
+        "score": null,
+        "instance": "first-person reflective carousel, faceless",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1714832743985804",
+          "posted_at": "2026-08-14T22:02:53.086Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcDamdwkSyA/",
+          "posted_at": "2026-08-15T08:04:16.150Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKe4l_6Io5D6UA",
+          "posted_at": "2026-08-15T08:03:13.694Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-08-16",
+      "ehn_topic": "Tried every supplement and still stuck \u2014 the sign to look at the whole picture",
+      "format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "instance": "text-led CTA carousel, link in caption",
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1715875613881517",
+          "posted_at": "2026-08-15T22:01:41.224Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DcF_eUOjM2G/",
+          "posted_at": "2026-08-16T08:04:48.713Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOX4m9K45NX91AE",
+          "posted_at": "2026-08-16T08:04:01.673Z"
+        }
+      }
+    }
+  ]
+}
