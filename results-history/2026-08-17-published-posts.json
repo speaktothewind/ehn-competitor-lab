@@ -1,0 +1,203 @@
+{
+  "week": "2026-08-17/2026-08-23",
+  "generated_at": "2026-08-24T09:02:25",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-08-17",
+      "ehn_topic": "MTHFR is one enzyme of several \u2014 the folate cycle runs on four",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "mthfrsupportglobal",
+        "score": 7.0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1716844130451332",
+          "posted_at": "2026-08-16T22:02:05.604Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcIkZp-kQYr/",
+          "posted_at": "2026-08-17T08:06:08.890Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOibsNvazabyRA",
+          "posted_at": "2026-08-17T08:05:34.734Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-08-18",
+      "ehn_topic": "The negative-thought spiral and the physical drivers under it",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drdanielamen",
+        "score": 73.78,
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1717832530352492",
+          "posted_at": "2026-08-17T22:03:09.722Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DcLI25xkQu7/",
+          "posted_at": "2026-08-18T08:02:59.879Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK3Vj6WBkY2_fQ",
+          "posted_at": "2026-08-18T08:02:46.837Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-08-19",
+      "ehn_topic": "GLP-1 weight loss and lean muscle",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1718823710253374",
+          "posted_at": "2026-08-18T22:01:14.470Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcNt13TDkmi/",
+          "posted_at": "2026-08-19T08:04:38.146Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL3sy5KBndKbdA",
+          "posted_at": "2026-08-19T08:04:04.517Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-08-20",
+      "ehn_topic": "Eight hours in bed and still wrecked \u2014 sleep quality over duration",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1719935506808861",
+          "posted_at": "2026-08-19T22:01:52.090Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DcQSa_FDQZ6/",
+          "posted_at": "2026-08-20T08:02:53.425Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPS-va7N58urggE",
+          "posted_at": "2026-08-20T08:02:03.199Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-08-21",
+      "ehn_topic": "Leaky gut is real but oversold",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1720952883373790",
+          "posted_at": "2026-08-20T22:02:28.151Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcS3bBvjYce/",
+          "posted_at": "2026-08-21T08:04:46.152Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOzz37XFjMHO3gE",
+          "posted_at": "2026-08-21T08:04:04.448Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-22",
+      "ehn_topic": "Root cause does not mean one magic switch",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "functionalmedicineau",
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1722034356598976",
+          "posted_at": "2026-08-21T22:02:29.475Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DcVcLBFje8N/",
+          "posted_at": "2026-08-22T08:04:10.106Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM_GvfKP1Ni9QA",
+          "posted_at": "2026-08-22T08:03:21.004Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-08-23",
+      "ehn_topic": "Look out for charlatans \u2014 checking a practitioner before you spend $7,000",
+      "format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1723036939832051",
+          "posted_at": "2026-08-22T22:02:41.458Z"
+        },
+        "instagram": {
+          "kind": "carousel_7_slides",
+          "url": "https://www.instagram.com/p/DcYA5rtAGmv/",
+          "posted_at": "2026-08-23T08:03:36.979Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJz84-qo8pCrnwE",
+          "posted_at": "2026-08-23T08:02:12.667Z"
+        }
+      }
+    }
+  ]
+}

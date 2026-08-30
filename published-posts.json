@@ -1,201 +1,210 @@
 {
-  "week": "2026-08-17/2026-08-23",
-  "generated_at": "2026-08-24T09:02:25",
+  "week": "2026-08-24/2026-08-30",
+  "generated_at": "2026-08-31T09:02:16",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-08-17",
-      "ehn_topic": "MTHFR is one enzyme of several \u2014 the folate cycle runs on four",
-      "format": "stat-drop-carousel",
+      "day": "Mon 2026-08-24",
+      "ehn_topic": "Touch-starved and calling it stress",
+      "format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "mthfrsupportglobal",
-        "score": 7.0
+        "modelled_on": "doctorwillcole",
+        "score": 19.83
       },
       "platforms": {
         "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1716844130451332",
-          "posted_at": "2026-08-16T22:02:05.604Z"
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1724012186401193",
+          "posted_at": "2026-08-23T22:01:50.063Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DcIkZp-kQYr/",
-          "posted_at": "2026-08-17T08:06:08.890Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DcaluxhiMZD/",
+          "posted_at": "2026-08-24T08:04:31.780Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOibsNvazabyRA",
-          "posted_at": "2026-08-17T08:05:34.734Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOqFgpWO4Nfp2QE",
+          "posted_at": "2026-08-24T08:02:49.299Z"
         }
       }
     },
     {
-      "day": "Tue 2026-08-18",
-      "ehn_topic": "The negative-thought spiral and the physical drivers under it",
+      "day": "Tue 2026-08-25",
+      "ehn_topic": "Five uncomfortable truths about chronic symptoms",
       "format": "listicle",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "drdanielamen",
-        "score": 73.78,
+        "modelled_on": "drmarkhyman",
+        "score": 3.77,
         "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1717832530352492",
-          "posted_at": "2026-08-17T22:03:09.722Z"
+          "url": "https://www.facebook.com/635237239872498_1725069786295433",
+          "posted_at": "2026-08-24T22:00:53.729Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DcLI25xkQu7/",
-          "posted_at": "2026-08-18T08:02:59.879Z"
+          "url": "https://www.instagram.com/p/DcdKTQciOMZ/",
+          "posted_at": "2026-08-25T08:02:02.309Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK3Vj6WBkY2_fQ",
-          "posted_at": "2026-08-18T08:02:46.837Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPykuqzJj-fYWw",
+          "posted_at": "2026-08-25T08:01:42.240Z"
         }
       }
     },
     {
-      "day": "Wed 2026-08-19",
-      "ehn_topic": "GLP-1 weight loss and lean muscle",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1718823710253374",
-          "posted_at": "2026-08-18T22:01:14.470Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DcNt13TDkmi/",
-          "posted_at": "2026-08-19T08:04:38.146Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL3sy5KBndKbdA",
-          "posted_at": "2026-08-19T08:04:04.517Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-08-20",
-      "ehn_topic": "Eight hours in bed and still wrecked \u2014 sleep quality over duration",
-      "format": "question-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1719935506808861",
-          "posted_at": "2026-08-19T22:01:52.090Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DcQSa_FDQZ6/",
-          "posted_at": "2026-08-20T08:02:53.425Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPS-va7N58urggE",
-          "posted_at": "2026-08-20T08:02:03.199Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-08-21",
-      "ehn_topic": "Leaky gut is real but oversold",
+      "day": "Wed 2026-08-26",
+      "ehn_topic": "Detecting brain decline years before memory goes",
       "format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "DavidPerlmutterMd",
+        "score": 8.43
       },
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1720952883373790",
-          "posted_at": "2026-08-20T22:02:28.151Z"
+          "url": "https://www.facebook.com/635237239872498_1726033966199015",
+          "posted_at": "2026-08-25T22:04:13.321Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DcS3bBvjYce/",
-          "posted_at": "2026-08-21T08:04:46.152Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DcfvJAPDOYR/",
+          "posted_at": "2026-08-26T08:02:23.038Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOzz37XFjMHO3gE",
-          "posted_at": "2026-08-21T08:04:04.448Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO2e24Kr8bC1Bg",
+          "posted_at": "2026-08-26T08:01:28.164Z"
         }
       }
     },
     {
-      "day": "Sat 2026-08-22",
-      "ehn_topic": "Root cause does not mean one magic switch",
+      "day": "Thu 2026-08-27",
+      "ehn_topic": "Ten things you quietly struggle with if you have adult ADHD",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drdanielamen",
+        "score": 8.98
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1727036202765458",
+          "posted_at": "2026-08-26T22:02:49.358Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DciUPHsiGtH/",
+          "posted_at": "2026-08-27T08:05:14.843Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENjm-MOcg9PFtQE",
+          "posted_at": "2026-08-27T08:03:42.156Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-08-28",
+      "ehn_topic": "A walk changes your state of mind faster than most things",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 2.28
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1728005199335225",
+          "posted_at": "2026-08-27T22:01:49.741Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dck4_S_DUv-/",
+          "posted_at": "2026-08-28T08:04:41.725Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK2lj92L85DIRQ",
+          "posted_at": "2026-08-28T08:03:46.101Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-08-29",
+      "ehn_topic": "The smallest habit that actually shifts your mood",
       "format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "functionalmedicineau",
+        "modelled_on": "drdanielamen",
+        "score": 19.05,
         "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1722034356598976",
-          "posted_at": "2026-08-21T22:02:29.475Z"
+          "url": "https://www.facebook.com/635237239872498_1729010179234727",
+          "posted_at": "2026-08-28T22:05:14.191Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DcVcLBFje8N/",
-          "posted_at": "2026-08-22T08:04:10.106Z"
+          "url": "https://www.instagram.com/p/Dcnd_SJFeaa/",
+          "posted_at": "2026-08-29T08:06:40.268Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM_GvfKP1Ni9QA",
-          "posted_at": "2026-08-22T08:03:21.004Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOeolqjOm9TbowE",
+          "posted_at": "2026-08-29T08:05:03.761Z"
         }
       }
     },
     {
-      "day": "Sun 2026-08-23",
-      "ehn_topic": "Look out for charlatans \u2014 checking a practitioner before you spend $7,000",
+      "day": "Sun 2026-08-30",
+      "ehn_topic": "Leptin resistance: why fat loss stalls when you are doing everything right",
       "format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
-        "type": "anchor",
-        "source": null
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 2.27
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1723036939832051",
-          "posted_at": "2026-08-22T22:02:41.458Z"
+          "url": "https://www.facebook.com/635237239872498_1729998702469208",
+          "posted_at": "2026-08-29T22:03:21.826Z"
         },
         "instagram": {
-          "kind": "carousel_7_slides",
-          "url": "https://www.instagram.com/p/DcYA5rtAGmv/",
-          "posted_at": "2026-08-23T08:03:36.979Z"
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DcqCeHBkTOC/",
+          "posted_at": "2026-08-30T08:03:43.560Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJz84-qo8pCrnwE",
-          "posted_at": "2026-08-23T08:02:12.667Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPKf39SnhL-3UQ",
+          "posted_at": "2026-08-30T08:03:00.746Z"
         }
       }
     }
