@@ -1,210 +1,209 @@
 {
-  "week": "2026-08-24/2026-08-30",
-  "generated_at": "2026-08-31T09:02:16",
+  "week": "2026-08-31/2026-09-06",
+  "generated_at": "2026-09-07T09:01:40",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-08-24",
-      "ehn_topic": "Touch-starved and calling it stress",
-      "format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "doctorwillcole",
-        "score": 19.83
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1724012186401193",
-          "posted_at": "2026-08-23T22:01:50.063Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DcaluxhiMZD/",
-          "posted_at": "2026-08-24T08:04:31.780Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOqFgpWO4Nfp2QE",
-          "posted_at": "2026-08-24T08:02:49.299Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-08-25",
-      "ehn_topic": "Five uncomfortable truths about chronic symptoms",
-      "format": "listicle",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 3.77,
-        "face_branded": true
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1725069786295433",
-          "posted_at": "2026-08-24T22:00:53.729Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DcdKTQciOMZ/",
-          "posted_at": "2026-08-25T08:02:02.309Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPykuqzJj-fYWw",
-          "posted_at": "2026-08-25T08:01:42.240Z"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-08-26",
-      "ehn_topic": "Detecting brain decline years before memory goes",
-      "format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 8.43
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1726033966199015",
-          "posted_at": "2026-08-25T22:04:13.321Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DcfvJAPDOYR/",
-          "posted_at": "2026-08-26T08:02:23.038Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO2e24Kr8bC1Bg",
-          "posted_at": "2026-08-26T08:01:28.164Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-08-27",
-      "ehn_topic": "Ten things you quietly struggle with if you have adult ADHD",
-      "format": "question-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drdanielamen",
-        "score": 8.98
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1727036202765458",
-          "posted_at": "2026-08-26T22:02:49.358Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DciUPHsiGtH/",
-          "posted_at": "2026-08-27T08:05:14.843Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENjm-MOcg9PFtQE",
-          "posted_at": "2026-08-27T08:03:42.156Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-08-28",
-      "ehn_topic": "A walk changes your state of mind faster than most things",
+      "day": "Mon 2026-08-31",
+      "ehn_topic": "Post-COVID POTS \u2014 the racing heart called anxiety for two years",
       "format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 2.28
+        "source": "slot_1",
+        "modelled_on": "doctorwillcole",
+        "score": 54.78
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1728005199335225",
-          "posted_at": "2026-08-27T22:01:49.741Z"
+          "url": "https://www.facebook.com/635237239872498_1730970095705402",
+          "posted_at": "2026-08-30T22:03:02.022Z"
         },
         "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/Dck4_S_DUv-/",
-          "posted_at": "2026-08-28T08:04:41.725Z"
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcsnSxwDNpB/",
+          "posted_at": "2026-08-31T08:06:46.410Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK2lj92L85DIRQ",
-          "posted_at": "2026-08-28T08:03:46.101Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK_-z_Xkx9X2kQE",
+          "posted_at": "2026-08-31T08:02:59.028Z"
         }
       }
     },
     {
-      "day": "Sat 2026-08-29",
-      "ehn_topic": "The smallest habit that actually shifts your mood",
+      "day": "Tue 2026-09-01",
+      "ehn_topic": "Water-damaged buildings \u2014 why one person gets sick and another doesn't",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1731926498943095",
+          "posted_at": "2026-08-31T22:03:15.478Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DcvLwznl1CZ/",
+          "posted_at": "2026-09-01T08:01:20.172Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPbFraWQ-sXFbw",
+          "posted_at": "2026-09-01T08:00:49.409Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-09-02",
+      "ehn_topic": "Fatty liver with perfectly normal liver tests",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1732964818839263",
+          "posted_at": "2026-09-01T22:02:07.920Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dcxwn00jlmo/",
+          "posted_at": "2026-09-02T08:01:55.790Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELiatO-DkbHlPw",
+          "posted_at": "2026-09-02T08:00:42.281Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-09-03",
+      "ehn_topic": "SIBO that keeps relapsing \u2014 look at the thyroid",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "theguthealthmd",
+        "score": 3.88
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1734006682068410",
+          "posted_at": "2026-09-02T22:02:00.945Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dc0VkrniFnl/",
+          "posted_at": "2026-09-03T08:03:13.763Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJOVp_WqsMPKGA",
+          "posted_at": "2026-09-03T08:01:40.034Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-09-04",
+      "ehn_topic": "Low mood in young women \u2014 check the contraception timeline",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_2",
+        "modelled_on": "drdanielamen",
+        "score": 7.11,
+        "instance": 2
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1735082091960869",
+          "posted_at": "2026-09-03T22:01:55.849Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/Dc26cOiFR-1/",
+          "posted_at": "2026-09-04T08:03:36.199Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELDZz-T5l7XFCQ",
+          "posted_at": "2026-09-04T08:02:41.780Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-05",
+      "ehn_topic": "The health pattern you don't have to pass on",
       "format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drdanielamen",
-        "score": 19.05,
-        "face_branded": true
+        "source": "slot_3",
+        "modelled_on": "doctorwillcole",
+        "score": 81.11
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1729010179234727",
-          "posted_at": "2026-08-28T22:05:14.191Z"
+          "url": "https://www.facebook.com/635237239872498_1736125955189816",
+          "posted_at": "2026-09-04T22:00:51.967Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/Dcnd_SJFeaa/",
-          "posted_at": "2026-08-29T08:06:40.268Z"
+          "url": "https://www.instagram.com/p/Dc5fJy1HGIe/",
+          "posted_at": "2026-09-05T08:02:58.032Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOeolqjOm9TbowE",
-          "posted_at": "2026-08-29T08:05:03.761Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMmRmZSrlpqa7QE",
+          "posted_at": "2026-09-05T08:01:59.603Z"
         }
       }
     },
     {
-      "day": "Sun 2026-08-30",
-      "ehn_topic": "Leptin resistance: why fat loss stalls when you are doing everything right",
+      "day": "Sun 2026-09-06",
+      "ehn_topic": "Bring your old blood tests to the first appointment",
       "format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "doctorwillcole",
-        "score": 2.27
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1729998702469208",
-          "posted_at": "2026-08-29T22:03:21.826Z"
+          "url": "https://www.facebook.com/635237239872498_1737120675090344",
+          "posted_at": "2026-09-05T22:01:15.657Z"
         },
         "instagram": {
-          "kind": "carousel_4_slides",
-          "url": "https://www.instagram.com/p/DcqCeHBkTOC/",
-          "posted_at": "2026-08-30T08:03:43.560Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dc8EDFBDe0y/",
+          "posted_at": "2026-09-06T08:03:46.709Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPKf39SnhL-3UQ",
-          "posted_at": "2026-08-30T08:03:00.746Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENWujrm5m4LLuAE",
+          "posted_at": "2026-09-06T08:03:05.757Z"
         }
       }
     }

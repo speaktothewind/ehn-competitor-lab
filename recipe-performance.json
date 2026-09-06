@@ -1,18 +1,61 @@
 {
-  "week": "2026-08-17/2026-08-23",
-  "measurement_date": "2026-08-31",
+  "week": "2026-08-24/2026-08-30",
+  "measurement_date": "2026-09-07",
   "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
-      "day": "Mon 2026-08-17",
-      "ehn_topic": "MTHFR is one enzyme of several \u2014 the folate cycle runs on four",
-      "winning_format": "stat-drop-carousel",
+      "day": "Mon 2026-08-24",
+      "ehn_topic": "Touch-starved and calling it stress",
+      "winning_format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "mthfrsupportglobal",
-        "score": 7.0
+        "modelled_on": "doctorwillcole",
+        "score": 19.83
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 11,
+          "comments": 2,
+          "shares": 0,
+          "total": 13,
+          "url": "https://www.facebook.com/1587872033348543/posts/1724012186401193",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 278,
+          "impressions": 422,
+          "engagementRate": 3.08
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 1,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.instagram.com/p/DcaluxhiMZD/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 87,
+          "impressions": 189,
+          "engagementRate": 2.65
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOqFgpWO4Nfp2QE"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-08-25",
+      "ehn_topic": "Five uncomfortable truths about chronic symptoms",
+      "winning_format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 3.77,
+        "face_branded": true
       },
       "engagement": {
         "facebook": {
@@ -20,295 +63,251 @@
           "comments": 0,
           "shares": 0,
           "total": 8,
-          "url": "https://www.facebook.com/1587872033348543/posts/1716844130451332",
-          "days_post_publish": 14,
+          "url": "https://www.facebook.com/1587872033348543/posts/1725069786295433",
+          "days_post_publish": 13,
           "saves": 0,
-          "reach": 479,
-          "impressions": 631,
-          "engagementRate": 1.27
+          "reach": 127,
+          "impressions": 185,
+          "engagementRate": 4.32
+        },
+        "instagram": {
+          "likes": 3,
+          "comments": 1,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/DcdKTQciOMZ/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 78,
+          "impressions": 127,
+          "engagementRate": 3.15
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPykuqzJj-fYWw"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-08-26",
+      "ehn_topic": "Detecting brain decline years before memory goes",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "DavidPerlmutterMd",
+        "score": 8.43
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 11,
+          "comments": 1,
+          "shares": 0,
+          "total": 12,
+          "url": "https://www.facebook.com/1587872033348543/posts/1726033966199015",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 264,
+          "impressions": 426,
+          "engagementRate": 2.82
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 1,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/DcfvJAPDOYR/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 99,
+          "impressions": 227,
+          "engagementRate": 0.88
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEO2e24Kr8bC1Bg"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-08-27",
+      "ehn_topic": "Ten things you quietly struggle with if you have adult ADHD",
+      "winning_format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drdanielamen",
+        "score": 8.98
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1727036202765458",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 113,
+          "impressions": 184,
+          "engagementRate": 2.17
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 5,
+          "shares": 0,
+          "total": 9,
+          "url": "https://www.instagram.com/p/DciUPHsiGtH/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 67,
+          "impressions": 157,
+          "engagementRate": 5.73
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENjm-MOcg9PFtQE"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-08-28",
+      "ehn_topic": "A walk changes your state of mind faster than most things",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": 2.28
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 9,
+          "comments": 0,
+          "shares": 0,
+          "total": 9,
+          "url": "https://www.facebook.com/1587872033348543/posts/1728005199335225",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 90,
+          "impressions": 134,
+          "engagementRate": 6.72
         },
         "instagram": {
           "likes": 4,
           "comments": 0,
           "shares": 0,
           "total": 4,
-          "url": "https://www.instagram.com/p/DcIkZp-kQYr/",
-          "days_post_publish": 14,
-          "saves": 2,
-          "reach": 118,
-          "impressions": 229,
-          "engagementRate": 2.62
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOibsNvazabyRA"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-08-18",
-      "ehn_topic": "The negative-thought spiral and the physical drivers under it",
-      "winning_format": "listicle",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "archetype",
-        "source": "pivot_library",
-        "modelled_on": "drdanielamen",
-        "score": 73.78,
-        "face_branded": true
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 3,
-          "comments": 0,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.facebook.com/1587872033348543/posts/1717832530352492",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 99,
-          "impressions": 144,
-          "engagementRate": 2.08
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 1,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.instagram.com/p/DcLI25xkQu7/",
-          "days_post_publish": 13,
-          "saves": 1,
-          "reach": 71,
-          "impressions": 129,
-          "engagementRate": 3.1
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK3Vj6WBkY2_fQ"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-08-19",
-      "ehn_topic": "GLP-1 weight loss and lean muscle",
-      "winning_format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 0,
-          "comments": 0,
-          "shares": 0,
-          "total": 0,
-          "url": "https://www.facebook.com/1587872033348543/posts/1718823710253374",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 77,
-          "impressions": 109,
-          "engagementRate": 0
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DcNt13TDkmi/",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 75,
-          "impressions": 165,
-          "engagementRate": 1.21
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL3sy5KBndKbdA"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-08-20",
-      "ehn_topic": "Eight hours in bed and still wrecked \u2014 sleep quality over duration",
-      "winning_format": "question-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1719935506808861",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 93,
-          "impressions": 152,
-          "engagementRate": 0.66
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 1,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.instagram.com/p/DcQSa_FDQZ6/",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 62,
-          "impressions": 148,
-          "engagementRate": 2.03
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPS-va7N58urggE"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-08-21",
-      "ehn_topic": "Leaky gut is real but oversold",
-      "winning_format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library"
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 0,
-          "comments": 0,
-          "shares": 0,
-          "total": 0,
-          "url": "https://www.facebook.com/1587872033348543/posts/1720952883373790",
+          "url": "https://www.instagram.com/p/Dck4_S_DUv-/",
           "days_post_publish": 10,
           "saves": 0,
-          "reach": 156,
-          "impressions": 249,
-          "engagementRate": 0
-        },
-        "instagram": {
-          "likes": 3,
-          "comments": 1,
-          "shares": 1,
-          "total": 5,
-          "url": "https://www.instagram.com/p/DcS3bBvjYce/",
-          "days_post_publish": 10,
-          "saves": 1,
-          "reach": 62,
-          "impressions": 150,
-          "engagementRate": 4
+          "reach": 70,
+          "impressions": 161,
+          "engagementRate": 2.48
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOzz37XFjMHO3gE"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK2lj92L85DIRQ"
         }
       }
     },
     {
-      "day": "Sat 2026-08-22",
-      "ehn_topic": "Root cause does not mean one magic switch",
+      "day": "Sat 2026-08-29",
+      "ehn_topic": "The smallest habit that actually shifts your mood",
       "winning_format": "reflective-carousel",
       "face_branded": true,
       "lab_attribution": {
         "type": "archetype",
         "source": "pivot_library",
-        "modelled_on": "functionalmedicineau",
+        "modelled_on": "drdanielamen",
+        "score": 19.05,
         "face_branded": true
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1722034356598976",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 74,
-          "impressions": 120,
-          "engagementRate": 0.83
-        },
-        "instagram": {
-          "likes": 6,
+          "likes": 3,
           "comments": 1,
           "shares": 0,
-          "total": 7,
-          "url": "https://www.instagram.com/p/DcVcLBFje8N/",
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1729010179234727",
           "days_post_publish": 9,
           "saves": 0,
-          "reach": 114,
-          "impressions": 243,
-          "engagementRate": 2.88
+          "reach": 70,
+          "impressions": 120,
+          "engagementRate": 3.33
+        },
+        "instagram": {
+          "likes": 7,
+          "comments": 1,
+          "shares": 1,
+          "total": 9,
+          "url": "https://www.instagram.com/p/Dcnd_SJFeaa/",
+          "days_post_publish": 9,
+          "saves": 1,
+          "reach": 74,
+          "impressions": 175,
+          "engagementRate": 5.71
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM_GvfKP1Ni9QA"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOeolqjOm9TbowE"
         }
       }
     },
     {
-      "day": "Sun 2026-08-23",
-      "ehn_topic": "Look out for charlatans \u2014 checking a practitioner before you spend $7,000",
+      "day": "Sun 2026-08-30",
+      "ehn_topic": "Leptin resistance: why fat loss stalls when you are doing everything right",
       "winning_format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
-        "type": "anchor",
-        "source": null
+        "type": "archetype",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": 2.27
       },
       "engagement": {
         "facebook": {
-          "likes": 12,
+          "likes": 2,
           "comments": 0,
-          "shares": 1,
-          "total": 13,
-          "url": "https://www.facebook.com/1587872033348543/posts/1723036939832051",
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1729998702469208",
           "days_post_publish": 8,
           "saves": 0,
-          "reach": 835,
-          "impressions": 1320,
-          "engagementRate": 0.98
+          "reach": 879,
+          "impressions": 1508,
+          "engagementRate": 0.13
         },
         "instagram": {
-          "likes": 8,
-          "comments": 5,
+          "likes": 2,
+          "comments": 1,
           "shares": 0,
-          "total": 13,
-          "url": "https://www.instagram.com/p/DcYA5rtAGmv/",
+          "total": 3,
+          "url": "https://www.instagram.com/p/DcqCeHBkTOC/",
           "days_post_publish": 8,
           "saves": 0,
-          "reach": 98,
-          "impressions": 251,
-          "engagementRate": 5.18
+          "reach": 61,
+          "impressions": 130,
+          "engagementRate": 2.31
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJz84-qo8pCrnwE"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPKf39SnhL-3UQ"
         }
       }
     }
   ],
   "analysis": {
-    "computed_at": "2026-08-31T09:02:32",
+    "computed_at": "2026-09-07T09:01:47",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
-      "anchor:?": {
-        "posts": 1,
-        "avg_engagement": 26.0,
-        "avg_ig_engagement_rate": 5.18
-      },
       "archetype:pivot_library": {
-        "posts": 3,
-        "avg_engagement": 8.67,
-        "avg_ig_engagement_rate": 2.87
-      },
-      "format_pattern:pivot_library": {
-        "posts": 3,
-        "avg_engagement": 3.67,
-        "avg_ig_engagement_rate": 2.41
+        "posts": 7,
+        "avg_engagement": 12.57,
+        "avg_ig_engagement_rate": 3.27
       }
     }
   }
