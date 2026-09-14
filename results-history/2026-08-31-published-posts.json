@@ -1,0 +1,211 @@
+{
+  "week": "2026-08-31/2026-09-06",
+  "generated_at": "2026-09-07T09:01:40",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-08-31",
+      "ehn_topic": "Post-COVID POTS \u2014 the racing heart called anxiety for two years",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "doctorwillcole",
+        "score": 54.78
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1730970095705402",
+          "posted_at": "2026-08-30T22:03:02.022Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DcsnSxwDNpB/",
+          "posted_at": "2026-08-31T08:06:46.410Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK_-z_Xkx9X2kQE",
+          "posted_at": "2026-08-31T08:02:59.028Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-09-01",
+      "ehn_topic": "Water-damaged buildings \u2014 why one person gets sick and another doesn't",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1731926498943095",
+          "posted_at": "2026-08-31T22:03:15.478Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DcvLwznl1CZ/",
+          "posted_at": "2026-09-01T08:01:20.172Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPbFraWQ-sXFbw",
+          "posted_at": "2026-09-01T08:00:49.409Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-09-02",
+      "ehn_topic": "Fatty liver with perfectly normal liver tests",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1732964818839263",
+          "posted_at": "2026-09-01T22:02:07.920Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dcxwn00jlmo/",
+          "posted_at": "2026-09-02T08:01:55.790Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELiatO-DkbHlPw",
+          "posted_at": "2026-09-02T08:00:42.281Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-09-03",
+      "ehn_topic": "SIBO that keeps relapsing \u2014 look at the thyroid",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "theguthealthmd",
+        "score": 3.88
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1734006682068410",
+          "posted_at": "2026-09-02T22:02:00.945Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dc0VkrniFnl/",
+          "posted_at": "2026-09-03T08:03:13.763Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJOVp_WqsMPKGA",
+          "posted_at": "2026-09-03T08:01:40.034Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-09-04",
+      "ehn_topic": "Low mood in young women \u2014 check the contraception timeline",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_2",
+        "modelled_on": "drdanielamen",
+        "score": 7.11,
+        "instance": 2
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1735082091960869",
+          "posted_at": "2026-09-03T22:01:55.849Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/Dc26cOiFR-1/",
+          "posted_at": "2026-09-04T08:03:36.199Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELDZz-T5l7XFCQ",
+          "posted_at": "2026-09-04T08:02:41.780Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-05",
+      "ehn_topic": "The health pattern you don't have to pass on",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_3",
+        "modelled_on": "doctorwillcole",
+        "score": 81.11
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1736125955189816",
+          "posted_at": "2026-09-04T22:00:51.967Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dc5fJy1HGIe/",
+          "posted_at": "2026-09-05T08:02:58.032Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMmRmZSrlpqa7QE",
+          "posted_at": "2026-09-05T08:01:59.603Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-09-06",
+      "ehn_topic": "Bring your old blood tests to the first appointment",
+      "format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1737120675090344",
+          "posted_at": "2026-09-05T22:01:15.657Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/Dc8EDFBDe0y/",
+          "posted_at": "2026-09-06T08:03:46.709Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENWujrm5m4LLuAE",
+          "posted_at": "2026-09-06T08:03:05.757Z"
+        }
+      }
+    }
+  ]
+}
