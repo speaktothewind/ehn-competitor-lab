@@ -1,0 +1,333 @@
+{
+  "week": "2026-08-31/2026-09-06",
+  "measurement_date": "2026-09-14",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "results": [
+    {
+      "day": "Mon 2026-08-31",
+      "ehn_topic": "Post-COVID POTS \u2014 the racing heart called anxiety for two years",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "doctorwillcole",
+        "score": 54.78
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 6,
+          "comments": 0,
+          "shares": 1,
+          "total": 7,
+          "url": "https://www.facebook.com/1587872033348543/posts/1730970095705402",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 445,
+          "impressions": 591,
+          "engagementRate": 1.18
+        },
+        "instagram": {
+          "likes": 7,
+          "comments": 2,
+          "shares": 3,
+          "total": 12,
+          "url": "https://www.instagram.com/p/DcsnSxwDNpB/",
+          "days_post_publish": 14,
+          "saves": 2,
+          "reach": 156,
+          "impressions": 330,
+          "engagementRate": 4.24
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEK_-z_Xkx9X2kQE"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-09-01",
+      "ehn_topic": "Water-damaged buildings \u2014 why one person gets sick and another doesn't",
+      "winning_format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "drmarkhyman",
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 15,
+          "comments": 0,
+          "shares": 0,
+          "total": 15,
+          "url": "https://www.facebook.com/1587872033348543/posts/1731926498943095",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 518,
+          "impressions": 722,
+          "engagementRate": 2.08
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DcvLwznl1CZ/",
+          "days_post_publish": 13,
+          "saves": 1,
+          "reach": 87,
+          "impressions": 142,
+          "engagementRate": 1.41
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPbFraWQ-sXFbw"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-09-02",
+      "ehn_topic": "Fatty liver with perfectly normal liver tests",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "doctorwillcole",
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1732964818839263",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 108,
+          "impressions": 185,
+          "engagementRate": 0.54
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 1,
+          "total": 3,
+          "url": "https://www.instagram.com/p/Dcxwn00jlmo/",
+          "days_post_publish": 12,
+          "saves": 1,
+          "reach": 69,
+          "impressions": 152,
+          "engagementRate": 2.63
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELiatO-DkbHlPw"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-09-03",
+      "ehn_topic": "SIBO that keeps relapsing \u2014 look at the thyroid",
+      "winning_format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": "theguthealthmd",
+        "score": 3.88
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 3,
+          "comments": 0,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1734006682068410",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 118,
+          "impressions": 166,
+          "engagementRate": 1.81
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/Dc0VkrniFnl/",
+          "days_post_publish": 11,
+          "saves": 1,
+          "reach": 74,
+          "impressions": 179,
+          "engagementRate": 1.68
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJOVp_WqsMPKGA"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-09-04",
+      "ehn_topic": "Low mood in young women \u2014 check the contraception timeline",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_2",
+        "modelled_on": "drdanielamen",
+        "score": 7.11,
+        "instance": 2
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.facebook.com/1587872033348543/posts/1735082091960869",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 83,
+          "impressions": 127,
+          "engagementRate": 0
+        },
+        "instagram": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/Dc26cOiFR-1/",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 70,
+          "impressions": 144,
+          "engagementRate": 1.39
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELDZz-T5l7XFCQ"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-05",
+      "ehn_topic": "The health pattern you don't have to pass on",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_3",
+        "modelled_on": "doctorwillcole",
+        "score": 81.11
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1736125955189816",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 68,
+          "impressions": 100,
+          "engagementRate": 4
+        },
+        "instagram": {
+          "likes": 8,
+          "comments": 0,
+          "shares": 0,
+          "total": 8,
+          "url": "https://www.instagram.com/p/Dc5fJy1HGIe/",
+          "days_post_publish": 9,
+          "saves": 1,
+          "reach": 126,
+          "impressions": 259,
+          "engagementRate": 3.47
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMmRmZSrlpqa7QE"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-09-06",
+      "ehn_topic": "Bring your old blood tests to the first appointment",
+      "winning_format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1737120675090344",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 168,
+          "impressions": 273,
+          "engagementRate": 0.37
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/Dc8EDFBDe0y/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 65,
+          "impressions": 143,
+          "engagementRate": 0.7
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENWujrm5m4LLuAE"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "computed_at": "2026-09-14T09:59:40",
+    "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
+    "by_attribution": {
+      "anchor:?": {
+        "posts": 1,
+        "avg_engagement": 2.0,
+        "avg_ig_engagement_rate": 0.7
+      },
+      "archetype:slot_1": {
+        "posts": 1,
+        "avg_engagement": 19.0,
+        "avg_ig_engagement_rate": 4.24
+      },
+      "archetype:slot_2": {
+        "posts": 1,
+        "avg_engagement": 2.0,
+        "avg_ig_engagement_rate": 1.39
+      },
+      "archetype:slot_3": {
+        "posts": 1,
+        "avg_engagement": 12.0,
+        "avg_ig_engagement_rate": 3.47
+      },
+      "format_pattern:pivot_library": {
+        "posts": 3,
+        "avg_engagement": 8.33,
+        "avg_ig_engagement_rate": 1.91
+      }
+    }
+  }
+}
