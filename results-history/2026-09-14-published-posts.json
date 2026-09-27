@@ -1,0 +1,217 @@
+{
+  "week": "2026-09-14/2026-09-20",
+  "generated_at": "2026-09-21T09:01:39",
+  "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
+  "posts": [
+    {
+      "day": "Mon 2026-09-14",
+      "ehn_topic": "Extra virgin olive oil: the one kitchen swap with real evidence behind it",
+      "format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_5",
+        "modelled_on": "DavidPerlmutterMd",
+        "score": 25.68,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1745439884258423",
+          "posted_at": "2026-09-13T22:01:01.651Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DdQqkFxgE0A/",
+          "posted_at": "2026-09-14T08:08:05.599Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKHSupGTjYv9rQE",
+          "posted_at": "2026-09-14T08:04:09.741Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-09-15",
+      "ehn_topic": "The most powerful things we do in clinic cost nothing",
+      "format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_9",
+        "modelled_on": "doctorwillcole",
+        "score": 7.43,
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1746519357483809",
+          "posted_at": "2026-09-14T22:01:57.576Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DdTO-Iwjhii/",
+          "posted_at": "2026-09-15T08:02:02.147Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELGU0Navir_xHw",
+          "posted_at": "2026-09-15T08:01:31.437Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-09-16",
+      "ehn_topic": "The nutrients your everyday medications quietly deplete",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1747562597379485",
+          "posted_at": "2026-09-15T22:01:01.068Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DdVz3plnG1e/",
+          "posted_at": "2026-09-16T08:02:39.599Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJDP64j27eSiKg",
+          "posted_at": "2026-09-16T08:01:48.102Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-09-17",
+      "ehn_topic": "Low mood isn't a character flaw - here's what shows up on the bloods",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_1",
+        "modelled_on": "drdanielamen",
+        "score": 16.43,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1748609450608133",
+          "posted_at": "2026-09-16T22:01:16.868Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DdYYoo_Df4y/",
+          "posted_at": "2026-09-17T08:02:29.917Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOW3sOi-u6DwIg",
+          "posted_at": "2026-09-17T08:01:18.107Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-09-18",
+      "ehn_topic": "Low FODMAP is a 6-week test, not a life sentence",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1749700217165723",
+          "posted_at": "2026-09-17T22:01:06.174Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/Dda9ePRiHDe/",
+          "posted_at": "2026-09-18T08:02:53.147Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELvXurPej4G7FQ",
+          "posted_at": "2026-09-18T08:01:05.821Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-19",
+      "ehn_topic": "The lab result patients are most surprised I check",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1750761870392891",
+          "posted_at": "2026-09-18T22:01:03.483Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DddiN5dDehF/",
+          "posted_at": "2026-09-19T08:02:18.318Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJatsernvoSSbg",
+          "posted_at": "2026-09-19T08:00:59.803Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-09-20",
+      "ehn_topic": "The first appointment isn't the finish line - recovery happens in the follow-ups",
+      "format": "cta-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1751797573622654",
+          "posted_at": "2026-09-19T22:01:06.734Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DdgG90fDYvu/",
+          "posted_at": "2026-09-20T08:01:55.164Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENON5PiehaSbVQ",
+          "posted_at": "2026-09-20T08:01:01.012Z"
+        }
+      }
+    }
+  ]
+}

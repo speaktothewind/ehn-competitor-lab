@@ -1,191 +1,192 @@
 {
-  "week": "2026-09-14/2026-09-20",
-  "generated_at": "2026-09-21T09:01:39",
+  "week": "2026-09-21/2026-09-27",
+  "generated_at": "2026-09-28T09:14:02",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-09-14",
-      "ehn_topic": "Extra virgin olive oil: the one kitchen swap with real evidence behind it",
-      "format": "stat-drop-carousel",
+      "day": "Mon 2026-09-21",
+      "ehn_topic": "Which parent gave you your MTHFR variant? The question that misses the point",
+      "format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "slot_5",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 25.68,
+        "source": "slot_2",
+        "modelled_on": "mthfrsupportglobal",
+        "score": 3.0,
         "face_branded": false
       },
       "platforms": {
         "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1745439884258423",
-          "posted_at": "2026-09-13T22:01:01.651Z"
+          "kind": "text-only",
+          "url": null,
+          "posted_at": null
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DdQqkFxgE0A/",
-          "posted_at": "2026-09-14T08:08:05.599Z"
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKHSupGTjYv9rQE",
-          "posted_at": "2026-09-14T08:04:09.741Z"
+          "url": null,
+          "posted_at": null
         }
       }
     },
     {
-      "day": "Tue 2026-09-15",
-      "ehn_topic": "The most powerful things we do in clinic cost nothing",
+      "day": "Tue 2026-09-22",
+      "ehn_topic": "You're not a bad sleeper. You might be a mouth breather",
       "format": "listicle",
       "face_branded": true,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_9",
-        "modelled_on": "doctorwillcole",
-        "score": 7.43,
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
         "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1746519357483809",
-          "posted_at": "2026-09-14T22:01:57.576Z"
+          "url": null,
+          "posted_at": null
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DdTO-Iwjhii/",
-          "posted_at": "2026-09-15T08:02:02.147Z"
+          "url": null,
+          "posted_at": null
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELGU0Navir_xHw",
-          "posted_at": "2026-09-15T08:01:31.437Z"
+          "url": null,
+          "posted_at": null
         }
       }
     },
     {
-      "day": "Wed 2026-09-16",
-      "ehn_topic": "The nutrients your everyday medications quietly deplete",
-      "format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1747562597379485",
-          "posted_at": "2026-09-15T22:01:01.068Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DdVz3plnG1e/",
-          "posted_at": "2026-09-16T08:02:39.599Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJDP64j27eSiKg",
-          "posted_at": "2026-09-16T08:01:48.102Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-09-17",
-      "ehn_topic": "Low mood isn't a character flaw - here's what shows up on the bloods",
-      "format": "question-carousel",
+      "day": "Wed 2026-09-23",
+      "ehn_topic": "What does 'just a couple' actually do? Moderate alcohol, women's hormones and sleep",
+      "format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "slot_1",
+        "source": "slot_3",
         "modelled_on": "drdanielamen",
-        "score": 16.43,
+        "score": 4.83,
         "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1748609450608133",
-          "posted_at": "2026-09-16T22:01:16.868Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DdYYoo_Df4y/",
-          "posted_at": "2026-09-17T08:02:29.917Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOW3sOi-u6DwIg",
-          "posted_at": "2026-09-17T08:01:18.107Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-09-18",
-      "ehn_topic": "Low FODMAP is a 6-week test, not a life sentence",
-      "format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1749700217165723",
-          "posted_at": "2026-09-17T22:01:06.174Z"
+          "url": null,
+          "posted_at": null
         },
         "instagram": {
           "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/Dda9ePRiHDe/",
-          "posted_at": "2026-09-18T08:02:53.147Z"
+          "url": null,
+          "posted_at": null
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELvXurPej4G7FQ",
-          "posted_at": "2026-09-18T08:01:05.821Z"
+          "url": null,
+          "posted_at": null
         }
       }
     },
     {
-      "day": "Sat 2026-09-19",
-      "ehn_topic": "The lab result patients are most surprised I check",
-      "format": "reflective-carousel",
-      "face_branded": true,
+      "day": "Thu 2026-09-24",
+      "ehn_topic": "Bad PMS, or PMDD? When premenstrual mood is a disorder, not bad PMS",
+      "format": "question-carousel",
+      "face_branded": false,
       "lab_attribution": {
         "type": "anchor",
         "source": null,
         "modelled_on": null,
         "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-09-25",
+      "ehn_topic": "A panic attack isn't all in your head: the body's alarm, and the drivers underneath",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_8",
+        "modelled_on": "brainmdhealth",
+        "score": 5.11,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": null,
+          "posted_at": null
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-26",
+      "ehn_topic": "Grief has a physical footprint, not just an emotional one",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_8",
+        "modelled_on": "doctorwillcole",
+        "score": 4.91,
+        "instance": 2,
         "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1750761870392891",
-          "posted_at": "2026-09-18T22:01:03.483Z"
+          "url": null,
+          "posted_at": null
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DddiN5dDehF/",
-          "posted_at": "2026-09-19T08:02:18.318Z"
+          "kind": "carousel_5_slides",
+          "url": null,
+          "posted_at": null
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJatsernvoSSbg",
-          "posted_at": "2026-09-19T08:00:59.803Z"
+          "url": null,
+          "posted_at": null
         }
       }
     },
     {
-      "day": "Sun 2026-09-20",
-      "ehn_topic": "The first appointment isn't the finish line - recovery happens in the follow-ups",
+      "day": "Sun 2026-09-27",
+      "ehn_topic": "The questions a 10-minute GP visit never has time to ask",
       "format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
@@ -198,18 +199,18 @@
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1751797573622654",
-          "posted_at": "2026-09-19T22:01:06.734Z"
+          "url": null,
+          "posted_at": null
         },
         "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DdgG90fDYvu/",
-          "posted_at": "2026-09-20T08:01:55.164Z"
+          "kind": "carousel_4_slides",
+          "url": null,
+          "posted_at": null
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENON5PiehaSbVQ",
-          "posted_at": "2026-09-20T08:01:01.012Z"
+          "url": null,
+          "posted_at": null
         }
       }
     }
