@@ -1,269 +1,270 @@
 {
-  "week": "2026-09-14/2026-09-20",
-  "measurement_date": "2026-09-28",
+  "week": "2026-09-21/2026-09-27",
+  "measurement_date": "2026-10-05",
   "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
-      "day": "Mon 2026-09-14",
-      "ehn_topic": "Extra virgin olive oil: the one kitchen swap with real evidence behind it",
-      "winning_format": "stat-drop-carousel",
+      "day": "Mon 2026-09-21",
+      "ehn_topic": "Which parent gave you your MTHFR variant? The question that misses the point",
+      "winning_format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "slot_5",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 25.68,
+        "source": "slot_2",
+        "modelled_on": "mthfrsupportglobal",
+        "score": 3.0,
         "face_branded": false
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
-          "comments": 1,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.facebook.com/1587872033348543/posts/1745439884258423",
-          "days_post_publish": 14,
-          "saves": 0,
-          "reach": 89,
-          "impressions": 141,
-          "engagementRate": 1.42
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "instagram": {
-          "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DdQqkFxgE0A/",
-          "days_post_publish": 14,
-          "saves": 1,
-          "reach": 66,
-          "impressions": 144,
-          "engagementRate": 2.08
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKHSupGTjYv9rQE"
+          "url": null
         }
       }
     },
     {
-      "day": "Tue 2026-09-15",
-      "ehn_topic": "The most powerful things we do in clinic cost nothing",
+      "day": "Tue 2026-09-22",
+      "ehn_topic": "You're not a bad sleeper. You might be a mouth breather",
       "winning_format": "listicle",
       "face_branded": true,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "slot_9",
-        "modelled_on": "doctorwillcole",
-        "score": 7.43,
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
         "face_branded": true
       },
       "engagement": {
         "facebook": {
-          "likes": 18,
-          "comments": 0,
-          "shares": 0,
-          "total": 18,
-          "url": "https://www.facebook.com/1587872033348543/posts/1746519357483809",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 593,
-          "impressions": 797,
-          "engagementRate": 2.26
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "instagram": {
-          "likes": 4,
-          "comments": 2,
-          "shares": 0,
-          "total": 6,
-          "url": "https://www.instagram.com/p/DdTO-Iwjhii/",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 96,
-          "impressions": 164,
-          "engagementRate": 3.66
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELGU0Navir_xHw"
+          "url": null
         }
       }
     },
     {
-      "day": "Wed 2026-09-16",
-      "ehn_topic": "The nutrients your everyday medications quietly deplete",
-      "winning_format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.facebook.com/1587872033348543/posts/1747562597379485",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 168,
-          "impressions": 267,
-          "engagementRate": 0.75
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DdVz3plnG1e/",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 59,
-          "impressions": 140,
-          "engagementRate": 1.43
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJDP64j27eSiKg"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-09-17",
-      "ehn_topic": "Low mood isn't a character flaw - here's what shows up on the bloods",
-      "winning_format": "question-carousel",
+      "day": "Wed 2026-09-23",
+      "ehn_topic": "What does 'just a couple' actually do? Moderate alcohol, women's hormones and sleep",
+      "winning_format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "archetype",
-        "source": "slot_1",
+        "source": "slot_3",
         "modelled_on": "drdanielamen",
-        "score": 16.43,
+        "score": 4.83,
         "face_branded": false
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
-          "comments": 1,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.facebook.com/1587872033348543/posts/1748609450608133",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 80,
-          "impressions": 110,
-          "engagementRate": 1.82
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "instagram": {
-          "likes": 2,
-          "comments": 1,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.instagram.com/p/DdYYoo_Df4y/",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 65,
-          "impressions": 151,
-          "engagementRate": 1.99
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOW3sOi-u6DwIg"
+          "url": null
         }
       }
     },
     {
-      "day": "Fri 2026-09-18",
-      "ehn_topic": "Low FODMAP is a 6-week test, not a life sentence",
-      "winning_format": "text-only-myth-bust",
+      "day": "Thu 2026-09-24",
+      "ehn_topic": "Bad PMS, or PMDD? When premenstrual mood is a disorder, not bad PMS",
+      "winning_format": "question-carousel",
       "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 3,
-          "comments": 0,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.facebook.com/1587872033348543/posts/1749700217165723",
-          "days_post_publish": 10,
-          "saves": 0,
-          "reach": 117,
-          "impressions": 183,
-          "engagementRate": 1.64
-        },
-        "instagram": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.instagram.com/p/Dda9ePRiHDe/",
-          "days_post_publish": 10,
-          "saves": 0,
-          "reach": 49,
-          "impressions": 130,
-          "engagementRate": 0.77
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELvXurPej4G7FQ"
-        }
-      }
-    },
-    {
-      "day": "Sat 2026-09-19",
-      "ehn_topic": "The lab result patients are most surprised I check",
-      "winning_format": "reflective-carousel",
-      "face_branded": true,
       "lab_attribution": {
         "type": "anchor",
         "source": null,
         "modelled_on": null,
         "score": null,
-        "face_branded": true
+        "face_branded": false
       },
       "engagement": {
         "facebook": {
-          "likes": 7,
-          "comments": 0,
-          "shares": 0,
-          "total": 7,
-          "url": "https://www.facebook.com/1587872033348543/posts/1750761870392891",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 204,
-          "impressions": 287,
-          "engagementRate": 2.44
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "instagram": {
-          "likes": 8,
-          "comments": 1,
-          "shares": 0,
-          "total": 9,
-          "url": "https://www.instagram.com/p/DddiN5dDehF/",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 165,
-          "impressions": 319,
-          "engagementRate": 2.82
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJatsernvoSSbg"
+          "url": null
         }
       }
     },
     {
-      "day": "Sun 2026-09-20",
-      "ehn_topic": "The first appointment isn't the finish line - recovery happens in the follow-ups",
+      "day": "Fri 2026-09-25",
+      "ehn_topic": "A panic attack isn't all in your head: the body's alarm, and the drivers underneath",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_8",
+        "modelled_on": "brainmdhealth",
+        "score": 5.11,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
+        },
+        "instagram": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-09-26",
+      "ehn_topic": "Grief has a physical footprint, not just an emotional one",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "slot_8",
+        "modelled_on": "doctorwillcole",
+        "score": 4.91,
+        "instance": 2,
+        "face_branded": true
+      },
+      "engagement": {
+        "facebook": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
+        },
+        "instagram": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-09-27",
+      "ehn_topic": "The questions a 10-minute GP visit never has time to ask",
       "winning_format": "cta-carousel",
       "face_branded": false,
       "lab_attribution": {
@@ -275,64 +276,64 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1751797573622654",
-          "days_post_publish": 8,
-          "saves": 0,
-          "reach": 139,
-          "impressions": 242,
-          "engagementRate": 0.41
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "instagram": {
-          "likes": 4,
-          "comments": 0,
-          "shares": 0,
-          "total": 4,
-          "url": "https://www.instagram.com/p/DdgG90fDYvu/",
-          "days_post_publish": 8,
-          "saves": 0,
-          "reach": 42,
-          "impressions": 102,
-          "engagementRate": 3.92
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "total": null,
+          "url": null,
+          "days_post_publish": null,
+          "saves": null,
+          "reach": null,
+          "impressions": null,
+          "engagementRate": null
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENON5PiehaSbVQ"
+          "url": null
         }
       }
     }
   ],
   "analysis": {
-    "computed_at": "2026-09-28T09:14:26",
+    "computed_at": "2026-10-05T09:14:20",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
       "anchor:?": {
         "posts": 2,
-        "avg_engagement": 10.5,
-        "avg_ig_engagement_rate": 3.37
+        "avg_engagement": null,
+        "avg_ig_engagement_rate": null
       },
-      "archetype:slot_1": {
+      "archetype:slot_2": {
         "posts": 1,
-        "avg_engagement": 5.0,
-        "avg_ig_engagement_rate": 1.99
+        "avg_engagement": null,
+        "avg_ig_engagement_rate": null
       },
-      "archetype:slot_5": {
+      "archetype:slot_3": {
         "posts": 1,
-        "avg_engagement": 4.0,
-        "avg_ig_engagement_rate": 2.08
+        "avg_engagement": null,
+        "avg_ig_engagement_rate": null
       },
-      "archetype:slot_9": {
-        "posts": 1,
-        "avg_engagement": 24.0,
-        "avg_ig_engagement_rate": 3.66
+      "archetype:slot_8": {
+        "posts": 2,
+        "avg_engagement": null,
+        "avg_ig_engagement_rate": null
       },
       "format_pattern:pivot_library": {
-        "posts": 2,
-        "avg_engagement": 4.0,
-        "avg_ig_engagement_rate": 1.1
+        "posts": 1,
+        "avg_engagement": null,
+        "avg_ig_engagement_rate": null
       }
     }
   }
