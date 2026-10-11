@@ -1,208 +1,215 @@
 {
-  "week": "2026-09-28/2026-10-04",
-  "generated_at": "2026-10-05T09:14:08",
+  "week": "2026-10-05/2026-10-11",
+  "generated_at": "2026-10-12T09:14:31",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-09-28",
-      "ehn_topic": "Two in three people with Alzheimer's are women, and perimenopause is part of why",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "full_recipe",
-        "source": "slot_6",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 9.02
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1760477462754665",
-          "posted_at": "2026-09-27T22:01:19.209Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/Dd0tUrpDIgG/",
-          "posted_at": "2026-09-28T08:02:20.100Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOrXi4zomKvPwwE",
-          "posted_at": "2026-09-28T08:01:05.581Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-09-29",
-      "ehn_topic": "Told it was all in their head: being believed, then testing properly",
-      "format": "reflective-carousel",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1761594062643005",
-          "posted_at": "2026-09-28T22:02:51.827Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/Dd3SN0LkSWe/",
-          "posted_at": "2026-09-29T08:02:50.854Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPid4Y_GgrPJzgE",
-          "posted_at": "2026-09-29T08:02:31.244Z"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-09-30",
-      "ehn_topic": "Craving sugar isn't willpower failing you, it's a blood-sugar signal",
-      "format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "full_recipe",
-        "source": "slot_9",
-        "modelled_on": "drjoshaxe",
-        "score": 5.37
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1762739909195087",
-          "posted_at": "2026-09-29T22:01:24.006Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/Dd528E9jeWo/",
-          "posted_at": "2026-09-30T08:02:13.468Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKCTpO3U5azE_QE",
-          "posted_at": "2026-09-30T08:01:09.099Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-10-01",
-      "ehn_topic": "Why autoimmune symptoms flare: the triggers that aren't as random as they feel",
-      "format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1763970212405390",
-          "posted_at": "2026-09-30T22:01:17.090Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/Dd8btXNEfIl/",
-          "posted_at": "2026-10-01T08:01:55.370Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJq07ePI_9CUiQE",
-          "posted_at": "2026-10-01T08:01:05.192Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-10-02",
-      "ehn_topic": "Reflux might be too little stomach acid, not too much: why acid blockers can backfire",
+      "day": "Mon 2026-10-05",
+      "ehn_topic": "Waking at 3am isn't random",
       "format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
+        "type": "archetype",
+        "source": "slot_4",
+        "modelled_on": "doctorwillcole",
+        "score": 14.37,
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1765188358950242",
-          "posted_at": "2026-10-01T22:00:57.478Z"
+          "url": "https://www.facebook.com/635237239872498_1768555095280235",
+          "posted_at": "2026-10-04T21:01:36.474Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/Dd_AqZijYWi/",
-          "posted_at": "2026-10-02T08:03:16.851Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DeGoG5ajB57/",
+          "posted_at": "2026-10-05T07:02:40.350Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJujxvaW_qeyDA",
-          "posted_at": "2026-10-02T08:02:25.734Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIiyqJ_c4L_qLA",
+          "posted_at": "2026-10-05T07:01:49.791Z"
         }
       }
     },
     {
-      "day": "Sat 2026-10-03",
-      "ehn_topic": "Getting better isn't a straight line: what the good and bad weeks tell us",
-      "format": "reflective-carousel",
+      "day": "Tue 2026-10-06",
+      "ehn_topic": "Heavier periods in your late 30s and 40s",
+      "format": "listicle",
       "face_branded": true,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
         "modelled_on": null,
-        "score": null
+        "score": null,
+        "face_branded": true
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1766418668827211",
-          "posted_at": "2026-10-02T22:01:33.574Z"
+          "url": "https://www.facebook.com/635237239872498_1769693375166407",
+          "posted_at": "2026-10-05T21:02:03.898Z"
         },
         "instagram": {
           "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DeBeiEbirPw/",
-          "posted_at": "2026-10-03T07:02:57.244Z"
+          "url": "https://www.instagram.com/p/DeJM8DYjQ79/",
+          "posted_at": "2026-10-06T07:02:57.639Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN7fhLjb7qmHOw",
-          "posted_at": "2026-10-03T07:01:37.201Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENH38dTxvbaCEQ",
+          "posted_at": "2026-10-06T07:01:41.689Z"
         }
       }
     },
     {
-      "day": "Sun 2026-10-04",
-      "ehn_topic": "Muscle is the organ of longevity: why strength beats the number on the scale",
+      "day": "Wed 2026-10-07",
+      "ehn_topic": "Magnesium: the form matters more than the dose",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": null,
+        "modelled_on": "advancedfunctionalmedicine",
+        "score": 2.0,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1770822771720134",
+          "posted_at": "2026-10-06T21:01:56.187Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DeLxnXIDR2W/",
+          "posted_at": "2026-10-07T07:02:02.002Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJSW_PLy-dnVCw",
+          "posted_at": "2026-10-07T07:01:35.837Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-10-08",
+      "ehn_topic": "The symptom you've learned to live with",
+      "format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1771946458274432",
+          "posted_at": "2026-10-07T21:02:45.372Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DeOWU7FiGBD/",
+          "posted_at": "2026-10-08T07:01:19.076Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIzyoI-3ifPSpAE",
+          "posted_at": "2026-10-08T07:01:18.687Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-10-09",
+      "ehn_topic": "Vitamin D after winter",
       "format": "stat-drop-carousel",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "pivot_library",
         "modelled_on": null,
-        "score": null
+        "score": null,
+        "face_branded": false
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1767453848723693",
-          "posted_at": "2026-10-03T21:01:46.123Z"
+          "url": "https://www.facebook.com/635237239872498_1773084811493930",
+          "posted_at": "2026-10-08T21:04:07.901Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DeEDRLRjC-5/",
-          "posted_at": "2026-10-04T07:02:16.087Z"
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DeQ7fWCjXyF/",
+          "posted_at": "2026-10-09T07:04:27.364Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKCqmKiPxJm7cw",
-          "posted_at": "2026-10-04T07:01:38.944Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ2uxYDlooTZIQ",
+          "posted_at": "2026-10-09T07:03:41.433Z"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-10-10",
+      "ehn_topic": "'It's just IBS' isn't the answer",
+      "format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": true
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1774147914720953",
+          "posted_at": "2026-10-09T21:03:22.757Z"
+        },
+        "instagram": {
+          "kind": "carousel_5_slides",
+          "url": "https://www.instagram.com/p/DeTgQYyjJhg/",
+          "posted_at": "2026-10-10T07:04:17.748Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEICvv9f-qZuVgAE",
+          "posted_at": "2026-10-10T07:03:25.044Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-10-11",
+      "ehn_topic": "Bring someone who knows you to your first appointment",
+      "format": "reflective-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1775198007949277",
+          "posted_at": "2026-10-10T21:02:34.581Z"
+        },
+        "instagram": {
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DeWE9z2gCT-/",
+          "posted_at": "2026-10-11T07:03:25.465Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPbdh72f9My5Ug",
+          "posted_at": "2026-10-11T07:01:18.589Z"
         }
       }
     }
