@@ -1,18 +1,62 @@
 {
-  "week": "2026-09-28/2026-10-04",
-  "measurement_date": "2026-10-12",
+  "week": "2026-10-05/2026-10-11",
+  "measurement_date": "2026-10-19",
   "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
-      "day": "Mon 2026-09-28",
-      "ehn_topic": "Two in three people with Alzheimer's are women, and perimenopause is part of why",
-      "winning_format": "stat-drop-carousel",
+      "day": "Mon 2026-10-05",
+      "ehn_topic": "Waking at 3am isn't random",
+      "winning_format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
-        "type": "full_recipe",
-        "source": "slot_6",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 9.02
+        "type": "archetype",
+        "source": "slot_4",
+        "modelled_on": "doctorwillcole",
+        "score": 14.37,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.facebook.com/1587872033348543/posts/1768555095280235",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 93,
+          "impressions": 142,
+          "engagementRate": 2.82
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DeGoG5ajB57/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 51,
+          "impressions": 131,
+          "engagementRate": 0.76
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIiyqJ_c4L_qLA"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-10-06",
+      "ehn_topic": "Heavier periods in your late 30s and 40s",
+      "winning_format": "listicle",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": true
       },
       "engagement": {
         "facebook": {
@@ -20,302 +64,270 @@
           "comments": 0,
           "shares": 0,
           "total": 11,
-          "url": "https://www.facebook.com/1587872033348543/posts/1760477462754665",
-          "days_post_publish": 14,
+          "url": "https://www.facebook.com/1587872033348543/posts/1769693375166407",
+          "days_post_publish": 13,
           "saves": 0,
-          "reach": 445,
-          "impressions": 691,
-          "engagementRate": 1.59
+          "reach": 336,
+          "impressions": 449,
+          "engagementRate": 2.45
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/DeJM8DYjQ79/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 76,
+          "impressions": 177,
+          "engagementRate": 2.26
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENH38dTxvbaCEQ"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-10-07",
+      "ehn_topic": "Magnesium: the form matters more than the dose",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": null,
+        "modelled_on": "advancedfunctionalmedicine",
+        "score": 2.0,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 5,
+          "comments": 1,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1770822771720134",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 153,
+          "impressions": 230,
+          "engagementRate": 2.61
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/p/DeLxnXIDR2W/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 60,
+          "impressions": 91,
+          "engagementRate": 0
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJSW_PLy-dnVCw"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-10-08",
+      "ehn_topic": "The symptom you've learned to live with",
+      "winning_format": "question-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 3,
+          "comments": 4,
+          "shares": 0,
+          "total": 7,
+          "url": "https://www.facebook.com/1587872033348543/posts/1771946458274432",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 146,
+          "impressions": 220,
+          "engagementRate": 3.18
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DeOWU7FiGBD/",
+          "days_post_publish": 11,
+          "saves": 2,
+          "reach": 74,
+          "impressions": 114,
+          "engagementRate": 2.63
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIzyoI-3ifPSpAE"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-10-09",
+      "ehn_topic": "Vitamin D after winter",
+      "winning_format": "stat-drop-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 6,
+          "comments": 1,
+          "shares": 1,
+          "total": 8,
+          "url": "https://www.facebook.com/1587872033348543/posts/1773084811493930",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 212,
+          "impressions": 299,
+          "engagementRate": 2.68
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DeQ7fWCjXyF/",
+          "days_post_publish": 10,
+          "saves": 1,
+          "reach": 74,
+          "impressions": 162,
+          "engagementRate": 1.23
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ2uxYDlooTZIQ"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-10-10",
+      "ehn_topic": "'It's just IBS' isn't the answer",
+      "winning_format": "reflective-carousel",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "pivot_library",
+        "modelled_on": null,
+        "score": null,
+        "face_branded": true
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.facebook.com/1587872033348543/posts/1774147914720953",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 79,
+          "impressions": 118,
+          "engagementRate": 0.85
+        },
+        "instagram": {
+          "likes": 6,
+          "comments": 0,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.instagram.com/p/DeTgQYyjJhg/",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 107,
+          "impressions": 224,
+          "engagementRate": 2.68
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEICvv9f-qZuVgAE"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-10-11",
+      "ehn_topic": "Bring someone who knows you to your first appointment",
+      "winning_format": "reflective-carousel",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "anchor",
+        "source": null,
+        "modelled_on": null,
+        "score": null,
+        "face_branded": false
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1775198007949277",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 150,
+          "impressions": 229,
+          "engagementRate": 0.87
         },
         "instagram": {
           "likes": 2,
           "comments": 0,
           "shares": 0,
           "total": 2,
-          "url": "https://www.instagram.com/p/Dd0tUrpDIgG/",
-          "days_post_publish": 14,
-          "saves": 0,
-          "reach": 83,
-          "impressions": 172,
-          "engagementRate": 1.16
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOrXi4zomKvPwwE"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-09-29",
-      "ehn_topic": "Told it was all in their head: being believed, then testing properly",
-      "winning_format": "reflective-carousel",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 10,
-          "comments": 0,
-          "shares": 0,
-          "total": 10,
-          "url": "https://www.facebook.com/1587872033348543/posts/1761594062643005",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 613,
-          "impressions": 872,
-          "engagementRate": 1.15
-        },
-        "instagram": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.instagram.com/p/Dd3SN0LkSWe/",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 89,
-          "impressions": 145,
-          "engagementRate": 0.69
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPid4Y_GgrPJzgE"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-09-30",
-      "ehn_topic": "Craving sugar isn't willpower failing you, it's a blood-sugar signal",
-      "winning_format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "full_recipe",
-        "source": "slot_9",
-        "modelled_on": "drjoshaxe",
-        "score": 5.37
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 5,
-          "comments": 0,
-          "shares": 0,
-          "total": 5,
-          "url": "https://www.facebook.com/1587872033348543/posts/1762739909195087",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 203,
-          "impressions": 293,
-          "engagementRate": 1.71
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 1,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.instagram.com/p/Dd528E9jeWo/",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 91,
-          "impressions": 193,
-          "engagementRate": 1.55
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKCTpO3U5azE_QE"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-10-01",
-      "ehn_topic": "Why autoimmune symptoms flare: the triggers that aren't as random as they feel",
-      "winning_format": "listicle",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 0,
-          "comments": 0,
-          "shares": 0,
-          "total": 0,
-          "url": "https://www.facebook.com/1587872033348543/posts/1763970212405390",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 95,
-          "impressions": 133,
-          "engagementRate": 0
-        },
-        "instagram": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.instagram.com/p/Dd8btXNEfIl/",
-          "days_post_publish": 11,
-          "saves": 0,
-          "reach": 40,
-          "impressions": 94,
-          "engagementRate": 1.06
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJq07ePI_9CUiQE"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-10-02",
-      "ehn_topic": "Reflux might be too little stomach acid, not too much: why acid blockers can backfire",
-      "winning_format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 8,
-          "comments": 1,
-          "shares": 0,
-          "total": 9,
-          "url": "https://www.facebook.com/1587872033348543/posts/1765188358950242",
-          "days_post_publish": 10,
-          "saves": 0,
-          "reach": 402,
-          "impressions": 616,
-          "engagementRate": 1.46
-        },
-        "instagram": {
-          "likes": 1,
-          "comments": 0,
-          "shares": 0,
-          "total": 1,
-          "url": "https://www.instagram.com/p/Dd_AqZijYWi/",
-          "days_post_publish": 10,
-          "saves": 0,
-          "reach": 65,
-          "impressions": 139,
-          "engagementRate": 0.72
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJujxvaW_qeyDA"
-        }
-      }
-    },
-    {
-      "day": "Sat 2026-10-03",
-      "ehn_topic": "Getting better isn't a straight line: what the good and bad weeks tell us",
-      "winning_format": "reflective-carousel",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 11,
-          "comments": 0,
-          "shares": 0,
-          "total": 11,
-          "url": "https://www.facebook.com/1587872033348543/posts/1766418668827211",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 188,
-          "impressions": 286,
-          "engagementRate": 3.85
-        },
-        "instagram": {
-          "likes": 10,
-          "comments": 0,
-          "shares": 0,
-          "total": 10,
-          "url": "https://www.instagram.com/p/DeBeiEbirPw/",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 165,
-          "impressions": 325,
-          "engagementRate": 3.08
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEN7fhLjb7qmHOw"
-        }
-      }
-    },
-    {
-      "day": "Sun 2026-10-04",
-      "ehn_topic": "Muscle is the organ of longevity: why strength beats the number on the scale",
-      "winning_format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 5,
-          "comments": 0,
-          "shares": 0,
-          "total": 5,
-          "url": "https://www.facebook.com/1587872033348543/posts/1767453848723693",
+          "url": "https://www.instagram.com/p/DeWE9z2gCT-/",
           "days_post_publish": 8,
-          "saves": 0,
-          "reach": 703,
-          "impressions": 1091,
-          "engagementRate": 0.46
-        },
-        "instagram": {
-          "likes": 0,
-          "comments": 1,
-          "shares": 8,
-          "total": 9,
-          "url": "https://www.instagram.com/p/DeEDRLRjC-5/",
-          "days_post_publish": 8,
-          "saves": 0,
-          "reach": 40,
-          "impressions": 100,
-          "engagementRate": 9
+          "saves": 2,
+          "reach": 54,
+          "impressions": 128,
+          "engagementRate": 3.13
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKCqmKiPxJm7cw"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPbdh72f9My5Ug"
         }
       }
     }
   ],
   "analysis": {
-    "computed_at": "2026-10-12T09:14:38",
+    "computed_at": "2026-10-19T09:14:01",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
+      "anchor:?": {
+        "posts": 2,
+        "avg_engagement": 6.0,
+        "avg_ig_engagement_rate": 2.88
+      },
+      "archetype:?": {
+        "posts": 1,
+        "avg_engagement": 6.0,
+        "avg_ig_engagement_rate": 0.0
+      },
+      "archetype:slot_4": {
+        "posts": 1,
+        "avg_engagement": 5.0,
+        "avg_ig_engagement_rate": 0.76
+      },
       "format_pattern:pivot_library": {
-        "posts": 5,
-        "avg_engagement": 11.4,
-        "avg_ig_engagement_rate": 2.91
-      },
-      "full_recipe:slot_6": {
-        "posts": 1,
-        "avg_engagement": 13.0,
-        "avg_ig_engagement_rate": 1.16
-      },
-      "full_recipe:slot_9": {
-        "posts": 1,
-        "avg_engagement": 8.0,
-        "avg_ig_engagement_rate": 1.55
+        "posts": 3,
+        "avg_engagement": 10.33,
+        "avg_ig_engagement_rate": 2.06
       }
     }
   }
