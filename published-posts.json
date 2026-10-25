@@ -1,215 +1,208 @@
 {
-  "week": "2026-10-12/2026-10-18",
-  "generated_at": "2026-10-19T09:13:52",
+  "week": "2026-10-19/2026-10-25",
+  "generated_at": "2026-10-26T09:14:19",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-10-12",
-      "ehn_topic": "Additives banned overseas, still on our shelves",
+      "day": "Mon 2026-10-19",
+      "ehn_topic": "Stop counting calories \u2014 the number was never the real problem",
+      "format": "tweet-card",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "DavidPerlmutterMd / drjoshaxe tweet cards; topic DrChatterjee",
+        "score": 7.4
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1784357883699956",
+          "posted_at": "2026-10-18T21:02:14.751Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DeqrstOCuSq/",
+          "posted_at": "2026-10-19T07:06:52.684Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELmYx_me7Lv7dQ",
+          "posted_at": "2026-10-19T07:06:27.543Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-10-20",
+      "ehn_topic": "Real change isn't a two-week protocol \u2014 and that's good news",
+      "format": "candid-photo-text",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole / drchatterjee candid photo + text",
+        "score": 8.0
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1785476366921441",
+          "posted_at": "2026-10-19T21:01:53.710Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DetQAAUiK5G/",
+          "posted_at": "2026-10-20T07:02:26.969Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIHXkezppbea0AE",
+          "posted_at": "2026-10-20T07:02:05.853Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-10-21",
+      "ehn_topic": "When your thyroid slows down, your whole body slows with it \u2014 and it hits women far harder",
+      "format": "simple-diagram",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "drchatterjee flow diagram; topic DrJoshAxe",
+        "score": 4.1
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1786627613472983",
+          "posted_at": "2026-10-20T21:01:03.792Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/Dev0zzjjt6-/",
+          "posted_at": "2026-10-21T07:02:36.636Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENeS1J7N0Mf6Zw",
+          "posted_at": "2026-10-21T07:02:18.349Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-10-22",
+      "ehn_topic": "Quick one: what time of day does your energy fall off a cliff?",
+      "format": "plain-list",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole plain typographic list",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1787723000030111",
+          "posted_at": "2026-10-21T21:01:19.649Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DeyZ2wHDIKF/",
+          "posted_at": "2026-10-22T07:04:40.696Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJPHlIrM5P3GUA",
+          "posted_at": "2026-10-22T07:04:29.101Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-10-23",
+      "ehn_topic": "Why one coffee wires you for hours and barely touches your mate",
       "format": "text-only-myth-bust",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "drmarkhyman",
-        "score": 51.63,
-        "face_branded": false
+        "source": "visual_test",
+        "modelled_on": "EHN text-only FB (own best FB format); IG/GBP tweet card",
+        "score": null
       },
       "platforms": {
         "facebook": {
           "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1776313324504412",
-          "posted_at": "2026-10-11T21:03:33.762Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DeYHUdPiFZQ/",
-          "posted_at": "2026-10-12T02:02:42.387Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENfiiNOf_NqutgE",
-          "posted_at": "2026-10-12T02:01:11.860Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-10-13",
-      "ehn_topic": "You don't have to earn the right to feel unwell",
-      "format": "listicle",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "doctorwillcole",
-        "score": 5.83,
-        "face_branded": true
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1777511557717922",
-          "posted_at": "2026-10-12T21:03:06.137Z"
+          "url": "https://www.facebook.com/635237239872498_1788822086586869",
+          "posted_at": "2026-10-22T21:01:25.132Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DeasJCwCLvN/",
-          "posted_at": "2026-10-13T02:02:47.162Z"
+          "url": "https://www.instagram.com/p/De0-jGXEZU2/",
+          "posted_at": "2026-10-23T07:03:47.535Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKXWqpzn9bLjhwE",
-          "posted_at": "2026-10-13T02:02:20.659Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOqlwa-57bbA-AE",
+          "posted_at": "2026-10-23T07:03:36.671Z"
         }
       }
     },
     {
-      "day": "Wed 2026-10-14",
-      "ehn_topic": "More kinds of fibre, not more fibre",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "mthfrsupportglobal",
-        "score": 4.0,
-        "face_branded": false
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1778621067606971",
-          "posted_at": "2026-10-13T21:03:29.210Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DedRFX8iv74/",
-          "posted_at": "2026-10-14T02:04:07.363Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEI-jxbPX39-d2gE",
-          "posted_at": "2026-10-14T02:02:37.386Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-10-15",
-      "ehn_topic": "Exhausted even when you're doing everything right",
-      "format": "question-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1779762094159535",
-          "posted_at": "2026-10-14T21:01:41.681Z"
-        },
-        "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/Def1zb5ircy/",
-          "posted_at": "2026-10-15T02:03:26.031Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENuE0pOv7u6-VQ",
-          "posted_at": "2026-10-15T02:02:15.227Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-10-16",
-      "ehn_topic": "Your brain registers every ultra-processed meal",
-      "format": "stat-drop-carousel",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "DavidPerlmutterMd",
-        "score": 5.09,
-        "face_branded": false
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1781091960693215",
-          "posted_at": "2026-10-15T21:01:30.663Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DeiayLVCPhR/",
-          "posted_at": "2026-10-16T02:05:06.341Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJHZzMmPhqagxgE",
-          "posted_at": "2026-10-16T02:03:35.722Z"
-        }
-      }
-    },
-    {
-      "day": "Sat 2026-10-17",
-      "ehn_topic": "The 'I'll rest when things calm down' trap",
-      "format": "reflective-carousel",
+      "day": "Sat 2026-10-24",
+      "ehn_topic": "Hay fever or histamine intolerance? Every spring I see this in clinic",
+      "format": "candid-photo-text",
       "face_branded": true,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": "drchatterjee",
-        "score": 3.94,
-        "face_branded": true
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole candid photo + text; topic mthfrsupportglobal (AU)",
+        "score": 2.0
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1782182060584205",
-          "posted_at": "2026-10-16T21:01:23.922Z"
+          "url": "https://www.facebook.com/635237239872498_1789896696479408",
+          "posted_at": "2026-10-23T21:01:11.971Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/Dek_e2sgpEZ/",
-          "posted_at": "2026-10-17T02:04:15.972Z"
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/De3jfX5ikvx/",
+          "posted_at": "2026-10-24T07:05:08.177Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKCU9M3Kxu3OOg",
-          "posted_at": "2026-10-17T02:02:26.877Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPWN0ueak6fj9gE",
+          "posted_at": "2026-10-24T07:04:51.353Z"
         }
       }
     },
     {
-      "day": "Sun 2026-10-18",
-      "ehn_topic": "Collecting diagnoses but not getting better?",
-      "format": "cta-carousel",
+      "day": "Sun 2026-10-25",
+      "ehn_topic": "You've been managing this on your own for long enough",
+      "format": "candid-photo-text",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "pivot_library",
-        "modelled_on": null,
-        "score": null,
-        "face_branded": false
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole candid photo + text (no face)",
+        "score": null
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1783271467141931",
-          "posted_at": "2026-10-17T21:02:10.634Z"
+          "url": "https://www.facebook.com/635237239872498_1790948049707606",
+          "posted_at": "2026-10-24T21:03:37.269Z"
         },
         "instagram": {
-          "kind": "carousel_5_slides",
-          "url": "https://www.instagram.com/p/DenkIGUCg2Q/",
-          "posted_at": "2026-10-18T02:02:56.513Z"
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/De6ILOUjZAd/",
+          "posted_at": "2026-10-25T07:04:06.331Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEMGCgsGyh9X7Jg",
-          "posted_at": "2026-10-18T02:01:41.097Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENSS6c68g8KtrwE",
+          "posted_at": "2026-10-25T07:03:55.732Z"
         }
       }
     }
