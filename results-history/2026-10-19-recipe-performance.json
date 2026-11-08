@@ -1,0 +1,312 @@
+{
+  "week": "2026-10-19/2026-10-25",
+  "measurement_date": "2026-11-02",
+  "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
+  "results": [
+    {
+      "day": "Mon 2026-10-19",
+      "ehn_topic": "Stop counting calories \u2014 the number was never the real problem",
+      "winning_format": "tweet-card",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "DavidPerlmutterMd / drjoshaxe tweet cards; topic DrChatterjee",
+        "score": 7.4
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 5,
+          "comments": 0,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.facebook.com/1587872033348543/posts/1784357883699956",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 123,
+          "impressions": 184,
+          "engagementRate": 2.72
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/DeqrstOCuSq/",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 131,
+          "impressions": 204,
+          "engagementRate": 1.96
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELmYx_me7Lv7dQ"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-10-20",
+      "ehn_topic": "Real change isn't a two-week protocol \u2014 and that's good news",
+      "winning_format": "candid-photo-text",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole / drchatterjee candid photo + text",
+        "score": 8.0
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 7,
+          "comments": 0,
+          "shares": 0,
+          "total": 7,
+          "url": "https://www.facebook.com/1587872033348543/posts/1785476366921441",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 251,
+          "impressions": 394,
+          "engagementRate": 1.78
+        },
+        "instagram": {
+          "likes": 10,
+          "comments": 1,
+          "shares": 0,
+          "total": 11,
+          "url": "https://www.instagram.com/p/DetQAAUiK5G/",
+          "days_post_publish": 13,
+          "saves": 1,
+          "reach": 182,
+          "impressions": 323,
+          "engagementRate": 3.72
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEIHXkezppbea0AE"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-10-21",
+      "ehn_topic": "When your thyroid slows down, your whole body slows with it \u2014 and it hits women far harder",
+      "winning_format": "simple-diagram",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "drchatterjee flow diagram; topic DrJoshAxe",
+        "score": 4.1
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 1,
+          "total": 5,
+          "url": "https://www.facebook.com/1587872033348543/posts/1786627613472983",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 129,
+          "impressions": 200,
+          "engagementRate": 2.5
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 1,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.instagram.com/p/Dev0zzjjt6-/",
+          "days_post_publish": 12,
+          "saves": 0,
+          "reach": 65,
+          "impressions": 108,
+          "engagementRate": 1.85
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENeS1J7N0Mf6Zw"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-10-22",
+      "ehn_topic": "Quick one: what time of day does your energy fall off a cliff?",
+      "winning_format": "plain-list",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole plain typographic list",
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 1,
+          "shares": 0,
+          "total": 3,
+          "url": "https://www.facebook.com/1587872033348543/posts/1787723000030111",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 78,
+          "impressions": 115,
+          "engagementRate": 2.61
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 1,
+          "total": 1,
+          "url": "https://www.instagram.com/p/DeyZ2wHDIKF/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 77,
+          "impressions": 136,
+          "engagementRate": 0.74
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJPHlIrM5P3GUA"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-10-23",
+      "ehn_topic": "Why one coffee wires you for hours and barely touches your mate",
+      "winning_format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "EHN text-only FB (own best FB format); IG/GBP tweet card",
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1788822086586869",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 195,
+          "impressions": 294,
+          "engagementRate": 0.68
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/De0-jGXEZU2/",
+          "days_post_publish": 10,
+          "saves": 0,
+          "reach": 124,
+          "impressions": 189,
+          "engagementRate": 0.53
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOqlwa-57bbA-AE"
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-10-24",
+      "ehn_topic": "Hay fever or histamine intolerance? Every spring I see this in clinic",
+      "winning_format": "candid-photo-text",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole candid photo + text; topic mthfrsupportglobal (AU)",
+        "score": 2.0
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 16,
+          "comments": 0,
+          "shares": 0,
+          "total": 16,
+          "url": "https://www.facebook.com/1587872033348543/posts/1789896696479408",
+          "days_post_publish": 9,
+          "saves": 0,
+          "reach": 696,
+          "impressions": 917,
+          "engagementRate": 1.74
+        },
+        "instagram": {
+          "likes": 5,
+          "comments": 0,
+          "shares": 0,
+          "total": 5,
+          "url": "https://www.instagram.com/p/De3jfX5ikvx/",
+          "days_post_publish": 9,
+          "saves": 1,
+          "reach": 139,
+          "impressions": 230,
+          "engagementRate": 2.61
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEPWN0ueak6fj9gE"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-10-25",
+      "ehn_topic": "You've been managing this on your own for long enough",
+      "winning_format": "candid-photo-text",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "doctorwillcole candid photo + text (no face)",
+        "score": null
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 5,
+          "comments": 1,
+          "shares": 0,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1790948049707606",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 160,
+          "impressions": 223,
+          "engagementRate": 2.69
+        },
+        "instagram": {
+          "likes": 1,
+          "comments": 0,
+          "shares": 0,
+          "total": 1,
+          "url": "https://www.instagram.com/p/De6ILOUjZAd/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 88,
+          "impressions": 153,
+          "engagementRate": 0.65
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENSS6c68g8KtrwE"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "computed_at": "2026-11-02T09:14:03",
+    "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
+    "by_attribution": {
+      "format_pattern:visual_test": {
+        "posts": 7,
+        "avg_engagement": 9.86,
+        "avg_ig_engagement_rate": 1.72
+      }
+    }
+  }
+}

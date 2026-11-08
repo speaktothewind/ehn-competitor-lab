@@ -1,208 +1,204 @@
 {
-  "week": "2026-10-26/2026-11-01",
-  "generated_at": "2026-11-02T09:13:56",
+  "week": "2026-11-02/2026-11-08",
+  "generated_at": "2026-11-09T09:14:18",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-10-26",
-      "ehn_topic": "Low testosterone in women is real, and often missed",
-      "format": "charcoal-card",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "live #1 producible format stat-drop-carousel (42% of fresh winners); EHN charcoal template; pairs with the week's article",
-        "score": null
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1792024372933307",
-          "posted_at": "2026-10-25T21:02:51.094Z"
-        },
-        "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/De8svxAjIB0/",
-          "posted_at": "2026-10-26T07:02:10.477Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEJ7VltGvgt_OdQ",
-          "posted_at": "2026-10-26T07:01:16.571Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-10-27",
-      "ehn_topic": "Why I practise the way I do",
-      "format": "candid-photo-text",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "doctorwillcole / drchatterjee candid photo + text",
-        "score": null
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1793196666149411",
-          "posted_at": "2026-10-26T21:02:14.878Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/De_RjH6Djca/",
-          "posted_at": "2026-10-27T07:02:13.578Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKmt0c3ln-usIQ",
-          "posted_at": "2026-10-27T07:02:01.632Z"
-        }
-      }
-    },
-    {
-      "day": "Wed 2026-10-28",
-      "ehn_topic": "Low drive isn't laziness: your reward chemistry",
-      "format": "simple-diagram",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drmarkhyman 'Natural Dopamine' listicle (5.81x, 2026-10-17); look drchatterjee flow diagram",
-        "score": 5.81
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1794487669353644",
-          "posted_at": "2026-10-27T21:01:07.759Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfB2w4WABQR/",
-          "posted_at": "2026-10-28T07:05:56.682Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKENPihMOLxIqgeg",
-          "posted_at": "2026-10-28T07:05:41.440Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-10-29",
-      "ehn_topic": "What health rule turned out wrong for you?",
-      "format": "plain-list",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "doctorwillcole plain typographic list (16.78x, current breakout)",
-        "score": 16.78
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1795831635885914",
-          "posted_at": "2026-10-28T21:00:55.303Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfEbAcRkSs5/",
-          "posted_at": "2026-10-29T07:01:05.279Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEKKu-9P9ya-MLg",
-          "posted_at": "2026-10-29T07:00:52.704Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-10-30",
-      "ehn_topic": "Cannabis and the brain: what regular use quietly does",
-      "format": "text-only-myth-bust",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic + text-only format drdanielamen (4.96x, 2026-10-16); IG/GBP tweet card",
-        "score": 4.96
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1797171249085286",
-          "posted_at": "2026-10-29T21:00:47.657Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfG_6S8EfyP/",
-          "posted_at": "2026-10-30T07:02:00.833Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEM_g2ZDMrZzzcA",
-          "posted_at": "2026-10-30T07:01:52.627Z"
-        }
-      }
-    },
-    {
-      "day": "Sat 2026-10-31",
-      "ehn_topic": "I'd rather hear your symptoms than your self-diagnosis",
-      "format": "candid-photo-text",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "doctorwillcole / drchatterjee candid photo + text",
-        "score": null
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1798510582284686",
-          "posted_at": "2026-10-30T21:01:12.543Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfJkwWvDSK8/",
-          "posted_at": "2026-10-31T07:02:27.536Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEL6rkumZ_oaaUw",
-          "posted_at": "2026-10-31T07:02:15.457Z"
-        }
-      }
-    },
-    {
-      "day": "Sun 2026-11-01",
-      "ehn_topic": "You don't need a diagnosis to book",
+      "day": "Mon 2026-11-02",
+      "ehn_topic": "\"I ate that as a kid and I'm fine\": same name, different recipe",
       "format": "tweet-card",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "drmarkhyman tweet card (7.34x, current breakout)",
-        "score": 7.34
+        "modelled_on": "topic drmarkhyman 'I ate that as a kid' then/now (14.72x, current breakout); look DavidPerlmutterMd tweet card",
+        "score": 14.72
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1799772605491817",
-          "posted_at": "2026-10-31T21:02:06.435Z"
+          "url": "https://www.facebook.com/635237239872498_1800974978704913",
+          "posted_at": "2026-11-01T21:00:58.907Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfMJkIaDrfb/",
-          "posted_at": "2026-11-01T07:02:37.471Z"
+          "url": "https://www.instagram.com/p/DfOuUiYCKbd/",
+          "posted_at": "2026-11-02T07:02:18.869Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKEOHU6fzA--SEqgE",
-          "posted_at": "2026-11-01T07:02:24.460Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELnlk5CBrpHYQA",
+          "posted_at": "2026-11-02T07:01:30.885Z"
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-11-03",
+      "ehn_topic": "Why I say 'brain health' instead of 'mental illness'",
+      "format": "candid-photo-text",
+      "face_branded": true,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "topic drdanielamen brain-health reframe (6.07x, current breakout); look doctorwillcole / drchatterjee candid photo + text",
+        "score": 6.07
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1802175228584888",
+          "posted_at": "2026-11-02T21:01:40.151Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DfRTBlmgt7m/",
+          "posted_at": "2026-11-03T07:01:35.359Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNMENoemZYZUUxOUZPN2lnQnZIRDh3",
+          "posted_at": "2026-11-03T07:01:14.969Z"
+        }
+      }
+    },
+    {
+      "day": "Thu 2026-11-05",
+      "ehn_topic": "Quick one: where did you eat lunch yesterday?",
+      "format": "plain-list",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "topic drpedre daily-habits list (5.69x, current breakout); look doctorwillcole plain typographic list",
+        "score": 5.69
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1804621865006891",
+          "posted_at": "2026-11-04T21:01:44.158Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DfWc3IbCLdF/",
+          "posted_at": "2026-11-05T07:03:44.764Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpYekhMZU9WcW1hTjJScThMeWgwVGh3",
+          "posted_at": "2026-11-05T07:03:24.784Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-11-06",
+      "ehn_topic": "Drink to unwind? Why the next day often brings 'hangxiety'",
+      "format": "simple-diagram",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "topic drdanielamen alcohol and the brain (13.06x, current breakout); look drchatterjee flow diagram",
+        "score": 13.06
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1805910201544724",
+          "posted_at": "2026-11-05T21:00:54.828Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DfZBYxxiGBA/",
+          "posted_at": "2026-11-06T07:01:18.691Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpqVW01VFZsYXVpUzA5RUE2Y21DdWtB",
+          "posted_at": "2026-11-06T07:01:03.631Z"
+        }
+      }
+    },
+    {
+      "day": "Sun 2026-11-08",
+      "ehn_topic": "Your MTHFR result isn't a diagnosis",
+      "format": "text-only-myth-bust",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "topic mthfrsupportglobal MTHFR variant (8x, current breakout); text-only format, IG/GBP tweet card",
+        "score": 8
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "text-only",
+          "url": "https://www.facebook.com/635237239872498_1808372897965121",
+          "posted_at": "2026-11-07T21:00:53.287Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DfeK87EgqJ5/",
+          "posted_at": "2026-11-08T07:01:08.698Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDppVXU5WWdkX0RVRGZhQjFlMWNaMzln",
+          "posted_at": "2026-11-08T07:00:50.638Z"
+        }
+      }
+    },
+    {
+      "day": "Wed 2026-11-04",
+      "ehn_topic": "Nearly half of dementia cases are linked to things we can change",
+      "format": "video",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "video",
+        "source": "video_post"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "video",
+          "url": "https://www.facebook.com/watch/?v=1389258149704295",
+          "posted_at": "2026-11-03T21:03:48.387Z"
+        },
+        "instagram": {
+          "kind": "video",
+          "url": "https://www.instagram.com/reel/DfT3xQPDgE3/",
+          "posted_at": "2026-11-04T07:01:23.260Z"
+        },
+        "googlebusiness": {
+          "kind": "video",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Sat 2026-11-07",
+      "ehn_topic": "The free 1-minute resets I give stressed patients",
+      "format": "talking-head",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "video",
+        "source": "talking_post"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "video",
+          "url": "https://www.facebook.com/watch/?v=3763332277157508",
+          "posted_at": "2026-11-06T21:01:00.722Z"
+        },
+        "instagram": {
+          "kind": "video",
+          "url": "https://www.instagram.com/reel/DfbmJmxiaN0/",
+          "posted_at": "2026-11-07T07:01:31.114Z"
+        },
+        "googlebusiness": {
+          "kind": "video",
+          "url": null,
+          "posted_at": null
         }
       }
     }
