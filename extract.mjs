@@ -29,7 +29,7 @@ const CSV_URLS = [
   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSrLbTQLJGNH9YAe2Cc3YAf_rfi0vylFGb7a00RwQVdimRO9J0vC7G3YvEoSRv_b-RDww_uk-Hvwudh/pub?output=csv',
 ];
 const SELF = ['elemental_health_nutrition', 'elementalhealthandnutrition'];
-const AUSET = ['functionalmedicineau','advancedfunctional','stevenjudge','shiftclinic','maslen','melbournefxmed','mthfrsupport','furness','dilorenzo','supercharged','leeholmes','cyndiomeara','thehealthygut','coomes','askdrvincent','candrawinata','sibodoctor','lucyrose','koullouros','ehrlich','kristof','woolhouse','holisticgp','homehealthdoc','bijlsma','thatgutfeeling','kulturedwellness','afhealth','herbnerd'];
+const AUSET = ['functionalmedicineau','advancedfunctional','stevenjudge','shiftclinic','maslen','melbournefxmed','mthfrsupport','furness','dilorenzo','supercharged','leeholmes','cyndiomeara','thehealthygut','coomes','askdrvincent','candrawinata','sibodoctor','lucyrose','koullouros','ehrlich','kristof','woolhouse','holisticgp','homehealthdoc','bijlsma','thatgutfeeling','kulturedwellness','afhealth','herbnerd','larabriden','kringoudis','chloemcleod','movingdietitian','fertilitynutritionist','naturalhealthmedicine','samwithveggies','fettke','karlyraven','pranathrive','bodyinstitute','wellbeingeorge','biophilia','sandyeun','everlab','skinsoftware','nourishme','guthealthgurus','kinfertility','himsau','eucalyptushealth','instantconsult','hersau'];
 const FORMAT = ['karan','dridz','doctormike','idriss','doctorly','muneeb','whitneybowe','richbff','humphrey','ramit','huberman'];
 
 // Per-bucket vision allocation. Pure top-by-score buries AU competitors (their healthy
