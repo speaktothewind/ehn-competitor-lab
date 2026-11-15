@@ -1,156 +1,127 @@
 {
-  "week": "2026-11-02/2026-11-08",
-  "generated_at": "2026-11-09T09:14:18",
+  "week": "2026-11-09/2026-11-15",
+  "generated_at": "2026-11-16T09:15:40",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Mon 2026-11-02",
-      "ehn_topic": "\"I ate that as a kid and I'm fine\": same name, different recipe",
-      "format": "tweet-card",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drmarkhyman 'I ate that as a kid' then/now (14.72x, current breakout); look DavidPerlmutterMd tweet card",
-        "score": 14.72
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1800974978704913",
-          "posted_at": "2026-11-01T21:00:58.907Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfOuUiYCKbd/",
-          "posted_at": "2026-11-02T07:02:18.869Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELnlk5CBrpHYQA",
-          "posted_at": "2026-11-02T07:01:30.885Z"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-11-03",
-      "ehn_topic": "Why I say 'brain health' instead of 'mental illness'",
-      "format": "candid-photo-text",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drdanielamen brain-health reframe (6.07x, current breakout); look doctorwillcole / drchatterjee candid photo + text",
-        "score": 6.07
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1802175228584888",
-          "posted_at": "2026-11-02T21:01:40.151Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfRTBlmgt7m/",
-          "posted_at": "2026-11-03T07:01:35.359Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNMENoemZYZUUxOUZPN2lnQnZIRDh3",
-          "posted_at": "2026-11-03T07:01:14.969Z"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-11-05",
-      "ehn_topic": "Quick one: where did you eat lunch yesterday?",
-      "format": "plain-list",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drpedre daily-habits list (5.69x, current breakout); look doctorwillcole plain typographic list",
-        "score": 5.69
-      },
-      "platforms": {
-        "facebook": {
-          "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1804621865006891",
-          "posted_at": "2026-11-04T21:01:44.158Z"
-        },
-        "instagram": {
-          "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfWc3IbCLdF/",
-          "posted_at": "2026-11-05T07:03:44.764Z"
-        },
-        "googlebusiness": {
-          "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpYekhMZU9WcW1hTjJScThMeWgwVGh3",
-          "posted_at": "2026-11-05T07:03:24.784Z"
-        }
-      }
-    },
-    {
-      "day": "Fri 2026-11-06",
-      "ehn_topic": "Drink to unwind? Why the next day often brings 'hangxiety'",
+      "day": "Wed 2026-11-11",
+      "ehn_topic": "On thyroid medication but still flat: the T4-to-T3 step",
       "format": "simple-diagram",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "topic drdanielamen alcohol and the brain (13.06x, current breakout); look drchatterjee flow diagram",
-        "score": 13.06
+        "modelled_on": "EHN evergreen topic; look drchatterjee flow diagram",
+        "score": null
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1805910201544724",
-          "posted_at": "2026-11-05T21:00:54.828Z"
+          "url": "https://www.facebook.com/635237239872498_1812194067583004",
+          "posted_at": "2026-11-10T21:00:57.867Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfZBYxxiGBA/",
-          "posted_at": "2026-11-06T07:01:18.691Z"
+          "url": "https://www.instagram.com/p/Dfl5bAJjGO5/",
+          "posted_at": "2026-11-11T07:01:49.021Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpqVW01VFZsYXVpUzA5RUE2Y21DdWtB",
-          "posted_at": "2026-11-06T07:01:03.631Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpRRmlaNVBWeGs4VTRZZURpUjRVeDBn",
+          "posted_at": "2026-11-11T07:00:52.966Z"
         }
       }
     },
     {
-      "day": "Sun 2026-11-08",
-      "ehn_topic": "Your MTHFR result isn't a diagnosis",
-      "format": "text-only-myth-bust",
+      "day": "Sat 2026-11-14",
+      "ehn_topic": "Why I re-check a 'normal' result: how reference ranges are built",
+      "format": "tweet-card",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "topic mthfrsupportglobal MTHFR variant (8x, current breakout); text-only format, IG/GBP tweet card",
-        "score": 8
+        "modelled_on": "EHN own 'normal' post (6x, 27/10); look DavidPerlmutterMd tweet card",
+        "score": 6
       },
       "platforms": {
         "facebook": {
-          "kind": "text-only",
-          "url": "https://www.facebook.com/635237239872498_1808372897965121",
-          "posted_at": "2026-11-07T21:00:53.287Z"
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1816162240519520",
+          "posted_at": "2026-11-13T21:02:03.335Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfeK87EgqJ5/",
-          "posted_at": "2026-11-08T07:01:08.698Z"
+          "url": "https://www.instagram.com/p/DftnvECDfZ_/",
+          "posted_at": "2026-11-14T07:01:14.820Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDppVXU5WWdkX0RVRGZhQjFlMWNaMzln",
-          "posted_at": "2026-11-08T07:00:50.638Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpaU3pGVTNjRmI2OUd6Z0dkY201RzlB",
+          "posted_at": "2026-11-14T07:01:29.249Z"
         }
       }
     },
     {
-      "day": "Wed 2026-11-04",
-      "ehn_topic": "Nearly half of dementia cases are linked to things we can change",
+      "day": "Thu 2026-11-12",
+      "ehn_topic": "How far down the list did your cholesterol test go? ApoB and Lp(a)",
+      "format": "plain-list",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "format_pattern",
+        "source": "visual_test",
+        "modelled_on": "EHN evergreen topic; look doctorwillcole plain list; listicle is live #2 producible format (19%)",
+        "score": null
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1813538464115231",
+          "posted_at": "2026-11-11T21:02:37.676Z"
+        },
+        "instagram": {
+          "kind": "single_image",
+          "url": "https://www.instagram.com/p/DfoeO7bAl2Z/",
+          "posted_at": "2026-11-12T07:02:04.845Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNdjJ0RlRnTS1BdVQ5cGhKX0hSSlhR",
+          "posted_at": "2026-11-12T07:01:46.930Z"
+        }
+      }
+    },
+    {
+      "day": "Mon 2026-11-09",
+      "ehn_topic": "The food-mood link runs through your gut bugs",
+      "format": "charcoal-card",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "lab_winner",
+        "modelled_on": "drdanielamen 'Foods that make you depressed' reel",
+        "score": 10.79
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "image",
+          "url": "https://www.facebook.com/635237239872498_1809650531170691",
+          "posted_at": "2026-11-08T21:01:06.980Z"
+        },
+        "instagram": {
+          "kind": "carousel_6_slides",
+          "url": "https://www.instagram.com/p/DfgwFVcjs7O/",
+          "posted_at": "2026-11-09T07:04:03.242Z"
+        },
+        "googlebusiness": {
+          "kind": "hook_card",
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDo0d3hSMGlEQUdNc1ZneWl0MVl1OWFB",
+          "posted_at": "2026-11-09T07:02:11.096Z"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-11-13",
+      "ehn_topic": "Urgent loose stools after meals: the bile acid problem labelled as IBS",
       "format": "video",
       "face_branded": null,
       "lab_attribution": {
@@ -160,13 +131,13 @@
       "platforms": {
         "facebook": {
           "kind": "video",
-          "url": "https://www.facebook.com/watch/?v=1389258149704295",
-          "posted_at": "2026-11-03T21:03:48.387Z"
+          "url": "https://www.facebook.com/watch/?v=1480754843973198",
+          "posted_at": "2026-11-12T21:02:33.413Z"
         },
         "instagram": {
           "kind": "video",
-          "url": "https://www.instagram.com/reel/DfT3xQPDgE3/",
-          "posted_at": "2026-11-04T07:01:23.260Z"
+          "url": "https://www.instagram.com/reel/DfrC9PyEizl/",
+          "posted_at": "2026-11-13T07:01:38.949Z"
         },
         "googlebusiness": {
           "kind": "video",
@@ -176,8 +147,8 @@
       }
     },
     {
-      "day": "Sat 2026-11-07",
-      "ehn_topic": "The free 1-minute resets I give stressed patients",
+      "day": "Sun 2026-11-15",
+      "ehn_topic": "What actually happens between booking and your first appointment",
       "format": "talking-head",
       "face_branded": null,
       "lab_attribution": {
@@ -187,13 +158,40 @@
       "platforms": {
         "facebook": {
           "kind": "video",
-          "url": "https://www.facebook.com/watch/?v=3763332277157508",
-          "posted_at": "2026-11-06T21:01:00.722Z"
+          "url": "https://www.facebook.com/watch/?v=3651057631740512",
+          "posted_at": "2026-11-14T21:01:57.716Z"
         },
         "instagram": {
           "kind": "video",
-          "url": "https://www.instagram.com/reel/DfbmJmxiaN0/",
-          "posted_at": "2026-11-07T07:01:31.114Z"
+          "url": "https://www.instagram.com/reel/DfwMj5FFVPA/",
+          "posted_at": "2026-11-15T07:01:56.681Z"
+        },
+        "googlebusiness": {
+          "kind": "video",
+          "url": null,
+          "posted_at": null
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-11-10",
+      "ehn_topic": "Akkermansia, metabolism and weight: what the trials found, and why I test first",
+      "format": "talking-head",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "video",
+        "source": "talking_post"
+      },
+      "platforms": {
+        "facebook": {
+          "kind": "video",
+          "url": "https://www.facebook.com/watch/?v=974226175311426",
+          "posted_at": "2026-11-09T21:02:03.095Z"
+        },
+        "instagram": {
+          "kind": "video",
+          "url": "https://www.instagram.com/reel/DfjUqEsglsU/",
+          "posted_at": "2026-11-10T07:02:53.462Z"
         },
         "googlebusiness": {
           "kind": "video",
