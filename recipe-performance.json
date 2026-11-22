@@ -1,102 +1,18 @@
 {
-  "week": "2026-11-02/2026-11-08",
-  "measurement_date": "2026-11-16",
+  "week": "2026-11-09/2026-11-15",
+  "measurement_date": "2026-11-23",
   "note": "Engagement from Zernio native /analytics (current cumulative) at the snapshot date. GBP excluded by Zernio /analytics. Compare on engagementRate, not raw counts \u2014 baseline weeks are older. Tiny sample: directional only.",
   "results": [
     {
-      "day": "Mon 2026-11-02",
-      "ehn_topic": "\"I ate that as a kid and I'm fine\": same name, different recipe",
-      "winning_format": "tweet-card",
+      "day": "Wed 2026-11-11",
+      "ehn_topic": "On thyroid medication but still flat: the T4-to-T3 step",
+      "winning_format": "simple-diagram",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "topic drmarkhyman 'I ate that as a kid' then/now (14.72x, current breakout); look DavidPerlmutterMd tweet card",
-        "score": 14.72
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 3,
-          "comments": 0,
-          "shares": 0,
-          "total": 3,
-          "url": "https://www.facebook.com/1587872033348543/posts/1800974978704913",
-          "days_post_publish": 14,
-          "saves": 0,
-          "reach": 154,
-          "impressions": 240,
-          "engagementRate": 1.25
-        },
-        "instagram": {
-          "likes": 2,
-          "comments": 0,
-          "shares": 0,
-          "total": 2,
-          "url": "https://www.instagram.com/p/DfOuUiYCKbd/",
-          "days_post_publish": 14,
-          "saves": 0,
-          "reach": 112,
-          "impressions": 163,
-          "engagementRate": 1.23
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CIHM0ogKELnlk5CBrpHYQA"
-        }
-      }
-    },
-    {
-      "day": "Tue 2026-11-03",
-      "ehn_topic": "Why I say 'brain health' instead of 'mental illness'",
-      "winning_format": "candid-photo-text",
-      "face_branded": true,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drdanielamen brain-health reframe (6.07x, current breakout); look doctorwillcole / drchatterjee candid photo + text",
-        "score": 6.07
-      },
-      "engagement": {
-        "facebook": {
-          "likes": 12,
-          "comments": 0,
-          "shares": 1,
-          "total": 13,
-          "url": "https://www.facebook.com/1587872033348543/posts/1802175228584888",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 372,
-          "impressions": 575,
-          "engagementRate": 2.26
-        },
-        "instagram": {
-          "likes": 4,
-          "comments": 0,
-          "shares": 0,
-          "total": 4,
-          "url": "https://www.instagram.com/p/DfRTBlmgt7m/",
-          "days_post_publish": 13,
-          "saves": 0,
-          "reach": 90,
-          "impressions": 150,
-          "engagementRate": 2.67
-        },
-        "googlebusiness": {
-          "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNMENoemZYZUUxOUZPN2lnQnZIRDh3"
-        }
-      }
-    },
-    {
-      "day": "Thu 2026-11-05",
-      "ehn_topic": "Quick one: where did you eat lunch yesterday?",
-      "winning_format": "plain-list",
-      "face_branded": false,
-      "lab_attribution": {
-        "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "topic drpedre daily-habits list (5.69x, current breakout); look doctorwillcole plain typographic list",
-        "score": 5.69
+        "modelled_on": "EHN evergreen topic; look drchatterjee flow diagram",
+        "score": null
       },
       "engagement": {
         "facebook": {
@@ -104,83 +20,83 @@
           "comments": 1,
           "shares": 0,
           "total": 2,
-          "url": "https://www.facebook.com/1587872033348543/posts/1804621865006891",
-          "days_post_publish": 11,
+          "url": "https://www.facebook.com/1587872033348543/posts/1812194067583004",
+          "days_post_publish": 12,
           "saves": 0,
-          "reach": 93,
-          "impressions": 136,
-          "engagementRate": 1.47
+          "reach": 126,
+          "impressions": 174,
+          "engagementRate": 1.15
         },
         "instagram": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "total": 0,
-          "url": "https://www.instagram.com/p/DfWc3IbCLdF/",
-          "days_post_publish": 11,
+          "url": "https://www.instagram.com/p/Dfl5bAJjGO5/",
+          "days_post_publish": 12,
           "saves": 0,
-          "reach": 78,
-          "impressions": 117,
+          "reach": 53,
+          "impressions": 84,
           "engagementRate": 0
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpYekhMZU9WcW1hTjJScThMeWgwVGh3"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpRRmlaNVBWeGs4VTRZZURpUjRVeDBn"
         }
       }
     },
     {
-      "day": "Fri 2026-11-06",
-      "ehn_topic": "Drink to unwind? Why the next day often brings 'hangxiety'",
-      "winning_format": "simple-diagram",
+      "day": "Sat 2026-11-14",
+      "ehn_topic": "Why I re-check a 'normal' result: how reference ranges are built",
+      "winning_format": "tweet-card",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "topic drdanielamen alcohol and the brain (13.06x, current breakout); look drchatterjee flow diagram",
-        "score": 13.06
+        "modelled_on": "EHN own 'normal' post (6x, 27/10); look DavidPerlmutterMd tweet card",
+        "score": 6
       },
       "engagement": {
         "facebook": {
-          "likes": 1,
+          "likes": 6,
           "comments": 0,
           "shares": 0,
-          "total": 1,
-          "url": "https://www.facebook.com/1587872033348543/posts/1805910201544724",
-          "days_post_publish": 10,
+          "total": 6,
+          "url": "https://www.facebook.com/1587872033348543/posts/1816162240519520",
+          "days_post_publish": 9,
           "saves": 0,
-          "reach": 110,
-          "impressions": 161,
-          "engagementRate": 0.62
+          "reach": 149,
+          "impressions": 211,
+          "engagementRate": 2.84
         },
         "instagram": {
-          "likes": 0,
+          "likes": 3,
           "comments": 0,
           "shares": 0,
-          "total": 0,
-          "url": "https://www.instagram.com/p/DfZBYxxiGBA/",
-          "days_post_publish": 10,
+          "total": 3,
+          "url": "https://www.instagram.com/p/DftnvECDfZ_/",
+          "days_post_publish": 9,
           "saves": 0,
-          "reach": 67,
-          "impressions": 97,
-          "engagementRate": 0
+          "reach": 79,
+          "impressions": 117,
+          "engagementRate": 2.56
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpqVW01VFZsYXVpUzA5RUE2Y21DdWtB"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpaU3pGVTNjRmI2OUd6Z0dkY201RzlB"
         }
       }
     },
     {
-      "day": "Sun 2026-11-08",
-      "ehn_topic": "Your MTHFR result isn't a diagnosis",
-      "winning_format": "text-only-myth-bust",
+      "day": "Thu 2026-11-12",
+      "ehn_topic": "How far down the list did your cholesterol test go? ApoB and Lp(a)",
+      "winning_format": "plain-list",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
         "source": "visual_test",
-        "modelled_on": "topic mthfrsupportglobal MTHFR variant (8x, current breakout); text-only format, IG/GBP tweet card",
-        "score": 8
+        "modelled_on": "EHN evergreen topic; look doctorwillcole plain list; listicle is live #2 producible format (19%)",
+        "score": null
       },
       "engagement": {
         "facebook": {
@@ -188,34 +104,76 @@
           "comments": 0,
           "shares": 0,
           "total": 2,
-          "url": "https://www.facebook.com/1587872033348543/posts/1808372897965121",
-          "days_post_publish": 8,
+          "url": "https://www.facebook.com/1587872033348543/posts/1813538464115231",
+          "days_post_publish": 11,
           "saves": 0,
-          "reach": 67,
-          "impressions": 103,
-          "engagementRate": 1.94
+          "reach": 109,
+          "impressions": 162,
+          "engagementRate": 1.23
         },
         "instagram": {
           "likes": 0,
           "comments": 0,
           "shares": 0,
           "total": 0,
-          "url": "https://www.instagram.com/p/DfeK87EgqJ5/",
-          "days_post_publish": 8,
-          "saves": 1,
-          "reach": 80,
-          "impressions": 122,
-          "engagementRate": 0.82
+          "url": "https://www.instagram.com/p/DfoeO7bAl2Z/",
+          "days_post_publish": 11,
+          "saves": 0,
+          "reach": 56,
+          "impressions": 95,
+          "engagementRate": 0
         },
         "googlebusiness": {
           "views": null,
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDppVXU5WWdkX0RVRGZhQjFlMWNaMzln"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNdjJ0RlRnTS1BdVQ5cGhKX0hSSlhR"
         }
       }
     },
     {
-      "day": "Wed 2026-11-04",
-      "ehn_topic": "Nearly half of dementia cases are linked to things we can change",
+      "day": "Mon 2026-11-09",
+      "ehn_topic": "The food-mood link runs through your gut bugs",
+      "winning_format": "charcoal-card",
+      "face_branded": false,
+      "lab_attribution": {
+        "type": "archetype",
+        "source": "lab_winner",
+        "modelled_on": "drdanielamen 'Foods that make you depressed' reel",
+        "score": 10.79
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/1587872033348543/posts/1809650531170691",
+          "days_post_publish": 14,
+          "saves": 0,
+          "reach": 77,
+          "impressions": 119,
+          "engagementRate": 1.68
+        },
+        "instagram": {
+          "likes": 3,
+          "comments": 1,
+          "shares": 0,
+          "total": 4,
+          "url": "https://www.instagram.com/p/DfgwFVcjs7O/",
+          "days_post_publish": 14,
+          "saves": 1,
+          "reach": 53,
+          "impressions": 130,
+          "engagementRate": 3.85
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDo0d3hSMGlEQUdNc1ZneWl0MVl1OWFB"
+        }
+      }
+    },
+    {
+      "day": "Fri 2026-11-13",
+      "ehn_topic": "Urgent loose stools after meals: the bile acid problem labelled as IBS",
       "winning_format": "video",
       "face_branded": null,
       "lab_attribution": {
@@ -224,28 +182,28 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 4,
-          "comments": 0,
-          "shares": 0,
-          "total": 4,
-          "url": "https://www.facebook.com/reel/1389258149704295/",
-          "days_post_publish": 12,
-          "saves": 0,
-          "reach": 36,
-          "impressions": 46,
-          "engagementRate": 8.7
-        },
-        "instagram": {
           "likes": 1,
           "comments": 0,
           "shares": 0,
           "total": 1,
-          "url": "https://www.instagram.com/reel/DfT3xQPDgE3/",
-          "days_post_publish": 12,
+          "url": "https://www.facebook.com/reel/1480754843973198/",
+          "days_post_publish": 10,
           "saves": 0,
-          "reach": 124,
-          "impressions": 143,
-          "engagementRate": 0.7
+          "reach": 52,
+          "impressions": 63,
+          "engagementRate": 1.59
+        },
+        "instagram": {
+          "likes": 0,
+          "comments": 0,
+          "shares": 0,
+          "total": 0,
+          "url": "https://www.instagram.com/reel/DfrC9PyEizl/",
+          "days_post_publish": 10,
+          "saves": 1,
+          "reach": 183,
+          "impressions": 211,
+          "engagementRate": 0.47
         },
         "googlebusiness": {
           "views": null,
@@ -254,8 +212,8 @@
       }
     },
     {
-      "day": "Sat 2026-11-07",
-      "ehn_topic": "The free 1-minute resets I give stressed patients",
+      "day": "Sun 2026-11-15",
+      "ehn_topic": "What actually happens between booking and your first appointment",
       "winning_format": "talking-head",
       "face_branded": null,
       "lab_attribution": {
@@ -264,28 +222,68 @@
       },
       "engagement": {
         "facebook": {
-          "likes": 20,
-          "comments": 2,
-          "shares": 0,
-          "total": 22,
-          "url": "https://www.facebook.com/reel/3763332277157508/",
-          "days_post_publish": 9,
-          "saves": 0,
-          "reach": 252,
-          "impressions": 330,
-          "engagementRate": 6.67
-        },
-        "instagram": {
-          "likes": 19,
+          "likes": 3,
           "comments": 0,
           "shares": 0,
-          "total": 19,
-          "url": "https://www.instagram.com/reel/DfbmJmxiaN0/",
-          "days_post_publish": 9,
-          "saves": 4,
-          "reach": 296,
-          "impressions": 392,
-          "engagementRate": 5.87
+          "total": 3,
+          "url": "https://www.facebook.com/reel/3651057631740512/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 66,
+          "impressions": 78,
+          "engagementRate": 3.85
+        },
+        "instagram": {
+          "likes": 4,
+          "comments": 0,
+          "shares": 3,
+          "total": 7,
+          "url": "https://www.instagram.com/reel/DfwMj5FFVPA/",
+          "days_post_publish": 8,
+          "saves": 0,
+          "reach": 188,
+          "impressions": 215,
+          "engagementRate": 3.26
+        },
+        "googlebusiness": {
+          "views": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "day": "Tue 2026-11-10",
+      "ehn_topic": "Akkermansia, metabolism and weight: what the trials found, and why I test first",
+      "winning_format": "talking-head",
+      "face_branded": null,
+      "lab_attribution": {
+        "type": "video",
+        "source": "talking_post"
+      },
+      "engagement": {
+        "facebook": {
+          "likes": 2,
+          "comments": 0,
+          "shares": 0,
+          "total": 2,
+          "url": "https://www.facebook.com/reel/974226175311426/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 118,
+          "impressions": 157,
+          "engagementRate": 1.27
+        },
+        "instagram": {
+          "likes": 10,
+          "comments": 0,
+          "shares": 0,
+          "total": 10,
+          "url": "https://www.instagram.com/reel/DfjUqEsglsU/",
+          "days_post_publish": 13,
+          "saves": 0,
+          "reach": 294,
+          "impressions": 375,
+          "engagementRate": 2.67
         },
         "googlebusiness": {
           "views": null,
@@ -295,23 +293,28 @@
     }
   ],
   "analysis": {
-    "computed_at": "2026-11-16T09:15:49",
+    "computed_at": "2026-11-23T09:14:36",
     "method": "avg over posts of (FB total + IG total), grouped by attribution type:source. GBP excluded (no Zernio analytics). Tiny sample \u2014 judge on the Lab's \u00d7median outlier primary, ENG secondary.",
     "by_attribution": {
+      "archetype:lab_winner": {
+        "posts": 1,
+        "avg_engagement": 6.0,
+        "avg_ig_engagement_rate": 3.85
+      },
       "format_pattern:visual_test": {
-        "posts": 5,
-        "avg_engagement": 5.4,
-        "avg_ig_engagement_rate": 0.94
+        "posts": 3,
+        "avg_engagement": 4.33,
+        "avg_ig_engagement_rate": 0.85
       },
       "video:talking_post": {
-        "posts": 1,
-        "avg_engagement": 41.0,
-        "avg_ig_engagement_rate": 5.87
+        "posts": 2,
+        "avg_engagement": 11.0,
+        "avg_ig_engagement_rate": 2.96
       },
       "video:video_post": {
         "posts": 1,
-        "avg_engagement": 5.0,
-        "avg_ig_engagement_rate": 0.7
+        "avg_engagement": 1.0,
+        "avg_ig_engagement_rate": 0.47
       }
     }
   }

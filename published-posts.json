@@ -1,127 +1,119 @@
 {
-  "week": "2026-11-09/2026-11-15",
-  "generated_at": "2026-11-16T09:15:40",
+  "week": "2026-11-16/2026-11-22",
+  "generated_at": "2026-11-23T09:14:26",
   "note": "Seeded by lab_results_push.py from the pipeline's batch-week.json (attribution stamped at generation); permalinks filled from Zernio /posts.",
   "posts": [
     {
-      "day": "Wed 2026-11-11",
-      "ehn_topic": "On thyroid medication but still flat: the T4-to-T3 step",
-      "format": "simple-diagram",
+      "day": "Tue 2026-11-17",
+      "ehn_topic": "Before a GLP-1 medicine: check why the weight came on, and protect your muscle",
+      "format": "report-card",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "EHN evergreen topic; look drchatterjee flow diagram",
-        "score": null
+        "source": "visual_test"
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1812194067583004",
-          "posted_at": "2026-11-10T21:00:57.867Z"
+          "url": "https://www.facebook.com/635237239872498_1820401863428891",
+          "posted_at": "2026-11-16T21:02:02.562Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/Dfl5bAJjGO5/",
-          "posted_at": "2026-11-11T07:01:49.021Z"
+          "url": "https://www.instagram.com/p/Df1WK_-gIfR/",
+          "posted_at": "2026-11-17T07:01:54.066Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpRRmlaNVBWeGs4VTRZZURpUjRVeDBn",
-          "posted_at": "2026-11-11T07:00:52.966Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpQQ1BmaUZwS0J4YV8taTdGelhqUFJB",
+          "posted_at": "2026-11-17T07:01:25.940Z"
         }
       }
     },
     {
-      "day": "Sat 2026-11-14",
-      "ehn_topic": "Why I re-check a 'normal' result: how reference ranges are built",
-      "format": "tweet-card",
+      "day": "Thu 2026-11-19",
+      "ehn_topic": "Normal on paper, low for you: why a folate result needs the right lens",
+      "format": "report-card",
       "face_branded": false,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "EHN own 'normal' post (6x, 27/10); look DavidPerlmutterMd tweet card",
-        "score": 6
+        "source": "visual_test"
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1816162240519520",
-          "posted_at": "2026-11-13T21:02:03.335Z"
+          "url": "https://www.facebook.com/635237239872498_1823030936499317",
+          "posted_at": "2026-11-18T21:02:27.194Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DftnvECDfZ_/",
-          "posted_at": "2026-11-14T07:01:14.820Z"
+          "url": "https://www.instagram.com/p/Df6f8e1ih-y/",
+          "posted_at": "2026-11-19T07:03:20.567Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpaU3pGVTNjRmI2OUd6Z0dkY201RzlB",
-          "posted_at": "2026-11-14T07:01:29.249Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpCaXJjQUE0MGxWbnFEU2Z3bHh2NkR3",
+          "posted_at": "2026-11-19T07:03:01.674Z"
         }
       }
     },
     {
-      "day": "Thu 2026-11-12",
-      "ehn_topic": "How far down the list did your cholesterol test go? ApoB and Lp(a)",
-      "format": "plain-list",
-      "face_branded": false,
+      "day": "Sat 2026-11-21",
+      "ehn_topic": "Why I don't hand out fasting plans: for some women long fasts raise cortisol and slow the thyroid",
+      "format": "candid-photo-text",
+      "face_branded": true,
       "lab_attribution": {
         "type": "format_pattern",
-        "source": "visual_test",
-        "modelled_on": "EHN evergreen topic; look doctorwillcole plain list; listicle is live #2 producible format (19%)",
-        "score": null
+        "source": "visual_test"
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1813538464115231",
-          "posted_at": "2026-11-11T21:02:37.676Z"
+          "url": "https://www.facebook.com/635237239872498_1825644049571339",
+          "posted_at": "2026-11-20T21:01:54.150Z"
         },
         "instagram": {
           "kind": "single_image",
-          "url": "https://www.instagram.com/p/DfoeO7bAl2Z/",
-          "posted_at": "2026-11-12T07:02:04.845Z"
+          "url": "https://www.instagram.com/p/Df_pR6vClGv/",
+          "posted_at": "2026-11-21T07:01:14.385Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpNdjJ0RlRnTS1BdVQ5cGhKX0hSSlhR",
-          "posted_at": "2026-11-12T07:01:46.930Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpOR3ZHTFk3ZGlybG8zcFVfX1N6VjhB",
+          "posted_at": "2026-11-21T07:00:47.664Z"
         }
       }
     },
     {
-      "day": "Mon 2026-11-09",
-      "ehn_topic": "The food-mood link runs through your gut bugs",
+      "day": "Sun 2026-11-22",
+      "ehn_topic": "End the year with answers, not another guess: what a first consult gives you",
       "format": "charcoal-card",
       "face_branded": false,
       "lab_attribution": {
-        "type": "archetype",
-        "source": "lab_winner",
-        "modelled_on": "drdanielamen 'Foods that make you depressed' reel",
-        "score": 10.79
+        "type": "format_pattern",
+        "source": "pivot_library"
       },
       "platforms": {
         "facebook": {
           "kind": "image",
-          "url": "https://www.facebook.com/635237239872498_1809650531170691",
-          "posted_at": "2026-11-08T21:01:06.980Z"
+          "url": "https://www.facebook.com/635237239872498_1826939656108445",
+          "posted_at": "2026-11-21T21:00:47.263Z"
         },
         "instagram": {
-          "kind": "carousel_6_slides",
-          "url": "https://www.instagram.com/p/DfgwFVcjs7O/",
-          "posted_at": "2026-11-09T07:04:03.242Z"
+          "kind": "carousel_4_slides",
+          "url": "https://www.instagram.com/p/DgCOXEpjJcn/",
+          "posted_at": "2026-11-22T07:03:41.355Z"
         },
         "googlebusiness": {
           "kind": "hook_card",
-          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDo0d3hSMGlEQUdNc1ZneWl0MVl1OWFB",
-          "posted_at": "2026-11-09T07:02:11.096Z"
+          "url": "https://local.google.com/place?id=15472767122405664068&use=posts&lpsid=CAIQACoeChxtc3BfaDpRdk1FRlNodnFnNEtpRUU0WHBHRDJB",
+          "posted_at": "2026-11-22T07:02:46.764Z"
         }
       }
     },
     {
-      "day": "Fri 2026-11-13",
-      "ehn_topic": "Urgent loose stools after meals: the bile acid problem labelled as IBS",
+      "day": "Mon 2026-11-16",
+      "ehn_topic": "A 'normal' B12 can still be too low for your brain (homocysteine, active B12 vs serum B12)",
       "format": "video",
       "face_branded": null,
       "lab_attribution": {
@@ -131,13 +123,13 @@
       "platforms": {
         "facebook": {
           "kind": "video",
-          "url": "https://www.facebook.com/watch/?v=1480754843973198",
-          "posted_at": "2026-11-12T21:02:33.413Z"
+          "url": "https://www.facebook.com/watch/?v=1137822235829560",
+          "posted_at": "2026-11-15T21:01:52.203Z"
         },
         "instagram": {
           "kind": "video",
-          "url": "https://www.instagram.com/reel/DfrC9PyEizl/",
-          "posted_at": "2026-11-13T07:01:38.949Z"
+          "url": "https://www.instagram.com/reel/DfyxXpfCgII/",
+          "posted_at": "2026-11-16T07:02:15.570Z"
         },
         "googlebusiness": {
           "kind": "video",
@@ -147,8 +139,8 @@
       }
     },
     {
-      "day": "Sun 2026-11-15",
-      "ehn_topic": "What actually happens between booking and your first appointment",
+      "day": "Fri 2026-11-20",
+      "ehn_topic": "Your night has two halves: cooling and deep sleep early, REM late, so you need the full hours for both",
       "format": "talking-head",
       "face_branded": null,
       "lab_attribution": {
@@ -158,13 +150,13 @@
       "platforms": {
         "facebook": {
           "kind": "video",
-          "url": "https://www.facebook.com/watch/?v=3651057631740512",
-          "posted_at": "2026-11-14T21:01:57.716Z"
+          "url": "https://www.facebook.com/watch/?v=1790386018859305",
+          "posted_at": "2026-11-19T21:02:11.340Z"
         },
         "instagram": {
           "kind": "video",
-          "url": "https://www.instagram.com/reel/DfwMj5FFVPA/",
-          "posted_at": "2026-11-15T07:01:56.681Z"
+          "url": "https://www.instagram.com/reel/Df9E7sTAMMn/",
+          "posted_at": "2026-11-20T07:05:33.893Z"
         },
         "googlebusiness": {
           "kind": "video",
@@ -174,8 +166,8 @@
       }
     },
     {
-      "day": "Tue 2026-11-10",
-      "ehn_topic": "Akkermansia, metabolism and weight: what the trials found, and why I test first",
+      "day": "Wed 2026-11-18",
+      "ehn_topic": "Testing cortisol isn't the whole story: it's what you metabolise (DUTCH adrenal test)",
       "format": "talking-head",
       "face_branded": null,
       "lab_attribution": {
@@ -185,13 +177,13 @@
       "platforms": {
         "facebook": {
           "kind": "video",
-          "url": "https://www.facebook.com/watch/?v=974226175311426",
-          "posted_at": "2026-11-09T21:02:03.095Z"
+          "url": "https://www.facebook.com/watch/?v=1420746280047932",
+          "posted_at": "2026-11-17T21:00:57.394Z"
         },
         "instagram": {
           "kind": "video",
-          "url": "https://www.instagram.com/reel/DfjUqEsglsU/",
-          "posted_at": "2026-11-10T07:02:53.462Z"
+          "url": "https://www.instagram.com/reel/Df366JFHOK_/",
+          "posted_at": "2026-11-18T07:01:42.976Z"
         },
         "googlebusiness": {
           "kind": "video",
